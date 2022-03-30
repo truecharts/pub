@@ -28,7 +28,17 @@ If you need to reach a different service (which is not often the case!), you nee
 
 **If your app name __does NOT contain__ the name of the app as in the catalog, the format is as follows.**
 
-- `$NAME-$APPNAME-$SVCNAME.ix-$NAME.svc.cluster.local`
+- `$NAME-$APPNAME-$SVCNAME.ix-$NAME.svc.cluster.local`  
+
+
+##### Setting up DNS policy
+
+Due to Truenas k3s default DNS policy, you must set the following DNS policy for the app you are deploying, so you will be able to resolve other deployed apps already running by their generated domain. Otherwise they will be unreachable by the generated internal domain.  
+
+`"Kubernetes internal DNS will be prioritised and resolved first. If the domain does not resolve with internal kubernetes DNS, the DNS query will be forwarded to the upstream nameserver inherited from the node. This is useful if the workload needs to access other service(s)/workload(s) using kubernetes internal DNS."`
+
+![image](https://user-images.githubusercontent.com/4382333/160733595-93e03e82-5655-4686-b8e1-4a4cc1d91124.png)
+
 
 ##### Internal Domain Name generator
 
@@ -103,5 +113,10 @@ To reach an app named "sab" (name does NOT contain catalog app name) within Sona
 ![type:video](https://www.youtube.com/embed/mWJL-XDgH98)
 
 ##### Additional Documentation
+
+*TIP:*  
+You can type `k3s kubectl get svc -A` in Truenas `shell` so you get a table of your deployed apps running in the k3s cluster. Then alternativelly you can generate a proper internal domain following the next pattern:  
+
+- `<NAME>.<NAMESPACE>.svc.cluster.local` or `<NAME>.<NAMESPACE>`
 
 For more help troubleshooting DNS resolution in Kubernetes, review the official documentation: https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/
