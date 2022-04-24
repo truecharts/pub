@@ -23,6 +23,18 @@ Kubernetes: `>=1.16.0-0`
 
 To install this App on TrueNAS SCALE check our [Quick-Start Guide](https://truecharts.org/manual/Quick-Start%20Guides/02-Installing-an-App/).
 
+## TV-Cards Passthrough 
+
+To Passthrough your cards you need to :
+- Go to Installed Applications
+- Click the menu button on the right side of the minisatip App card
+- Select Edit 
+- Scroll down to "Resources and Devices" Section
+- Under Configure Mount USB devices Click the Add button on the right (This will work for PCI devices too)
+- In "Host Device Path" & "Container Device Path" enter your enter the /dev/path for you card (For dvb devices it will be: /dev/dvb)
+- Submit your changes
+
+
 ## Upgrading, Rolling Back and Uninstalling the Chart
 
 To upgrade, rollback or delete this App from TrueNAS SCALE check our [Quick-Start Guide](https://truecharts.org/manual/Quick-Start%20Guides/04-Upgrade-rollback-delete-an-App/).
