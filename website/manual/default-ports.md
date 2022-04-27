@@ -394,7 +394,7 @@ These defaults can of course be changed, but as we guarantee "sane, working defa
 | baserow                    |      main       |      main       | 10228 |   TCP    |                                                         |
 | authentik                  |      main       |      main       | 10229 |  HTTPS   |                                                         |
 | authentik                  |      http       |      http       | 10230 |   TCP    |                                                         |
-| inventree                     |      main       |      main       | 10231 |   TCP    |                                                         |
+| inventree                  |      main       |      main       | 10231 |   TCP    |                                                         |
 | storj-node                 |      main       |      main       | 14002 |   TCP    |                                                         |
 | satisfactory               |     beacon      |     beacon      | 15000 |   UDP    |                                                         |
 | satisfactory               |      query      |      query      | 15777 |   UDP    |                                                         |
