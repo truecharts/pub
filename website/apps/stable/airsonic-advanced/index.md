@@ -7,7 +7,7 @@ TrueCharts are designed to be installed as TrueNAS SCALE app only. We can not gu
 
 ## Source Code
 
-* <https://github.com/airsonic/airsonic-advanced>
+* <https://github.com/airsonic-advanced/airsonic-advanced>
 * <https://hub.docker.com/r/airsonicadvanced/airsonic-advanced>
 
 ## Requirements
