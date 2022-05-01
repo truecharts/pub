@@ -402,6 +402,7 @@ These defaults can of course be changed, but as we guarantee "sane, working defa
 | hyperion-ng                | boblightservice | boblightservice | 19333 |   TCP    |                                                         |
 | hyperion-ng                |   jsonservice   |   jsonservice   | 19444 |   TCP    |                                                         |
 | hyperion-ng                | protobufservice | protobufservice | 19445 |   TCP    |                                                         |
+| netdata                    |      main       |      main       | 19999 |   TCP    |                                                         |
 | syncthing                  |    discovery    |    discovery    | 21027 |   UDP    |                                                         |
 | airdcpp-webclient          | unencrypted-tcp | unencrypted-tcp | 21248 |   TCP    |                                                         |
 | airdcpp-webclient          |   search-udp    |   search-udp    | 21248 |   UDP    |                                                         |
