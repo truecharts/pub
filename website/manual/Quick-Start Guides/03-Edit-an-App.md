@@ -18,8 +18,8 @@ Editing Apps is possible since 21.08, although it has a slightly different GUI i
 - Change any settings you want to change
 - Submit your changes
 
-The App will then go through a process of submitting your changes. If the proces fails, your changes will not be submitted and the edit will be reverted.
-The process popup disapears, it might take a few minutes to actually deploy your new changes, due to some things that happen in the background.
+The App will then go through a process of submitting your changes. If the process fails, your changes will not be submitted and the edit will be reverted.
+The process popup disappears, it might take a few minutes to actually deploy your new changes, due to some things that happen in the background.
 
 #### Video Guide
 

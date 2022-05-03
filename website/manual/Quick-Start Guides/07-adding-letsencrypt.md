@@ -1,6 +1,6 @@
 # 07 - Adding Lets-Encrypt Certificates
 
-With TrueNAS SCALE, it's possible to automatically generate certificates for your domain(s) using letsencrypt. However, this process is not very self-explainatory.
+With TrueNAS SCALE, it's possible to automatically generate certificates for your domain(s) using letsencrypt. However, this process is not very self-explanatory.
 After you managed to complete this how-to, you should be able to select "iX Certificate" as certificate option and your personal certificate in the other drop-down box!
 
 ##### Requirements
@@ -35,7 +35,7 @@ For Cloudflare you need either a global API-Key or a limited-scope API token. Pl
 <a href="https://truecharts.org/_static/img/LE/LE3.png"><img src="https://truecharts.org/_static/img/LE/LE3.png" width="100%" /></a>
 
 - Enter all information required in the wizard and save it.
-If you are not sure, the defaults are alsmost always "alright", because most of what you enter here is completely ignored by Letsencrypt.
+If you are not sure, the defaults are almost always "alright", because most of what you enter here is completely ignored by Letsencrypt.
 `Common Name` in this case means `Primary domain name`, whereas `Subject Alternate Names` means `Extra domain names`.
 
 
@@ -46,9 +46,9 @@ If you are not sure, the defaults are alsmost always "alright", because most of 
 
 
 - Click the small `wrench` icon, this will open the `Create ACME Certificate` menu. In this menu we can actually request either a real (Production) certificate or a testing (staging) certificate from Letsencrypt.
-For clearity, it's advicable to use the same Authenticator for all domain names. However: It's okey to generate both a testing and a staging certificate for the same domain.
+For clarity, it's advisable to use the same Authenticator for all domain names. However: It's okay to generate both a testing and a staging certificate for the same domain.
 
-- After saving and awaiting the generation proces, you should end up with another `Certificate Signing Request` and a new `Certificate` under `Certificates`, this new `Certificate Signing Request` is used to renew your `Certificate` in the future and should not be deleted!
+- After saving and awaiting the generation process, you should end up with another `Certificate Signing Request` and a new `Certificate` under `Certificates`, this new `Certificate Signing Request` is used to renew your `Certificate` in the future and should not be deleted!
 
 
 #### Video Guide

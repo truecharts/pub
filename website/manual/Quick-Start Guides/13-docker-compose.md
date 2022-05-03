@@ -9,7 +9,7 @@ Our Docker-Compose app has the following features:
 
 - Internal Docker-Compose networks
 
-- `/mnt`, `/root` and `/cluster` are directly accessable inside the Docker-Compose container by default
+- `/mnt`, `/root` and `/cluster` are directly accessible inside the Docker-Compose container by default
 
 - The docker-images and docker volumes, are saved in a special PVC inside the Apps system of TrueNAS SCALE
 

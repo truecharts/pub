@@ -93,7 +93,7 @@ The next step enable the addon in our edit configuration
 2. Find the app you want, Click the top 3 dots to the right of your application
     1. Click ```Edit```
     2. Scroll to the bottom until you see ```Addons```
-    3. CLick the dropdown under ```Type```
+    3. Click the dropdown under ```Type```
     4. Choose Wireguard or OpenVPN
         1. OpenVPN
             - Type in your Credentials for your vpn provider.
