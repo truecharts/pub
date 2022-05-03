@@ -2,7 +2,7 @@
 
 ## Requirements
 
-This guide makes use of our commandline tool, called `TrueTool`.
+This guide makes use of our command-line tool, called `TrueTool`.
 
 This should be installed by using:
 `pip install truetool`
@@ -47,7 +47,7 @@ These backups are saved under the same ix_applications dataset.
 
 It does not protect these against, for example, deletion of datasets or save them on an external system.
 
-We **highly** advice making both an internal backup (seperate dataset on the same system) *and* an offsite backup.
+We **highly** advice making both an internal backup (separate dataset on the same system) *and* an offsite backup.
 One could create a normal recursive(!) replication of the `ix-volumes` dataset using the SCALE GUI, with the following few special tricks by editing the replication after creation:
 
 To do so, setup the following replication task:
@@ -79,7 +79,7 @@ There are two scenario's for a restore:
 
 Reverting a running system is rather trivial. But there are a few caveats:
 
-- This will reinitialise the kubernetes node, which means all kubernetes objects that are not deployed using the Apps system will get reverted
+- This will reinitialize the kubernetes node, which means all kubernetes objects that are not deployed using the Apps system will get reverted
 - You CANNOT revert a single Apps
 
 To revert an existing system, the process is as follows:
@@ -88,7 +88,7 @@ To revert an existing system, the process is as follows:
 
 2. Pick a backup to revert and note it's name
 
-3. Run: `truetool -r BACKUPNAME` (where you replease BACKUPNAME with the name of the backup you selected above)
+3. Run: `truetool -r BACKUPNAME` (where you replace BACKUPNAME with the name of the backup you selected above)
 
 Please keep in mind this can take a LONG time.
 

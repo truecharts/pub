@@ -22,14 +22,18 @@ This ensures upgrading the App always gives you the Latest-and-Greatest from Tru
 - Select `Upgrade`
 - Confirm your wish to upgrade
 
-The App will then go through a process of backuping(!) and upgrading your App your changes. If the proces fails, your changes will not be submitted and the edit will be reverted.
-After the process popup disapears, it might take a few minutes to actually deploy your newly upgraded App, due to some things that happen in the background.
+The App will then go through a process of backing up(!) and upgrading. If the process fails, your changes will not be submitted and the edit will be reverted.
+After the process popup disappears, it might take a few minutes to actually deploy your newly upgraded App, due to some things that happen in the background.
 
 
 ## Rollback
 
 ### Reverting using the GUI
-
+1. Select the top 3 dots on your application card
+2. Select "Roll Back"
+3. Under "Version" - Click the dropdown and select which version you would like to rollback to
+4. Check the "Roll Back Snapshot" box
+5. Select "Roll Back"
 
 ### Reverting using the CLI
 
@@ -49,19 +53,26 @@ It should show something like this, confirming the rollback:
 Sadly enough, SCALE does not lists which versions are available to roll-back to, but does required a version to be entered.
 There is a short walk-through to get the versioning history for the App in question:
 
-1. run export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
-2. run  helm history jackett -n ix-jackett where "jackett" should be replaced with the name of the App that broke your UI
+1. run ```export KUBECONFIG=/etc/rancher/k3s/k3s.yaml```
+2. run  ```helm history jackett -n ix-jackett where "jackett"``` should be replaced with the name of the App that broke your UI
 You'll see this:
 <a href="https://truecharts.org/_static/img/rollback/history.png"><img src="https://truecharts.org/_static/img/rollback/history.png" width="100%"/></a>
 Take note of the "Chart" column, it lists the version numbers you can enter in the rollback interface, prefixed by the App Name.
-Ofcoarse only enter the version number in the GUI or CLI, not the name
+Of coarse only enter the version number in the GUI or CLI, not the name
 
 ## Delete
 
 ### Delete using the GUI
-
+1. Select the top 3 dots on your application card
+2. Select "Delete"
+3. Check the "Confirm" box
+4. Select "Continue" 
 
 ### Delete using the CLI
+1. Enter Truenas SCALE terminal via the GUI or SSH
+2. Type the following command
+    - ```cli -c 'app chart_release delete release_name=NAME_OF_APPLICATION'```
+    - ex: ```cli -c 'app chart_release delete release_name=traefik'```
 
 
 #### Video Guide
