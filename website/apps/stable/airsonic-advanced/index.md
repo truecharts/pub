@@ -7,7 +7,7 @@ TrueCharts are designed to be installed as TrueNAS SCALE app only. We can not gu
 
 ## Source Code
 
-* <https://github.com/airsonic-advanced/airsonic-advanced>
+* <https://github.com/airsonic/airsonic-advanced>
 * <https://hub.docker.com/r/airsonicadvanced/airsonic-advanced>
 
 ## Requirements
@@ -18,7 +18,7 @@ Kubernetes: `>=1.16.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://charts.truecharts.org/ | postgresql | 7.0.50 |
+| https://charts.truecharts.org/ | postgresql | 7.0.52 |
 | https://library-charts.truecharts.org | common | 9.3.2 |
 
 ## Installing the Chart
