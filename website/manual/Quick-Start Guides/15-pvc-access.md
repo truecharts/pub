@@ -1,14 +1,5 @@
 # 15 - Accessing PVC Data
 
-## Table of Contents
-1. [Heavy_Script](#paragraph1)
-2. [Manual Method - New Users](#paragraph2)
-    1. [Remounting](#paragraph3)
-3. [Manual Method - Advanced Users](#paragraph4)
-
-<br />
-<br />
-<br />
 
 ### Where are my application files?
 - Your files are held within the container
