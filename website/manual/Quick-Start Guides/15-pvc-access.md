@@ -8,12 +8,12 @@
 <br />
 <br />
 
-# **Mounting PVC Data**
+## **Mounting PVC Data**
 <br />
 <br />
 
 
-# Heavy_Script
+## Heavy_Script
 
 One option is to use Heavy_Script.
 If you plan on mounting PVC storage more than just a couple of times this may be the best option for you.
@@ -31,7 +31,7 @@ Afterwards, if you wish to install it, follow the video guide starting at 15:52.
 <br />
 <br />
 
-# Manual Method - New User Guide 
+## Manual Method - New User Guide 
 
 Manually mounting PVC storage takes a little bit more time than the script method.
 However, I know some users like to know exactly what commands they are running etc.
@@ -100,7 +100,7 @@ However, I know some users like to know exactly what commands they are running e
 <br />   
 <br />
 
-### **Remounting**
+#### **Remounting**
 
 ```bash
 zfs set mountpoint=legacy POOL_NAME/ix-applications/releases/APPLICATION_NAME/volumes/VOLUME-NAME
@@ -123,7 +123,7 @@ rmdir /mnt/temporary/nextcloud-data
 <br />
 <br />
 
-# Manual Method - Advanced User Guide
+## Manual Method - Advanced User Guide
 
 
 #### **ALWAYS MAKE SURE THE APP IS STOPPED WHILE MOUNTING THE PVC**
