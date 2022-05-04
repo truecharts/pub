@@ -18,15 +18,15 @@
 
 One option is to use Heavy_Script.
 If you plan on mounting PVC storage more than just a couple of times this may be the best option for you.
-1. The script will list all of your PVC information for each application
-2. Safely shut down your application before mounting
-3. Mount your PVC to /mnt/temporary/STORAGE-NAME
+- The script will list all of your PVC information for each application
+- Safely shut down your application before mounting
+- Mount your PVC to /mnt/temporary/STORAGE-NAME
 
 
 The video will start at the mounting feature so you can see what it looks like.
 Afterwards, if you wish to install it, follow the video guide starting at 15:52.
 
-![type:video](https://youtu.be/uZp4x_Susgo?t=617)
+![type:video](https://www.youtube.com/embed/uZp4x_Susgo?start=616)
 <br />
 <br />
 <br />
@@ -41,20 +41,22 @@ However, I know some users like to know exactly what commands they are running e
 - A terminal that allows copying and pasting
 - An open notepad
 
-1. **STOP the application you plan on mounting**
+<br />
+
+1\. **STOP the application you plan on mounting**
         
 <br />
 
-2. **Run the following command to view your PVC data**
-    ```bash
-    k3s kubectl get pvc -A | sort -u | awk '{print "\t" $1 "\t" $2 "\t" $4}' | column -t
-    ```
+2\. **Run the following command to view your PVC data**
+```bash
+k3s kubectl get pvc -A | sort -u | awk '{print "\t" $1 "\t" $2 "\t" $4}' | column -t
+```
         
 <br />
 
-3. **Next, find the application you would like to mount**
-    - This can be confusing at first because many applications will have many different instances of PVC.
-    - <a href="https://truecharts.org/_static/img/pvc_access/nextcloud_volumes.png"><img src="https://truecharts.org/_static/img/pvc_access/nextcloud_volumes.png" width="100%"/></a>
+3\. **Next, find the application you would like to mount**
+- This can be confusing at first because many applications will have many different instances of PVC.
+    <a href="https://truecharts.org/_static/img/pvc_access/pvc_list.png"><img src="https://truecharts.org/_static/img/pvc_access/pvc_list.png" width="100%"/></a>
     - You'll see in this photo, Nextcloud has many different PVC's.
         - However, if you break it down by looking at the middle column, it's not too confusing.
         1. `data-nextcloud-redis-0 `
@@ -66,28 +68,29 @@ However, I know some users like to know exactly what commands they are running e
         
 <br />
 
-4. **After finding which PVC you would like to mount, copy the far right column (The Volume) that starts with pvc- into a notepad for use in the next command**
-    - If I was wanting to mount `nextcloud-data`, I would use:
-    - `pvc-cd84394b-7812-43c3-a6d9-1a5693592cbe`
+4\. **After finding which PVC you would like to mount, copy the far right column (The Volume) that starts with pvc- into a notepad for use in the next command**
+- If I was wanting to mount `nextcloud-data`, I would use:
+- `pvc-cd84394b-7812-43c3-a6d9-1a5693592cbe`
         
 <br />
 
-5. **Run the following command to find the full path to your applications PVC**
-    ```bash
-    zfs list | grep PVC_VOLUME
-    ```
-    - Going off of the Nextcloud example, I would simply replace `PVC_VOLUME` with `pvc-cd84394b-7812-43c3-a6d9-1a5693592cbe`
-    - Example: 
-    ```bash
-    zfs list | grep pvc-cd84394b-7812-43c3-a6d9-1a5693592cbe
-    ```
+5\. **Run the following command to find the full path to your applications PVC**
+```bash
+zfs list | grep PVC_VOLUME
+```
+- Going off of the Nextcloud example, I would simply replace `PVC_VOLUME` with `pvc-cd84394b-7812-43c3-a6d9-1a5693592cbe`
+- Example: 
+```bash
+zfs list | grep pvc-cd84394b-7812-43c3-a6d9-1a5693592cbe
+```
 
-    - Here is what the output should look like
-        -   <a href="https://truecharts.org/_static/img/pvc_access/pvc_list.png"><img src="https://truecharts.org/_static/img/pvc_access/pvc_list.png" width="100%"/></a>
+- Here is what the output should look like
+        <a href="https://truecharts.org/_static/img/pvc_access/nextcloud_volumes.png"><img src="https://truecharts.org/_static/img/pvc_access/nextcloud_volumes.png" width="100%"/></a>
+
 
 <br />
 
-6.  **Mount your PVC**
+6\.  **Mount your PVC**
     ```bash
     zfs set mountpoint=/temporary/NAME FULL_PVC_PATH
     ```
@@ -151,10 +154,10 @@ zfs set mountpoint=/temporary PVCPATH
 ```
 
 Your PVC will be mounted under `/mnt/temporary`
+<br />
+<br />
 
 #### and when you're done editing:
-        
-<br />
 
 ```bash
 zfs set mountpoint=legacy PVCPATH
