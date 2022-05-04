@@ -53,7 +53,7 @@ However, I know some users like to know exactly what commands they are running e
 
 3. **Next, find the application you would like to mount**
     - This can be confusing at first because many applications will have many different instances of PVC.
-    - [![PVC list](https://truecharts.org/_static/img/pvc_access/pvc_list.png)](https://truecharts.org/_static/img/pvc_access/pvc_list.png)
+    - <a href="https://truecharts.org/_static/img/pvc_access/nextcloud_volumes.png"><img src="https://truecharts.org/_static/img/pvc_access/nextcloud_volumes.png" width="100%"/></a>
     - You'll see in this photo, Nextcloud has many different PVC's.
         - However, if you break it down by looking at the middle column, it's not too confusing.
         1. `data-nextcloud-redis-0 `
@@ -82,7 +82,7 @@ However, I know some users like to know exactly what commands they are running e
     ```
 
     - Here is what the output should look like
-        -   [![Nextcloud volumes](https://truecharts.org/_static/img/pvc_access/nextcloud_volumes.png)](https://truecharts.org/_static/img/pvc_access/nextcloud_volumes.png)
+        -   <a href="https://truecharts.org/_static/img/pvc_access/pvc_list.png"><img src="https://truecharts.org/_static/img/pvc_access/pvc_list.png" width="100%"/></a>
 
 <br />
 
