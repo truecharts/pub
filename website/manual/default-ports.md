@@ -44,6 +44,7 @@ These defaults can of course be changed, but as we guarantee "sane, working defa
 | zabbix-server              |    snmptraps    |    snmptraps    |  162  |   UDP    |                                                         |
 | openldap                   |      main       |      main       |  389  |   TCP    |                                                         |
 | minisatip                  |      rtsp       |      rtsp       |  554  |   TCP    |                                                         |
+| cups-server                |      main       |      main       |  631  |   TCP    |                                                         |
 | openldap                   |      ldaps      |      ldaps      |  636  |   TCP    |                                                         |
 | technitium                 |     dns-tls     |     dns-tls     |  853  |   TCP    |                                                         |
 | strapi                     |      main       |      main       | 1337  |   TCP    |                                                         |
