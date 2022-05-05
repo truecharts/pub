@@ -151,7 +151,7 @@ These defaults can of course be changed, but as we guarantee "sane, working defa
 | readarr                    |      main       |      main       | 8787  |   TCP    |                                         |
 | omada-controller           |   userportal    |    websecure    | 8843  |  HTTPS   |      Potential conflict with unifi      |
 | unifi                      |   guestportal   |    websecure    | 8843  |  HTTPS   |      Potential conflict with omada      |
-| adguard-home               | dns-quic-udp-3  | dns-quic-udp-3  |  8853  |   UDP    |                                         |
+| adguard-home               | dns-quic-udp-3  | dns-quic-udp-3  | 8853  |   UDP    |                                         |
 | minisatip                  |      main       |      main       | 8875  |   TCP    |                                         |
 | unifi                      |   guestportal   |       web       | 8880  |   HTTP   |                                         |
 | resilio-sync               |      main       |      main       | 8888  |   TCP    |                                         |
@@ -406,63 +406,62 @@ These defaults can of course be changed, but as we guarantee "sane, working defa
 | adguard-home               |    dns-http     |    dns-http     | 10233 |   TCP    |                                         |
 | adguard-home               |    dns-https    |    dns-https    | 10234 |   TCP    |                                         |
 | adguard-home               |  dns-https-udp  |  dns-https-udp  | 10234 |   UDP    |                                         |
-
-| storj-node | main | main | 14002 | TCP | |
-| satisfactory | beacon | beacon | 15000 | UDP | |
-| satisfactory | query | query | 15777 | UDP | |
-| minecraft-bedrock | main | main | 19132 | UDP | |
-| hyperion-ng | boblightservice | boblightservice | 19333 | TCP | |
-| hyperion-ng | jsonservice | jsonservice | 19444 | TCP | |
-| hyperion-ng | protobufservice | protobufservice | 19445 | TCP | |
-| netdata | main | main | 19999 | TCP | |
-| syncthing | discovery | discovery | 21027 | UDP | |
-| airdcpp-webclient | unencrypted-tcp | unencrypted-tcp | 21248 | TCP | |
-| airdcpp-webclient | search-udp | search-udp | 21248 | UDP | |
-| airdcpp-webclient | encrypted-tcp | encrypted-tcp | 21249 | TCP | |
-| syncthing | listeners | tcp | 22000 | TCP | |
-| syncthing | listeners-udp | udp | 22000 | UDP | |
-| impostor-server | main | main | 22023 | UDP | |
-| verysync | bt-udp1 | bt-udp1 | 22027 | UDP | |
-| verysync | bt-udp2 | bt-udp2 | 22037 | UDP | |
-| joplin-server | main | main | 22300 | TCP | |
-| verysync | data | data | 22330 | TCP | |
-| minecraft-java | main | main | 25565 | TCP | |
-| minecraft-java | rcon | rcon | 25575 | TCP | |
-| mongodb | main | main | 27017 | TCP | |
-| storj-node | coretcp | coretcp | 28967 | TCP | |
-| storj-node | coreudp | coreudp | 28967 | UDP | |
-| omada-controller | omada-udp | omada-udp1 | 29810 | UDP | |
-| omada-controller | omada-tcp | omada-tcp2 | 29811 | TCP | |
-| omada-controller | omada-tcp | omada-tcp3 | 29812 | TCP | |
-| omada-controller | omada-tcp | omada-tcp4 | 29813 | TCP | |
-| omada-controller | omada-udp | omada-tcp4 | 29814 | TCP | |
-| minetest | main | main | 30000 | UDP | |
-| teamspeak3 | files | files | 30033 | TCP | |
-| plex | main | main | 32400 | TCP | Potential conflict with plex (Official) |
-| pydio-cells | gprc | gprc | 33060 | TCP | |
-| xteve | main | main | 34400 | TCP | |
-| foldingathome | control | control | 36330 | TCP | |
-| habridge | comm | comm | 50000 | TCP | Potential conflict with ispy-agent-dvr |
-| ispy-agent-dvr | webrtc | webrtc0 | 50000 | UDP | Potential conflict with habridge |
-| ispy-agent-dvr | webrtc | webrtc1 | 50001 | UDP | |
-| ispy-agent-dvr | webrtc | webrtc2 | 50002 | UDP | |
-| ispy-agent-dvr | webrtc | webrtc3 | 50003 | UDP | |
-| ispy-agent-dvr | webrtc | webrtc4 | 50004 | UDP | |
-| ispy-agent-dvr | webrtc | webrtc5 | 50005 | UDP | |
-| ispy-agent-dvr | webrtc | webrtc6 | 50006 | UDP | |
-| ispy-agent-dvr | webrtc | webrtc7 | 50007 | UDP | |
-| ispy-agent-dvr | webrtc | webrtc8 | 50008 | UDP | |
-| ispy-agent-dvr | webrtc | webrtc9 | 50009 | UDP | |
-| ispy-agent-dvr | webrtc | webrtc10 | 50010 | UDP | |
-| appdaemon | tcp | tcp | 51050 | TCP | |
-| podgrab | tcp | tcp | 51080 | TCP | |
-| deluge | torrent | tcp | 51413 | TCP | |
-| deluge | torrent-udp | udp | 51413 | UDP | |
-| transmission | torrent | torrent | 51414 | TCP | |
-| transmission | torrentudp | torrentudp | 51414 | UDP | |
-| resilio-sync | bt-tcp | bt-tcp | 55555 | TCP | |
-| resilio-sync | bt-udp | bt-udp | 55555 | UDP | |
-| quassel-web | main | main | 64080 | TCP | |
+| storj-node                 |      main       |      main       | 14002 |   TCP    |                                         |
+| satisfactory               |     beacon      |     beacon      | 15000 |   UDP    |                                         |
+| satisfactory               |      query      |      query      | 15777 |   UDP    |                                         |
+| minecraft-bedrock          |      main       |      main       | 19132 |   UDP    |                                         |
+| hyperion-ng                | boblightservice | boblightservice | 19333 |   TCP    |                                         |
+| hyperion-ng                |   jsonservice   |   jsonservice   | 19444 |   TCP    |                                         |
+| hyperion-ng                | protobufservice | protobufservice | 19445 |   TCP    |                                         |
+| netdata                    |      main       |      main       | 19999 |   TCP    |                                         |
+| syncthing                  |    discovery    |    discovery    | 21027 |   UDP    |                                         |
+| airdcpp-webclient          | unencrypted-tcp | unencrypted-tcp | 21248 |   TCP    |                                         |
+| airdcpp-webclient          |   search-udp    |   search-udp    | 21248 |   UDP    |                                         |
+| airdcpp-webclient          |  encrypted-tcp  |  encrypted-tcp  | 21249 |   TCP    |                                         |
+| syncthing                  |    listeners    |       tcp       | 22000 |   TCP    |                                         |
+| syncthing                  |  listeners-udp  |       udp       | 22000 |   UDP    |                                         |
+| impostor-server            |      main       |      main       | 22023 |   UDP    |                                         |
+| verysync                   |     bt-udp1     |     bt-udp1     | 22027 |   UDP    |                                         |
+| verysync                   |     bt-udp2     |     bt-udp2     | 22037 |   UDP    |                                         |
+| joplin-server              |      main       |      main       | 22300 |   TCP    |                                         |
+| verysync                   |      data       |      data       | 22330 |   TCP    |                                         |
+| minecraft-java             |      main       |      main       | 25565 |   TCP    |                                         |
+| minecraft-java             |      rcon       |      rcon       | 25575 |   TCP    |                                         |
+| mongodb                    |      main       |      main       | 27017 |   TCP    |                                         |
+| storj-node                 |     coretcp     |     coretcp     | 28967 |   TCP    |                                         |
+| storj-node                 |     coreudp     |     coreudp     | 28967 |   UDP    |                                         |
+| omada-controller           |    omada-udp    |   omada-udp1    | 29810 |   UDP    |                                         |
+| omada-controller           |    omada-tcp    |   omada-tcp2    | 29811 |   TCP    |                                         |
+| omada-controller           |    omada-tcp    |   omada-tcp3    | 29812 |   TCP    |                                         |
+| omada-controller           |    omada-tcp    |   omada-tcp4    | 29813 |   TCP    |                                         |
+| omada-controller           |    omada-udp    |   omada-tcp4    | 29814 |   TCP    |                                         |
+| minetest                   |      main       |      main       | 30000 |   UDP    |                                         |
+| teamspeak3                 |      files      |      files      | 30033 |   TCP    |                                         |
+| plex                       |      main       |      main       | 32400 |   TCP    | Potential conflict with plex (Official) |
+| pydio-cells                |      gprc       |      gprc       | 33060 |   TCP    |                                         |
+| xteve                      |      main       |      main       | 34400 |   TCP    |                                         |
+| foldingathome              |     control     |     control     | 36330 |   TCP    |                                         |
+| habridge                   |      comm       |      comm       | 50000 |   TCP    | Potential conflict with ispy-agent-dvr  |
+| ispy-agent-dvr             |     webrtc      |     webrtc0     | 50000 |   UDP    |    Potential conflict with habridge     |
+| ispy-agent-dvr             |     webrtc      |     webrtc1     | 50001 |   UDP    |                                         |
+| ispy-agent-dvr             |     webrtc      |     webrtc2     | 50002 |   UDP    |                                         |
+| ispy-agent-dvr             |     webrtc      |     webrtc3     | 50003 |   UDP    |                                         |
+| ispy-agent-dvr             |     webrtc      |     webrtc4     | 50004 |   UDP    |                                         |
+| ispy-agent-dvr             |     webrtc      |     webrtc5     | 50005 |   UDP    |                                         |
+| ispy-agent-dvr             |     webrtc      |     webrtc6     | 50006 |   UDP    |                                         |
+| ispy-agent-dvr             |     webrtc      |     webrtc7     | 50007 |   UDP    |                                         |
+| ispy-agent-dvr             |     webrtc      |     webrtc8     | 50008 |   UDP    |                                         |
+| ispy-agent-dvr             |     webrtc      |     webrtc9     | 50009 |   UDP    |                                         |
+| ispy-agent-dvr             |     webrtc      |    webrtc10     | 50010 |   UDP    |                                         |
+| appdaemon                  |       tcp       |       tcp       | 51050 |   TCP    |                                         |
+| podgrab                    |       tcp       |       tcp       | 51080 |   TCP    |                                         |
+| deluge                     |     torrent     |       tcp       | 51413 |   TCP    |                                         |
+| deluge                     |   torrent-udp   |       udp       | 51413 |   UDP    |                                         |
+| transmission               |     torrent     |     torrent     | 51414 |   TCP    |                                         |
+| transmission               |   torrentudp    |   torrentudp    | 51414 |   UDP    |                                         |
+| resilio-sync               |     bt-tcp      |     bt-tcp      | 55555 |   TCP    |                                         |
+| resilio-sync               |     bt-udp      |     bt-udp      | 55555 |   UDP    |                                         |
+| quassel-web                |      main       |      main       | 64080 |   TCP    |                                         |
 
 ## Dependency Apps
 
