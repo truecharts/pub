@@ -408,6 +408,8 @@ These defaults can of course be changed, but as we guarantee "sane, working defa
 | adguard-home               |    dns-https    |    dns-https    | 10234 |   TCP    |                                         |
 | adguard-home               |  dns-https-udp  |  dns-https-udp  | 10234 |   UDP    |                                         |
 | fancyindex                 |      main       |      main       | 10235 |   TCP    |                                         |
+| mkvtoolnix                 |      main       |      main       | 10236 |   TCP    |                                         |
+| mkvtoolnix                 |       vnc       |       vnc       | 10237 |   TCP    |                                         |
 | storj-node                 |      main       |      main       | 14002 |   TCP    |                                         |
 | satisfactory               |     beacon      |     beacon      | 15000 |   UDP    |                                         |
 | satisfactory               |      query      |      query      | 15777 |   UDP    |                                         |
