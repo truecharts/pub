@@ -46,6 +46,7 @@ These defaults can of course be changed, but as we guarantee "sane, working defa
 | zabbix-server              |    snmptraps    |    snmptraps    |  162  |   UDP    |                                         |
 | openldap                   |      main       |      main       |  389  |   TCP    |                                         |
 | minisatip                  |      rtsp       |      rtsp       |  554  |   TCP    |                                         |
+| cups-server                |      main       |      main       |  631  |   TCP    |                                         |
 | openldap                   |      ldaps      |      ldaps      |  636  |   TCP    |                                         |
 | adguard-home               | dns-quic-udp-1  | dns-quic-udp-1  |  784  |   UDP    |                                         |
 | adguard-home               | dns-quic-udp-2  | dns-quic-udp-2  |  853  |   UDP    |   Potential conflict with technitium    |
