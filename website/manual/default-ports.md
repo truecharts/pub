@@ -411,6 +411,7 @@ These defaults can of course be changed, but as we guarantee "sane, working defa
 | mkvtoolnix                 |      main       |      main       | 10236 |   TCP    |                                         |
 | mkvtoolnix                 |       vnc       |       vnc       | 10237 |   TCP    |                                         |
 | kopia                      |      main       |      main       | 10238 |   TCP    |                                         |
+| mattermost                 |      main       |      main       | 10239 |   TCP    |                                         |
 | storj-node                 |      main       |      main       | 14002 |   TCP    |                                         |
 | satisfactory               |     beacon      |     beacon      | 15000 |   UDP    |                                         |
 | satisfactory               |      query      |      query      | 15777 |   UDP    |                                         |
