@@ -3,38 +3,21 @@
 ---
 ## Last Post:
 
-### Docker-Compose on TrueNAS SCALE using TrueCharts
+# Helm as a foundation
 
-From the early stages of TrueNAS SCALE development, we’ve read many complaints about the fact docker-compose wasn’t supported by TrueNAS SCALE. It’s understandable, as it’s one of the most used docker deployment options for home users.
+After some carefull consideration about how we want to move the project forward, we've decided to put our Helm Charts first and other solutions second.
+Our reasoning to do this, is that we want to allow users to be more flexible in which kubernetes platform they use and experience all the awesome projects that are out there.
 
-The TrueNAS SCALE community has figured out interesting ways to enable Docker-Compose. But this approaches all have a number of downsides:
+**SCALE and TrueCharts**
 
--    It's not future proof, it can be nuked permanently and without warning, with any TrueNAS SCALE update.
+What does this mean for our SCALE users? Not so much really: We will still fully support and build SCALE Apps.
+However, it does mean that we will more openly start calling our work "Charts" instead of "Apps" and some new Charts will not support SCALE out-of-the box.
 
--    It inherently breaks SCALE Applications and often even requires those to be disabled.
+**Helm and TrueCharts**
 
--    There is no support for this work-around.
+We're also going to up our game considerably to support users wanting to customise the YAML directly with Helm. More Apps with more flexible configuration.
+At the same time we're going to work on making the SCALE GUI generation more automated. While this might lead to a more "cluttered" GUI, it will bring things more in "sync" with the native Helm deployments we offer.
 
-To solve this problem, we’ve decided to take matters into our own hands. We are glad to finally announce our solution:
+For new developers all of this will offer a much easier experience: Just build the helm chart and submit the PR for it. No more bothering with being required to move through hunderds of rows of SCALE GUI description.
 
-**Docker-Compose Application for TrueNAS SCALE by TrueCharts**
-
-It’s designed from the ground up, to give users nearly the same experience as running Docker-Compose on the host system, and even contains some nice tweaks:
-
--    It’s fully backed by TrueNAS SCALE Applications, so it will survive updates.
-
--    There is a GUI option to input your Docker-Compose file, that will survive reboots.
-
--    Completely self-contained, and will not modify the default docker stack.
-
--    Fully compatible to run alongside other TrueNAS SCALE Applications, so you can easily migrate your Docker-Compose applications to TrueNAS SCALE Applications.
-
--    We are your support if the application does not work as advertised.
-
-All with just one caveat:
-
--    The Docker-Compose command has to be executed from inside the container shell.
-
-We based our solution on the official Docker-in-Docker container by Docker, with some added tooling to optimize it for single-container deployments. Perhaps most interestingly, the container has native access to `/mnt`, `/root` and `/cluster`, so you can work with your containers like you’re working on the host.
-
-With this in place we hope that TrueNAS SCALE can finally start to fill the big shoes of solutions like Unraid and TrueNAS Core and give the community what they want, not just what they need!
+With all of these changes combined, we hope to being our awesome repository of Charts to more people, much faster!
