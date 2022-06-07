@@ -1,6 +1,278 @@
 # Changelog<br>
 
 
+<a name="minetest-1.0.0"></a>
+### [minetest-1.0.0](https://github.com/truecharts/apps/compare/minetest-0.0.49...minetest-1.0.0) (2022-06-07)
+
+#### Refactor
+
+* BREAKING CHANGE ([#2836](https://github.com/truecharts/apps/issues/2836))
+
+
+
+<a name="minetest-0.0.49"></a>
+### [minetest-0.0.49](https://github.com/truecharts/apps/compare/minetest-0.0.48...minetest-0.0.49) (2022-05-31)
+
+#### Chore
+
+* update helm general non-major helm releases ([#2803](https://github.com/truecharts/apps/issues/2803))
+
+
+
+<a name="minetest-0.0.48"></a>
+### [minetest-0.0.48](https://github.com/truecharts/apps/compare/minetest-0.0.47...minetest-0.0.48) (2022-05-26)
+
+#### Chore
+
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="minetest-0.0.48"></a>
+### [minetest-0.0.48](https://github.com/truecharts/apps/compare/minetest-0.0.47...minetest-0.0.48) (2022-05-26)
+
+#### Chore
+
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="minetest-0.0.47"></a>
+### [minetest-0.0.47](https://github.com/truecharts/apps/compare/minetest-0.0.46...minetest-0.0.47) (2022-05-24)
+
+#### Chore
+
+* update helm general non-major helm releases
+
+
+
+<a name="minetest-0.0.46"></a>
+### [minetest-0.0.46](https://github.com/truecharts/apps/compare/minetest-0.0.45...minetest-0.0.46) (2022-05-17)
+
+#### Chore
+
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="minetest-0.0.46"></a>
+### [minetest-0.0.46](https://github.com/truecharts/apps/compare/minetest-0.0.45...minetest-0.0.46) (2022-05-17)
+
+#### Chore
+
+* update helm general non-major helm releases
+
+
+
+<a name="minetest-0.0.45"></a>
+### [minetest-0.0.45](https://github.com/truecharts/apps/compare/minetest-0.0.44...minetest-0.0.45) (2022-05-17)
+
+#### Chore
+
+* update helm general non-major helm releases
+
+
+
+<a name="minetest-0.0.44"></a>
+### [minetest-0.0.44](https://github.com/truecharts/apps/compare/minetest-0.0.43...minetest-0.0.44) (2022-05-16)
+
+#### Chore
+
+* update docker general non-major ([#2692](https://github.com/truecharts/apps/issues/2692))
+
+
+
+<a name="minetest-0.0.43"></a>
+### [minetest-0.0.43](https://github.com/truecharts/apps/compare/minetest-0.0.42...minetest-0.0.43) (2022-05-10)
+
+#### Chore
+
+* update helm general non-major helm releases ([#2649](https://github.com/truecharts/apps/issues/2649))
+
+
+
+<a name="minetest-0.0.42"></a>
+### [minetest-0.0.42](https://github.com/truecharts/apps/compare/minetest-0.0.41...minetest-0.0.42) (2022-05-05)
+
+#### Chore
+
+* update helm general non-major helm releases ([#2612](https://github.com/truecharts/apps/issues/2612))
+
+
+
+<a name="minetest-0.0.41"></a>
+### [minetest-0.0.41](https://github.com/truecharts/apps/compare/minetest-0.0.40...minetest-0.0.41) (2022-04-26)
+
+#### Chore
+
+* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
+
+
+
+<a name="minetest-0.0.40"></a>
+### [minetest-0.0.40](https://github.com/truecharts/apps/compare/minetest-0.0.39...minetest-0.0.40) (2022-04-20)
+
+#### Chore
+
+* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
+* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
+
+
+
+<a name="minetest-0.0.39"></a>
+### [minetest-0.0.39](https://github.com/truecharts/apps/compare/minetest-0.0.38...minetest-0.0.39) (2022-04-12)
+
+#### Chore
+
+* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
+
+
+
+<a name="minetest-0.0.38"></a>
+### [minetest-0.0.38](https://github.com/truecharts/apps/compare/minetest-0.0.37...minetest-0.0.38) (2022-04-03)
+
+#### Chore
+
+* update helm general non-major helm releases ([#2410](https://github.com/truecharts/apps/issues/2410))
+
+
+
+<a name="minetest-0.0.37"></a>
+### [minetest-0.0.37](https://github.com/truecharts/apps/compare/minetest-0.0.36...minetest-0.0.37) (2022-03-31)
+
+#### Chore
+
+* update helm general non-major helm releases ([#2361](https://github.com/truecharts/apps/issues/2361))
+
+
+
+<a name="minetest-0.0.36"></a>
+### [minetest-0.0.36](https://github.com/truecharts/apps/compare/minetest-0.0.35...minetest-0.0.36) (2022-03-30)
+
+#### Chore
+
+* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
+
+
+
+<a name="minetest-0.0.35"></a>
+### [minetest-0.0.35](https://github.com/truecharts/apps/compare/minetest-0.0.34...minetest-0.0.35) (2022-03-26)
+
+#### Chore
+
+* bump all apps to trigger ci
+
+
+
+<a name="minetest-0.0.32"></a>
+### [minetest-0.0.32](https://github.com/truecharts/apps/compare/minetest-0.0.31...minetest-0.0.32) (2022-03-20)
+
+#### Chore
+
+* update docker general non-major
+
+
+
+<a name="minetest-0.0.31"></a>
+### [minetest-0.0.31](https://github.com/truecharts/apps/compare/minetest-0.0.30...minetest-0.0.31) (2022-03-17)
+
+#### Chore
+
+* update helm chart common to v9.1.6 ([#2200](https://github.com/truecharts/apps/issues/2200))
+
+
+
+<a name="minetest-0.0.30"></a>
+### [minetest-0.0.30](https://github.com/truecharts/apps/compare/minetest-0.0.29...minetest-0.0.30) (2022-03-15)
+
+#### Chore
+
+* update helm chart common to v9.1.4 ([#2181](https://github.com/truecharts/apps/issues/2181))
+
+
+
+<a name="minetest-0.0.29"></a>
+### [minetest-0.0.29](https://github.com/truecharts/apps/compare/minetest-0.0.28...minetest-0.0.29) (2022-03-15)
+
+#### Chore
+
+* update helm chart common to v9.1.3 ([#2174](https://github.com/truecharts/apps/issues/2174))
+
+#### Docs
+
+* add alexthamm as a contributor for bug ([#2082](https://github.com/truecharts/apps/issues/2082))
+
+
+
+<a name="minetest-0.0.28"></a>
+### [minetest-0.0.28](https://github.com/truecharts/apps/compare/minetest-0.0.27...minetest-0.0.28) (2022-03-07)
+
+#### Chore
+
+* update helm chart common to v9.1.2 ([#2049](https://github.com/truecharts/apps/issues/2049))
+* Remove `-icon` string from icon png's ([#2040](https://github.com/truecharts/apps/issues/2040))
+
+
+
+<a name="minetest-0.0.27"></a>
+### [minetest-0.0.27](https://github.com/truecharts/apps/compare/minetest-0.0.26...minetest-0.0.27) (2022-03-03)
+
+#### Chore
+
+* remove fixed env from questions.yaml
+* remove empty env var declaration from questions.yaml
+* update helm chart common to v9 ([#2011](https://github.com/truecharts/apps/issues/2011))
+
+#### Fix
+
+* BREAKING CHANGE Move some env-vars outside of env section ([#2010](https://github.com/truecharts/apps/issues/2010))
+
+
+
+<a name="minetest-0.0.25"></a>
+### [minetest-0.0.25](https://github.com/truecharts/apps/compare/minetest-0.0.24...minetest-0.0.25) (2022-03-02)
+
+#### Chore
+
+* rename `web_portal` to `open` ([#1957](https://github.com/truecharts/apps/issues/1957))
+* update helm chart common to v8.17.2 ([#1965](https://github.com/truecharts/apps/issues/1965))
+
+
+
+<a name="minetest-0.0.24"></a>
+### [minetest-0.0.24](https://github.com/truecharts/apps/compare/minetest-0.0.23...minetest-0.0.24) (2022-02-22)
+
+#### Chore
+
+* update helm chart common to v8.16.1 ([#1940](https://github.com/truecharts/apps/issues/1940))
+
+
+
+<a name="minetest-0.0.23"></a>
+### [minetest-0.0.23](https://github.com/truecharts/apps/compare/minetest-0.0.22...minetest-0.0.23) (2022-02-22)
+
+#### Chore
+
+* update helm chart common to v8.16.0 ([#1925](https://github.com/truecharts/apps/issues/1925))
+
+
+
+<a name="minetest-0.0.22"></a>
+### [minetest-0.0.22](https://github.com/truecharts/apps/compare/minetest-0.0.21...minetest-0.0.22) (2022-02-16)
+
+#### Chore
+
+* update helm chart common to v8.15.4 ([#1879](https://github.com/truecharts/apps/issues/1879))
+
+
+
+<a name="minetest-0.0.21"></a>
+### [minetest-0.0.21](https://github.com/truecharts/apps/compare/minetest-0.0.20...minetest-0.0.21) (2022-02-10)
+
+
+
 <a name="minetest-0.0.20"></a>
 ### [minetest-0.0.20](https://github.com/truecharts/apps/compare/minetest-0.0.19...minetest-0.0.20) (2022-02-08)
 
