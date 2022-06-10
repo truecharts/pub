@@ -18,7 +18,7 @@ This will create a new dataset on the selected pool called "ix-applications", wh
 
 - Name: `truecharts`
 - Repository: `https://github.com/truecharts/catalog`
-- Preferred Trains: `stable` and `core`
+- Preferred Trains: `stable`
 - Branch: `main`
 
 We also heavily advise people starting with TrueCharts and the rest of this guide to ensure that `core` and `stable` are added to preferred trains. Without those two trains you will be unable to follow all the steps we've outlined in the "Quick Start Guides". You may enable other trains as well, see below for a description of the contents of each train.
@@ -28,8 +28,6 @@ We also heavily advise people starting with TrueCharts and the rest of this guid
 TrueCharts has multiple "trains": All trains contain Apps that should work fine. However they have a slightly different meaning:
 
 - `stable` contains most of our Apps. These are considered stable and working.
-- `core` contains important Apps that are used to supply features like "ingress" (Traefik) or advanced networking to our Apps.
-- `games` contains game servers (eg. Minecraft, Valheim etc)
 - `dependency` contains apps that are mostly used as dependencies. This train is not supported, besides from bug fixes.
 - `incubator` These Apps are still in development and/or are not considered to be of high-enough quality.
 
