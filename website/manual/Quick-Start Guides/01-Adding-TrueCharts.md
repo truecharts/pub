@@ -21,7 +21,7 @@ This will create a new dataset on the selected pool called "ix-applications", wh
 - Preferred Trains: `stable`
 - Branch: `main`
 
-We also heavily advise people starting with TrueCharts and the rest of this guide to ensure that `core` and `stable` are added to preferred trains. Without those two trains you will be unable to follow all the steps we've outlined in the "Quick Start Guides". You may enable other trains as well, see below for a description of the contents of each train.
+We also heavily advise people starting with TrueCharts and the rest of this guide to ensure that `stable` is added to preferred trains. Without this train you will be unable to follow all the steps we've outlined in the "Quick Start Guides". You may enable other trains as well, see below for a description of the contents of each train.
 
 ##### Difference between Stable and Incubator
 
