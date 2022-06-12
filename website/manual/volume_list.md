@@ -1,8 +1,8 @@
-
 # Mounted Volumes
 
 This document lists the mounted volumes for each App.
 The intro needs improvement ;)
+
 ## Stable
 
 | App | Volume Name | Type | Host Path | Mount Path | Mode | Status |
@@ -657,5 +657,4 @@ The intro needs improvement ;)
 |server-7daystodie      |serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
 |server-7daystodie      |steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
 
-
-#### If you notice something wrong in the above info, please notify us so we can update the generator script.
+> If you notice something wrong in the above info, please notify us so we can update the generator script
