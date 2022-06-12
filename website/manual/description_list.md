@@ -1,6 +1,6 @@
-
 # Apps List
-**List of all our apps with a short description**
+
+> List of all our apps with a short description
 
 ## Stable
 
@@ -391,3 +391,4 @@
 |<img src="https://truecharts.org/_static/img/appicons/btdex.png" width="25" height="25"> [btdex](https://github.com/truecharts/apps/tree/master/charts/dev/btdex)                                                      |furritos/docker-btdex                     |This is a Docker container for BTDEX based on jlesage/docker-baseimage-gui<br>Docker image.                                                                                                                                                                                                                                                                                  |
 |<img src="https://truecharts.org/_static/img/appicons/bwapp.png" width="25" height="25"> [bwapp](https://github.com/truecharts/apps/tree/master/charts/dev/bwapp)                                                      |raesene/bwapp                             |bWAPP, or a buggy web application, is a free and open source deliberately<br>insecure web application.                                                                                                                                                                                                                                                                       |
 
+> If you notice something wrong in the above info, you are more than welcome to submit a PR, updating Chart.yaml for the app in question
