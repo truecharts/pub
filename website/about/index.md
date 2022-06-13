@@ -17,3 +17,6 @@ A: SabNZBD has a weird security implementation that requires you to add the host
 
 - Q: An app is asking for a password.<br>
 A: We almost allways use the defaults from the upstream project, if we are forced to use a password and not add the option to change it in the install GUI.
+
+- Q: App x has not recived an expected update <br> 
+A: Apps update automatically in most cases unless something goes wrong but it can take a little bit of time for it to filter down to the catalog. Our general rule of thumb is report via GitHub after 7+ days.
