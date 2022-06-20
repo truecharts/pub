@@ -14,9 +14,9 @@
 <br />
 
 
-## Heavy_Script <a name="paragraph1"></a>
+## TrueTool <a name="paragraph1"></a>
 
-One option is to use Heavy_Script.
+One option is to use TrueTool.
 
 If you plan on mounting PVC storage more than just a couple of times this may be the best option for you.
 
@@ -27,15 +27,8 @@ If you plan on mounting PVC storage more than just a couple of times this may be
 
 The video will start at the mounting feature so you can see what it looks like.
 
-Afterwards, if you wish to install it, follow the video guide starting at 15:52.
-
-[![Heavy_Script](https://truecharts.org/_static/img/pvc_access/video_thumbnail.jpg)](https://youtu.be/uZp4x_Susgo?t=616 "Heavy_Script")
-<br />
-<br />
-<br />
-<br />
-
 ## Manual Method - New User Guide <a name="paragraph2"></a>
+
 
 Manually mounting PVC storage takes a little bit more time than the script method.
 
