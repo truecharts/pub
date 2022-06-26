@@ -67,6 +67,9 @@ The intro needs improvement ;)
 |cyberchef                 |-                 |-        |-              |-                                             |-         |Persistence not Defined|
 |darktable                 |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
 |darktable                 |varrun            |emptyDir |-              |/var/run                                      |Read/Write|Enabled                |
+|dashdot                   |os                |hostPath |/etc/os-release|/etc/os-release                               |Read Only |Enabled                |
+|dashdot                   |net               |hostPath |/proc/1/ns/net |/mnt/proc/1/ns/net                            |Read Only |Enabled                |
+|dashdot                   |mem               |hostPath |/dev/mem       |/dev/mem                                      |Read Only |Enabled                |
 |davos                     |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
 |davos                     |varrun            |emptyDir |-              |/var/run                                      |Read/Write|Enabled                |
 |ddclient                  |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
@@ -173,7 +176,7 @@ The intro needs improvement ;)
 |headphones                |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
 |headphones                |varrun            |emptyDir |-              |/var/run                                      |Read/Write|Enabled                |
 |healthchecks              |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
-|hedgedoc                  |varrun            |emptyDir |-              |/var/run                                      |Read/Write|Enabled                |
+|hedgedoc                  |uploads           |PVC      |-              |/hedgedoc/public/uploads                      |Read/Write|Enabled                |
 |heimdall                  |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
 |homarr                    |config            |PVC      |-              |/app/data/configs                             |Read/Write|Enabled                |
 |homarr                    |icons             |PVC      |-              |/app/public/icons                             |Read/Write|Enabled                |
@@ -419,8 +422,8 @@ The intro needs improvement ;)
 |sabnzbd                   |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
 |satisfactory              |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
 |scrutiny                  |varrun            |emptyDir |-              |/var/run                                      |Read/Write|Enabled                |
-|scrutiny                  |config            |PVC      |-              |/scrutiny/config                              |Read/Write|Enabled                |
-|scrutiny                  |data              |PVC      |-              |/config                                       |Read/Write|Enabled                |
+|scrutiny                  |config            |PVC      |-              |/opt/scrutiny/config                          |Read/Write|Enabled                |
+|scrutiny                  |influxdb          |PVC      |-              |/opt/scrutiny/influxdb                        |Read/Write|Enabled                |
 |scrutiny                  |udev              |hostPath |/run/udev      |/run/udev                                     |Read Only |Enabled                |
 |ser2sock                  |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
 |shiori                    |data              |PVC      |-              |/data                                         |Read/Write|Enabled                |
@@ -481,7 +484,7 @@ The intro needs improvement ;)
 |traccar                   |data              |PVC      |-              |/opt/traccar/data                             |Read/Write|Enabled                |
 |traefik                   |-                 |-        |-              |-                                             |-         |Persistence not Defined|
 |transmission              |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
-|trilium-notes             |config            |PVC      |-              |/trilium-data                                 |Read/Write|Enabled                |
+|trilium-notes             |config            |PVC      |-              |/home/node                                    |Read/Write|Enabled                |
 |truecommand               |data              |PVC      |-              |/data                                         |Read/Write|Enabled                |
 |tt-rss                    |config            |PVC      |-              |/config                                       |Read/Write|Enabled                |
 |tt-rss                    |plugins           |PVC      |-              |/app/plugins.local                            |Read/Write|Enabled                |
@@ -553,108 +556,50 @@ The intro needs improvement ;)
 
 | App | Volume Name | Type | Host Path | Mount Path | Mode | Status |
 |:----|:-----------:|:----:|:----------|:-----------|:----:|:------:|
-|adguard-home         |config        |PVC     |-            |/opt/adguardhome/conf                   |Read/Write|Enabled|
-|adguard-home         |data          |PVC     |-            |/opt/adguardhome/work                   |Read/Write|Enabled|
-|appsmith             |appsmithstacks|PVC     |-            |/appsmith-stacks                        |Read/Write|Enabled|
-|authentik            |media         |PVC     |-            |/media                                  |Read/Write|Enabled|
-|authentik            |templates     |PVC     |-            |/templates                              |Read/Write|Enabled|
-|authentik            |certs         |PVC     |-            |/certs                                  |Read/Write|Enabled|
-|authentik            |geoip         |PVC     |-            |/geoip                                  |Read/Write|Enabled|
-|cups-server          |config        |PVC     |-            |/etc/cups                               |Read/Write|Enabled|
-|cups-server          |dbus          |hostPath|/var/run/dbus|/var/run/dbus                           |Read/Write|Enabled|
-|fancyindex           |share         |PVC     |-            |/share                                  |Read/Write|Enabled|
-|filerun              |config        |PVC     |-            |/var/www/html                           |Read/Write|Enabled|
-|filerun              |userfile      |PVC     |-            |/user-files                             |Read/Write|Enabled|
-|frigate              |cache         |emptyDir|-            |/tmp/cache                              |Read/Write|Enabled|
-|frigate              |shm           |emptyDir|-            |/dev/shm                                |Read/Write|Enabled|
-|frigate              |media         |PVC     |-            |/media                                  |Read/Write|Enabled|
-|frigate              |frigate-config|custom  |-            |/config/config.yml                      |Read/Write|Enabled|
-|ghost                |content       |PVC     |-            |/var/lib/ghost/content                  |Read/Write|Enabled|
-|homebridge           |config        |PVC     |-            |/homebridge                             |Read/Write|Enabled|
-|meshcentral          |data          |PVC     |-            |/home/node/meshcentral/meshcentral-data |Read/Write|Enabled|
-|meshcentral          |files         |PVC     |-            |/home/node/meshcentral/meshcentral-files|Read/Write|Enabled|
-|piwigo               |config        |PVC     |-            |/config                                 |Read/Write|Enabled|
-|piwigo               |varrun        |emptyDir|-            |/var/run                                |Read/Write|Enabled|
-|self-service-password|config        |PVC     |-            |/assets/custom                          |Read/Write|Enabled|
-|self-service-password|logs          |PVC     |-            |/www/logs                               |Read/Write|Enabled|
-|technitium           |config        |PVC     |-            |/etc/dns/config                         |Read/Write|Enabled|
-|theme-park           |config        |PVC     |-            |/config                                 |Read/Write|Enabled|
-|zabbix-server        |snmptraps     |PVC     |-            |/var/lib/zabbix/snmptraps               |Read/Write|Enabled|
-
-## Dev
-
-| App | Volume Name | Type | Host Path | Mount Path | Mode | Status |
-|:----|:-----------:|:----:|:----------|:-----------|:----:|:------:|
-|acestream              |acestreamcache           |PVC |-       |/srv/acestream/.ACEStream |Read/Write|Enabled                |
-|adguard-home           |workingdirectory         |PVC |-       |/opt/adguardhome/conf     |Read/Write|Enabled                |
-|adguardhome-sync       |config                   |PVC |-       |/config                   |Read/Write|Enabled                |
-|adminer                |-                        |-   |-       |-                         |-         |Persistence not Defined|
-|alienswarm             |serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
-|alienswarm             |steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
-|alienswarm-reactivedrop|serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
-|alienswarm-reactivedrop|steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
-|altitude               |serverfiles              |PVC |-       |/altitude                 |Read/Write|Enabled                |
-|ama                    |config                   |PVC |-       |/config                   |Read/Write|Enabled                |
-|ama                    |hostpathfordownloads-ama |PVC |-       |/downloads-ama            |Read/Write|Enabled                |
-|ambd                   |config                   |PVC |-       |/config                   |Read/Write|Enabled                |
-|ambd                   |hostpathfordownloads-ambd|PVC |-       |/downloads-ambd           |Read/Write|Enabled                |
-|ambd                   |hostpathforlibrary-ambd  |PVC |-       |/library-ambd             |Read/Write|Enabled                |
-|americasarmy-pg        |serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
-|americasarmy-pg        |steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
-|amtd                   |config                   |PVC |-       |/config                   |Read/Write|Enabled                |
-|amule                  |storagecomplete          |PVC |-       |/incoming                 |Read/Write|Enabled                |
-|amule                  |storageconfig            |PVC |-       |/home/amule/.aMule        |Read/Write|Enabled                |
-|amule                  |storageincomplete        |PVC |-       |/temp                     |Read/Write|Enabled                |
-|amvd                   |config                   |PVC |-       |/config                   |Read/Write|Enabled                |
-|amvd                   |hostpathfordownloads-amvd|PVC |-       |/downloads-amvd           |Read/Write|Enabled                |
-|android-8-0            |-                        |-   |-       |-                         |-         |Persistence not Defined|
-|androiddebugbridge     |-                        |-   |-       |-                         |-         |Persistence not Defined|
-|anope                  |datapath                 |PVC |-       |/anope                    |Read/Write|Enabled                |
-|apache-webdav          |config                   |PVC |-       |/var/lib/dav              |Read/Write|Enabled                |
-|apache-webdav          |data                     |PVC |-       |/var/lib/dav/data         |Read/Write|Enabled                |
-|apprise-api            |config                   |PVC |-       |/config                   |Read/Write|Enabled                |
-|apt-cacher-ng          |apt-cacher-ng            |PVC |-       |/var/cache/apt-cacher-ng  |Read/Write|Enabled                |
-|archiveteam-warrior    |appdata                  |PVC |-       |/var/run/docker.sock      |Read/Write|Enabled                |
-|arksurvivalevolved     |serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
-|arksurvivalevolved     |steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
-|arma3                  |profiles                 |PVC |-       |/serverdata/.local/share  |Read/Write|Enabled                |
-|arma3                  |serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
-|arma3                  |steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
-|arma3exilemod          |profiles                 |PVC |-       |/serverdata/.local/share  |Read/Write|Enabled                |
-|arma3exilemod          |serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
-|arma3exilemod          |steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
-|artifactory-oss        |varoptjfrogartifactory   |PVC |-       |/var/opt/jfrog/artifactory|Read/Write|Enabled                |
-|assettocorsa           |serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
-|assettocorsa           |steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
-|atd                    |config                   |PVC |-       |/config                   |Read/Write|Enabled                |
-|atd                    |hostpathfordownloads-atd |PVC |-       |/downloads-atd            |Read/Write|Enabled                |
-|aurora-files           |-                        |-   |-       |-                         |-         |Persistence not Defined|
-|auto-yt-dl             |data                     |PVC |-       |/app/data                 |Read/Write|Enabled                |
-|auto-yt-dl             |hostpath1                |PVC |-       |/app/Downloads            |Read/Write|Enabled                |
-|autoscan               |config                   |PVC |-       |/config                   |Read/Write|Enabled                |
-|avorion                |serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
-|avorion                |steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
-|backuppc               |backuplocation           |PVC |-       |/var/lib/backuppc         |Read/Write|Enabled                |
-|backuppc               |configurationfiles       |PVC |-       |/etc/backuppc             |Read/Write|Enabled                |
-|backuppc               |homedirectory            |PVC |-       |/home/backuppc            |Read/Write|Enabled                |
-|backuppc               |logs                     |PVC |-       |/www/logs                 |Read/Write|Enabled                |
-|baikal                 |config                   |PVC |-       |/var/www/baikal/config    |Read/Write|Enabled                |
-|baikal                 |specific                 |PVC |-       |/var/www/baikal/Specific  |Read/Write|Enabled                |
-|barcodebuddy           |config                   |PVC |-       |/config                   |Read/Write|Enabled                |
-|barotrauma             |serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
-|barotrauma             |steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
-|bitcoin-node           |blockhainstorage         |PVC |-       |/bitcoin/.bitcoin         |Read/Write|Enabled                |
-|bitcoind               |data                     |PVC |-       |/root/.bitcoin/           |Read/Write|Enabled                |
-|bitcoinunlimited       |data                     |PVC |-       |/data                     |Read/Write|Enabled                |
-|bitcoinwalletgui       |bitcoinblockchainpath    |PVC |-       |/headless/.bitcoin/       |Read/Write|Enabled                |
-|blender                |config                   |PVC |-       |/config                   |Read/Write|Enabled                |
-|blender-desktop-g3     |internalshare            |PVC |-       |/UNRAID_SHARE             |Read/Write|Enabled                |
-|blender-desktop-g3     |storageprojects          |PVC |-       |/srv/projects             |Read/Write|Enabled                |
-|breitbandmessung-de    |config                   |PVC |-       |/usr/src/app/config       |Read/Write|Enabled                |
-|breitbandmessung-de    |messurementlogs          |PVC |-       |/export/                  |Read/Write|Enabled                |
-|btdex                  |btdex                    |PVC |-       |/opt/btdex/cache          |Read/Write|Enabled                |
-|bwapp                  |-                        |-   |-       |-                         |-         |Persistence not Defined|
-|server-7daystodie      |serverfiles              |PVC |-       |/serverdata/serverfiles   |Read/Write|Enabled                |
-|server-7daystodie      |steamcmd                 |PVC |-       |/serverdata/steamcmd      |Read/Write|Enabled                |
+|adguard-home         |config        |PVC     |-            |/opt/adguardhome/conf                   |Read/Write|Enabled                |
+|adguard-home         |data          |PVC     |-            |/opt/adguardhome/work                   |Read/Write|Enabled                |
+|appsmith             |appsmithstacks|PVC     |-            |/appsmith-stacks                        |Read/Write|Enabled                |
+|authentik            |media         |PVC     |-            |/media                                  |Read/Write|Enabled                |
+|authentik            |templates     |PVC     |-            |/templates                              |Read/Write|Enabled                |
+|authentik            |certs         |PVC     |-            |/certs                                  |Read/Write|Enabled                |
+|authentik            |geoip         |PVC     |-            |/geoip                                  |Read/Write|Enabled                |
+|awesome-ttrss        |icons         |PVC     |-            |/var/www/feed-icons                     |Read/Write|Enabled                |
+|awesome-ttrss        |plugins       |PVC     |-            |/var/www/plugins.local                  |Read/Write|Enabled                |
+|awesome-ttrss        |themes        |PVC     |-            |/var/www/themes.local                   |Read/Write|Enabled                |
+|cups-server          |config        |PVC     |-            |/etc/cups                               |Read/Write|Enabled                |
+|cups-server          |dbus          |hostPath|/var/run/dbus|/var/run/dbus                           |Read/Write|Enabled                |
+|fancyindex           |share         |PVC     |-            |/share                                  |Read/Write|Enabled                |
+|filerun              |config        |PVC     |-            |/var/www/html                           |Read/Write|Enabled                |
+|filerun              |userfile      |PVC     |-            |/user-files                             |Read/Write|Enabled                |
+|frigate              |cache         |emptyDir|-            |/tmp/cache                              |Read/Write|Enabled                |
+|frigate              |shm           |emptyDir|-            |/dev/shm                                |Read/Write|Enabled                |
+|frigate              |media         |PVC     |-            |/media                                  |Read/Write|Enabled                |
+|frigate              |frigate-config|custom  |-            |/config/config.yml                      |Read/Write|Enabled                |
+|ghost                |content       |PVC     |-            |/var/lib/ghost/content                  |Read/Write|Enabled                |
+|homebridge           |config        |PVC     |-            |/homebridge                             |Read/Write|Enabled                |
+|jitsi                |config        |PVC     |-            |/config                                 |Read/Write|Enabled                |
+|jitsi                |crontabs      |PVC     |-            |/var/spool/cron/crontabs                |Read/Write|Enabled                |
+|jitsi                |transcripts   |PVC     |-            |/usr/share/jitsi-meet/transcripts       |Read/Write|Enabled                |
+|jitsi                |prosodyconfig |PVC     |-            |/prosodyconfig/config                   |Read/Write|Enabled                |
+|jitsi                |prosodyplugins|PVC     |-            |/prosody-plugins-custom                 |Read/Write|Enabled                |
+|jitsi                |jicofoconfig  |PVC     |-            |/jicofoconfig/config                    |Read/Write|Enabled                |
+|jitsi                |jvbconfig     |PVC     |-            |/jvbconfig/config                       |Read/Write|Enabled                |
+|jump                 |backgrounds   |PVC     |-            |/backgrounds                            |Read/Write|Enabled                |
+|jump                 |search        |PVC     |-            |/search                                 |Read/Write|Enabled                |
+|jump                 |sites         |PVC     |-            |/sites                                  |Read/Write|Enabled                |
+|meshcentral          |data          |PVC     |-            |/home/node/meshcentral/meshcentral-data |Read/Write|Enabled                |
+|meshcentral          |files         |PVC     |-            |/home/node/meshcentral/meshcentral-files|Read/Write|Enabled                |
+|openspeedtest        |-             |-       |-            |-                                       |-         |Persistence not Defined|
+|piwigo               |config        |PVC     |-            |/config                                 |Read/Write|Enabled                |
+|piwigo               |varrun        |emptyDir|-            |/var/run                                |Read/Write|Enabled                |
+|self-service-password|config        |PVC     |-            |/assets/custom                          |Read/Write|Enabled                |
+|self-service-password|logs          |PVC     |-            |/www/logs                               |Read/Write|Enabled                |
+|senseai-server       |data          |PVC     |-            |/usr/share/CodeProject/SenseAI          |Read/Write|Enabled                |
+|technitium           |config        |PVC     |-            |/etc/dns/config                         |Read/Write|Enabled                |
+|theme-park           |config        |PVC     |-            |/config                                 |Read/Write|Enabled                |
+|wger                 |media         |PVC     |-            |/home/wger/media                        |Read/Write|Enabled                |
+|wger                 |static        |emptyDir|-            |/home/wger/static                       |Read/Write|Enabled                |
+|wger                 |wger-config   |custom  |-            |/etc/nginx/conf.d/default.conf          |Read/Write|Enabled                |
+|zabbix-server        |snmptraps     |PVC     |-            |/var/lib/zabbix/snmptraps               |Read/Write|Enabled                |
 
 > If you notice something wrong in the above info, please notify us so we can update the generator script
