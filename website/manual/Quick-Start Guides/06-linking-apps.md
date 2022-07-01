@@ -105,7 +105,7 @@ To reach an app named "sab" (name does NOT contain catalog app name) within Sona
 ##### Additional Documentation
 
 Note that whilst these domain names should work between any containers on the internal kubernetes network the truecharts team only supports connections between our own apps. 
-If you connect an iXsystems official app to a truecharts app and need support you should seek it from iXsystems in [official-ix-apps discord channel](https://discord.com/channels/830763548678291466/879640262362669076).
+If you want to connect an iXsystems official app to a truecharts app and have issues, please do not file support tickets with our staff. Instead use the [official-ix-apps discord channel](https://discord.com/channels/830763548678291466/879640262362669076)
 We advise using our own versions of apps where there are duplicates between the official iXsystems catalog and our own (e.g. Nextcloud) for the best supported experience.
   
 For more help troubleshooting DNS resolution in Kubernetes, review the official documentation: https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/
