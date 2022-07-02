@@ -6,7 +6,7 @@ We often need to connect individual apps together, for example: Sonarr and SABnz
 
 The backend for TrueNAS SCALE Apps is Kubernetes. Linking apps together in Kubernetes is done slightly differently than in other systems, as you can't point directly to other containers using their IP address.
 
-Instead we need to use their internal(!) domain name. Please beware: this name is only available between Apps and can not be reached from the host/node or your own PC.
+Instead we need to use their internal(!) domain name. Please beware: this name is only available between Apps and can not be reached from the host/node or your own PC. 
 
 The format for internal domain name for the main service is explained bellow.
 Please replace `$NAME` with the name you gave your App when installing and `$APP` with the name the app has on the catalog where is needed.
@@ -104,4 +104,8 @@ To reach an app named "sab" (name does NOT contain catalog app name) within Sona
 
 ##### Additional Documentation
 
+Note that whilst these domain names should work between any containers on the internal kubernetes network the truecharts team only supports connections between our own apps. 
+If you want to connect an iXsystems official app to a truecharts app and have issues, please do not file support tickets with our staff. Instead use the [official-ix-apps discord channel](https://discord.com/channels/830763548678291466/879640262362669076)
+We advise using our own versions of apps where there are duplicates between the official iXsystems catalog and our own (e.g. Nextcloud) for the best supported experience.
+  
 For more help troubleshooting DNS resolution in Kubernetes, review the official documentation: https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/
