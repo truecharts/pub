@@ -1,0 +1,92 @@
+CategoryList:
+- Network-Web
+- Network-Proxy
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    appdata:
+      Default: /mnt/user/appdata/nginxphp8/www
+      Description: 'Contains your www content and all relevant '
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Appdata
+      Required: 'true'
+      Target: /var/www/html/
+      Type: Path
+      value: /mnt/user/appdata/nginxphp8/www
+  Port:
+    main:
+      Default: '80'
+      Description: http
+      Display: always
+      Mask: 'false'
+      Mode: HTTP
+      Name: WebUI
+      Required: 'true'
+      Target: 80
+      Type: Port
+      value: 80
+    port443:
+      Default: '443'
+      Description: https
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: 'Port: 443'
+      Required: 'true'
+      Target: 443
+      Type: Port
+      value: 443
+  Variable:
+    pgid:
+      Default: '100'
+      Description: 'Container Variable: PGID'
+      Display: advanced
+      Mask: 'false'
+      Mode: '{3}'
+      Name: PGID
+      Required: 'true'
+      Target: PGID
+      Type: Variable
+      value: '100'
+    puid:
+      Default: '99'
+      Description: 'Container Variable: PUID'
+      Display: advanced
+      Mask: 'false'
+      Mode: '{3}'
+      Name: PUID
+      Required: 'true'
+      Target: PUID
+      Type: Variable
+      value: '99'
+    umask:
+      Default: '022'
+      Description: 'Container Variable: UMASK'
+      Display: advanced
+      Mask: 'false'
+      Mode: '{3}'
+      Name: UMASK
+      Required: 'false'
+      Target: UMASK
+      Type: Variable
+      value: '022'
+Icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-logo.png
+Keywords:
+- nginx-php8
+- Network-Web
+- Network-Proxy
+Name: nginx-php8
+Overview: "Nginx(https://nginx.org/) is a simple webserver with php support. The config\
+  \ is in the docker side go in the console.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/tangramor/nginx-php8-fpm
+Repository: tangramor/nginx-php8-fpm
+Requires: ''
+Sources:
+- https://nginx.org/
+- https://hub.docker.com/r/tangramor/nginx-php8-fpm
+Tag: latest
+WebUI: http://[IP]:[PORT:80]

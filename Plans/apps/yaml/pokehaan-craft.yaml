@@ -1,0 +1,86 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    data:
+      Default: /mnt/user/appdata/pokehaan-craft/
+      Description: Path to store the installed server files.
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Installed Location
+      Required: 'true'
+      Target: /data
+      Type: Path
+      value: /mnt/user/appdata/pokehaan-craft/
+  Port:
+    main:
+      Default: '25565'
+      Description: Port for the server
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Port
+      Required: 'false'
+      Target: 25565
+      Type: Port
+      value: 25565
+  Variable:
+    eula:
+      Default: 'false'
+      Description: Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula?
+        Server will not start without accepting. Set to 'true' to accept.
+      Display: always
+      Mask: 'false'
+      Name: EULA
+      Required: 'true'
+      Target: EULA
+      Type: Variable
+      value: 'false'
+    java_flags:
+      Default: ''
+      Description: Any extra Java flags needed.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: JAVA_FLAGS
+      Required: 'false'
+      Target: JAVA_FLAGS
+      Type: Variable
+      value: -Dfml.queryResult=confirm
+    jvm_opts:
+      Default: -Xms2048m -Xmx4096m
+      Description: JAVA Options
+      Display: always
+      Mask: 'false'
+      Name: JVM_OPTS
+      Required: 'false'
+      Target: JVM_OPTS
+      Type: Variable
+      value: -Xms2048m -Xmx4096m
+    ops:
+      Default: ''
+      Description: Comma separated list of players to have op capability
+      Display: always
+      Mask: 'false'
+      Name: OPS
+      Required: 'false'
+      Target: OPS
+      Type: Variable
+      value: ''
+Icon: https://media.forgecdn.net/avatars/thumbnails/298/994/64/64/637351626050046394.png
+Keywords:
+- pokehaan-craft
+- GameServers
+Name: pokehaan-craft
+Overview: "Docker Container for Pokehaan Craft Minecraft Modpack\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/ratomas/pokehaan-craft
+Repository: ratomas/pokehaan-craft
+Requires: ''
+Sources:
+- https://www.curseforge.com/minecraft/modpacks/pokehaan-craft
+- https://hub.docker.com/r/ratomas/pokehaan-craft
+Tag: latest

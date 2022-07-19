@@ -1,0 +1,157 @@
+CategoryList:
+- Productivity
+- Tools-Utilities
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port:
+    main:
+      Default: '8383'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: QUX_HTTP_PORT
+      Required: 'false'
+      Target: 8080
+      Type: Port
+      value: 8383
+  Variable:
+    qux_http_host:
+      Default: http://quant-ux-frontend:8082
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: QUX_HTTP_HOST
+      Required: 'false'
+      Target: QUX_HTTP_HOST
+      Type: Variable
+      value: http://server-ip:8082
+    qux_image_folder_apps:
+      Default: /qux-image-apps
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: QUX_IMAGE_FOLDER_APPS
+      Required: 'false'
+      Target: QUX_IMAGE_FOLDER_APPS
+      Type: Variable
+      value: /qux-image-apps
+    qux_image_folder_user:
+      Default: '/qux-images '
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: QUX_IMAGE_FOLDER_USER
+      Required: 'false'
+      Target: QUX_IMAGE_FOLDER_USER
+      Type: Variable
+      value: '/qux-images '
+    qux_jwt_password:
+      Default: ''
+      Description: https://passwordsgenerator.net/
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: QUX_JWT_PASSWORD
+      Required: 'false'
+      Target: QUX_JWT_PASSWORD
+      Type: Variable
+      value: ''
+    qux_mail_host:
+      Default: 'mail.example.com  '
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: QUX_MAIL_HOST
+      Required: 'false'
+      Target: QUX_MAIL_HOST
+      Type: Variable
+      value: ''
+    qux_mail_password:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: QUX_MAIL_PASSWORD
+      Required: 'false'
+      Target: QUX_MAIL_PASSWORD
+      Type: Variable
+      value: ''
+    qux_mail_user:
+      Default: 'mail_admin@example.com  '
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: QUX_MAIL_USER
+      Required: 'false'
+      Target: QUX_MAIL_USER
+      Type: Variable
+      value: ''
+    qux_mongo_connection_string:
+      Default: 'mongodb://quant-ux-mongo:27017 '
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: QUX_MONGO_CONNECTION_STRING
+      Required: 'false'
+      Target: QUX_MONGO_CONNECTION_STRING
+      Type: Variable
+      value: mongodb://server-ip:27017
+    qux_mongo_db_name:
+      Default: quantux
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: QUX_MONGO_DB_NAME
+      Required: 'false'
+      Target: QUX_MONGO_DB_NAME
+      Type: Variable
+      value: quantux
+    qux_mongo_table_prefix:
+      Default: quantux
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: QUX_MONGO_TABLE_PREFIX
+      Required: 'false'
+      Target: QUX_MONGO_TABLE_PREFIX
+      Type: Variable
+      value: quantux
+    timezone:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Timezone
+      Required: 'false'
+      Target: TZ
+      Type: Variable
+      value: America/Chicago
+Icon: https://i.imgur.com/R83G3Tg.png
+Keywords:
+- quant-ux-backend
+- Productivity
+- Tools-Utilities
+Name: quant-ux-backend
+Overview: "Quant UX is a research, usability and prototyping tool to quickly test\
+  \ your designs and get data driven insights. \r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/bmcgonag/qux-be
+Repository: bmcgonag/qux-be
+Requires: ''
+Sources:
+- https://github.com/KlausSchaefers/quant-ux
+- https://hub.docker.com/r/bmcgonag/qux-be
+Tag: latest

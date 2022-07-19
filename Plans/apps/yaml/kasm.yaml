@@ -1,0 +1,124 @@
+Branch:
+- Tag: latest
+  TagDescription: Stable Kasm releases
+- GitHub: https://github.com/linuxserver/docker-kasm/tree/develop#application-setup
+  ReadMe: https://github.com/linuxserver/docker-kasm/tree/develop#readme
+  Tag: develop
+  TagDescription: Tip of develop
+CategoryList:
+- Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    pathopt:
+      Default: ''
+      Description: Docker and installation storage. (requires /mnt/cache/appdata/path
+        or direct disk mount)
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: 'Path: /opt'
+      Required: 'true'
+      Target: /opt
+      Type: Path
+      value: ''
+    pathprofiles:
+      Default: ''
+      Description: Optionally specify a path for persistent profile storage.
+      Display: advanced
+      Mask: 'false'
+      Mode: rw
+      Name: 'Path: /profiles'
+      Required: 'false'
+      Target: /profiles
+      Type: Path
+      value: ''
+  Port:
+    main:
+      Default: '3000'
+      Description: Kasm Installation wizard. (https)
+      Display: always
+      Mask: 'false'
+      Mode: HTTP
+      Name: WebUI
+      Required: 'true'
+      Target: 3000
+      Type: Port
+      value: 3000
+    port6333:
+      Default: '6333'
+      Description: Kasm Workspaces interface. (https)
+      Display: advanced
+      Mask: 'false'
+      Mode: tcp
+      Name: 'Port: 6333'
+      Required: 'false'
+      Target: 6333
+      Type: Port
+      value: 6333
+  Variable:
+    docker_hub_password:
+      Default: PASS
+      Description: Optionally specify a DockerHub password to pull private images.
+      Display: advanced
+      Mask: 'true'
+      Name: DOCKER_HUB_PASSWORD
+      Required: 'false'
+      Target: DOCKER_HUB_PASSWORD
+      Type: Variable
+      value: ''
+    docker_hub_username:
+      Default: USER
+      Description: Optionally specify a DockerHub Username to pull private images.
+      Display: advanced
+      Mask: 'false'
+      Name: DOCKER_HUB_USERNAME
+      Required: 'false'
+      Target: DOCKER_HUB_USERNAME
+      Type: Variable
+      value: ''
+    kasm_port:
+      Default: '6333'
+      Description: Specify the port you bind to the outside for Kasm Workspaces.
+      Display: advanced
+      Mask: 'false'
+      Name: KASM_PORT
+      Required: 'false'
+      Target: KASM_PORT
+      Type: Variable
+      value: ''
+    umask:
+      Default: '022'
+      Description: 'Container Variable: UMASK'
+      Display: advanced
+      Mask: 'false'
+      Name: UMASK
+      Required: 'false'
+      Target: UMASK
+      Type: Variable
+      value: ''
+Icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kasm-logo.png
+Keywords:
+- kasm
+- Other
+Name: kasm
+Overview: 'Kasm(https://www.kasmweb.com/) Workspaces is a docker container streaming
+  platform for delivering browser-based access to desktops, applications, and web
+  services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to
+  create on-demand, disposable, docker containers that are accessible via web browser.
+  Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP),
+  Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source
+  Intelligence (OSINT) collections.
+
+  '
+Privileged: 'true'
+Registry: https://github.com/orgs/linuxserver/packages/container/package/kasm
+Repository: lscr.io/linuxserver/kasm
+Requires: ''
+Sources:
+- https://www.kasmweb.com/
+- https://github.com/orgs/linuxserver/packages/container/package/kasm
+- https://github.com/linuxserver/docker-kasm#readme
+Tag: latest
+WebUI: https://[IP]:[PORT:3000]

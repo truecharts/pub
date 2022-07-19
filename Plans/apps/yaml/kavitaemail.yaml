@@ -1,0 +1,102 @@
+CategoryList:
+- Network-Other
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port:
+    main:
+      Default: '5003'
+      Description: 'Container Port: 5003'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: SMTP Relay Port
+      Required: 'false'
+      Target: 5003
+      Type: Port
+      value: 5003
+  Variable:
+    disp_name:
+      Default: ''
+      Description: Display name for the emails being sent
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DISP_NAME
+      Required: 'true'
+      Target: ''
+      Type: Variable
+      value: ''
+    send_addr:
+      Default: ''
+      Description: Address you want your emails to appear from
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SEND_ADDR
+      Required: 'true'
+      Target: ''
+      Type: Variable
+      value: ''
+    smtp_host:
+      Default: ''
+      Description: Your SMTP server hostname
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SMTP_HOST
+      Required: 'true'
+      Target: ''
+      Type: Variable
+      value: ''
+    smtp_pass:
+      Default: ''
+      Description: SMTP password
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SMTP_PASS
+      Required: 'false'
+      Target: ''
+      Type: Variable
+      value: ''
+    smtp_port:
+      Default: ''
+      Description: SMTP server port
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SMTP_PORT
+      Required: 'true'
+      Target: ''
+      Type: Variable
+      value: ''
+    smtp_user:
+      Default: ''
+      Description: SMTP Username
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SMTP_USER
+      Required: 'true'
+      Target: ''
+      Type: Variable
+      value: ''
+Icon: https://raw.githubusercontent.com/Kareadita/Kavita/develop/UI/Web/src/assets/icons/android-chrome-192x192.png
+Keywords:
+- kavitaemail
+- Network-Other
+Name: kavitaemail
+Overview: This is a simple email relay server that handles emails from Kavita application.
+  By default, Kavita installations will use the Kavita hosted email service. However,
+  if a user wants to setup their own SMTP service, then they can run their own instance
+  of this microService.
+Privileged: 'false'
+Registry: https://hub.docker.com/r/kizaing/kavitaemail
+Repository: kizaing/kavitaemail
+Requires: ''
+Sources:
+- https://github.com/Kareadita/KavitaEmail
+- https://hub.docker.com/r/kizaing/kavitaemail
+Tag: latest

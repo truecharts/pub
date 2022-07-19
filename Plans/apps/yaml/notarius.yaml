@@ -1,0 +1,22 @@
+CABlacklist: true
+CategoryList:
+- Other
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port: {}
+  Variable: {}
+Icon: https://github.com/agusalex/docker-templates/raw/master/agusalex/images/Notarius.png
+Keywords:
+- notarius
+- Other
+Name: notarius
+Overview: ''
+Registry: https://hub.docker.com/r/agusalex/Notarius
+Repository: agusalex/notarius
+Requires: ''
+Sources:
+- https://github.com/agusalex/Notarius
+- https://hub.docker.com/r/agusalex/Notarius
+Tag: latest

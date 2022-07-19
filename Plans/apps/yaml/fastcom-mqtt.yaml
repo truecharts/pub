@@ -1,0 +1,90 @@
+CategoryList:
+- HomeAutomation
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port: {}
+  Variable:
+    mqtt_down:
+      Default: ''
+      Description: 'Container Variable: MQTT_DOWN'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MQTT_DOWN
+      Required: 'true'
+      Target: MQTT_DOWN
+      Type: Variable
+      value: ''
+    mqtt_pass:
+      Default: ''
+      Description: 'Container Variable: MQTT_DOWN'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MQTT_PASS
+      Required: 'false'
+      Target: MQTT_DOWN
+      Type: Variable
+      value: ''
+    mqtt_server:
+      Default: ''
+      Description: 'Container Variable: MQTT_SERVER'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MQTT_SERVER
+      Required: 'true'
+      Target: MQTT_SERVER
+      Type: Variable
+      value: ''
+    mqtt_up:
+      Default: ''
+      Description: 'Container Variable: MQTT_UP'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MQTT_UP
+      Required: 'true'
+      Target: MQTT_UP
+      Type: Variable
+      value: ''
+    mqtt_user:
+      Default: ''
+      Description: 'Container Variable: MQTT_UP'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MQTT_USER
+      Required: 'false'
+      Target: MQTT_UP
+      Type: Variable
+      value: ''
+    sleep:
+      Default: ''
+      Description: 'Container Variable: sleep'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SLEEP
+      Required: 'true'
+      Target: SLEEP
+      Type: Variable
+      value: '3600'
+Icon: https://raw.githubusercontent.com/simonjenny/fastcom-mqtt/master/fastlogo.jpg
+Keywords:
+- fastcom-mqtt
+- HomeAutomation
+Name: fastcom-mqtt
+Overview: 'Docker Container with Fast.com CLI sending data directly to MQTT Broker
+
+  '
+Privileged: 'false'
+Registry: https://hub.docker.com/r/simonjenny/fastcom-mqtt/
+Repository: simonjenny/fastcom-mqtt
+Requires: ''
+Sources:
+- https://github.com/simonjenny/fastcom-mqtt
+- https://hub.docker.com/r/simonjenny/fastcom-mqtt/
+Tag: latest

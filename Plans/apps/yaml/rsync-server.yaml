@@ -1,0 +1,70 @@
+CategoryList:
+- Backup
+- Tools-Utilities
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    filepath:
+      Default: ''
+      Description: 'Container Path: /mnt/user/'
+      Display: always
+      Mask: 'false'
+      Mode: ro
+      Name: File path
+      Required: 'false'
+      Target: /mnt/user/
+      Type: Path
+      value: /mnt/user/
+  Port:
+    main:
+      Default: ''
+      Description: 'Container Port: 22'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Port
+      Required: 'false'
+      Target: 22
+      Type: Port
+      value: 5533
+  Variable:
+    ssh_auth_key_1:
+      Default: ''
+      Description: 'Container Variable: SSH_AUTH_KEY_1'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SSH_AUTH_KEY_1
+      Required: 'false'
+      Target: SSH_AUTH_KEY_1
+      Type: Variable
+      value: enter_ssh_key_of_client
+    ssh_auth_key_2:
+      Default: ''
+      Description: 'Container Variable: SSH_AUTH_KEY_2'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SSH_AUTH_KEY_2
+      Required: 'false'
+      Target: SSH_AUTH_KEY_2
+      Type: Variable
+      value: ''
+ExtraParams: --memory=1G
+Icon: https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Newrsynclogo.png/220px-Newrsynclogo.png
+Keywords:
+- rsync-server
+- Backup
+- Tools-Utilities
+Name: rsync-server
+Overview: "Simple rsync server based on Alpine\r\n"
+PostArgs: server
+Privileged: 'false'
+Registry: https://hub.docker.com/r/instrumentisto/rsync-ssh
+Repository: eeacms/rsync
+Requires: ''
+Sources:
+- https://github.com/eea/eea.docker.rsync
+- https://hub.docker.com/r/instrumentisto/rsync-ssh
+Tag: latest

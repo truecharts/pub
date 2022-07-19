@@ -1,0 +1,92 @@
+CategoryList:
+- Network-Web
+- MediaServer-Books
+- Tools-Utilities
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: /mnt/user/appdata/komf
+      Description: 'Container Path: /config'
+      Display: advanced
+      Mask: 'false'
+      Mode: rw
+      Name: Config
+      Required: 'true'
+      Target: /config
+      Type: Path
+      value: /mnt/user/appdata/komf
+  Port:
+    main:
+      Default: '8085'
+      Description: Komf API port
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: API-Port
+      Required: 'true'
+      Target: 8085
+      Type: Port
+      value: 8085
+  Variable:
+    komga-user:
+      Default: ''
+      Description: Add a user here that has Metadata rights
+      Display: always
+      Mask: 'false'
+      Mode: user
+      Name: Komga-User
+      Required: 'true'
+      Target: KOMF_KOMGA_USER
+      Type: Variable
+      value: ''
+    komga-userpw:
+      Default: pw
+      Description: Add a user here that has Metadata rights
+      Display: always
+      Mask: 'true'
+      Mode: ''
+      Name: Komga-User PW
+      Required: 'true'
+      Target: KOMF_KOMGA_PASSWORD
+      Type: Variable
+      value: ''
+    loglevel:
+      Default: INFO
+      Description: Log Level
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Log Level
+      Required: 'true'
+      Target: KOMF_LOG_LEVEL
+      Type: Variable
+      value: INFO
+    pathtoyourkomgainstance:
+      Default: http://komga:8080
+      Description: "Path to your Komga Instance.\r\nLike this:\r\nhttp://komga:8080"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Path to your Komga Instance
+      Required: 'true'
+      Target: KOMF_KOMGA_BASE_URI
+      Type: Variable
+      value: ''
+Icon: https://avatars.githubusercontent.com/u/76580768?v=4
+Keywords:
+- komf
+- Network-Web
+- MediaServer-Books
+- Tools-Utilities
+Name: komf
+Overview: "This is Currently API only! [br][br]\r\n"
+Privileged: 'false'
+Registry: https://github.com/Snd-R/komf
+Repository: sndxr/komf
+Requires: ''
+Sources:
+- https://github.com/Snd-R/komf
+- https://github.com/Snd-R/komf
+Tag: latest

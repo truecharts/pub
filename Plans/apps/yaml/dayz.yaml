@@ -1,0 +1,170 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    serverfiles:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: ServerFiles
+      Required: 'true'
+      Target: /serverdata/serverfiles
+      Type: Path
+      value: /mnt/cache/appdata/dayz
+    steamcmd:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: SteamCMD
+      Required: 'true'
+      Target: /serverdata/steamcmd
+      Type: Path
+      value: /mnt/user/appdata/steamcmd
+  Port:
+    gameport:
+      Default: ''
+      Description: UDP Game Port (If you need another port delete this Entry and create
+        a new UDP port mapping with the corresponding port | also don't forget to
+        click on show more and change the GAME_PORT)
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP1 - GamePort
+      Required: 'true'
+      Target: 2302
+      Type: Port
+      value: 2302
+    steamqueryport:
+      Default: ''
+      Description: UDP Steam Query Port
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP2 - Steam Query Port
+      Required: 'true'
+      Target: 27016
+      Type: Port
+      value: 27016
+  Variable:
+    defalutgameport:
+      Default: ''
+      Description: Only change if you know what you are doing (initial GAME_PORT |
+        Dont forget to create create a new UDP port mapping with the corresponding
+        port and delete the default port)
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Defalut Game Port
+      Required: 'true'
+      Target: GAME_PORT
+      Type: Variable
+      value: '2302'
+    game_id:
+      Default: ''
+      Description: "The GAME_ID that the container downloads at startup.\r\nIf you\
+        \ want to install a static or beta version of the game change the value to:\
+        \ '1042420 -beta YOURBRANCH' (without quotes, replace YOURBRANCH with the\
+        \ branch or version you want to install)."
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: GAME_ID
+      Required: 'true'
+      Target: GAME_ID
+      Type: Variable
+      value: '1042420'
+    game_params:
+      Default: ''
+      Description: Enter your extra start up commands for the server here otherwise
+        leave empty.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: GAME_PARAMS
+      Required: 'false'
+      Target: GAME_PARAMS
+      Type: Variable
+      value: ''
+    gid:
+      Default: ''
+      Description: Only change if you know what you are doing!
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: GID
+      Required: 'true'
+      Target: GID
+      Type: Variable
+      value: '100'
+    steam-password:
+      Default: ''
+      Description: 'Your Steam password goes here if you want to install a game that
+        needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
+        Steam Guard).'
+      Display: advanced-hide
+      Mask: 'true'
+      Mode: ''
+      Name: Steam-Password
+      Required: 'false'
+      Target: PASSWRD
+      Type: Variable
+      value: ''
+    steam-username:
+      Default: ''
+      Description: 'Your Steam username goes here if you want to install a game that
+        needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
+        Steam Guard).'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Steam-Username
+      Required: 'false'
+      Target: USERNAME
+      Type: Variable
+      value: ''
+    uid:
+      Default: ''
+      Description: Only change if you know what you are doing!
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: UID
+      Required: 'true'
+      Target: UID
+      Type: Variable
+      value: '99'
+    validateinstallation:
+      Default: ''
+      Description: Set the Variable to 'true' if you want to validate the installation
+        otherwise leave it blank.
+      Display: always-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Validate Installation
+      Required: 'false'
+      Target: VALIDATE
+      Type: Variable
+      value: ''
+ExtraParams: --restart=unless-stopped
+Icon: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/dayz.png
+Keywords:
+- dayz
+- GameServers
+Name: dayz
+Overview: "This Docker will download and install SteamCMD. It will also install DayZ\
+  \ and run it.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/ich777/steamcmd/
+Repository: ich777/steamcmd
+Requires: ''
+Sources:
+- https://www.bohemia.net/games/dayz
+- https://hub.docker.com/r/ich777/steamcmd/
+Tag: dayz
+caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/DayZ.xml

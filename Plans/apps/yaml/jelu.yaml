@@ -1,0 +1,79 @@
+CategoryList:
+- MediaApp-Books
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: /mnt/user/appdata/jelu/config
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config Path
+      Required: 'false'
+      Target: /config
+      Type: Path
+      value: /mnt/user/appdata/jelu/config
+    databasepath:
+      Default: /mnt/user/appdata/jelu/database
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Database Path
+      Required: 'false'
+      Target: /database
+      Type: Path
+      value: /mnt/user/appdata/jelu/database
+    imagespath:
+      Default: /mnt/user/appdata/jelu/files/images
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Images Path
+      Required: 'false'
+      Target: /files/images
+      Type: Path
+      value: /mnt/user/appdata/jelu/files/images
+    importspath:
+      Default: /mnt/user/appdata/jelu/files/imports
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Imports Path
+      Required: 'false'
+      Target: /files/imports
+      Type: Path
+      value: /mnt/user/appdata/jelu/files/imports
+  Port:
+    main:
+      Default: '11111'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Web Interface
+      Required: 'false'
+      Target: 11111
+      Type: Port
+      value: 11111
+  Variable: {}
+Icon: https://raw.githubusercontent.com/CorneliousJD/Docker-Templates/master/icons/jelu.png
+Keywords:
+- jelu
+- MediaApp-Books
+Name: jelu
+Overview: "Track what you have read, what you are reading and what you want to read.\r\
+  \n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/wabayang/jelu
+Repository: wabayang/jelu
+Requires: ''
+Sources:
+- https://github.com/bayang/jelu
+- https://hub.docker.com/r/wabayang/jelu
+Tag: latest
+WebUI: http://[IP]:[PORT:11111]

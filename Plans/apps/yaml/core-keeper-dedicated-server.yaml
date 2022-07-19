@@ -1,0 +1,113 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label:
+    WORLD_SEED:
+      Default: '0'
+      Description: The seed to use for a new world. Set to 0 to generate random seed.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: WORLD_SEED
+      Required: 'false'
+      Target: WORLD_SEED
+      Type: Label
+      value: '0'
+  Path:
+    datafiles:
+      Default: ''
+      Description: Data of server
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Data files
+      Required: 'true'
+      Target: /home/steam/core-keeper-data
+      Type: Path
+      value: /mnt/user/appdata/core-keeper-server/server-data
+    serverfiles:
+      Default: ''
+      Description: Path to server files, not required
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Server files
+      Required: 'false'
+      Target: /home/steam/core-keeper-dedicated
+      Type: Path
+      value: /mnt/user/appdata/core-keeper-server/server-files
+  Port: {}
+  Variable:
+    data_path:
+      Default: ''
+      Description: 'Save file location. If not set it defaults to a sub-folder named '
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: DATA_PATH
+      Required: 'false'
+      Target: DATA_PATH
+      Type: Variable
+      value: ''
+    game_id:
+      Default: ''
+      Description: Game ID to use for the server. Need to be at least 23 characters
+        and alphanumeric, excluding Y,y,x,0,O. Empty or not valid means a new ID will
+        be generated at start.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: GAME_ID
+      Required: 'false'
+      Target: GAME_ID
+      Type: Variable
+      value: examplegameidwillgohere
+    max_players:
+      Default: ''
+      Description: Maximum number of players that will be allowed to connect to server.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MAX_PLAYERS
+      Required: 'false'
+      Target: MAX_PLAYERS
+      Type: Variable
+      value: '10'
+    world_index:
+      Default: '0'
+      Description: ' Which world index to use.'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: WORLD_INDEX
+      Required: 'false'
+      Target: WORLD_INDEX
+      Type: Variable
+      value: '0'
+    world_name:
+      Default: ''
+      Description: The name you wish to give to your server and its associated world
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: WORLD_NAME
+      Required: 'false'
+      Target: WORLD_NAME
+      Type: Variable
+      value: World name here
+Icon: https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/352114ae5d9447b65921f75e76b4a927.png
+Keywords:
+- core-keeper-dedicated-server
+- GameServers
+Name: core-keeper-dedicated-server
+Overview: "Docker file for the new Core Keeper dedicated server running from SteamCMD.\
+  \ (No account etc needed)\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/escaping/core-keeper-dedicated
+Repository: escaping/core-keeper-dedicated
+Requires: ''
+Sources:
+- https://github.com/escapingnetwork/core-keeper-dedicated/
+- https://hub.docker.com/r/escaping/core-keeper-dedicated
+Tag: latest

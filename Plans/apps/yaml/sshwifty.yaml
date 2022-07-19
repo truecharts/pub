@@ -1,0 +1,84 @@
+CategoryList:
+- Tools-Utilities
+- Network-Web
+- Network-Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    certs:
+      Default: ''
+      Description: 'Container Path: /certs/'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Certs
+      Required: 'false'
+      Target: /certs/
+      Type: Path
+      value: /mnt/user/appdata/sshwifty/certs/
+    configurationpathforsshwifty-conf-jsonfile:
+      Default: ''
+      Description: Configuration path for optional sshwifty.conf.json file
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Configuration path for sshwifty.conf.json file
+      Required: 'false'
+      Target: /home/sshwifty/.config/
+      Type: Path
+      value: /mnt/user/appdata/sshwifty/config/
+  Port:
+    main:
+      Default: ''
+      Description: 'Container Port: 8182'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Host Port 1
+      Required: 'false'
+      Target: 8182
+      Type: Port
+      value: 8182
+  Variable:
+    hostkey1:
+      Default: ''
+      Description: 'Container Variable: TLSCertificateFile'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Host Key 1
+      Required: 'false'
+      Target: SSHWIFTY_TLSCERTIFICATEFILE
+      Type: Variable
+      value: /certs/cert.crt
+    hostkey2:
+      Default: ''
+      Description: 'Container Variable: SSHWIFTY_TLSCERTIFICATEKEYFILE'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Host Key 2
+      Required: 'false'
+      Target: SSHWIFTY_TLSCERTIFICATEKEYFILE
+      Type: Variable
+      value: /certs/cert.key
+Icon: https://raw.githubusercontent.com/Frooodle/unraid-templates/main/icons/sshwifty.png
+Keywords:
+- sshwifty
+- Tools-Utilities
+- Network-Web
+- Network-Other
+Name: sshwifty
+Overview: "Sshwifty is a SSH and Telnet connector made for the Web. It can be deployed\
+  \ on your computer or server to provide SSH and Telnet access interface for any\
+  \ compatible (standard) web browser.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/niruix/sshwifty
+Repository: niruix/sshwifty
+Requires: ''
+Sources:
+- https://github.com/nirui/sshwifty
+- https://hub.docker.com/r/niruix/sshwifty
+Tag: latest
+WebUI: http://[IP]:[PORT:8182]

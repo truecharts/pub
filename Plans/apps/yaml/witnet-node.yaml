@@ -1,0 +1,53 @@
+CategoryList:
+- Crypto
+- Tools-Utilities
+- Other
+- Network-Web
+- Network-Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    app_dir:
+      Default: ''
+      Description: 'Container Path: /.witnet'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: app_dir
+      Required: 'false'
+      Target: /.witnet
+      Type: Path
+      value: /mnt/user/appdata/witnet
+  Port:
+    main:
+      Default: '21337'
+      Description: 'Container Port: 21337'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: port
+      Required: 'false'
+      Target: 21337
+      Type: Port
+      value: 21337
+  Variable: {}
+Icon: https://cryptototem.com/wp-content/uploads/2018/06/witnet-logo.jpg
+Keywords:
+- witnet-node
+- Crypto
+- Tools-Utilities
+- Other
+- Network-Web
+- Network-Other
+Name: witnet-node
+Overview: "Full node of the Witnet Oracle. The decentralized oracle that is true to\
+  \ the censorship resistant nature of blockchains.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/witnet/witnet-rust
+Repository: witnet/witnet-rust
+Requires: ''
+Sources:
+- https://witnet.io/
+- https://hub.docker.com/r/witnet/witnet-rust
+Tag: latest

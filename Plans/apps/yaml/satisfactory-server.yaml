@@ -1,0 +1,110 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: /mnt/user/appdata/satisfactory-customer
+      Description: 'Container Path: /config'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config path
+      Required: 'false'
+      Target: /config
+      Type: Path
+      value: /mnt/user/appdata/unraid-satisfactory-server
+  Port:
+    beaconport:
+      Default: '15000'
+      Description: Set the game's beacon port
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: Beacon port
+      Required: 'false'
+      Target: 15000
+      Type: Port
+      value: 15000
+    gameport:
+      Default: '7777'
+      Description: "Set the game's port\r\n"
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: Game port
+      Required: 'false'
+      Target: 7777
+      Type: Port
+      value: 7777
+    queryport:
+      Default: '15777'
+      Description: Set the game's query port
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: Query port
+      Required: 'false'
+      Target: 15777
+      Type: Port
+      value: 15777
+  Variable:
+    maxplayers:
+      Default: '4'
+      Description: "Set the player limit for your server.\r\n"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MAXPLAYERS
+      Required: 'true'
+      Target: MAXPLAYERS
+      Type: Variable
+      value: '4'
+    pgid:
+      Default: '1000'
+      Description: "Set the group ID of the user the server will run as\r\n"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PGID
+      Required: 'false'
+      Target: PGID
+      Type: Variable
+      value: '1000'
+    puid:
+      Default: ''
+      Description: "Set the user ID of the user the server will run as\r\n"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PUID
+      Required: 'false'
+      Target: PUID
+      Type: Variable
+      value: '1000'
+    steambeta:
+      Default: 'false'
+      Description: Set experimental game version
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Steam beta
+      Required: 'false'
+      Target: STEAMBETA
+      Type: Variable
+      value: 'false'
+Icon: https://img2.storyblok.com/fit-in/0x200/filters:format(webp)/f/110098/268x268/d1ebbafe03/logo.png
+Keywords:
+- satisfactory-server
+- GameServers
+Name: satisfactory-server
+Overview: This is a Dockerized version of the Satisfactory dedicated server.
+Privileged: 'false'
+Registry: https://hub.docker.com/r/wolveix/satisfactory-server
+Repository: wolveix/satisfactory-server
+Requires: ''
+Sources:
+- https://hub.docker.com/r/wolveix/satisfactory-server
+- https://hub.docker.com/r/wolveix/satisfactory-server
+Tag: latest

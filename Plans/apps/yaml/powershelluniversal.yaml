@@ -1,0 +1,89 @@
+CategoryList:
+- Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    data:
+      Default: ''
+      Description: 'Container Path: /home/data'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: data
+      Required: 'false'
+      Target: /home/data
+      Type: Path
+      value: ''
+  Port:
+    main:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: WebUI Port
+      Required: 'false'
+      Target: 5000
+      Type: Port
+      value: 5000
+  Variable:
+    data__connectionstring:
+      Default: ''
+      Description: 'Container Variable: Data__ConnectionString'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Data__ConnectionString
+      Required: 'false'
+      Target: Data__ConnectionString
+      Type: Variable
+      value: ''
+    data__repositorypath:
+      Default: ''
+      Description: 'Container Variable: Data__RepositoryPath'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Data__RepositoryPath
+      Required: 'false'
+      Target: Data__RepositoryPath
+      Type: Variable
+      value: ''
+    logging__path:
+      Default: ''
+      Description: 'Container Variable: Logging__Path'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Logging__Path
+      Required: 'false'
+      Target: Logging__Path
+      Type: Variable
+      value: ''
+    universaldashboard__assetsfolder:
+      Default: ''
+      Description: 'Container Variable: UniversalDashboard__AssetsFolder'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: UniversalDashboard__AssetsFolder
+      Required: 'false'
+      Target: UniversalDashboard__AssetsFolder
+      Type: Variable
+      value: ''
+Icon: https://avatars.githubusercontent.com/u/34902941
+Keywords:
+- powershelluniversal
+- Other
+Name: powershelluniversal
+Overview: PowerShell Universal is the ultimate platform for building web-based IT
+  tools.
+Privileged: 'false'
+Registry: https://hub.docker.com/r/ironmansoftware/universal/
+Repository: ironmansoftware/universal
+Requires: ''
+Sources:
+- https://hub.docker.com/r/ironmansoftware/universal/
+Tag: latest
+WebUI: http://[IP]:[PORT:5000]

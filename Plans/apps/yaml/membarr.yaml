@@ -1,0 +1,54 @@
+CategoryList:
+- HomeAutomation
+- Tools-Utilities
+- Other
+- MediaApp-Other
+- MediaServer-Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: /mnt/user/appdata/membarr/
+      Description: Config path (containing app.db and config.ini)
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config
+      Required: 'true'
+      Target: /app/app/config
+      Type: Path
+      value: /mnt/user/appdata/membarr/
+  Port: {}
+  Variable:
+    discordbottoken:
+      Default: ''
+      Description: Discord Bot Token
+      Display: always
+      Mask: 'true'
+      Mode: ''
+      Name: Discord Bot Token
+      Required: 'true'
+      Target: token
+      Type: Variable
+      value: ''
+Icon: https://raw.githubusercontent.com/Yoruio/unraid-templates/master/membarr/icon.png
+Keywords:
+- membarr
+- HomeAutomation
+- Tools-Utilities
+- Other
+- MediaApp-Other
+- MediaServer-Other
+Name: membarr
+Overview: Membarr is a discord bot that invites discord users to Plex and/or Jellyfin.
+  Manually create users and invite server members with a single command, or let Membarr
+  automatically add server members with a certain role.
+Privileged: 'false'
+Registry: https://hub.docker.com/r/yoruio/membarr
+Repository: yoruio/membarr
+Requires: ''
+Sources:
+- https://github.com/yoruio/membarr
+- https://hub.docker.com/r/yoruio/membarr
+Tag: latest

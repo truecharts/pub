@@ -1,0 +1,102 @@
+CategoryList:
+- Productivity
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: /mnt/user/appdata/import_ics
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config
+      Required: 'true'
+      Target: /config
+      Type: Path
+      value: /mnt/user/appdata/import_ics
+    icsexportfolder:
+      Default: /mnt/user/appdata/import_ics/ical_export
+      Description: Folder into which you can place ics files to be imported.  And
+        which downloaded ics files will be placed into.  If unmapped, downloads will
+        still work.
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: ICS Export Folder
+      Required: 'false'
+      Target: /import_ics/ical_export
+      Type: Path
+      value: /mnt/user/appdata/import_ics/ical_export
+  Port: {}
+  Variable:
+    crontab_schedule:
+      Default: 0 0 * * *
+      Description: Crontab schedule string for when script is desired to run.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: CRONTAB_SCHEDULE
+      Required: 'false'
+      Target: CRONTAB_SCHEDULE
+      Type: Variable
+      value: 0 0 * * *
+    ics_password:
+      Default: ''
+      Description: Password for connecting to CalDAV server
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: ICS_PASSWORD
+      Required: 'true'
+      Target: ICS_PASSWORD
+      Type: Variable
+      value: ''
+    ics_url:
+      Default: ''
+      Description: "URL to access the CalDAV Server\r\neg. http://example.com/dav.php"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: ICS_URL
+      Required: 'true'
+      Target: ICS_URL
+      Type: Variable
+      value: ''
+    ics_username:
+      Default: ''
+      Description: Username for connecting to CalDAV server
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: ICS_USERNAME
+      Required: 'true'
+      Target: ICS_USERNAME
+      Type: Variable
+      value: ''
+    timezone:
+      Default: UTC
+      Description: Timezone for docker to run in.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: TimeZone
+      Required: 'false'
+      Target: TZ
+      Type: Variable
+      value: UTC
+Icon: https://raw.githubusercontent.com/Vilhjalmr26/unraid_icons/main/calendar.png
+Keywords:
+- import-ics
+- Productivity
+Name: import-ics
+Overview: "Runs a python script at a crontab defined interval that downloads/imports\
+  \ ics files into a caldav server.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/repository/docker/vilhjalmr26/import_ics
+Repository: vilhjalmr26/import_ics
+Requires: ''
+Sources:
+- https://github.com/Vilhjalmr26/import_ics
+- https://hub.docker.com/repository/docker/vilhjalmr26/import_ics
+Tag: latest

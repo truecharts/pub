@@ -1,0 +1,295 @@
+CategoryList:
+- Network-Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: /mnt/user/appdata/dms/config/
+      Description: /tmp/docker-mailserver/
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config
+      Required: 'true'
+      Target: /tmp/docker-mailserver/
+      Type: Path
+      value: /mnt/user/appdata/dms/config/
+    localtime:
+      Default: /etc/localtime
+      Description: Localtime
+      Display: advanced
+      Mask: 'false'
+      Mode: ro
+      Name: Localtime
+      Required: 'false'
+      Target: /etc/localtime
+      Type: Path
+      value: /etc/localtime
+    logfiles:
+      Default: /mnt/user/appdata/dms/mail-log/
+      Description: /var/log/mail/
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Log files
+      Required: 'true'
+      Target: /var/log/mail/
+      Type: Path
+      value: /mnt/user/appdata/dms/mail-log/
+    mails:
+      Default: /mnt/user/appdata/dms/mail-data/
+      Description: /var/mail/
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Mails
+      Required: 'true'
+      Target: /var/mail/
+      Type: Path
+      value: /mnt/user/appdata/dms/mail-data/
+    mailstate:
+      Default: /mnt/user/appdata/dms/mail-state/
+      Description: /var/mail-state/
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Mail state
+      Required: 'true'
+      Target: /var/mail-state/
+      Type: Path
+      value: /mnt/user/appdata/dms/mail-state/
+    mountsslpath:
+      Default: ''
+      Description: "&lt;b&gt;Mounting path&lt;/b&gt; where certs are stored\r\n&lt;br&gt;If\
+        \ &lt;b&gt;letsencrypt&lt;/b&gt; is choosen as &lt;b&gt;SSL Type&lt;/b&gt;,\
+        \ then path structure &lt;b&gt;must&lt;/b&gt; look like this:\r\n&lt;br&gt;\
+        \ Host: /mnt/user/appdata/.../letsencrypt/\r\n&lt;br&gt; Container: /etc/letsencrypt/"
+      Display: advanced
+      Mask: 'false'
+      Mode: rw
+      Name: Mount SSL Path
+      Required: 'false'
+      Target: /etc/letsencrypt/
+      Type: Path
+      value: ''
+  Port:
+    portesmtp:
+      Default: '465'
+      Description: ESMTP (implicit TLS) Port
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: 'Port: ESMTP'
+      Required: 'true'
+      Target: 465
+      Type: Port
+      value: 465
+    portesmtpssl:
+      Default: '587'
+      Description: ESMTP (explicit TLS =&gt; STARTTLS) Port
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: 'Port: ESMTP (SSL)'
+      Required: 'true'
+      Target: 587
+      Type: Port
+      value: 587
+    portimap4:
+      Default: '143'
+      Description: IMAP4 (explicit TLS =&gt; STARTTLS) Port
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: 'Port: IMAP4'
+      Required: 'true'
+      Target: 143
+      Type: Port
+      value: 143
+    portimap4ssl:
+      Default: '993'
+      Description: IMAP4 (implicit TLS) Port
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: 'Port: IMAP4 (SSL)'
+      Required: 'true'
+      Target: 993
+      Type: Port
+      value: 993
+    portmanagesiev:
+      Default: '4190'
+      Description: Managesieve
+      Display: advanced
+      Mask: 'false'
+      Mode: tcp
+      Name: 'Port: Managesieve'
+      Required: 'false'
+      Target: 4190
+      Type: Port
+      value: 4190
+    portsmtp:
+      Default: '25'
+      Description: SMTP  (explicit TLS =&gt; STARTTLS) Port
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: 'Port: SMTP'
+      Required: 'true'
+      Target: 25
+      Type: Port
+      value: 25
+  Variable:
+    certpath:
+      Default: ''
+      Description: " This is only supported with &lt;b&gt;`SSL_TYPE=manual`&lt;/b&gt;.\r\
+        \n&lt;br&gt; Provide the path to your &lt;b&gt;cert&lt;/b&gt; file that you've\
+        \ mounted access to within the container.\r\n&lt;br&gt;Example: /etc/letsencrypt/live/example.com/fullchain.pem"
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Cert Path
+      Required: 'false'
+      Target: SSL_CERT_PATH
+      Type: Variable
+      value: ''
+    clamav:
+      Default: '1'
+      Description: "ClamAV\r\n&lt;br&gt; 1 = Enable\r\n&lt;br&gt; 0 = Disable"
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: ClamAV
+      Required: 'false'
+      Target: ENABLE_CLAMAV
+      Type: Variable
+      value: '1'
+    fail2ban:
+      Default: '0'
+      Description: "Fail2Ban\r\n&lt;br&gt; 1 = Enable\r\n&lt;br&gt; 0 = Disable"
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Fail2Ban
+      Required: 'false'
+      Target: ENABLE_FAIL2BAN
+      Type: Variable
+      value: '0'
+    keypath:
+      Default: ''
+      Description: " This is only supported with &lt;b&gt;`SSL_TYPE=manual`&lt;/b&gt;.\r\
+        \n&lt;br&gt; Provide the path to your &lt;b&gt;key&lt;/b&gt; file that you've\
+        \ mounted access to within the container.\r\n&lt;br&gt;Example: /etc/letsencrypt/live/example.com/privkey.pem"
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Key path
+      Required: 'false'
+      Target: SSL_KEY_PATH
+      Type: Variable
+      value: ''
+    managesieve:
+      Default: '0'
+      Description: "Managesieve\r\n&lt;br&gt; 1 = Enable\r\n&lt;br&gt; 0 = Disable"
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Managesieve
+      Required: 'false'
+      Target: ENABLE_MANAGESIEVE
+      Type: Variable
+      value: '1'
+    maxmailsize:
+      Default: '10240000'
+      Description: "\r\nempty =&gt; 10240000 (~10 MB)"
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Max mail size
+      Required: 'false'
+      Target: POSTFIX_MESSAGE_SIZE_LIMIT
+      Type: Variable
+      value: '10240000'
+    postgrey:
+      Default: '0'
+      Description: "Greylist\r\n&lt;br&gt; 1 = Enable\r\n&lt;br&gt; 0 = Disable"
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Postgrey
+      Required: 'false'
+      Target: ENABLE_POSTGREY
+      Type: Variable
+      value: '1'
+    singlestatedirectory:
+      Default: '1'
+      Description: "0 =&gt; mail state in default directories\r\n&lt;br&gt; 1 =&gt;\
+        \ consolidate all states into a single directory (`/var/mail-state`) to allow\
+        \ persistence using docker volumes"
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Single state directory
+      Required: 'false'
+      Target: ONE_DIR
+      Type: Variable
+      value: '1'
+    spamassassin:
+      Default: '1'
+      Description: "Spamassassin\r\n&lt;br&gt; 1 = Enable\r\n&lt;br&gt; 0 = Disable"
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: SPAMASSASSIN
+      Required: 'false'
+      Target: ENABLE_SPAMASSASSIN
+      Type: Variable
+      value: '1'
+    spamtoinbox:
+      Default: '0'
+      Description: "deliver spam messages in the inbox\r\n&lt;br&gt; 1 = Enable\r\n\
+        &lt;br&gt; 0 = Disable"
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Spam to inbox
+      Required: 'false'
+      Target: SPAMASSASSIN_SPAM_TO_INBOX
+      Type: Variable
+      value: '1'
+    ssltype:
+      Default: ''
+      Description: "&lt;b&gt;empty&lt;/b&gt; =&gt; SSL disabled &lt;b&gt; (NOT recommended)&lt;/b&gt;&lt;br&gt;\
+        \ \r\n&lt;b&gt;letsencrypt&lt;/b&gt; =&gt; Enables Let's Encrypt certificates\
+        \ &lt;b&gt; (/etc/letsencrypt/live/example.com/) &lt;/b&gt;&lt;br&gt;\r\n\
+        &lt;b&gt;custom&lt;/b&gt; =&gt; Enables custom certificates &lt;br&gt;\r\n\
+        &lt;b&gt;manual&lt;/b&gt; =&gt; Let's you manually specify locations of your\
+        \ SSL certificates for non-standard cases &lt;br&gt;\r\n&lt;b&gt;self-signed&lt;/b&gt;=&gt;\
+        \ Enables self-signed certificates\r\n\r\n&lt;br&gt; &lt;br&gt; If &lt;b&gt;emtpy&lt;/b&gt;\
+        \ is &lt;b&gt; not &lt;/b&gt; choosen, go to =&gt; Show more settings..."
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SSL Type
+      Required: 'false'
+      Target: SSL_TYPE
+      Type: Variable
+      value: ''
+ExtraParams: --hostname mail.example.com --restart always --cap-add=NET_ADMIN --cap-add=SYS_PTRACE
+Icon: https://avatars.githubusercontent.com/u/76868633?s=200&amp;v=4
+Keywords:
+- docker-mailserver
+- Network-Other
+Name: docker-mailserver
+Overview: "A production-ready fullstack but simple mail server (SMTP, IMAP, LDAP,\
+  \ Antispam, Antivirus, etc.). Only configuration files, no SQL database. Keep it\
+  \ simple and versioned. Easy to deploy and upgrade.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/mailserver/docker-mailserver
+Repository: mailserver/docker-mailserver
+Requires: ''
+Sources:
+- https://github.com/docker-mailserver/docker-mailserver
+- https://hub.docker.com/r/mailserver/docker-mailserver
+Tag: latest

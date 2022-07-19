@@ -1,0 +1,22 @@
+env:
+  CRON_SCHEDULE: '@daily'
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/recyclarr
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false

@@ -68,10 +68,10 @@ combined = {}
 combinedfree = {}
 combinedreq = {}
 
-paths1 = os.listdir("../website/apps/stable")
-paths2 = os.listdir("../website/apps/incubator")
-paths3 = os.listdir("../website/apps/core")
-paths4 = os.listdir("../website/apps/games")
+paths1 = os.listdir("./website-charts/stable")
+paths2 = os.listdir("./website-charts/incubator")
+paths3 = os.listdir("./website-charts/dev")
+paths4 = os.listdir("./website-charts/dependency")
 
 paths = paths1 + paths2 + paths3 + paths4
 for p in range(len(paths)):

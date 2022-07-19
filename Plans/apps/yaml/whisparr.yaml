@@ -1,0 +1,86 @@
+Branch:
+  Registry: https://hub.docker.com/r/hotio/whisparr
+  Repository: cr.hotio.dev/hotio/whisparr:nightly
+  Tag: nightly
+  TagDescription: nightly branch
+CategoryList:
+- Downloaders
+- MediaApp-Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: ''
+      Description: 'Container Path: /config'
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /config
+      Required: 'true'
+      Target: /config
+      Type: Path
+      value: ''
+  Port:
+    main:
+      Default: '6969'
+      Description: 'Container Port: 6969'
+      Display: always-hide
+      Mask: 'false'
+      Mode: tcp
+      Name: Host Port for 6969
+      Required: 'true'
+      Target: 6969
+      Type: Port
+      value: 6969
+  Variable:
+    pgid:
+      Default: '100'
+      Description: 'Container Variable: PGID'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: PGID
+      Required: 'false'
+      Target: PGID
+      Type: Variable
+      value: ''
+    puid:
+      Default: '99'
+      Description: 'Container Variable: PUID'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: PUID
+      Required: 'false'
+      Target: PUID
+      Type: Variable
+      value: ''
+    umask:
+      Default: '002'
+      Description: 'Container Variable: UMASK'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: UMASK
+      Required: 'false'
+      Target: UMASK
+      Type: Variable
+      value: ''
+Icon: https://hotio.dev/webhook-avatars/whisparr.png
+Keywords:
+- whisparr
+- Downloaders
+- MediaApp-Other
+Name: whisparr
+Overview: An adult media thingy.
+Privileged: 'false'
+Registry: https://hub.docker.com/r/hotio/whisparr
+Repository: cr.hotio.dev/hotio/whisparr
+Requires: ''
+Sources:
+- https://hotio.dev/containers/whisparr
+- https://hub.docker.com/r/hotio/whisparr
+Tag: nightly
+WebUI: http://[IP]:[PORT:6969]
+caTemplateURL: https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/whisparr.xml

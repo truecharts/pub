@@ -1,0 +1,105 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    serverfiles:
+      Default: ''
+      Description: Data Directory
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: ServerFiles
+      Required: 'true'
+      Target: /lunamultiplayer
+      Type: Path
+      value: /mnt/cache/appdata/lunamultiplayer/
+  Port:
+    main:
+      Default: ''
+      Description: UDP Game Port (If you need another port delete this entry and create
+        a new entry with the same Container and Host port, also don't forget to change
+        the port in your game settings file).
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP - GamePort
+      Required: 'true'
+      Target: 8800
+      Type: Port
+      value: 8800
+  Variable:
+    data_perm:
+      Default: ''
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: DATA_PERM
+      Required: 'true'
+      Target: DATA_PERM
+      Type: Variable
+      value: '770'
+    gid:
+      Default: ''
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: GID
+      Required: 'true'
+      Target: GID
+      Type: Variable
+      value: '100'
+    lunamultiplayerversion:
+      Default: ''
+      Description: Enter the prefered version (valid options are 'latest' and 'nightly'
+        both without quotes).
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Luna Multiplayer Version
+      Required: 'true'
+      Target: LMP_V
+      Type: Variable
+      value: latest
+    uid:
+      Default: ''
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: UID
+      Required: 'true'
+      Target: UID
+      Type: Variable
+      value: '99'
+    umask:
+      Default: ''
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: UMASK
+      Required: 'true'
+      Target: UMASK
+      Type: Variable
+      value: '0000'
+ExtraParams: --restart=unless-stopped
+Icon: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/lmp.png
+Keywords:
+- kerbalspaceprogram-lmp
+- GameServers
+Name: kerbalspaceprogram-lmp
+Overview: "This container will download and run Luna Multiplayer for Kerbal Space\
+  \ Program (KSP).\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/ich777/lunamultiplayer-ksp/
+Repository: ich777/lunamultiplayer-ksp
+Requires: ''
+Sources:
+- https://github.com/LunaMultiplayer/LunaMultiplayer
+- https://hub.docker.com/r/ich777/lunamultiplayer-ksp/
+Tag: latest
+caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/KerbalSpaceProgram-LMP.xml

@@ -1,0 +1,107 @@
+CategoryList:
+- Other
+- MediaApp-Other
+- MediaServer-Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    hostpathforkeystore:
+      Default: ''
+      Description: 'Usually : /mnt/user/appdata/plaxt'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /keystore
+      Required: 'false'
+      Target: /app/keystore
+      Type: Path
+      value: ''
+  Port:
+    main:
+      Default: ''
+      Description: Web UI Port
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: 'Web UI Port:'
+      Required: 'false'
+      Target: 8000
+      Type: Port
+      value: 8000
+  Variable:
+    clientidfromtrakt-tvapiapp:
+      Default: ''
+      Description: Client ID (From Trakt .tv API App)
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Client ID (From Trakt .tv API App)
+      Required: 'true'
+      Target: TRAKT_ID
+      Type: Variable
+      value: ''
+    clientsecretfromtrakt-tvapiapp:
+      Default: ''
+      Description: Client SECRET (From Trakt .tv API App)
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Client SECRET (From Trakt .tv API App)
+      Required: 'true'
+      Target: TRAKT_SECRET
+      Type: Variable
+      value: ''
+    pgid:
+      Default: '100'
+      Description: 'Container Variable: PGID'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: PGID
+      Required: 'false'
+      Target: PGID
+      Type: Variable
+      value: '100'
+    puid:
+      Default: '99'
+      Description: 'Container Variable: PUID'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: PUID
+      Required: 'false'
+      Target: PUID
+      Type: Variable
+      value: '99'
+    timezone:
+      Default: ''
+      Description: 'Container Variable: TZ'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Time Zone
+      Required: 'false'
+      Target: TZ
+      Type: Variable
+      value: ''
+Icon: https://github.com/jadehawk/unRaid-Templates/blob/main/plaxt/trakt.png?raw=true
+Keywords:
+- plaxt
+- Other
+- MediaApp-Other
+- MediaServer-Other
+Name: plaxt
+Overview: "This Tools provides a way to keep your watched history synced FROM Plex\
+  \ Server To Trakt.tv (IT will not do history prior to tool Installation) it uses\
+  \ WebHooks to Accomplish this so a PLEX PASS Subscription is needed to use WebHooks.\r\
+  \n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/xanderstrike/goplaxt
+Repository: xanderstrike/goplaxt
+Requires: ''
+Sources:
+- https://github.com/XanderStrike/goplaxt
+- https://hub.docker.com/r/xanderstrike/goplaxt
+Tag: latest
+WebUI: http://[IP]:[PORT:8000]

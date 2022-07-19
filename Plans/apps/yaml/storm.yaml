@@ -1,0 +1,93 @@
+CategoryList:
+- Downloaders
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port:
+    main:
+      Default: '8221'
+      Description: WebUI port to access your deluge installation via storm
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: WebUI
+      Required: 'false'
+      Target: 8221
+      Type: Port
+      value: 8221
+  Variable:
+    deluge_rpc_hostname:
+      Default: ''
+      Description: Change this to the current name for the deluge container you want
+        to connect storm's webUI to
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DELUGE_RPC_HOSTNAME
+      Required: 'true'
+      Target: DELUGE_RPC_HOSTNAME
+      Type: Variable
+      value: ''
+    deluge_rpc_password:
+      Default: ''
+      Description: "The password storm will use to connect to the deluge container.\
+        \ \r\n\r\nSet this in appdata\\deluge\\auth file"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DELUGE_RPC_PASSWORD
+      Required: 'true'
+      Target: DELUGE_RPC_PASSWORD
+      Type: Variable
+      value: ''
+    deluge_rpc_username:
+      Default: ''
+      Description: "The username storm will use to connect to the deluge container.\
+        \ \r\n\r\nSet this in appdata\\deluge\\auth file"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DELUGE_RPC_USERNAME
+      Required: 'true'
+      Target: DELUGE_RPC_USERNAME
+      Type: Variable
+      value: ''
+    deluge_rpc_version:
+      Default: v2|v1
+      Description: "RPC connection version to use.\r\nDepends on your deluge version."
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DELUGE_RPC_VERSION
+      Required: 'true'
+      Target: DELUGE_RPC_VERSION
+      Type: Variable
+      value: v2
+    storm_api_key:
+      Default: ''
+      Description: "Set this to a reasonably secure password.\r\nAny requests made\
+        \ to Storm must now provide the API key in the request."
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: STORM_API_KEY
+      Required: 'false'
+      Target: STORM_API_KEY
+      Type: Variable
+      value: ''
+Icon: https://raw.githubusercontent.com/djismgaming/docker-templates/main/djismGAMING/img/storm.png
+Keywords:
+- storm
+- Downloaders
+Name: storm
+Overview: "Introducing Storm\r\n"
+Privileged: 'false'
+Registry: https://github.com/relvacode/storm/pkgs/container/storm
+Repository: ghcr.io/relvacode/storm
+Requires: ''
+Sources:
+- https://github.com/relvacode/storm
+- https://github.com/relvacode/storm/pkgs/container/storm
+Tag: latest
+WebUI: http://[IP]:[PORT:8221]

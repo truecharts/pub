@@ -1,0 +1,48 @@
+CategoryList:
+- Productivity
+- Tools-Utilities
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port:
+    main:
+      Default: '8082'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: WebUI
+      Required: 'false'
+      Target: 8082
+      Type: Port
+      value: 8082
+  Variable:
+    quantuxbackend:
+      Default: http://server-ip:8383
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Quant UX Backend
+      Required: 'false'
+      Target: QUX_PROXY_URL
+      Type: Variable
+      value: http://server-ip:8383
+ExtraParams: --restart unless-stopped
+Icon: https://i.imgur.com/jjSgyHO.png
+Keywords:
+- quant-ux-frontend
+- Productivity
+- Tools-Utilities
+Name: quant-ux-frontend
+Overview: "Front End for the Quant UX Project.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/bmcgonag/qux-fe/
+Repository: bmcgonag/qux-fe
+Requires: ''
+Sources:
+- https://github.com/KlausSchaefers/quant-ux
+- https://hub.docker.com/r/bmcgonag/qux-fe/
+Tag: latest
+WebUI: http://[IP]:[PORT:8082]

@@ -1,0 +1,47 @@
+CategoryList:
+- Productivity
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    jupyterrundirectory:
+      Default: /mnt/user/appdata/jupyter_to
+      Description: 'Container Path: /dmc'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Jupyter run directory
+      Required: 'true'
+      Target: /dmc
+      Type: Path
+      value: /mnt/user/appdata/jupyter_to
+  Port:
+    main:
+      Default: '8888'
+      Description: 'Container Port: 8888'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: WebUI
+      Required: 'true'
+      Target: 8888
+      Type: Port
+      value: 8888
+  Variable: {}
+Icon: https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/207px-Jupyter_logo.svg.png
+Keywords:
+- jupyter-tensorflow-opencv
+- Productivity
+Name: jupyter-tensorflow-opencv
+Overview: "Unraid compatible Jupyter Notebook (Python kernel) container with CPU-ready\
+  \ Tensorflow, OpenCV, Pandas, PyTorch -- based on datamachines/tensorflow_opencv\r\
+  \n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/datamachines/jupyter_to-unraid/
+Repository: datamachines/jupyter_to-unraid
+Requires: ''
+Sources:
+- https://github.com/datamachines/cuda_tensorflow_opencv
+- https://hub.docker.com/r/datamachines/jupyter_to-unraid/
+Tag: latest
+WebUI: http://[IP]:[PORT:8888]

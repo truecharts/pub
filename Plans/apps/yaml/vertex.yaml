@@ -1,0 +1,72 @@
+CategoryList:
+- Tools-Utilities
+- HomeAutomation
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: ''
+      Description: "\u914D\u7F6E\u6587\u4EF6\u76EE\u5F55"
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config
+      Required: 'true'
+      Target: /vertex
+      Type: Path
+      value: /mnt/user/appdata/vertex/
+  Port:
+    main:
+      Default: ''
+      Description: "\u8BBF\u95EE\u7AEF\u53E3"
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: PORT
+      Required: 'true'
+      Target: 3000
+      Type: Port
+      value: 3000
+  Variable:
+    port:
+      Default: '3000'
+      Description: "Vertex \u8FD0\u884C\u65F6\u5BB9\u5668\u5185\u7684\u670D\u52A1\u7AEF\
+        \u53E3"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PORT
+      Required: 'false'
+      Target: PORT
+      Type: Variable
+      value: '3000'
+    tz:
+      Default: Asia/Shanghai
+      Description: "\u65F6\u533A"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: TZ
+      Required: 'false'
+      Target: TZ
+      Type: Variable
+      value: Asia/Shanghai
+Icon: https://pic.lswl.in/images/2022/07/10/5ae104f82f39eb4059861393ef24d440.png
+Keywords:
+- vertex
+- Tools-Utilities
+- HomeAutomation
+Name: vertex
+Overview: "Vertex \u662F\u4E00\u6B3E\u96C6 \u76D1\u63A7, \u5237\u6D41, \u7AD9\u70B9\
+  , \u641C\u7D22, \u8FFD\u5267 \u4E8E\u4E00\u8EAB\u7684 PT \u7BA1\u7406\u8F6F\u4EF6\
+  \r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/lswl/vertex
+Repository: lswl/vertex
+Requires: ''
+Sources:
+- https://gitlab.lswl.in/lswl/vertex
+- https://hub.docker.com/r/lswl/vertex
+Tag: stable
+WebUI: http://[IP]:[PORT:3000]/

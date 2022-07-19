@@ -1,0 +1,67 @@
+CategoryList:
+- Network-Web
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port:
+    main:
+      Default: '3000'
+      Description: Port
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Port
+      Required: 'false'
+      Target: 3000
+      Type: Port
+      value: 3000
+  Variable:
+    address:
+      Default: 0.0.0.0
+      Description: Hosted IP Address
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Address
+      Required: 'false'
+      Target: ADDRESS
+      Type: Variable
+      value: 0.0.0.0
+    force_webp:
+      Default: '0'
+      Description: Force WEBP to reduce bandwidth
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: FORCE_WEBP
+      Required: 'false'
+      Target: FORCE_WEBP
+      Type: Variable
+      value: '0'
+    imgurclientid:
+      Default: 546c25a59c58ad7
+      Description: Imgur Client ID
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Imgur Client ID
+      Required: 'false'
+      Target: IMGUR_CLIENT_ID
+      Type: Variable
+      value: 546c25a59c58ad7
+ExtraParams: --restart=always
+Icon: https://raw.githubusercontent.com/Joshndroid/joshndroid-unraid-docker-templates/main/icons/rimgo.png
+Keywords:
+- rimgo
+- Network-Web
+Name: rimgo
+Overview: "Alternative Imgur front-end\r\n"
+Privileged: 'false'
+Registry: https://quay.io/repository/pussthecatorg/rimgo
+Repository: quay.io/pussthecatorg/rimgo
+Requires: ''
+Sources:
+- https://quay.io/repository/pussthecatorg/rimgo
+Tag: latest
+WebUI: http://[IP]:[PORT:3000]/

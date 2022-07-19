@@ -1,0 +1,76 @@
+CategoryList:
+- Backup
+- Cloud
+- Downloaders
+- HomeAutomation
+- Tools-Utilities
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    configpath:
+      Default: /mnt/user/appdata/icloud-drive-sync/config.yaml
+      Description: 'Container Path: /app/config.yaml'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config Path
+      Required: 'false'
+      Target: /app/config.yaml
+      Type: Path
+      value: /mnt/user/appdata/icloud-drive-sync/config.yaml
+    drivepath:
+      Default: ''
+      Description: 'Container Path: /app/drive'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Drive Path
+      Required: 'true'
+      Target: /app/icloud/
+      Type: Path
+      value: /mnt/user/icloud-drive-sync/
+  Port: {}
+  Variable:
+    pgid:
+      Default: '100'
+      Description: 'Container Variable: PGID'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PGID
+      Required: 'false'
+      Target: PGID
+      Type: Variable
+      value: '100'
+    puid:
+      Default: '99'
+      Description: 'Container Variable: PUID'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PUID
+      Required: 'false'
+      Target: PUID
+      Type: Variable
+      value: '99'
+ExtraParams: --restart always
+Icon: https://help.apple.com/assets/60AD31069883FC55AC222539/60AD310B9883FC55AC22254A/de_DE/712e44cf3701cf5bc9580c9367fa5526.png
+Keywords:
+- icloud-drive-sync
+- Backup
+- Cloud
+- Downloaders
+- HomeAutomation
+- Tools-Utilities
+Name: icloud-drive-sync
+Overview: "This container will DOWNLOAD (not upload - yet) all your files / photos\
+  \ from iCloud.\r\n"
+Privileged: 'false'
+Registry: https://github.com/mandarons/icloud-drive-docker
+Repository: mandarons/icloud-drive
+Requires: ''
+Sources:
+- https://hub.docker.com/r/mandarons/icloud-drive
+- https://github.com/mandarons/icloud-drive-docker
+Tag: latest

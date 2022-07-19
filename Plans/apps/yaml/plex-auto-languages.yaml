@@ -1,0 +1,73 @@
+CategoryList:
+- Tools-Utilities
+- MediaApp-Other
+- MediaApp-Video
+- MediaServer-Video
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: /mnt/user/appdata/Plex-Auto-Languages/config
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Chemin vers la conf dans AppData
+      Required: 'false'
+      Target: /config
+      Type: Path
+      value: /mnt/user/appdata/Plex-Auto-Languages/config
+  Port: {}
+  Variable:
+    plex_token:
+      Default: VOTRE_TOKEN_PLEX
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PLEX_TOKEN
+      Required: 'false'
+      Target: PLEX_TOKEN
+      Type: Variable
+      value: VOTRE_TOKEN_PLEX
+    plex_url:
+      Default: http://plex:32400
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PLEX_URL
+      Required: 'false'
+      Target: PLEX_URL
+      Type: Variable
+      value: http://plex:32400
+    timezone:
+      Default: Europe/Paris
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Time Zone
+      Required: 'false'
+      Target: TZ
+      Type: Variable
+      value: Europe/Paris
+Icon: https://raw.githubusercontent.com/superboki/ressources/main/plex-auto-languages/plex_auto_languages.png
+Keywords:
+- plex-auto-languages
+- Tools-Utilities
+- MediaApp-Other
+- MediaApp-Video
+- MediaServer-Video
+Name: plex-auto-languages
+Overview: "Mes vid\xE9os sur unraid disponibles sur : https://www.youtube.com/superboki\r\
+  \n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/remirigal/plex-auto-languages
+Repository: remirigal/plex-auto-languages
+Requires: ''
+Sources:
+- https://github.com/remirigal/plex-auto-languages
+- https://hub.docker.com/r/remirigal/plex-auto-languages
+Tag: latest

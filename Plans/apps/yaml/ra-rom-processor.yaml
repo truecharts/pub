@@ -1,0 +1,232 @@
+CategoryList:
+- MediaApp-Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: ''
+      Description: 'Container Path: /config'
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /config
+      Required: 'true'
+      Target: /config
+      Type: Path
+      value: ''
+    hostpathforbackup:
+      Default: ''
+      Description: Processed ROMs are backed up to this directory
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /backup
+      Required: 'true'
+      Target: /backup
+      Type: Path
+      value: ''
+    hostpathforcache:
+      Default: ''
+      Description: cache location for skyscraper.
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /cache
+      Required: 'true'
+      Target: /cache
+      Type: Path
+      value: ''
+    hostpathforinput:
+      Default: ''
+      Description: ' Place ROMs to be processed in this directory'
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /input
+      Required: 'true'
+      Target: /input
+      Type: Path
+      value: ''
+    hostpathforoutput:
+      Default: ''
+      Description: ROMs that have been processed will end up here
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /output
+      Required: 'true'
+      Target: /output
+      Type: Path
+      value: ''
+  Port: {}
+  Variable:
+    aquireromsets:
+      Default: 'true'
+      Description: 'true = Enabled :: Enabling this will have the script attempt to
+        pull valid ROM sets from archive.org for processing'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Aquire ROM Sets
+      Required: 'true'
+      Target: AquireRomSets
+      Type: Variable
+      value: ''
+    concurrentdownloadthreads:
+      Default: '5'
+      Description: Number of concurrent threads to increase download speed... only
+        aplicable if AquireRomSets is enabled (true)
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Concurrent Download Threads
+      Required: 'true'
+      Target: ConcurrentDownloadThreads
+      Type: Variable
+      value: ''
+    deduperomlibrary:
+      Default: 'true'
+      Description: 'true = Enabled :: This setting further reduces the final ROMs
+        list per platrom, by removing duplicates with the priority of: USA > Europe
+        > World > Japan, and then by shortest filename when multiples exist'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DeDupe ROM Library
+      Required: 'true'
+      Target: DeDupe
+      Type: Variable
+      value: ''
+    enableautomaticscriptstart:
+      Default: 'true'
+      Description: 'true = Enabled :: Runs script automatically on startup'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Enable Automatic Script Start
+      Required: 'true'
+      Target: AutoStart
+      Type: Variable
+      value: ''
+    enableunsupportedplatforms:
+      Default: 'true'
+      Description: 'true = Enabled :: Enabling this will allow the script to import
+        and scrape ROMs for platforms without RA hashes, no deduping/validation is
+        performed'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Enable Unsupported Platforms
+      Required: 'true'
+      Target: EnableUnsupportedPlatforms
+      Type: Variable
+      value: ''
+    keepbackupsofprocessedroms:
+      Default: 'true'
+      Description: 'false = Enabled :: This setting will only keep a single copy of
+        each ROM, reduces the required amount of storage space...'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Keep Backups of Processed ROMs
+      Required: 'true'
+      Target: keepBackupsOfImportedRoms
+      Type: Variable
+      value: ''
+    metadatalanguagepreference:
+      Default: en
+      Description: 'Set to preferred language for Metadata, for more info visit: https://github.com/muldjord/skyscraper/blob/master/docs/LANGUAGES.md#list-of-supported-languages'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Metadata Language Preference
+      Required: 'true'
+      Target: skyscraperLanguagePreference
+      Type: Variable
+      value: ''
+    pgid:
+      Default: '100'
+      Description: 'Container Variable: PGID'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: PGID
+      Required: 'false'
+      Target: PGID
+      Type: Variable
+      value: ''
+    puid:
+      Default: '99'
+      Description: 'Container Variable: PUID'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: PUID
+      Required: 'false'
+      Target: PUID
+      Type: Variable
+      value: ''
+    scrapemetadata:
+      Default: 'true'
+      Description: 'true = Enabled :: Enabling this will allow the script to process
+        the ROMs with skyscraper'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Scrape Metadata
+      Required: 'true'
+      Target: ScrapeMetadata
+      Type: Variable
+      value: ''
+    screenscraperaccountpassword:
+      Default: ''
+      Description: Password for https://screenscraper.fr/
+      Display: always
+      Mask: 'true'
+      Mode: ''
+      Name: Screenscraper Account Password
+      Required: 'false'
+      Target: ScreenscraperPassword
+      Type: Variable
+      value: ''
+    screenscraperaccountusername:
+      Default: ''
+      Description: Username for https://screenscraper.fr/
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Screenscraper Account Username
+      Required: 'true'
+      Target: ScreenscraperUsername
+      Type: Variable
+      value: ''
+    scriptinterval:
+      Default: 15m
+      Description: '#s or #m or #h or #d :: s = seconds, m = minutes, h = hours, d
+        = days :: Amount of time between each script run, when AUTOSTART is enabled'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Script Interval
+      Required: 'true'
+      Target: ScriptInterval
+      Type: Variable
+      value: ''
+Icon: https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/raromprocessor.png
+Keywords:
+- ra-rom-processor
+- MediaApp-Other
+Name: ra-rom-processor
+Overview: RA ROM Processor is a Docker container that is used to download/orgainze/process/verify/dedupe/scrape
+  a ROMs library automatically by matching ROMs to the RetroAchievement.org website
+  Hash database.
+Privileged: 'false'
+Registry: https://hub.docker.com/r/randomninjaatk/raromprocessor
+Repository: randomninjaatk/raromprocessor
+Requires: ''
+Sources:
+- https://github.com/RandomNinjaAtk/docker-raromprocessor
+- https://hub.docker.com/r/randomninjaatk/raromprocessor
+- https://github.com/RandomNinjaAtk/docker-raromprocessor#instructionsusage-guidelines
+Tag: latest

@@ -1,0 +1,134 @@
+CategoryList:
+- Productivity
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port:
+    main:
+      Default: '3000'
+      Description: 'Container Port: 3000'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Web Interface
+      Required: 'false'
+      Target: 3000
+      Type: Port
+      value: 3000
+  Variable:
+    bundle_without:
+      Default: ''
+      Description: Gem classes to omit (leave blank unless you know what this is for)
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: BUNDLE_WITHOUT
+      Required: 'false'
+      Target: BUNDLE_WITHOUT
+      Type: Variable
+      value: ''
+    database_encoding:
+      Default: utf8
+      Description: use utf8 for mysql or unicode for postgresql
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DATABASE_ENCODING
+      Required: 'false'
+      Target: DATABASE_ENCODING
+      Type: Variable
+      value: utf8
+    database_host:
+      Default: 10.0.0.10
+      Description: 'Container Variable: DATABASE_HOST'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DATABASE_HOST
+      Required: 'false'
+      Target: DATABASE_HOST
+      Type: Variable
+      value: 10.0.0.10
+    database_name:
+      Default: tracks
+      Description: 'Container Variable: DATABASE_NAME'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DATABASE_NAME
+      Required: 'false'
+      Target: DATABASE_NAME
+      Type: Variable
+      value: tracks
+    database_password:
+      Default: password
+      Description: 'Container Variable: DATABASE_PASSWORD'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DATABASE_PASSWORD
+      Required: 'false'
+      Target: DATABASE_PASSWORD
+      Type: Variable
+      value: password
+    database_port:
+      Default: '3306'
+      Description: 'Container Variable: DATABASE_PORT'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DATABASE_PORT
+      Required: 'false'
+      Target: DATABASE_PORT
+      Type: Variable
+      value: '3306'
+    database_type:
+      Default: mysql2
+      Description: mysql2 or postgresql
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DATABASE_TYPE
+      Required: 'false'
+      Target: DATABASE_TYPE
+      Type: Variable
+      value: mysql2
+    database_username:
+      Default: tracks
+      Description: 'Container Variable: DATABASE_USERNAME'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DATABASE_USERNAME
+      Required: 'false'
+      Target: DATABASE_USERNAME
+      Type: Variable
+      value: tracks
+    rails_env:
+      Default: production
+      Description: 'Container Variable: RAILS_ENV'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: RAILS_ENV
+      Required: 'false'
+      Target: RAILS_ENV
+      Type: Variable
+      value: production
+Icon: https://raw.githubusercontent.com/CorneliousJD/Docker-Templates/master/icons/tracks.png
+Keywords:
+- tracks
+- Productivity
+Name: tracks
+Overview: "Tracks is a web-based todo application to help you implement the GTD methodology.\
+  \ \r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/tracksapp/tracks
+Repository: tracksapp/tracks
+Requires: ''
+Sources:
+- http://www.getontracks.org/
+- https://hub.docker.com/r/tracksapp/tracks
+Tag: latest
+WebUI: http://[IP]:[PORT:3000]/

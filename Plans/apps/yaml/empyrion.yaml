@@ -1,0 +1,56 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    game_dir:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Game_DIR
+      Required: 'true'
+      Target: /home/user/Empyrion - Dedicated Server/
+      Type: Path
+      value: /mnt/user/appdata/Empyrion - Dedicated Server/
+    steamcmd:
+      Default: ''
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: rw
+      Name: SteamCMD
+      Required: 'true'
+      Target: /home/user/Steam
+      Type: Path
+      value: /mnt/user/appdata/Empyrion - Dedicated Server
+  Port:
+    main:
+      Default: '30000'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: Container Port 1
+      Required: 'false'
+      Target: 30000
+      Type: Port
+      value: 30000
+  Variable: {}
+ExtraParams: --restart=unless-stopped
+Icon: https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/157792e4abb490f99dbd738483e0d2d4/32/256x256.png
+Keywords:
+- empyrion
+- GameServers
+Name: empyrion
+Overview: "Empyrion dedicated server using WINE\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/bitr/empyrion-server/
+Repository: bitr/empyrion-server
+Requires: ''
+Sources:
+- https://hub.docker.com/r/bitr/empyrion-server/
+- https://hub.docker.com/r/bitr/empyrion-server/
+Tag: latest

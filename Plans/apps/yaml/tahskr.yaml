@@ -1,0 +1,45 @@
+CategoryList:
+- Productivity
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    data:
+      Default: /mnt/user/appdata/tahskr
+      Description: 'Container Path: /app/data/'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: AppData
+      Required: 'false'
+      Target: /app/data/
+      Type: Path
+      value: /mnt/user/appdata/tahskr
+  Port:
+    main:
+      Default: '8612'
+      Description: 'Container Port: 8080'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Port
+      Required: 'false'
+      Target: 8080
+      Type: Port
+      value: 8612
+  Variable: {}
+Icon: https://raw.githubusercontent.com/CorneliousJD/Docker-Templates/master/icons/tahskr.png
+Keywords:
+- tahskr
+- Productivity
+Name: tahskr
+Overview: "tahskr is a simple, open source, self-hosted todo manager.\r\n"
+Privileged: 'false'
+Registry: https://github.com/Dullage/tahskr-server
+Repository: dullage/tahskr-server
+Requires: ''
+Sources:
+- https://github.com/Dullage/tahskr-server
+- https://github.com/Dullage/tahskr-server
+Tag: latest
+WebUI: http://[IP]:[PORT:8080]/

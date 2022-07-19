@@ -1,0 +1,25 @@
+CategoryList:
+- Other
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port: {}
+  Variable: {}
+Icon: https://github.com/actualbudget/actual/raw/master/packages/desktop-electron/icons/icon.png
+Keywords:
+- actualserver
+- Other
+Name: actualserver
+Overview: "Actual is a super fast privacy-focused app for managing your finances.\
+  \ You own your data and it will sync it across all devices with optional end-to-end\
+  \ encryption..\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/kippenhof/actual-server
+Repository: kippenhof/actual-server
+Requires: ''
+Sources:
+- https://github.com/Kippenhof/docker-templates
+- https://hub.docker.com/r/kippenhof/actual-server
+Tag: latest
+WebUI: http://[IP]:[PORT:5006]

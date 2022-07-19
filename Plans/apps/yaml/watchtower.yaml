@@ -1,0 +1,27 @@
+CategoryList:
+- Other
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port: {}
+  Variable: {}
+Icon: https://containrrr.dev/watchtower/images/logo-450px.png
+Keywords:
+- watchtower
+- Other
+Name: watchtower
+Overview: "With watchtower you can update the running version of your containerized\
+  \ app simply by pushing a new image to the Docker Hub or your own image registry.\
+  \ Watchtower will pull down your new image, gracefully shut down your existing container\
+  \ and restart it with the same options that were used when it was deployed initially.\
+  \ \r\n"
+PostArgs: --schedule "0 0 4 * * *" --cleanup
+Privileged: 'false'
+Registry: https://hub.docker.com/r/containrrr/watchtower
+Repository: containrrr/watchtower
+Requires: ''
+Sources:
+- https://containrrr.dev/watchtower/
+- https://hub.docker.com/r/containrrr/watchtower
+Tag: latest

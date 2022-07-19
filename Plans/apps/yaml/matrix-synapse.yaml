@@ -1,0 +1,96 @@
+CategoryList:
+- Productivity
+- Network-Voip
+- Network-Messenger
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    data:
+      Default: /mnt/user/appdata/synapse
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: AppData
+      Required: 'false'
+      Target: /data
+      Type: Path
+      value: /mnt/user/appdata/synapse
+  Port:
+    main:
+      Default: '8008'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Client Port
+      Required: 'false'
+      Target: 8008
+      Type: Port
+      value: 8008
+  Variable:
+    groupid:
+      Default: '100'
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Group ID
+      Required: 'false'
+      Target: GID
+      Type: Variable
+      value: '100'
+    reportstats:
+      Default: 'no'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Report Stats
+      Required: 'false'
+      Target: SYNAPSE_REPORT_STATS
+      Type: Variable
+      value: 'no'
+    servername:
+      Default: matrix.domain.com
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Server Name
+      Required: 'false'
+      Target: SYNAPSE_SERVER_NAME
+      Type: Variable
+      value: matrix.domain.com
+    userid:
+      Default: '99'
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: User ID
+      Required: 'false'
+      Target: UID
+      Type: Variable
+      value: '99'
+ExtraParams: --no-healthcheck
+Icon: https://raw.githubusercontent.com/CorneliousJD/Docker-Templates/master/icons/matrix.png
+Keywords:
+- matrix-synapse
+- Productivity
+- Network-Voip
+- Network-Messenger
+Name: matrix-synapse
+Overview: "Matrix Chat's reference server. By default it uses a sqlite database; for\
+  \ production use you should connect it to a separate PostgreSQL database.\r\n"
+PostArgs: generate
+Privileged: 'false'
+Registry: https://hub.docker.com/r/matrixdotorg/synapse
+Repository: matrixdotorg/synapse
+Requires: ''
+Sources:
+- https://matrix.org/docs/projects/server/synapse
+- https://hub.docker.com/r/matrixdotorg/synapse
+Tag: latest
+WebUI: http://[IP]:[PORT:8008]

@@ -1,0 +1,101 @@
+CategoryList:
+- HomeAutomation
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port: {}
+  Variable:
+    loc:
+      Default: ''
+      Description: 'Container Variable: LOC'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: LOC
+      Required: 'true'
+      Target: LOC
+      Type: Variable
+      value: ''
+    mysql_database:
+      Default: ''
+      Description: 'Container Variable: MYSQL_DATABASE'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MYSQL_DATABASE
+      Required: 'true'
+      Target: MYSQL_DATABASE
+      Type: Variable
+      value: ''
+    mysql_pass:
+      Default: ''
+      Description: 'Container Variable: MYSQL_PASS'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MYSQL_PASS
+      Required: 'true'
+      Target: MYSQL_PASS
+      Type: Variable
+      value: ''
+    mysql_server:
+      Default: ''
+      Description: 'Container Variable: MYSQL_SERVER'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MYSQL_SERVER
+      Required: 'true'
+      Target: MYSQL_SERVER
+      Type: Variable
+      value: ''
+    mysql_table:
+      Default: ''
+      Description: 'Container Variable: MYSQL_TABLE'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MYSQL_TABLE
+      Required: 'true'
+      Target: MYSQL_TABLE
+      Type: Variable
+      value: ''
+    mysql_user:
+      Default: ''
+      Description: 'Container Variable: MYSQL_USER'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MYSQL_USER
+      Required: 'true'
+      Target: MYSQL_USER
+      Type: Variable
+      value: ''
+    sleep:
+      Default: ''
+      Description: 'Container Variable: sleep'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SLEEP
+      Required: 'true'
+      Target: SLEEP
+      Type: Variable
+      value: '3600'
+Icon: https://raw.githubusercontent.com/simonjenny/fastcom-mysql/master/fastlogo.jpg
+Keywords:
+- fastcom-mysql
+- HomeAutomation
+Name: fastcom-mysql
+Overview: 'Docker Container with Fast.com CLI sending data to a MySQL Server
+
+  '
+Privileged: 'false'
+Registry: https://hub.docker.com/r/simonjenny/fastcom-mysql/
+Repository: simonjenny/fastcom-mysql
+Requires: ''
+Sources:
+- https://github.com/simonjenny/fastcom-mysql
+- https://hub.docker.com/r/simonjenny/fastcom-mysql/
+Tag: latest

@@ -1,0 +1,30 @@
+annotations:
+  truecharts.org/SCALE-support: 'true'
+  truecharts.org/catagories: |
+    - Tools-Utilities
+  truecharts.org/grade: U
+apiVersion: v2
+appVersion: 0.0.1
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 9.2.6
+deprecated: false
+description: "This Community Application provides the official Ghostfolio container.\r\
+  \n"
+home: https://github.com/truecharts/apps/tree/master/charts/stable/ghostfolio
+icon: https://truecharts.org/_static/img/appicons/ghostfolio.png
+keywords:
+- ghostfolio
+- Tools-Utilities
+kubeVersion: '>=1.16.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: ghostfolio
+sources:
+- https://ghostfol.io/
+- https://hub.docker.com/r/ghostfolio/ghostfolio/
+type: application
+version: 0.0.1

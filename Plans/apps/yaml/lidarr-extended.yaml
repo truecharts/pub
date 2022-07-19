@@ -1,0 +1,359 @@
+CategoryList:
+- Downloaders
+- MediaApp-Music
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: ''
+      Description: 'Container Path: /config'
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /config
+      Required: 'true'
+      Target: /config
+      Type: Path
+      value: ''
+    hostpathfordownloads-lidarr-extended:
+      Default: /mnt/user
+      Description: 'Container Path: /downloads-lidarr-extended'
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /downloads-lidarr-extended
+      Required: 'true'
+      Target: /downloads-lidarr-extended
+      Type: Path
+      value: ''
+    hostpathformusic:
+      Default: /mnt/user
+      Description: 'Container Path: /music'
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /music
+      Required: 'true'
+      Target: /music
+      Type: Path
+      value: ''
+    hostpathformusic-videos:
+      Default: /mnt/user
+      Description: 'Container Path: /music-videos'
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path for /music-videos
+      Required: 'true'
+      Target: /music-videos
+      Type: Path
+      value: ''
+  Port:
+    main:
+      Default: '8686'
+      Description: 'Container Port: 8686'
+      Display: always-hide
+      Mask: 'false'
+      Mode: tcp
+      Name: Host Port for 8686
+      Required: 'true'
+      Target: 8686
+      Type: Port
+      value: 8686
+  Variable:
+    adddeezerrelatedartists:
+      Default: 'false'
+      Description: 'true = enabled :: WARNING !!! WARNING !!! Enabling this can cause
+        an endless loop of additional artists.... Enabling this will enable the extended
+        script to automatically add artists that are related to your existing Lidarr
+        artists from Deezer'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Add Deezer Related Artists
+      Required: 'true'
+      Target: addRelatedArtists
+      Type: Variable
+      value: ''
+    adddeezertopablumartists:
+      Default: 'false'
+      Description: 'true = enabled :: Enabling this will enable the extended script
+        to automatically add artists that are on the Deezer Top Ablum Chart to your
+        existing Lidarr instance'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Add Deezer Top Ablum Artists
+      Required: 'true'
+      Target: addDeezerTopAlbumArtists
+      Type: Variable
+      value: ''
+    adddeezertopartists:
+      Default: 'false'
+      Description: 'true = enabled :: Enabling this will enable the extended script
+        to automatically add artists that are on the Deezer Top Artist Chart to your
+        existing Lidarr instance'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Add Deezer Top Artists
+      Required: 'true'
+      Target: addDeezerTopArtists
+      Type: Variable
+      value: ''
+    adddeezertoptrackartists:
+      Default: 'false'
+      Description: 'true = enabled :: Enabling this will enable the extended script
+        to automatically add artists that are on the Deezer Top Track Chart to your
+        existing Lidarr instance'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Add Deezer Top Track Artists
+      Required: 'true'
+      Target: addDeezerTopTrackArtists
+      Type: Variable
+      value: ''
+    audiobitrate:
+      Default: lossless
+      Description: 'lossless or high or low or ### :: lossless = flac files, high
+        = 320K, low = 128k/96k, ### = the output bitrate of converted lossless files
+        to selected audioFormat that is not native, example: 192...'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Audio Bitrate
+      Required: 'true'
+      Target: audioBitrate
+      Type: Variable
+      value: ''
+    audioformat:
+      Default: native
+      Description: 'native or alac or mp3 or aac or opus :: native is the native download
+        client file type, selected by the matching audio bitrate'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Audio Format
+      Required: 'true'
+      Target: audioFormat
+      Type: Variable
+      value: ''
+    audiolyrictype:
+      Default: both
+      Description: 'both or explicit or clean :: both, is explicit perferred matching,
+        explicit is explicit releases only matching and clean is clean releases only
+        matching'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Audio Lyric Type
+      Required: 'true'
+      Target: audioLyricType
+      Type: Variable
+      value: ''
+    automaticallyconfigurelidarrwithoptimalsettings:
+      Default: 'true'
+      Description: 'true = enabled :: Automatically configures Lidarr with optimal
+        settings'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Automatically Configure Lidarr With Optimal Settings
+      Required: 'true'
+      Target: configureLidarrWithOptimalSettings
+      Type: Variable
+      value: ''
+    beetsmatchpercentagelimit:
+      Default: '90'
+      Description: '1-100 :: Set this to the minimum percentage required for Beets
+        to match the downloaded album to a musicbrainz release :: Lower percentage
+        is less restrictive'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Beets Match Percentage Limit
+      Required: 'true'
+      Target: beetsMatchPercentage
+      Type: Variable
+      value: ''
+    deemixarltoken:
+      Default: ''
+      Description: User token for deemix client
+      Display: always
+      Mask: 'true'
+      Mode: ''
+      Name: Deemix ARL Token
+      Required: 'false'
+      Target: arlToken
+      Type: Variable
+      value: ''
+    deezertoplimit:
+      Default: '10'
+      Description: This setting controls the amount of Top Artist (Albums/Tracks/Artists)
+        to add to Lidarr from Deezer
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Deezer Top Limit
+      Required: 'true'
+      Target: topLimit
+      Type: Variable
+      value: ''
+    dlclientsource:
+      Default: deezer
+      Description: 'deezer, tidal or both :: set to both, to use both clients, tidal
+        requires extra steps, view logging output'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DL Client Source
+      Required: 'true'
+      Target: dlClientSource
+      Type: Variable
+      value: ''
+    enableautomaticscriptstart:
+      Default: 'true'
+      Description: 'true = Enabled :: Runs script automatically on startup'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Enable Automatic Script Start
+      Required: 'true'
+      Target: autoStart
+      Type: Variable
+      value: ''
+    missingcutofflistsortorder:
+      Default: date
+      Description: 'date or ablum :: Sorts the missing/cutoff list by release date
+        (newest -> oldest) or album type (album -> single) for processing the list'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Missing/Cutoff List Sort Order
+      Required: 'true'
+      Target: searchSort
+      Type: Variable
+      value: ''
+    numberofdeezerrelatedartistsperlidarrartisttoadd:
+      Default: '5'
+      Description: '1-20 :: This will limit the number of related artists to add per
+        artist in your library :: Minimum is 1, Maximum is 20'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Number of Deezer Related Artists per Lidarr Artist to add
+      Required: 'true'
+      Target: numberOfRelatedArtistsToAddPerArtist
+      Type: Variable
+      value: ''
+    pgid:
+      Default: '100'
+      Description: 'Container Variable: PGID'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: PGID
+      Required: 'true'
+      Target: PGID
+      Type: Variable
+      value: ''
+    plextoken:
+      Default: ''
+      Description: ONLY used if PlexNotify.bash is used...
+      Display: always
+      Mask: 'true'
+      Mode: ''
+      Name: Plex Token
+      Required: 'false'
+      Target: plexToken
+      Type: Variable
+      value: ''
+    plexurl:
+      Default: http://x.x.x.x:32400
+      Description: ONLY used if PlexNotify.bash is used...
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Plex Url
+      Required: 'false'
+      Target: plexUrl
+      Type: Variable
+      value: ''
+    pre-tagfilesusingbeets:
+      Default: 'true'
+      Description: 'true = enabled :: Downloads will be processed and tagged by Beets'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Pre-tag files using Beets
+      Required: 'true'
+      Target: enableBeetsTagging
+      Type: Variable
+      value: ''
+    pre-tagfileswithreplaygain:
+      Default: 'true'
+      Description: 'true = enabled :: Downloads will be tagged with Replaygain Metadata'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Pre-tag files with Replaygain
+      Required: 'true'
+      Target: enableReplaygainTags
+      Type: Variable
+      value: ''
+    puid:
+      Default: '99'
+      Description: 'Container Variable: PUID'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: PUID
+      Required: 'true'
+      Target: PUID
+      Type: Variable
+      value: ''
+    requireaudioquality:
+      Default: 'true'
+      Description: 'true = enabled :: Downloads will be required to have the requested
+        file format'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Require Audio Quality
+      Required: 'true'
+      Target: requireQuality
+      Type: Variable
+      value: ''
+    tidalcountrycode:
+      Default: US
+      Description: Country Code for Tidal API data
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Tidal Country Code
+      Required: 'true'
+      Target: tidalCountryCode
+      Type: Variable
+      value: ''
+Icon: https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/lidarr.png
+Keywords:
+- lidarr-extended
+- Downloaders
+- MediaApp-Music
+Name: lidarr-extended
+Overview: "Lidarr is a music collection manager for Usenet and BitTorrent users. It\
+  \ can monitor multiple RSS feeds for new tracks from your favorite artists and will\
+  \ grab, sort and rename them. It can also be configured to automatically upgrade\
+  \ the quality of files already downloaded when a better quality format becomes available..\r\
+  \n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/randomninjaatk/lidarr-extended
+Repository: randomninjaatk/lidarr-extended
+Requires: ''
+Sources:
+- https://github.com/RandomNinjaAtk/docker-lidarr-extended
+- https://hub.docker.com/r/randomninjaatk/lidarr-extended
+Tag: latest
+WebUI: http://[IP]:[PORT:8686]

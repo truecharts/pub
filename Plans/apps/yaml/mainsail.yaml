@@ -1,0 +1,55 @@
+CategoryList:
+- Productivity
+- Tools-Utilities
+- Other
+- Network-Web
+- Network-Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    configpath:
+      Default: ''
+      Description: 'Container Path: /usr/share/nginx/html/config.json'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config Path
+      Required: 'false'
+      Target: /usr/share/nginx/html/config.json
+      Type: Path
+      value: /mnt/user/appdata/mainsail/config.json
+  Port:
+    main:
+      Default: ''
+      Description: 'Container Port: 8080'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: WebUI
+      Required: 'false'
+      Target: 80
+      Type: Port
+      value: 8099
+  Variable: {}
+Icon: https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/logo.png
+Keywords:
+- mainsail
+- Productivity
+- Tools-Utilities
+- Other
+- Network-Web
+- Network-Other
+Name: mainsail
+Overview: "Mainsail makes Klipper more accessible by adding a lightweight, responsive\
+  \ web user interface, centred around an intuitive and consistent design philosophy.\r\
+  \n"
+Privileged: 'false'
+Registry: https://github.com/mainsail-crew/mainsail
+Repository: ghcr.io/mainsail-crew/mainsail
+Requires: ''
+Sources:
+- https://github.com/mainsail-crew/mainsail
+- https://github.com/mainsail-crew/mainsail
+Tag: latest
+WebUI: http://[IP]:[PORT:80]/

@@ -1,0 +1,122 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    savegame:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: SaveGame
+      Required: 'true'
+      Target: /appdata/space-engineers/instances/Saves/
+      Type: Path
+      value: /mnt/user/appdata/SpaceEngineersDedicated/Instances/Saves/
+    serverconfig:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: ServerConfig
+      Required: 'true'
+      Target: /appdata/space-engineers/instances
+      Type: Path
+      value: /mnt/user/appdata/SpaceEngineersDedicated/Instances
+    serverfiles:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: ServerFiles
+      Required: 'true'
+      Target: /appdata/space-engineers/SpaceEngineersDedicated
+      Type: Path
+      value: /mnt/user/appdata/SpaceEngineersDedicated
+    steamcmd:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: SteamCMD
+      Required: 'true'
+      Target: /serverdata/steamcmd
+      Type: Path
+      value: /mnt/user/appdata/steamcmd/
+  Port:
+    main:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP - Game Port
+      Required: 'false'
+      Target: 27017
+      Type: Port
+      value: 27017
+  Variable:
+    containervariable1:
+      Default: win64
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Container Variable 1
+      Required: 'false'
+      Target: WINEARCH
+      Type: Variable
+      value: win64
+    containervariable2:
+      Default: -all
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Container Variable 2
+      Required: 'false'
+      Target: WINEDEBUG
+      Type: Variable
+      value: -all
+    containervariable3:
+      Default: /root/server
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Container Variable 3
+      Required: 'false'
+      Target: WINEPREFIX
+      Type: Variable
+      value: /root/server
+    containervariable4:
+      Default: '1'
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Container Variable 4
+      Required: 'false'
+      Target: APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE
+      Type: Variable
+      value: '1'
+ExtraParams: --restart=unless-stopped
+Icon: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46b63d3c-ae67-464c-9a37-670829b2a157/dby54ap-9d0b780d-2426-43af-95f9-01fa464557ad.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2YjYzZDNjLWFlNjctNDY0Yy05YTM3LTY3MDgyOWIyYTE1N1wvZGJ5NTRhcC05ZDBiNzgwZC0yNDI2LTQzYWYtOTVmOS0wMWZhNDY0NTU3YWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0dVWg8D7LYI0hx-Hy760PYC8g51bS89Mb5zK041Y4s4
+Keywords:
+- spaceengineers
+- GameServers
+Name: spaceengineers
+Overview: "Space Engineers Dedicated Server build on Debian10\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/devidian/spaceengineers/
+Repository: devidian/spaceengineers
+Requires: ''
+Sources:
+- https://hub.docker.com/r/devidian/spaceengineers/
+- https://hub.docker.com/r/devidian/spaceengineers/
+Tag: latest

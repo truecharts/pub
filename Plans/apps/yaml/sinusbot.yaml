@@ -1,0 +1,73 @@
+CategoryList:
+- Productivity
+- Tools-Utilities
+- MediaServer-Music
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    data:
+      Default: /mnt/user/appdata/sinusbot/data
+      Description: Sinusbot Data Path. Where Sinusbot can Store Data
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Data Path
+      Required: 'true'
+      Target: /opt/sinusbot/data
+      Type: Path
+      value: /mnt/user/appdata/sinusbot/data
+    scriptspath:
+      Default: /mnt/user/appdata/sinusbot/scripts
+      Description: Data Path for the Sinusbot Scripts
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Scripts Path
+      Required: 'true'
+      Target: /opt/sinusbot/scripts
+      Type: Path
+      value: /mnt/user/appdata/sinusbot/scripts
+  Port:
+    main:
+      Default: '8087'
+      Description: Port for WEB UI
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: WEB UI
+      Required: 'true'
+      Target: 8087
+      Type: Port
+      value: 8087
+  Variable:
+    webuipassword:
+      Default: foobar
+      Description: ''
+      Display: always
+      Mask: 'true'
+      Mode: ''
+      Name: WEB UI Password
+      Required: 'false'
+      Target: OVERRIDE_PASSWORD
+      Type: Variable
+      value: foobar
+Icon: https://raw.githubusercontent.com/Loony2392/unraid-templates/main/icons/sinusbot.png
+Keywords:
+- sinusbot
+- Productivity
+- Tools-Utilities
+- MediaServer-Music
+Name: sinusbot
+Official: true
+Overview: "SinusBot is a MusicBot that will let you listen to music together with\
+  \ your friends on either TeamSpeak 3 or Discord. \r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/sinusbot/docker
+Repository: sinusbot/docker
+Requires: ''
+Sources:
+- https://forum.sinusbot.com
+- https://hub.docker.com/r/sinusbot/docker
+Tag: latest
+WebUI: http://[IP]:[PORT:8087]

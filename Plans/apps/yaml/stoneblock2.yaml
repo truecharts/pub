@@ -1,0 +1,91 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    data:
+      Default: /mnt/user/appdata/stoneblock2/
+      Description: Path to store the installed server files.
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Installed Location
+      Required: 'true'
+      Target: /data
+      Type: Path
+      value: /mnt/user/appdata/stoneblock2/
+  Port:
+    main:
+      Default: '25565'
+      Description: Port for the server
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Port
+      Required: 'false'
+      Target: 25565
+      Type: Port
+      value: 25565
+  Variable:
+    eula:
+      Default: 'false'
+      Description: Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula?
+        Server will not start without accepting. Set to 'true' to accept.
+      Display: always
+      Mask: 'false'
+      Name: EULA
+      Required: 'true'
+      Target: EULA
+      Type: Variable
+      value: 'false'
+    jvm_opts:
+      Default: -Xms4096m -Xmx6144m
+      Description: Java Options
+      Display: always
+      Mask: 'false'
+      Name: JVM_OPTS
+      Required: 'false'
+      Target: JVM_OPTS
+      Type: Variable
+      value: -Xms4096m -Xmx6144m
+    level:
+      Default: world
+      Description: Name of the world directory.  It is usually world.
+      Display: advanced
+      Mask: 'false'
+      Name: LEVEL
+      Required: 'false'
+      Target: LEVEL
+      Type: Variable
+      value: world
+    ops:
+      Default: ''
+      Description: Comma separated list of players to have op capability
+      Display: always
+      Mask: 'false'
+      Name: OPS
+      Required: 'false'
+      Target: OPS
+      Type: Variable
+      value: ''
+ExtraSearchTerms: minecraft
+Icon: https://apps.modpacks.ch/modpacks/art/3/stoneblock-2.png
+Keywords:
+- stoneblock2
+- GameServers
+Name: stoneblock2
+Overview: 'FTB Presents Stoneblock 2 Modded Minecraft Server[br][br][b]FTB Presents
+  Stoneblock 2[/b][br]The Stoneblock you like, now just even better then before! New
+  mods, new dimensions, and new bosses! [br][br]Setup:[br][li]You must accept the
+  EULA by setting the [b]EULA[/b] variable to [span style=''color: #00E800;'']true[/span]
+  or the install will fail.[br]Optional:[br][li]You can setup a comma separated list
+  of players who will have admin privileges in game by setting [b]OPS[/b]'
+Privileged: 'false'
+Registry: https://hub.docker.com/repository/docker/goobaroo/stoneblock2
+Repository: goobaroo/stoneblock2
+Requires: ''
+Sources:
+- https://feed-the-beast.com/modpack/ftb_presents_stoneblock_2
+- https://hub.docker.com/repository/docker/goobaroo/stoneblock2
+Tag: latest

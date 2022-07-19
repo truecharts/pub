@@ -1,0 +1,116 @@
+CategoryList:
+- MediaApp-Video
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: /mnt/user/
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path 3
+      Required: 'false'
+      Target: /usr/local/share/twitchautomator/data/config
+      Type: Path
+      value: /mnt/user/appdata/TwitchAutomator/config
+    hostpath1:
+      Default: /mnt/user/
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path 1
+      Required: 'false'
+      Target: /usr/local/share/twitchautomator/data/storage
+      Type: Path
+      value: /mnt/user/twitch_vods/
+    hostpath2:
+      Default: /mnt/user/
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path 2
+      Required: 'false'
+      Target: /usr/local/share/twitchautomator/data/cache
+      Type: Path
+      value: /mnt/user/appdata/TwitchAutomator/cache
+    hostpath4:
+      Default: /mnt/user/
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path 4
+      Required: 'false'
+      Target: /usr/local/share/twitchautomator/data/logs
+      Type: Path
+      value: /mnt/user/appdata/TwitchAutomator/logs
+  Port:
+    main:
+      Default: '8080'
+      Description: WebUI Port
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Webinterface
+      Required: 'true'
+      Target: 8080
+      Type: Port
+      value: 8146
+  Variable:
+    enablefilemanager:
+      Description: May enable exploits.
+      Name: Enable file manager
+      Target: TCD_ENABLE_FILES_API
+      Type: Variable
+      value: '0'
+    pgid:
+      Default: '100'
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: PGID
+      Required: 'false'
+      Target: PGID
+      Type: Variable
+      value: '1000'
+    puid:
+      Default: '99'
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: PUID
+      Required: 'false'
+      Target: PUID
+      Type: Variable
+      value: '1000'
+    umask:
+      Default: '022'
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: UMASK
+      Required: 'false'
+      Target: UMASK
+      Type: Variable
+      value: '022'
+Icon: https://i.postimg.cc/Bb15Mq8g/favicon-unraid.png
+Keywords:
+- livestreamdvr
+- MediaApp-Video
+Name: livestreamdvr
+Overview: "An automatic twitch recorder.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/mrbrax/twitchautomator/
+Repository: mrbrax/twitchautomator
+Requires: ''
+Sources:
+- https://github.com/MrBrax/LiveStreamDVR
+- https://hub.docker.com/r/mrbrax/twitchautomator/
+Tag: master

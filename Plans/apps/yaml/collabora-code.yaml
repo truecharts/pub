@@ -1,0 +1,68 @@
+CategoryList:
+- Cloud
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port:
+    main:
+      Default: ''
+      Description: 'Container Port: 9980'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Host Port 1
+      Required: 'false'
+      Target: 9980
+      Type: Port
+      value: 9980
+  Variable:
+    password:
+      Default: ''
+      Description: 'Container Variable: password'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Password
+      Required: 'false'
+      Target: password
+      Type: Variable
+      value: yourpassword
+    spellingdictionaries:
+      Default: de_DE en_GB en_US es_ES fr_FR it nl pt_BR pt_PT ru
+      Description: By default only limited set of spelling dictionaries and thesauri
+        are configured for CODE, mainly for performance reasons.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Spelling dictionaries
+      Required: 'false'
+      Target: dictionaries
+      Type: Variable
+      value: de_DE en_GB en_US es_ES fr_FR it nl pt_BR pt_PT ru
+    username:
+      Default: ''
+      Description: 'Container Variable: username'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Username
+      Required: 'false'
+      Target: username
+      Type: Variable
+      value: admin
+Icon: https://raw.githubusercontent.com/chvb/docker-templates/master/chvb/img/collabora.png
+Keywords:
+- collabora-code
+- Cloud
+Name: collabora-code
+Overview: "Updated to not use domain enviroment variable\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/collabora/code/
+Repository: collabora/code
+Requires: ''
+Sources:
+- https://sdk.collaboraonline.com/docs/installation/CODE_Docker_image.html
+- https://hub.docker.com/r/collabora/code/
+Tag: latest
+WebUI: https://[IP]:[PORT:9980]/browser/dist/admin/admin.html

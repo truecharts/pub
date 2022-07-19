@@ -1,0 +1,127 @@
+CategoryList:
+- GameServers
+- Other
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    backupfiles:
+      Default: /mnt/user/appdata/crafty-4/backups/
+      Description: Server Backups
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Backup files
+      Required: 'true'
+      Target: /crafty/backups
+      Type: Path
+      value: /mnt/user/appdata/crafty-4/backups/
+    config:
+      Default: /mnt/user/appdata/crafty-4/config/
+      Description: Path to the persistent Crafty files
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Crafty Configuration
+      Required: 'true'
+      Target: /crafty/app/config
+      Type: Path
+      value: /mnt/user/appdata/crafty-4/config/
+    importfolder:
+      Default: /mnt/user/appdata/crafty-4/import/
+      Description: Import existing Mincecraft Servers
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Import folder
+      Required: 'true'
+      Target: /crafty/import
+      Type: Path
+      value: /mnt/user/appdata/crafty-4/import/
+    serverfiles:
+      Default: /mnt/user/appdata/crafty-4/servers/
+      Description: Path to the minecraft server folders
+      Display: always-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Server files
+      Required: 'true'
+      Target: /crafty/servers
+      Type: Path
+      value: /mnt/user/appdata/crafty-4/servers/
+    serverlogs:
+      Default: /mnt/user/appdata/crafty-4/logs/
+      Description: Logs
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Server Logs
+      Required: 'true'
+      Target: /crafty/logs
+      Type: Path
+      value: /mnt/user/appdata/crafty-4/logs/
+  Port:
+    main:
+      Default: '8443'
+      Description: Web UI [HTTPS]
+      Display: always-hide
+      Mask: 'false'
+      Mode: HTTP
+      Name: Web UI Port
+      Required: 'true'
+      Target: 8443
+      Type: Port
+      value: 8443
+    minecraftports:
+      Default: 25500-25600
+      Description: 'Container Port: 25500-25600 yes, 100 ports for 100 possible Servers'
+      Display: always-hide
+      Mask: 'false'
+      Mode: tcp
+      Name: Minecraft ports
+      Required: 'true'
+      Target: 25500
+      Type: Port
+      value: 25500
+    portforbedrock:
+      Default: '19132'
+      Description: Bedrock server port
+      Display: always-hide
+      Mask: 'false'
+      Mode: udp
+      Name: Port for bedrock server
+      Required: 'true'
+      Target: 19132
+      Type: Port
+      value: 19132
+    portfordynmap:
+      Default: '8123'
+      Description: Dynmap Port
+      Display: always-hide
+      Mask: 'false'
+      Mode: tcp
+      Name: Port for dynmap
+      Required: 'true'
+      Target: 8123
+      Type: Port
+      value: 8123
+  Variable: {}
+Icon: https://gitlab.com/crafty-controller/crafty-4/-/raw/master/app/frontend/static/assets/images/Crafty_4-0_Logo_square.ico
+Keywords:
+- crafty-4
+- GameServers
+- Other
+Name: crafty-4
+Overview: "Crafty 4 is the next iteration of our Minecraft Server Wrapper / Controller\
+  \ / Launcher. Boasting a clean new look, rebuilt from the ground up. Crafty 4 brings\
+  \ a whole host of new features such as Bedrock support. With SteamCMD support on\
+  \ the way!\r\n"
+Privileged: 'false'
+Registry: https://registry.hub.docker.com/r/registry.gitlab.com/crafty-controller/crafty-4
+Repository: registry.gitlab.com/crafty-controller/crafty-4
+Requires: ''
+Sources:
+- https://craftycontrol.com/
+- https://registry.hub.docker.com/r/registry.gitlab.com/crafty-controller/crafty-4
+Tag: latest
+WebUI: https://[IP]:[PORT:8443]/

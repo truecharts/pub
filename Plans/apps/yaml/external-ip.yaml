@@ -1,0 +1,114 @@
+CategoryList:
+- Network-Management
+- Network-Other
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port: {}
+  Variable:
+    delay:
+      Default: 5m
+      Description: 'Container Variable: DELAY'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DELAY
+      Required: 'false'
+      Target: DELAY
+      Type: Variable
+      value: 5m
+    notification_type:
+      Default: ''
+      Description: 'Container Variable: NOTIFICATION_TYPE'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: NOTIFICATION_TYPE
+      Required: 'false'
+      Target: NOTIFICATION_TYPE
+      Type: Variable
+      value: ''
+    provider:
+      Default: ''
+      Description: 'Container Variable: PROVIDER'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PROVIDER
+      Required: 'false'
+      Target: PROVIDER
+      Type: Variable
+      value: ''
+    pushover_title:
+      Default: ''
+      Description: 'Container Variable: PUSHOVER_TITLE'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PUSHOVER_TITLE
+      Required: 'false'
+      Target: PUSHOVER_TITLE
+      Type: Variable
+      value: ''
+    pushover_token:
+      Default: ''
+      Description: 'Container Variable: PUSHOVER_TOKEN'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PUSHOVER_TOKEN
+      Required: 'false'
+      Target: PUSHOVER_TOKEN
+      Type: Variable
+      value: ''
+    pushover_user:
+      Default: ''
+      Description: 'Container Variable: PUSHOVER_USER'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PUSHOVER_USER
+      Required: 'false'
+      Target: PUSHOVER_USER
+      Type: Variable
+      value: ''
+    recovery_alert:
+      Default: ''
+      Description: 'Container Variable: RECOVERY_ALERT'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: RECOVERY_ALERT
+      Required: 'false'
+      Target: RECOVERY_ALERT
+      Type: Variable
+      value: ''
+    tz:
+      Default: America/Chicago
+      Description: 'Container Variable: TZ'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: TZ
+      Required: 'false'
+      Target: TZ
+      Type: Variable
+      value: America/Chicago
+Icon: https://raw.githubusercontent.com/xavier-hernandez/unraid-templates/master/resources/external-ip.png
+Keywords:
+- external-ip
+- Network-Management
+- Network-Other
+Name: external-ip
+Overview: Gets external IP via DIG command ( OpenDNS , Cloudflare, google ) on a scheduled
+  basis that can be customized. Also includes the ability to alert you via pushover
+  if the IP changes.
+Privileged: 'false'
+Registry: https://hub.docker.com/repository/docker/xavierh/external-ip
+Repository: xavierh/external-ip
+Requires: ''
+Sources:
+- https://github.com/xavier-hernandez/docker-external-ip
+- https://hub.docker.com/repository/docker/xavierh/external-ip
+Tag: latest

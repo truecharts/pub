@@ -1,0 +1,92 @@
+CategoryList:
+- Cloud
+- Network-Web
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    avatarpath:
+      Default: ''
+      Description: 'Container Path: /cloudreve/avatar'
+      Display: advanced
+      Mask: 'false'
+      Mode: rw
+      Name: Avatar Path
+      Required: 'false'
+      Target: /cloudreve/avatar
+      Type: Path
+      value: /mnt/user/appdata/cloudreve/avatar
+    config:
+      Default: ''
+      Description: 'Container Path: /cloudreve/config'
+      Display: advanced
+      Mask: 'false'
+      Mode: rw
+      Name: Config Path
+      Required: 'false'
+      Target: /cloudreve/config
+      Type: Path
+      value: /mnt/user/appdata/cloudreve/config
+    databasepath:
+      Default: ''
+      Description: 'Container Path: /cloudreve/db'
+      Display: advanced
+      Mask: 'false'
+      Mode: rw
+      Name: Database Path
+      Required: 'false'
+      Target: /cloudreve/db
+      Type: Path
+      value: /mnt/user/appdata/cloudreve/db
+    uploadpath:
+      Default: ''
+      Description: 'Container Path: /cloudreve/uploads'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Upload Path
+      Required: 'true'
+      Target: /cloudreve/uploads
+      Type: Path
+      value: ''
+  Port:
+    main:
+      Default: ''
+      Description: Web UI
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Web UI
+      Required: 'false'
+      Target: 5212
+      Type: Port
+      value: 5212
+  Variable:
+    timezone:
+      Default: ''
+      Description: "\u5BB9\u5668 Variable: TZ"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Timezone
+      Required: 'false'
+      Target: TZ
+      Type: Variable
+      value: Asia/Shanghai
+Icon: https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png
+Keywords:
+- cloudreve
+- Cloud
+- Network-Web
+Name: cloudreve
+Overview: "Self-hosted file management and sharing system, supports multiple storage\
+  \ providers\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/xavierniu/cloudreve
+Repository: xavierniu/cloudreve
+Requires: ''
+Sources:
+- https://github.com/cloudreve/Cloudreve
+- https://hub.docker.com/r/xavierniu/cloudreve
+Tag: latest
+WebUI: http://[IP]:[PORT:5212]

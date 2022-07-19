@@ -1,0 +1,38 @@
+env:
+  COLLECTIONS: crowdsecurity/traefik crowdsecurity/http-cve LePresidente/authelia
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/crowdsec
+  tag: latest
+persistence:
+  appdata:
+    enabled: true
+    mountPath: /etc/crowdsec
+  authlogstoanalyze:
+    enabled: true
+    mountPath: /var/log/auth.log
+  crowdseclogstoanalyze:
+    enabled: true
+    mountPath: /var/log/crowdsec
+  data:
+    enabled: true
+    mountPath: /var/lib/crowdsec/data
+  syslogpath:
+    enabled: true
+    mountPath: /syslog
+    readOnly: true
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        enabled: true
+        port: 8081
+        protocol: TCP
+        targetPort: 8080

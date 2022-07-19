@@ -1,0 +1,41 @@
+env:
+  AUTHENTIK_ERROR_REPORTING__ENABLED: 'true'
+  AUTHENTIK_POSTGRESQL__HOST: ''
+  AUTHENTIK_POSTGRESQL__NAME: ''
+  AUTHENTIK_POSTGRESQL__PASSWORD: ''
+  AUTHENTIK_POSTGRESQL__USER: ''
+  AUTHENTIK_REDIS__HOST: ''
+  AUTHENTIK_REDIS__PASSWORD: ''
+  AUTHENTIK_SECRET_KEY: ''
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/authentik-worker
+  tag: latest
+persistence:
+  backups:
+    enabled: true
+    mountPath: /backups
+  certs:
+    enabled: true
+    mountPath: /certs
+  customtemplates:
+    enabled: true
+    mountPath: /templates
+  dockersocket:
+    enabled: true
+    mountPath: /var/run/docker.sock
+  media:
+    enabled: true
+    mountPath: /media
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false

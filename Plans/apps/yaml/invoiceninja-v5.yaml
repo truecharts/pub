@@ -1,0 +1,302 @@
+CategoryList:
+- Productivity
+- Tools-Utilities
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    logo:
+      Default: /mnt/user/appdata/invoiceninjav5/logo
+      Description: 'Container Path: /var/www/app/public/storage'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Logo
+      Required: 'false'
+      Target: /var/www/app/public/storage
+      Type: Path
+      value: ''
+    storage:
+      Default: /mnt/user/appdata/invoiceninjav5/storage
+      Description: 'Container Path: /var/www/app/storage'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Storage
+      Required: 'false'
+      Target: /var/www/app/storage
+      Type: Path
+      value: ''
+  Port:
+    httpport:
+      Default: '8000'
+      Description: 'Container Port: 80'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: HTTP Port
+      Required: 'false'
+      Target: 80
+      Type: Port
+      value: 80
+    main:
+      Default: '8443'
+      Description: 'Container Port: 443'
+      Display: always
+      Mask: 'false'
+      Mode: HTTP
+      Name: HTTPS Port
+      Required: 'false'
+      Target: 443
+      Type: Port
+      value: 443
+  Variable:
+    app_env:
+      Default: production
+      Description: 'Container Variable: APP_ENV'
+      Display: advanced
+      Mask: 'false'
+      Name: APP_ENV
+      Required: 'false'
+      Target: APP_ENV
+      Type: Variable
+      value: ''
+    app_url:
+      Default: https://unraidIP:port
+      Description: 'Container Variable: APP_URL'
+      Display: always
+      Mask: 'false'
+      Name: APP_URL
+      Required: 'false'
+      Target: APP_URL
+      Type: Variable
+      value: ''
+    databasehost:
+      Default: unraidIP
+      Description: 'Container Variable: DB_HOST'
+      Display: always
+      Mask: 'false'
+      Name: Database Host
+      Required: 'true'
+      Target: DB_HOST
+      Type: Variable
+      value: ''
+    databasename:
+      Default: ninjav5
+      Description: 'Container Variable: DB_DATABASE'
+      Display: always
+      Mask: 'false'
+      Name: Database Name
+      Required: 'true'
+      Target: DB_DATABASE
+      Type: Variable
+      value: ''
+    databasepassword:
+      Default: ninja
+      Description: 'Container Variable: DB_PASSWORD'
+      Display: always
+      Mask: 'true'
+      Name: Database Password
+      Required: 'true'
+      Target: DB_PASSWORD
+      Type: Variable
+      value: ''
+    databaseport:
+      Default: '3306'
+      Description: 'Container Variable: DB_PORT'
+      Display: always
+      Mask: 'false'
+      Name: Database port
+      Required: 'true'
+      Target: DB_PORT
+      Type: Variable
+      value: ''
+    databaseusername:
+      Default: ninjav5
+      Description: 'Container Variable: DB_USERNAME'
+      Display: always
+      Mask: 'false'
+      Name: Database username
+      Required: 'true'
+      Target: DB_USERNAME
+      Type: Variable
+      value: ''
+    debugmode:
+      Default: '0'
+      Description: 'Container Variable: APP_DEBUG'
+      Display: advanced
+      Mask: 'false'
+      Name: Debug Mode
+      Required: 'false'
+      Target: APP_DEBUG
+      Type: Variable
+      value: ''
+    in_password:
+      Default: ''
+      Description: Initial user password
+      Display: always
+      Mask: 'true'
+      Name: IN_PASSWORD
+      Required: 'true'
+      Target: IN_PASSWORD
+      Type: Variable
+      value: ''
+    in_user_email:
+      Default: ''
+      Description: Initial user email
+      Display: always
+      Mask: 'false'
+      Name: IN_USER_EMAIL
+      Required: 'true'
+      Target: IN_USER_EMAIL
+      Type: Variable
+      value: ''
+    mail_encryption:
+      Default: tls
+      Description: 'Container Variable: MAIL_ENCRYPTION'
+      Display: always
+      Mask: 'false'
+      Name: MAIL_ENCRYPTION
+      Required: 'false'
+      Target: MAIL_ENCRYPTION
+      Type: Variable
+      value: ''
+    mail_from_address:
+      Default: 'null'
+      Description: 'Container Variable: MAIL_FROM_ADDRESS'
+      Display: always
+      Mask: 'false'
+      Name: MAIL_FROM_ADDRESS
+      Required: 'false'
+      Target: MAIL_FROM_ADDRESS
+      Type: Variable
+      value: ''
+    mail_from_name:
+      Default: Invoice Department
+      Description: 'Container Variable: MAIL_FROM_NAME'
+      Display: always
+      Mask: 'false'
+      Name: MAIL_FROM_NAME
+      Required: 'false'
+      Target: MAIL_FROM_NAME
+      Type: Variable
+      value: ''
+    mail_host:
+      Default: smtp.example.com
+      Description: 'Container Variable: MAIL_HOST'
+      Display: always
+      Mask: 'false'
+      Name: MAIL_HOST
+      Required: 'false'
+      Target: MAIL_HOST
+      Type: Variable
+      value: ''
+    mail_mailer:
+      Default: log
+      Description: 'Container Variable: MAIL_MAILER'
+      Display: always
+      Mask: 'false'
+      Name: MAIL_MAILER
+      Required: 'false'
+      Target: MAIL_MAILER
+      Type: Variable
+      value: ''
+    mail_password:
+      Default: SUPERSECRETEMAILPASSWORD
+      Description: 'Container Variable: MAIL_PASSWORD'
+      Display: always
+      Mask: 'true'
+      Name: MAIL_PASSWORD
+      Required: 'false'
+      Target: MAIL_PASSWORD
+      Type: Variable
+      value: ''
+    mail_port:
+      Default: '587'
+      Description: 'Container Variable: MAIL_PORT'
+      Display: always
+      Mask: 'false'
+      Name: MAIL_PORT
+      Required: 'false'
+      Target: MAIL_PORT
+      Type: Variable
+      value: ''
+    mail_username:
+      Default: 'null'
+      Description: 'Container Variable: MAIL_USERNAME'
+      Display: always
+      Mask: 'false'
+      Name: MAIL_USERNAME
+      Required: 'false'
+      Target: MAIL_USERNAME
+      Type: Variable
+      value: ''
+    phantomjs_pdf_generation:
+      Default: 'false'
+      Description: 'Container Variable: PHANTOMJS_PDF_GENERATION'
+      Display: advanced
+      Mask: 'false'
+      Name: PHANTOMJS_PDF_GENERATION
+      Required: 'false'
+      Target: PHANTOMJS_PDF_GENERATION
+      Type: Variable
+      value: ''
+    queue_connection:
+      Default: database
+      Description: 'Container Variable: QUEUE_CONNECTION'
+      Display: advanced
+      Mask: 'false'
+      Name: QUEUE_CONNECTION
+      Required: 'false'
+      Target: QUEUE_CONNECTION
+      Type: Variable
+      value: ''
+    requirehttps:
+      Default: 'false'
+      Description: Whether to force redirect http to https
+      Display: always
+      Mask: 'false'
+      Name: Require HTTPS
+      Required: 'false'
+      Target: REQUIRE_HTTPS
+      Type: Variable
+      value: ''
+    snappdf_executable_path:
+      Default: /usr/bin/chromium-browser
+      Description: 'Container Variable: SNAPPDF_EXECUTABLE_PATH'
+      Display: advanced
+      Mask: 'false'
+      Name: SNAPPDF_EXECUTABLE_PATH
+      Required: 'false'
+      Target: SNAPPDF_EXECUTABLE_PATH
+      Type: Variable
+      value: ''
+    ssl_hostname:
+      Default: tower
+      Description: Hostname to be used as SSL CN
+      Display: always
+      Mask: 'false'
+      Name: SSL_HOSTNAME
+      Required: 'false'
+      Target: SSL_HOSTNAME
+      Type: Variable
+      value: ''
+Icon: https://raw.githubusercontent.com/selfhosters/unRAID-CA-templates/master/templates/img/invoiceninja.png
+Keywords:
+- invoiceninja-v5
+- Productivity
+- Tools-Utilities
+Name: invoiceninja-v5
+Overview: 'Invoice Ninja v5: an open-source invoicing and time-tracking app built
+  with Laravel https://www.invoiceninja.com.
+
+  '
+Privileged: 'false'
+Registry: https://hub.docker.com/r/maihai/invoiceninja_v5
+Repository: maihai/invoiceninja_v5
+Requires: ''
+Sources:
+- https://www.invoiceninja.com/
+- https://hub.docker.com/r/maihai/invoiceninja_v5
+Tag: latest
+WebUI: https://[IP]:[PORT:443]/

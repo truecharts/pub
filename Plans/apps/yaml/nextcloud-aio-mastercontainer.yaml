@@ -1,0 +1,81 @@
+CAComment: Very highly recommended to watch a setup video for this application, as
+  it is not a turn-key solution and requires a lot of setup.  If you simply want to
+  run Nextcloud, it would be far easier to run Nextcloud / Owncloud and not the 'all-in-one'
+CategoryList:
+- Cloud
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    nextcloud_aio_mastercontainer:
+      Default: nextcloud_aio_mastercontainer
+      Description: 'Container Path: /mnt/docker-aio-config'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: nextcloud_aio_mastercontainer
+      Required: 'false'
+      Target: /mnt/docker-aio-config
+      Type: Path
+      value: nextcloud_aio_mastercontainer
+    varrundocker-sock:
+      Default: /var/run/docker.sock
+      Description: 'Container Path: /var/run/docker.sock'
+      Display: always
+      Mask: 'false'
+      Mode: ro
+      Name: /var/run/docker.sock
+      Required: 'false'
+      Target: /var/run/docker.sock
+      Type: Path
+      value: /var/run/docker.sock
+  Port:
+    main:
+      Default: '8080'
+      Description: 'Container Port: 8080'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: '8080'
+      Required: 'false'
+      Target: 8080
+      Type: Port
+      value: 8080
+  Variable:
+    apache_port:
+      Default: '11000'
+      Description: 'Container Variable: APACHE_PORT'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: APACHE_PORT
+      Required: 'false'
+      Target: APACHE_PORT
+      Type: Variable
+      value: '11000'
+    userfiles1:
+      Default: ''
+      Description: 'Container Variable: NEXTCLOUD_DATADIR'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: USER FILES 1
+      Required: 'false'
+      Target: NEXTCLOUD_DATADIR
+      Type: Variable
+      value: /mnt/user/my_files
+Icon: https://github.com/Muwahhidun/logo/raw/main/nextcloud-aio-logo.png
+Keywords:
+- nextcloud-aio-mastercontainer
+- Cloud
+Name: nextcloud-aio-mastercontainer
+Overview: "Nextcloud All In One \r\n"
+Privileged: 'false'
+Registry: https://registry.hub.docker.com/r/nextcloud/all-in-one
+Repository: nextcloud/all-in-one
+Requires: ''
+Sources:
+- https://github.com/nextcloud/all-in-one
+- https://registry.hub.docker.com/r/nextcloud/all-in-one
+Tag: latest
+WebUI: http://[IP]

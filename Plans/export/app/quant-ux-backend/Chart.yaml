@@ -1,0 +1,32 @@
+annotations:
+  truecharts.org/SCALE-support: 'true'
+  truecharts.org/catagories: |
+    - Productivity
+    - Tools-Utilities
+  truecharts.org/grade: U
+apiVersion: v2
+appVersion: 0.0.1
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 9.2.6
+deprecated: false
+description: "Quant UX is a research, usability and prototyping tool to quickly test\
+  \ your designs and get data driven insights. \r\n"
+home: https://github.com/truecharts/apps/tree/master/charts/stable/quant-ux-backend
+icon: https://truecharts.org/_static/img/appicons/quant-ux-backend.png
+keywords:
+- quant-ux-backend
+- Productivity
+- Tools-Utilities
+kubeVersion: '>=1.16.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: quant-ux-backend
+sources:
+- https://github.com/KlausSchaefers/quant-ux
+- https://hub.docker.com/r/bmcgonag/qux-be
+type: application
+version: 0.0.1

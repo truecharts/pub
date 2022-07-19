@@ -1,0 +1,88 @@
+CategoryList:
+- HomeAutomation
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port: {}
+  Variable:
+    enetip:
+      Default: ''
+      Description: 'Container Variable: enet_ip'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Enet IP
+      Required: 'true'
+      Target: enet_ip
+      Type: Variable
+      value: ''
+    enetusername:
+      Default: ''
+      Description: 'Container Variable: enet_user'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Enet username
+      Required: 'true'
+      Target: enet_user
+      Type: Variable
+      value: ''
+    enetuserpassword:
+      Default: ''
+      Description: 'Container Variable: enet_pass'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Enet user password
+      Required: 'true'
+      Target: enet_pass
+      Type: Variable
+      value: ''
+    mqttip:
+      Default: ''
+      Description: 'Container Variable: mqtt_ip'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: MQTT IP
+      Required: 'true'
+      Target: mqtt_ip
+      Type: Variable
+      value: ''
+    mqttusername:
+      Default: ''
+      Description: 'Container Variable: mqtt_user'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MQTT username
+      Required: 'true'
+      Target: mqtt_user
+      Type: Variable
+      value: ''
+    mqttuserpassword:
+      Default: ''
+      Description: 'Container Variable: mqtt_pass'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: MQTT user password
+      Required: 'true'
+      Target: mqtt_pass
+      Type: Variable
+      value: ''
+Icon: https://raw.githubusercontent.com/Th0masDB/unraid_template/main/icons/enet.png
+Keywords:
+- enet2mqtt
+- HomeAutomation
+Name: enet2mqtt
+Overview: "# Enet2mqtt\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/repository/docker/th0masdb14/enet2mqtt
+Repository: th0masdb14/enet2mqtt
+Requires: ''
+Sources:
+- https://github.com/mnordseth/enet2mqtt
+- https://hub.docker.com/repository/docker/th0masdb14/enet2mqtt
+Tag: latest

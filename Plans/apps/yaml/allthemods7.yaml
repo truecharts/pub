@@ -1,0 +1,80 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    data:
+      Default: /mnt/user/appdata/allthemods7/
+      Description: Path to store the installed server files.
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Installed Location
+      Required: 'true'
+      Target: /data
+      Type: Path
+      value: /mnt/user/appdata/allthemods7/
+  Port:
+    main:
+      Default: '25565'
+      Description: Port for the server
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Port
+      Required: 'false'
+      Target: 25565
+      Type: Port
+      value: 25565
+  Variable:
+    eula:
+      Default: 'false'
+      Description: Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula?
+        Server will not start without accepting. Set to 'true' to accept.
+      Display: always
+      Mask: 'false'
+      Name: EULA
+      Required: 'true'
+      Target: EULA
+      Type: Variable
+      value: 'false'
+    jvm_opts:
+      Default: -Xms2048m -Xmx4096m
+      Description: JAVA Options
+      Display: always
+      Mask: 'false'
+      Name: JVM_OPTS
+      Required: 'false'
+      Target: JVM_OPTS
+      Type: Variable
+      value: -Xms2048m -Xmx4096m
+    ops:
+      Default: ''
+      Description: Comma separated list of players to have op capability
+      Display: always
+      Mask: 'false'
+      Name: OPS
+      Required: 'false'
+      Target: OPS
+      Type: Variable
+      value: ''
+ExtraSearchTerms: minecraft
+Icon: https://media.forgecdn.net/avatars/391/574/637584581193129752.jpeg
+Keywords:
+- allthemods7
+- GameServers
+Name: allthemods7
+Overview: '[b]All the Mods 7-0.4.20[/b][br]1.18  Modpack with everyone''s favorite
+  mods as well as a ton of new mods to try out. [br][br]Setup:[br][li]You must accept
+  the EULA by setting the [b]EULA[/b] variable to [span style=''color: #00E800;'']true[/span]
+  or the install will fail.[br]Optional:[br][li]You can setup a comma separated list
+  of players who will have admin privileges in game by setting [b]OPS[/b]'
+Privileged: 'false'
+Registry: https://hub.docker.com/repository/docker/goobaroo/allthemods7
+Repository: goobaroo/allthemods7
+Requires: ''
+Sources:
+- https://www.curseforge.com/minecraft/modpacks/all-the-mods-7
+- https://hub.docker.com/repository/docker/goobaroo/allthemods7
+Tag: latest

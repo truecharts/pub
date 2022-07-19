@@ -1,0 +1,32 @@
+annotations:
+  truecharts.org/SCALE-support: 'true'
+  truecharts.org/catagories: |
+    - Security
+  truecharts.org/grade: U
+apiVersion: v2
+appVersion: 0.0.1
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 9.2.6
+deprecated: false
+description: "authentik is an open-source Identity Provider focused on flexibility\
+  \ and versatility. You can use authentik in an existing environment to add support\
+  \ for new protocols, implement sign-up/recovery/etc. in your application so you\
+  \ don't have to deal with it, and many other things.\r\n"
+home: https://github.com/truecharts/apps/tree/master/charts/stable/authentik-worker
+icon: https://truecharts.org/_static/img/appicons/authentik-worker.png
+keywords:
+- authentik-worker
+- Security
+kubeVersion: '>=1.16.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: authentik-worker
+sources:
+- https://github.com/goauthentik/authentik
+- https://hub.docker.com/r/beryju/authentik/
+type: application
+version: 0.0.1

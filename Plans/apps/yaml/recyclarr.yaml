@@ -1,0 +1,71 @@
+CategoryList:
+- Tools-Utilities
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: ''
+      Description: This is the application data directory for Recyclarr. In this directory,
+        files like recyclarr.yml and settings.yml exist, as well as logs, cache, and
+        other directories.
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: AppData Config Path
+      Required: 'true'
+      Target: /config
+      Type: Path
+      value: ''
+  Port: {}
+  Variable:
+    cron_schedule:
+      Default: '@daily'
+      Description: 'Standard cron syntax for how often you want Recyclarr to run.
+        See: https://github.com/recyclarr/recyclarr/wiki/Docker#cron-mode'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: CRON_SCHEDULE
+      Required: 'false'
+      Target: CRON_SCHEDULE
+      Type: Variable
+      value: '@daily'
+    pgid:
+      Default: '100'
+      Description: 'Container Variable: PGID'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PGID
+      Required: 'false'
+      Target: PGID
+      Type: Variable
+      value: '100'
+    puid:
+      Default: '99'
+      Description: 'Container Variable: PUID'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: PUID
+      Required: 'false'
+      Target: PUID
+      Type: Variable
+      value: '99'
+Icon: https://raw.githubusercontent.com/recyclarr/recyclarr/master/ci/notify/trash-icon.png
+Keywords:
+- recyclarr
+- Tools-Utilities
+Name: recyclarr
+Official: true
+Overview: "A command-line application that will automatically synchronize recommended\
+  \ settings from TRaSH guides to your Sonarr/Radarr instances.\r\n"
+Privileged: 'false'
+Registry: https://github.com/recyclarr/recyclarr/pkgs/container/recyclarr
+Repository: ghcr.io/recyclarr/recyclarr
+Requires: ''
+Sources:
+- https://github.com/recyclarr/recyclarr
+- https://github.com/recyclarr/recyclarr/pkgs/container/recyclarr
+Tag: latest

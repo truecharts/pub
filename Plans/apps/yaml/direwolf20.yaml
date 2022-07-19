@@ -1,0 +1,75 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    data:
+      Default: /mnt/user/appdata/direwolf20/
+      Description: Path to store the installed server files.
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Installed Location
+      Required: 'true'
+      Target: /data
+      Type: Path
+      value: /mnt/user/appdata/direwolf20/
+  Port:
+    main:
+      Default: '25565'
+      Description: Port for the server
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Port
+      Required: 'false'
+      Target: 25565
+      Type: Port
+      value: 25565
+  Variable:
+    eula:
+      Default: 'false'
+      Description: Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula?
+        Server will not start without accepting. Set to 'true' to accept.
+      Display: always
+      Mask: 'false'
+      Name: EULA
+      Required: 'true'
+      Target: EULA
+      Type: Variable
+      value: 'false'
+    jvm_opts:
+      Default: -Xms2048m -Xmx4096m
+      Description: JAVA Options
+      Display: always
+      Mask: 'false'
+      Name: JVM_OPTS
+      Required: 'false'
+      Target: JVM_OPTS
+      Type: Variable
+      value: -Xms2048m -Xmx6144m
+    ops:
+      Default: ''
+      Description: Comma separated list of players to have op capability
+      Display: always
+      Mask: 'false'
+      Name: OPS
+      Required: 'false'
+      Target: OPS
+      Type: Variable
+      value: ''
+Icon: https://github.com/Ratomas/direwolf20/blob/master/direwolf20.png?raw=true
+Keywords:
+- direwolf20
+- GameServers
+Name: direwolf20
+Overview: "Docker Container for FTB Presents Direwolf20 1.18 Minecraft Modpack\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/ratomas/direwolf20
+Repository: ratomas/direwolf20
+Requires: ''
+Sources:
+- https://www.feed-the-beast.com/modpack/95_ftb_presents_direwolf20_1_18
+- https://hub.docker.com/r/ratomas/direwolf20
+Tag: latest

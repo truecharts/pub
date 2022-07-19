@@ -1,0 +1,32 @@
+annotations:
+  truecharts.org/SCALE-support: 'true'
+  truecharts.org/catagories: |
+    - Security
+  truecharts.org/grade: U
+apiVersion: v2
+appVersion: 0.0.1
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 9.2.6
+deprecated: false
+description: "CrowdSec bouncer for Traefik to block malicious IPs from accessing your\
+  \ services. This utilizes Traefik v2 ForwardAuth Middleware and queries CrowdSec\
+  \ with the client IP. If the client IP is on the ban list, Traefik will issue a\
+  \ HTTP code 403 response. Otherwise, the request will continue as usual.\r\n"
+home: https://github.com/truecharts/apps/tree/master/charts/stable/crowdsec-traefik-bouncer
+icon: https://truecharts.org/_static/img/appicons/crowdsec-traefik-bouncer.png
+keywords:
+- crowdsec-traefik-bouncer
+- Security
+kubeVersion: '>=1.16.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: crowdsec-traefik-bouncer
+sources:
+- https://github.com/fbonalair/traefik-crowdsec-bouncer
+- https://registry.hub.docker.com/r/fbonalair/traefik-crowdsec-bouncer
+type: application
+version: 0.0.1

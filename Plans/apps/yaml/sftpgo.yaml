@@ -1,0 +1,204 @@
+CategoryList:
+- Network-FTP
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    backupdirectory:
+      Default: /mnt/user/appdata/sftpgo/backups
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Backup Directory
+      Required: 'false'
+      Target: /srv/sftpgo/backups
+      Type: Path
+      value: /mnt/user/appdata/sftpgo/backups
+    configpath:
+      Default: /mnt/user/appdata/sftpgo/config
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config Path
+      Required: 'false'
+      Target: /var/lib/sftpgo
+      Type: Path
+      value: /mnt/user/appdata/sftpgo/config
+    data:
+      Default: /mnt/user/appdata/sftpgo/data
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: AppData
+      Required: 'false'
+      Target: /srv/sftpgo/data
+      Type: Path
+      value: /mnt/user/appdata/sftpgo/data
+    shareaccess:
+      Default: /mnt/user
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Share Access
+      Required: 'false'
+      Target: /unraid
+      Type: Path
+      value: /mnt/user
+  Port:
+    ftpport:
+      Default: '2121'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: FTP Port
+      Required: 'false'
+      Target: 2121
+      Type: Port
+      value: 2121
+    main:
+      Default: '2221'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: HTTP
+      Name: Web Interface
+      Required: 'false'
+      Target: 8080
+      Type: Port
+      value: 2221
+    passiveports:
+      Default: 50000-50100
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Passive Ports
+      Required: 'false'
+      Target: 50000
+      Type: Port
+      value: 50000
+    sftpport:
+      Default: '2022'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: SFTP Port
+      Required: 'false'
+      Target: 2022
+      Type: Port
+      value: 2022
+    webdavport:
+      Default: '10080'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: WebDAV Port
+      Required: 'false'
+      Target: 10080
+      Type: Port
+      value: 10080
+  Variable:
+    containerftpportbinding:
+      Default: '2121'
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Container FTP Port Binding
+      Required: 'false'
+      Target: SFTPGO_FTPD__BINDINGS__0__PORT
+      Type: Variable
+      value: '2121'
+    containerwebdavportbinding:
+      Default: '10080'
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Container WebDAV Port Binding
+      Required: 'false'
+      Target: SFTPGO_WEBDAVD__BINDINGS__0__PORT
+      Type: Variable
+      value: '10080'
+    debugmode:
+      Default: '0'
+      Description: 0 = false, 1 = true
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Debug Mode
+      Required: 'false'
+      Target: SFTPGO_FTPD__BINDINGS__0__DEBUG
+      Type: Variable
+      value: '0'
+    defenderenabled:
+      Default: 'true'
+      Description: https://github.com/drakkan/sftpgo/blob/main/docs/defender.md
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Defender Enabled
+      Required: 'false'
+      Target: SFTPGO_COMMON__DEFENDER__ENABLED
+      Type: Variable
+      value: 'true'
+    passivemodeip:
+      Default: ''
+      Description: Put your server IP here for local access, or your public IP for
+        public access via port forwarding.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Passive Mode IP
+      Required: 'false'
+      Target: SFTPGO_FTPD__BINDINGS__0__FORCE_PASSIVE_IP
+      Type: Variable
+      value: 10.0.0.10
+    sftpgo_ftpd__passive_port_range__end:
+      Default: '2230'
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: SFTPGO_FTPD__PASSIVE_PORT_RANGE__END
+      Required: 'false'
+      Target: SFTPGO_FTPD__PASSIVE_PORT_RANGE__END
+      Type: Variable
+      value: '50100'
+    sftpgo_ftpd__passive_port_range__start:
+      Default: '2225'
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: SFTPGO_FTPD__PASSIVE_PORT_RANGE__START
+      Required: 'false'
+      Target: SFTPGO_FTPD__PASSIVE_PORT_RANGE__START
+      Type: Variable
+      value: '50000'
+ExtraParams: --user 99:100
+Icon: https://raw.githubusercontent.com/CorneliousJD/Docker-Templates/master/icons/sftpgo.png
+Keywords:
+- sftpgo
+- Network-FTP
+Name: sftpgo
+Overview: 'Fully featured and highly configurable SFTP server with optional HTTP/S,
+  FTP, FTPS and WebDAV support. Several storage backends are supported: local filesystem,
+  encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage,
+  Azure Blob Storage, SFTP.'
+Privileged: 'false'
+Registry: https://hub.docker.com/r/drakkan/sftpgo
+Repository: drakkan/sftpgo
+Requires: ''
+Sources:
+- https://github.com/drakkan/sftpgo
+- https://hub.docker.com/r/drakkan/sftpgo
+Tag: latest
+WebUI: http://[IP]:[PORT:8080]

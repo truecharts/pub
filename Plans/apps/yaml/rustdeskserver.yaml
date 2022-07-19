@@ -1,0 +1,83 @@
+CategoryList:
+- Tools-Utilities
+- Network-Web
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    hostpath1:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Host Path 1
+      Required: 'false'
+      Target: /root
+      Type: Path
+      value: /mnt/user/appdata/rustdesk-hbbs/
+  Port:
+    hostport1:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Host Port 1
+      Required: 'false'
+      Target: 21115
+      Type: Port
+      value: 21115
+    hostport2:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Host Port 2
+      Required: 'false'
+      Target: 21116
+      Type: Port
+      value: 21116
+    hostport3:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: Host Port 3
+      Required: 'false'
+      Target: 21116
+      Type: Port
+      value: 21116
+    hostport4:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Host Port 4
+      Required: 'false'
+      Target: 21118
+      Type: Port
+      value: 21118
+  Variable: {}
+ExtraParams: --no-healthcheck
+Icon: https://github.com/JmzTaylor/unraid_templates/raw/master/rustserver.png
+Keywords:
+- rustdeskserver
+- Tools-Utilities
+- Network-Web
+Name: rustdeskserver
+Overview: Yet another remote desktop software, written in Rust. Works out of the box,
+  no configuration required. You have full control of your data, with no concerns
+  about security.
+PostArgs: /usr/bin/hbbs
+Privileged: 'false'
+Registry: https://hub.docker.com/r/rustdesk/rustdesk-server
+Repository: rustdesk/rustdesk-server
+Requires: ''
+Sources:
+- https://github.com/rustdesk/rustdesk-server
+- https://hub.docker.com/r/rustdesk/rustdesk-server
+Tag: latest

@@ -1,0 +1,79 @@
+CategoryList:
+- HomeAutomation
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: /mnt/user/appdata/swatch
+      Description: /mnt/user/appdata/swatch
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config Path
+      Required: 'true'
+      Target: /config
+      Type: Path
+      value: /mnt/user/appdata/swatch/
+    databasepath:
+      Default: /mnt/user/database/swatch/
+      Description: Path to swatch db
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Database path
+      Required: 'true'
+      Target: /database/
+      Type: Path
+      value: /mnt/user/database/swatch/
+    localtime:
+      Default: ''
+      Description: /etc/localtime
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: rw
+      Name: Localtime
+      Required: 'true'
+      Target: /etc/localtime
+      Type: Path
+      value: /etc/localtime
+    mediapath:
+      Default: /mnt/user/media/swatch/
+      Description: /mnt/user/media/swatch/
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Media Path
+      Required: 'true'
+      Target: /media/
+      Type: Path
+      value: /mnt/user/media/swatch/
+  Port:
+    main:
+      Default: '4500'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: API
+      Required: 'true'
+      Target: 4500
+      Type: Port
+      value: 4500
+  Variable: {}
+Icon: https://user-images.githubusercontent.com/14866235/160284977-a9da849a-f80a-4d2b-90c9-e9c3e86a0bb2.png
+Keywords:
+- swatch
+- HomeAutomation
+Name: swatch
+Overview: "Swatch: Color detection in images to capture presence of known objects.\r\
+  \n"
+Privileged: 'false'
+Registry: https://hub.docker.com/repository/docker/crzynik/swatch/general
+Repository: crzynik/swatch
+Requires: ''
+Sources:
+- https://github.com/NickM-27/swatch
+- https://hub.docker.com/repository/docker/crzynik/swatch/general
+Tag: latest
+WebUI: http://[IP]:[PORT:4500]

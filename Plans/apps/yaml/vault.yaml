@@ -1,0 +1,73 @@
+CategoryList:
+- Security
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    file:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: file
+      Required: 'true'
+      Target: /vault/file
+      Type: Path
+      value: /mnt/user/appdata/vault/file/
+    logs:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: logs
+      Required: 'false'
+      Target: /vault/logs
+      Type: Path
+      value: /mnt/user/appdata/vault/logs/
+  Port:
+    main:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Vault UI/API
+      Required: 'true'
+      Target: 8200
+      Type: Port
+      value: 8200
+  Variable:
+    vault_local_config:
+      Default: ''
+      Description: Vault  config, e.g. backend, listener, ui
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: VAULT_LOCAL_CONFIG
+      Required: 'true'
+      Target: VAULT_LOCAL_CONFIG
+      Type: Variable
+      value: '{"backend": {"file": {"path": "/vault/file"}},"listener": {"tcp": {"address":
+        "0.0.0.0:8200", "tls_disable": 1}}, "ui": true}'
+ExtraParams: --cap-add=IPC_LOCK vault server
+Icon: https://raw.githubusercontent.com/KasteM34/unraid-templates/main/vault/vault.png
+Keywords:
+- vault
+- Security
+Name: vault
+Official: true
+Overview: "Hashicorp Vault is a tool for securely accessing secrets. A secret is anything\
+  \ that you want to tightly control access to, such as API keys, passwords, certificates,\
+  \ and more. Vault provides a unified interface to any secret, while providing tight\
+  \ access control and recording a detailed audit log.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/_/vault
+Repository: vault
+Requires: ''
+Sources:
+- https://github.com/hashicorp/docker-vault
+- https://hub.docker.com/_/vault
+Tag: latest
+WebUI: http://[IP]:[PORT:8200]/ui

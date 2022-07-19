@@ -1,0 +1,30 @@
+annotations:
+  truecharts.org/SCALE-support: 'true'
+  truecharts.org/catagories: |
+    - GameServers
+  truecharts.org/grade: U
+apiVersion: v2
+appVersion: 0.0.1
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 9.2.6
+deprecated: false
+description: "This container will download and run Luna Multiplayer for Kerbal Space\
+  \ Program (KSP).\r\n"
+home: https://github.com/truecharts/apps/tree/master/charts/stable/kerbalspaceprogram-lmp
+icon: https://truecharts.org/_static/img/appicons/kerbalspaceprogram-lmp.png
+keywords:
+- kerbalspaceprogram-lmp
+- GameServers
+kubeVersion: '>=1.16.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: kerbalspaceprogram-lmp
+sources:
+- https://github.com/LunaMultiplayer/LunaMultiplayer
+- https://hub.docker.com/r/ich777/lunamultiplayer-ksp/
+type: application
+version: 0.0.1

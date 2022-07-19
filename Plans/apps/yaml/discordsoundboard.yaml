@@ -1,0 +1,101 @@
+CategoryList:
+- Other
+- MediaApp-Music
+- Network-Web
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: /mnt/user/appdata/DiscordSoundboard
+      Description: 'Container Path: /etc/DiscordSoundboard/config'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: ApplicationConfig
+      Required: 'false'
+      Target: /etc/DiscordSoundboard/config
+      Type: Path
+      value: /mnt/user/appdata/DiscordSoundboard
+    databasepath:
+      Default: /mnt/user/appdata/DiscordSoundboard
+      Description: 'Container Path: /discordDB'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Database Path
+      Required: 'false'
+      Target: /discordDB
+      Type: Path
+      value: /mnt/user/appdata/DiscordSoundboard/db
+    sounddirs:
+      Default: ''
+      Description: 'Container Path: Point to a directory of .mp3/.wave files to make
+        accessible in the bot.'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Sound Dirs
+      Required: 'false'
+      Target: /etc/DiscordSoundboard/bin/sounds
+      Type: Path
+      value: /mnt/user/SoundboardSounds/
+  Port:
+    main:
+      Default: ''
+      Description: 'Container Port: 8080'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Web Interface Port
+      Required: 'false'
+      Target: 8080
+      Type: Port
+      value: 8585
+  Variable:
+    bottoken:
+      Default: ''
+      Description: "Container Variable: bottoken\r\nHelp on how to get a bot token:\r\
+        \nhttps://github.com/Darkside138/DiscordSoundboard/wiki"
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Bot Token
+      Required: 'true'
+      Target: bottoken
+      Type: Variable
+      value: ''
+    discordusername:
+      Default: ''
+      Description: "Container Variable: username\r\nThis is the name of the bot owner."
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Discord Username
+      Required: 'false'
+      Target: username
+      Type: Variable
+      value: Darkside
+Icon: https://raw.githubusercontent.com/Darkside138/DiscordSoundboard/master/distFiles/avatar.jpg
+Keywords:
+- discordsoundboard
+- Other
+- MediaApp-Music
+- Network-Web
+Name: discordsoundboard
+Overview: 'Simple soundboard for discord. You can trigger sounds by commands typed
+  in the Discord chat, or you can choose the sound from the web UI. You will need
+  to create a bot account that the bot will use to join and play sounds. The bot can
+  only play sounds/respond to commands for servers it has been given access. Get your
+  bot token from here - https://discord.com/developers/applications. This will not
+  work correctly without a proper Bot Token and the bot application being added to
+  your discord server. Join the official discord: https://discord.gg/kZTNtfW for support'
+Privileged: 'false'
+Registry: https://hub.docker.com/r/davefurrer/discordsoundboard
+Repository: davefurrer/discordsoundboard
+Requires: ''
+Sources:
+- https://github.com/Darkside138/DiscordSoundboard
+- https://hub.docker.com/r/davefurrer/discordsoundboard
+Tag: latest
+WebUI: http://[IP]:[PORT:8080]

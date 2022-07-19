@@ -1,0 +1,66 @@
+CategoryList:
+- Cloud
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    dropboxsettings:
+      Default: ''
+      Description: 'Container Path: /opt/dropbox/.dropbox'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Dropbox settings
+      Required: 'false'
+      Target: /opt/dropbox/.dropbox
+      Type: Path
+      value: /mnt/user/appdata/Dropbox
+    dropboxuserfiles:
+      Default: ''
+      Description: Read the description! Do not set this path to /mnt/user...
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Dropbox user files
+      Required: 'false'
+      Target: /opt/dropbox/Dropbox
+      Type: Path
+      value: /mnt/disk1/Dropbox
+  Port: {}
+  Variable:
+    group:
+      Default: ''
+      Description: 'Container Variable: DROPBOX_GID'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Group
+      Required: 'false'
+      Target: DROPBOX_GID
+      Type: Variable
+      value: '100'
+    user:
+      Default: ''
+      Description: 'Container Variable: DROPBOX_UID'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: User
+      Required: 'false'
+      Target: DROPBOX_UID
+      Type: Variable
+      value: '99'
+Icon: https://raw.githubusercontent.com/mgutt/unraid-docker-templates/main/mgutt/images/dropbox.png
+Keywords:
+- dropbox-by-otherguy
+- Cloud
+Name: dropbox-by-otherguy
+Overview: "Dropbox client which syncs a local path with your cloud.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/otherguy/dropbox
+Repository: otherguy/dropbox
+Requires: ''
+Sources:
+- https://github.com/otherguy/docker-dropbox
+- https://hub.docker.com/r/otherguy/dropbox
+Tag: latest

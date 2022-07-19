@@ -1,0 +1,124 @@
+CategoryList:
+- Downloaders
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    data:
+      Default: /mnt/user/appdata/rutorrent-crazymax
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: rw
+      Name: AppData Config Path
+      Required: 'false'
+      Target: /data
+      Type: Path
+      value: /mnt/user/appdata/rutorrent-crazymax/data
+    dossierdetelechargement:
+      Default: /mnt/user/downloads
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Dossier de telechargement
+      Required: 'false'
+      Target: /downloads
+      Type: Path
+      value: /mnt/user/downloads
+    stockageduhtpassword:
+      Default: /mnt/user/appdata/rutorrent-crazymax/passwd
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: rw
+      Name: stockage du htpassword
+      Required: 'false'
+      Target: /passwd
+      Type: Path
+      value: /mnt/user/appdata/rutorrent-crazymax/passwd
+  Port:
+    main:
+      Default: '8080'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: HTTP
+      Name: Webui de Rutorrent
+      Required: 'true'
+      Target: 8080
+      Type: Port
+      value: 8095
+    "portallou\xE9ause":
+      Default: '6881'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: "Port allou\xE9 au service DHT (si besoin)"
+      Required: 'true'
+      Target: 6881
+      Type: Port
+      value: 6881
+    portforwarddoi:
+      Default: '50000'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: "Port Forward (doit \xEAtre identique \xE0 la valeur pr\xE9cedente)"
+      Required: 'false'
+      Target: 50000
+      Type: Port
+      value: 50000
+  Variable:
+    pgid:
+      Default: '100'
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: PGID
+      Required: 'false'
+      Target: PGID
+      Type: Variable
+      value: '100'
+    portforward:
+      Default: '50000'
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Port Forward
+      Required: 'false'
+      Target: RT_INC_PORT
+      Type: Variable
+      value: '50000'
+    puid:
+      Default: '99'
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: PUID
+      Required: 'false'
+      Target: PUID
+      Type: Variable
+      value: '99'
+ExtraParams: --ulimit nproc=65535 --ulimit nofile=32000:40000
+Icon: https://github.com/superboki/ressources/blob/main/rutorrent-crazymax/rutorrent-crazymax.png?raw=true
+Keywords:
+- rutorrent-crazymax
+- Downloaders
+Name: rutorrent-crazymax
+Overview: "Si vous \xEAtes sujets au bug connu de la 6.10.1 concernant les droits\
+  \ utilisateurs :\r\n"
+Privileged: 'false'
+Registry: https://github.com/crazy-max/docker-rtorrent-rutorrent
+Repository: crazymax/rtorrent-rutorrent
+Requires: ''
+Sources:
+- https://github.com/crazy-max/docker-rtorrent-rutorrent
+- https://github.com/crazy-max/docker-rtorrent-rutorrent
+Tag: latest
+WebUI: http://[IP]:[PORT:8080]/

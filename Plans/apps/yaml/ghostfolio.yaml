@@ -1,0 +1,135 @@
+CategoryList:
+- Tools-Utilities
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port:
+    main:
+      Default: '3333'
+      Description: Port for the ghostfolio Web-UI
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: WebUI Port
+      Required: 'true'
+      Target: 3333
+      Type: Port
+      value: 3333
+  Variable:
+    access_token_salt:
+      Default: GHOSTFOLIO
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: ACCESS_TOKEN_SALT
+      Required: 'true'
+      Target: ACCESS_TOKEN_SALT
+      Type: Variable
+      value: GHOSTFOLIO
+    alpha_vantage_api_key:
+      Default: ''
+      Description: API Key for Alpha Vantage Free Stocks
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: ALPHA_VANTAGE_API_KEY
+      Required: 'false'
+      Target: ALPHA_VANTAGE_API_KEY
+      Type: Variable
+      value: ''
+    base_currency:
+      Default: USD
+      Description: Base Currency of Ghostfolio e.g. USD, EUR
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: BASE_CURRENCY
+      Required: 'false'
+      Target: BASE_CURRENCY
+      Type: Variable
+      value: USD
+    database_url:
+      Default: postgresql://[USER]:[PASSWORD]@[HOST]:5432/ghostfolio-db?sslmode=prefer
+      Description: Connection URL for your postgres container
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DATABASE_URL
+      Required: 'true'
+      Target: DATABASE_URL
+      Type: Variable
+      value: postgresql://[USER]:[PASSWORD]@[HOST]:5432/ghostfolio-db?sslmode=prefer
+    eod_historical_data_api_key:
+      Default: ''
+      Description: API Key for EOD Historical Data
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: EOD_HISTORICAL_DATA_API_KEY
+      Required: 'false'
+      Target: EOD_HISTORICAL_DATA_API_KEY
+      Type: Variable
+      value: ''
+    jwt_secret_key:
+      Default: '123456'
+      Description: Provide a secure JWT secret key!
+      Display: advanced
+      Mask: 'true'
+      Mode: ''
+      Name: JWT_SECRET_KEY
+      Required: 'true'
+      Target: JWT_SECRET_KEY
+      Type: Variable
+      value: '123456'
+    redis_host:
+      Default: ''
+      Description: Reference your redis container host
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: REDIS_HOST
+      Required: 'true'
+      Target: REDIS_HOST
+      Type: Variable
+      value: ''
+    redis_password:
+      Default: ''
+      Description: If your redis is secured by a password
+      Display: advanced
+      Mask: 'true'
+      Mode: ''
+      Name: REDIS_PASSWORD
+      Required: 'false'
+      Target: REDIS_PASSWORD
+      Type: Variable
+      value: ''
+    redis_port:
+      Default: '6379'
+      Description: 'Container Variable: REDIS_PORT'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: REDIS_PORT
+      Required: 'true'
+      Target: REDIS_PORT
+      Type: Variable
+      value: '6379'
+Icon: https://avatars.githubusercontent.com/u/82473144?s=200
+Keywords:
+- ghostfolio
+- Tools-Utilities
+Name: ghostfolio
+Official: true
+Overview: "This Community Application provides the official Ghostfolio container.\r\
+  \n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/ghostfolio/ghostfolio/
+Repository: ghostfolio/ghostfolio
+Requires: ''
+Sources:
+- https://ghostfol.io/
+- https://hub.docker.com/r/ghostfolio/ghostfolio/
+Tag: latest
+WebUI: http://[IP]:[PORT:3333]

@@ -1,0 +1,68 @@
+CategoryList:
+- Network-Management
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    dataredis:
+      Default: /mnt/user/appdata/xen-orchestra/redis
+      Description: 'Container Path: /var/lib/redis'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Data Redis
+      Required: 'false'
+      Target: /var/lib/redis
+      Type: Path
+      value: ''
+    dataxo-server:
+      Default: /mnt/user/appdata/xen-orchestra/xo-server
+      Description: 'Container Path: /var/lib/xo-server'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Data xo-server
+      Required: 'false'
+      Target: /var/lib/xo-server
+      Type: Path
+      value: ''
+  Port:
+    main:
+      Default: '8080'
+      Description: HTTP WebUI
+      Display: always
+      Mask: 'false'
+      Mode: HTTP
+      Name: WebUI
+      Required: 'false'
+      Target: 80
+      Type: Port
+      value: 80
+    webuihttps:
+      Default: '8443'
+      Description: HTTPS WebUI
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: WebUI HTTPS
+      Required: 'false'
+      Target: 443
+      Type: Port
+      value: 8443
+  Variable: {}
+Icon: https://xen-orchestra.com/assets/logo.png
+Keywords:
+- xenorchestra
+- Network-Management
+Name: xenorchestra
+Overview: "Xen-Orchestra is a Web-UI for managing your existing XenServer infrastructure.\r\
+  \n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/ronivay/xen-orchestra
+Repository: ronivay/xen-orchestra
+Requires: ''
+Sources:
+- https://xen-orchestra.com
+- https://hub.docker.com/r/ronivay/xen-orchestra
+Tag: latest
+WebUI: http://[IP]:[PORT:80]

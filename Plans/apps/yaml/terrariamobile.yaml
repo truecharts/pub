@@ -1,0 +1,105 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    serverfiles:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: ServerFiles
+      Required: 'true'
+      Target: /serverdata/serverfiles
+      Type: Path
+      value: /mnt/cache/appdata/terrariamobile
+  Port:
+    main:
+      Default: ''
+      Description: 'WebConsole (by default, you can connect to the Terraria console
+        by opening your browser and go to HOSTIP:9013 - eg: 192.168.1.1:9013 - or
+        click on WebUI on the Docker page within Unraid).'
+      Display: always
+      Mask: 'false'
+      Mode: HTTP
+      Name: TCP - WebConsole
+      Required: 'false'
+      Target: 8080
+      Type: Port
+      value: 9013
+    tcp:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: TCP
+      Required: 'true'
+      Target: 7777
+      Type: Port
+      value: 7777
+  Variable:
+    game_params:
+      Default: ''
+      Description: Enter your start up commands for the server.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: GAME_PARAMS
+      Required: 'false'
+      Target: GAME_PARAMS
+      Type: Variable
+      value: -config serverconfig.txt
+    gid:
+      Default: ''
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: GID
+      Required: 'true'
+      Target: GID
+      Type: Variable
+      value: '100'
+    preferredterrariamobileversion:
+      Default: ''
+      Description: 'Enter your prefered Terraria Mobile Server version (you can get
+        the latest version number for example here: https://terraria.fandom.com/wiki/Mobile_version)'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Preferred Terraria Mobile version
+      Required: 'true'
+      Target: TERRARIA_MOBILE_SRV_V
+      Type: Variable
+      value: 1.4.3.2
+    uid:
+      Default: ''
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: UID
+      Required: 'true'
+      Target: UID
+      Type: Variable
+      value: '99'
+ExtraParams: --restart=unless-stopped
+Icon: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/terraria.png
+Keywords:
+- terrariamobile
+- GameServers
+Name: terrariamobile
+Overview: "This Docker will download and install Terraria Mobile and run it.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/ich777/terrariaserver/
+Repository: ich777/terrariaserver
+Requires: ''
+Sources:
+- https://terraria.org/
+- https://hub.docker.com/r/ich777/terrariaserver/
+Tag: mobile
+WebUI: http://[IP]:[PORT:8080]/
+caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/TerrariaMobile.xml

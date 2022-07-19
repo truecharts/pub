@@ -1,0 +1,207 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    serverfiles:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: ServerFiles
+      Required: 'true'
+      Target: /serverdata/serverfiles
+      Type: Path
+      value: /mnt/cache/appdata/lastoasis
+    steamcmd:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: SteamCMD
+      Required: 'true'
+      Target: /serverdata/steamcmd
+      Type: Path
+      value: /mnt/user/appdata/steamcmd
+  Port:
+    gameport:
+      Default: ''
+      Description: UDP Game Port (if you need another port delete this entry and create
+        a new Port mapping with the same Port for the Host and Container Port, also
+        don't forget to change the port value in the Game Parameters!)
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP1 - Game Port
+      Required: 'false'
+      Target: 5555
+      Type: Port
+      value: 5555
+    queryport:
+      Default: ''
+      Description: UDP Query Port (if you need another port delete this entry and
+        create a new Port mapping with the same Port for the Host and Container Port,
+        also don't forget to change the QueryPort value in the Game Parameters!)
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP2 - Query Port
+      Required: 'false'
+      Target: 27015
+      Type: Port
+      value: 27015
+  Variable:
+    customerkey:
+      Default: ''
+      Description: "Your Customer Key goes here (You can get your Customer Key here:\
+        \ https://myrealm.lastoasis.gg  \r\nLog in -&gt; click on the Hosting drop\
+        \ down and select Providers)."
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Customer Key
+      Required: 'true'
+      Target: CUSTOMER_KEY
+      Type: Variable
+      value: pwHB3mLCOUWscFi7
+    game_id:
+      Default: ''
+      Description: "The GAME_ID that the container download at startup.\r\nIf you\
+        \ want to install a static or beta version of the game change the value to:\
+        \ '920720 -beta YOURBRANCH' (without quotes, replace YOURBRANCH with the branch\
+        \ or version you want to install)."
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: GAME_ID
+      Required: 'true'
+      Target: GAME_ID
+      Type: Variable
+      value: '920720'
+    gameparameters:
+      Default: ''
+      Description: Enter your game parameters.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Game Parameters
+      Required: 'true'
+      Target: GAME_PARAMS
+      Type: Variable
+      value: -port=5555 -QueryPort=27015 -NoLiveServer -EnableCheats
+    gid:
+      Default: ''
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: GID
+      Required: 'true'
+      Target: GID
+      Type: Variable
+      value: '100'
+    identifier:
+      Default: ''
+      Description: Enter your preferred server identifier.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Identifier
+      Required: 'true'
+      Target: IDENTIFIER
+      Type: Variable
+      value: dockeroasis
+    providerkey:
+      Default: ''
+      Description: "Your Provider Key goes here (You can get your Provider Key here:\
+        \ https://myrealm.lastoasis.gg  \r\nLog in -&gt; click on the Hosting drop\
+        \ down -&gt; select Providers -&gt; click Add Key -&gt; enter a Name and click\
+        \ Add)."
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Provider Key
+      Required: 'true'
+      Target: PROVIDER_KEY
+      Type: Variable
+      value: ' 8IhohaMRZIJJubv5 '
+    serverslots:
+      Default: ''
+      Description: Enter the maximum server slots.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Server Slots
+      Required: 'true'
+      Target: SLOTS
+      Type: Variable
+      value: '20'
+    steam-password:
+      Default: ''
+      Description: 'Your Steam password goes here if you want to install a game that
+        needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
+        Steam Guard).'
+      Display: advanced-hide
+      Mask: 'true'
+      Mode: ''
+      Name: Steam-Password
+      Required: 'false'
+      Target: PASSWRD
+      Type: Variable
+      value: ''
+    steam-username:
+      Default: ''
+      Description: 'Your Steam username goes here if you want to install a game that
+        needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
+        Steam Guard).'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Steam-Username
+      Required: 'false'
+      Target: USERNAME
+      Type: Variable
+      value: ''
+    uid:
+      Default: ''
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: UID
+      Required: 'true'
+      Target: UID
+      Type: Variable
+      value: '99'
+    validateinstallation:
+      Default: ''
+      Description: Set the Variable to 'true' if you want to validate the installation
+        otherwise leave it blank.
+      Display: always-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Validate Installation
+      Required: 'false'
+      Target: VALIDATE
+      Type: Variable
+      value: ''
+ExtraParams: --restart=unless-stopped
+Icon: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/lastoasis.png
+Keywords:
+- lastoasis
+- GameServers
+Name: lastoasis
+Overview: "This Docker will download and install SteamCMD. It will also install Last\
+  \ Oasis and run it.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/ich777/steamcmd/
+Repository: ich777/steamcmd
+Requires: ''
+Sources:
+- https://store.steampowered.com/
+- https://hub.docker.com/r/ich777/steamcmd/
+Tag: lastoasis
+caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/LastOasis.xml

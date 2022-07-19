@@ -1,0 +1,45 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    config:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: Config Path
+      Required: 'false'
+      Target: /home/server/config/
+      Type: Path
+      value: /mnt/cache/appdata/skyrimtogether
+  Port:
+    main:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP
+      Required: 'false'
+      Target: 10578
+      Type: Port
+      value: 10578
+  Variable: {}
+Icon: https://github.com/Joey291/unraid-templates/raw/610396d57ad91a7f58c5dd144dcacdbb875e80b4/skyrim.png
+Keywords:
+- skyrimtogetherrebornserver
+- GameServers
+Name: skyrimtogetherrebornserver
+Overview: Skyrim Together Reborn Coop Server. This Docker image is not managed by
+  me. I'm just providing it to the Unraid Store from the offical Docker image
+Privileged: 'false'
+Registry: https://hub.docker.com/r/tiltedphoques/st-reborn-server
+Repository: tiltedphoques/st-reborn-server
+Requires: ''
+Sources:
+- https://skyrim-together.com/
+- https://hub.docker.com/r/tiltedphoques/st-reborn-server
+Tag: latest
