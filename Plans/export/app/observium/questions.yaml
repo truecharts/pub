@@ -144,7 +144,6 @@ questions:
 
         - variable: udp-port-1
           label: 'udp-port-1 service'
-        - variable: udp-port-1
           schema:
             additional_attrs: true
             type: dict

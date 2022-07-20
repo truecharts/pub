@@ -144,7 +144,6 @@ questions:
 
         - variable: tcp-port-0
           label: 'tcp-port-0 service'
-        - variable: tcp-port-0
           schema:
             additional_attrs: true
             type: dict
@@ -204,7 +203,6 @@ questions:
                                     default: 1935
         - variable: tcp-port-1
           label: 'tcp-port-1 service'
-        - variable: tcp-port-1
           schema:
             additional_attrs: true
             type: dict
@@ -264,7 +262,6 @@ questions:
                                     default: 6666
         - variable: udp-port-2
           label: 'udp-port-2 service'
-        - variable: udp-port-2
           schema:
             additional_attrs: true
             type: dict
@@ -324,7 +321,6 @@ questions:
                                     default: 7004
         - variable: tcp-port-4
           label: 'tcp-port-4 service'
-        - variable: tcp-port-4
           schema:
             additional_attrs: true
             type: dict
@@ -384,7 +380,6 @@ questions:
                                     default: 7442
         - variable: tcp-port-5
           label: 'tcp-port-5 service'
-        - variable: tcp-port-5
           schema:
             additional_attrs: true
             type: dict
@@ -444,7 +439,6 @@ questions:
                                     default: 7443
         - variable: tcp-port-6
           label: 'tcp-port-6 service'
-        - variable: tcp-port-6
           schema:
             additional_attrs: true
             type: dict
@@ -504,7 +498,6 @@ questions:
                                     default: 7444
         - variable: tcp-port-7
           label: 'tcp-port-7 service'
-        - variable: tcp-port-7
           schema:
             additional_attrs: true
             type: dict
@@ -564,7 +557,6 @@ questions:
                                     default: 7445
         - variable: tcp-port-8
           label: 'tcp-port-8 service'
-        - variable: tcp-port-8
           schema:
             additional_attrs: true
             type: dict
@@ -624,7 +616,6 @@ questions:
                                     default: 7446
         - variable: tcp-port-9
           label: 'tcp-port-9 service'
-        - variable: tcp-port-9
           schema:
             additional_attrs: true
             type: dict

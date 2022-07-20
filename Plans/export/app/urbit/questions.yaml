@@ -144,7 +144,7 @@ questions:
 
         - variable: udpamesport
           label: 'udpamesport service'
-        - variable: udpamesport
+          description: "Port 34343 is set by default to be used by Ames for ship-to-ship communication."
           schema:
             additional_attrs: true
             type: dict

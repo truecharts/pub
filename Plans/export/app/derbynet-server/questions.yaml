@@ -176,7 +176,7 @@ questions:
 
         - variable: securewebserve
           label: 'securewebserve service'
-        - variable: securewebserve
+          description: "The docker has a secure webportal but the certificates are self signed.  "
           schema:
             additional_attrs: true
             type: dict

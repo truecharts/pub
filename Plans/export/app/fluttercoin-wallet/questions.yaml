@@ -182,7 +182,7 @@ questions:
 
         - variable: peertopeerconn
           label: 'peertopeerconn service'
-        - variable: peertopeerconn
+          description: "TCP Port for Peer to Peer connection"
           schema:
             additional_attrs: true
             type: dict
@@ -242,7 +242,7 @@ questions:
                                     default: 7408
         - variable: jsonremoteport
           label: 'jsonremoteport service'
-        - variable: jsonremoteport
+          description: "TCP Port for Remote Connections"
           schema:
             additional_attrs: true
             type: dict

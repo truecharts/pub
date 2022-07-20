@@ -193,7 +193,6 @@ questions:
 
         - variable: udp2
           label: 'udp2 service'
-        - variable: udp2
           schema:
             additional_attrs: true
             type: dict
@@ -253,7 +252,6 @@ questions:
                                     default: 27005
         - variable: udp3
           label: 'udp3 service'
-        - variable: udp3
           schema:
             additional_attrs: true
             type: dict
@@ -313,7 +311,6 @@ questions:
                                     default: 27020
         - variable: udp4
           label: 'udp4 service'
-        - variable: udp4
           schema:
             additional_attrs: true
             type: dict
@@ -373,7 +370,7 @@ questions:
                                     default: 26901
         - variable: tcprcon
           label: 'tcprcon service'
-        - variable: tcprcon
+          description: "TCP RCON Port (not required)"
           schema:
             additional_attrs: true
             type: dict

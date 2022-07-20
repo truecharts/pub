@@ -164,7 +164,7 @@ questions:
 
         - variable: saltpublishpor
           label: 'saltpublishpor service'
-        - variable: saltpublishpor
+          description: "Container Port 4505"
           schema:
             additional_attrs: true
             type: dict
@@ -224,7 +224,7 @@ questions:
                                     default: 4505
         - variable: saltrequestser
           label: 'saltrequestser service'
-        - variable: saltrequestser
+          description: "Container Port 4506"
           schema:
             additional_attrs: true
             type: dict

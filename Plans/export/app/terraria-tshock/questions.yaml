@@ -158,7 +158,7 @@ questions:
 
         - variable: tcp
           label: 'tcp service'
-        - variable: tcp
+          description: "Container Port 7777"
           schema:
             additional_attrs: true
             type: dict

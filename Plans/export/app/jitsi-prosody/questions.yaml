@@ -434,7 +434,7 @@ questions:
 
         - variable: port2
           label: 'port2 service'
-        - variable: port2
+          description: "Container Port 5347"
           schema:
             additional_attrs: true
             type: dict
@@ -494,7 +494,7 @@ questions:
                                     default: 5347
         - variable: port3
           label: 'port3 service'
-        - variable: port3
+          description: "Container Port 5280"
           schema:
             additional_attrs: true
             type: dict

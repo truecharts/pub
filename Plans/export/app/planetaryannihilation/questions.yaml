@@ -212,7 +212,7 @@ questions:
 
         - variable: udp-lanbeacon
           label: 'udp-lanbeacon service'
-        - variable: udp-lanbeacon
+          description: "Container Port 8192"
           schema:
             additional_attrs: true
             type: dict

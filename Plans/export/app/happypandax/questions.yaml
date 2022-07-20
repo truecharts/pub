@@ -170,7 +170,7 @@ questions:
 
         - variable: hpxport
           label: 'hpxport service'
-        - variable: hpxport
+          description: "API Port for alt. Front-ends like HappyPandaX Desktop."
           schema:
             additional_attrs: true
             type: dict
@@ -230,7 +230,7 @@ questions:
                                     default: 7007
         - variable: torrentport
           label: 'torrentport service'
-        - variable: torrentport
+          description: "HPXTORRENTPORT"
           schema:
             additional_attrs: true
             type: dict

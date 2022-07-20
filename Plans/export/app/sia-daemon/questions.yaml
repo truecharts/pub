@@ -164,7 +164,7 @@ questions:
 
         - variable: hostrhp2port
           label: 'hostrhp2port service'
-        - variable: hostrhp2port
+          description: "Container Port 9982"
           schema:
             additional_attrs: true
             type: dict
@@ -224,7 +224,7 @@ questions:
                                     default: 9982
         - variable: hostrhp3port
           label: 'hostrhp3port service'
-        - variable: hostrhp3port
+          description: "Container Port 9983"
           schema:
             additional_attrs: true
             type: dict

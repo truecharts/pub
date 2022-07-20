@@ -144,7 +144,7 @@ questions:
 
         - variable: websockets
           label: 'websockets service'
-        - variable: websockets
+          description: "Container Port 8101"
           schema:
             additional_attrs: true
             type: dict

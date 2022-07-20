@@ -170,7 +170,7 @@ questions:
 
         - variable: webclipperport
           label: 'webclipperport service'
-        - variable: webclipperport
+          description: "Likely cant be used unless you have an advanced use case."
           schema:
             additional_attrs: true
             type: dict

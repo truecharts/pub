@@ -200,7 +200,7 @@ questions:
 
         - variable: json-rpc
           label: 'json-rpc service'
-        - variable: json-rpc
+          description: "JSON-RPC admin server."
           schema:
             additional_attrs: true
             type: dict
@@ -260,7 +260,7 @@ questions:
                                     default: 8020
         - variable: graphqlwebsock
           label: 'graphqlwebsock service'
-        - variable: graphqlwebsock
+          description: "GraphQL WebSocket server"
           schema:
             additional_attrs: true
             type: dict

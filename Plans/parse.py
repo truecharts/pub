@@ -788,7 +788,7 @@ for name, app in combinedfree.items():
                         desc = desc.replace(char, '')
                       desc = desc.replace("'", '')
                       desc = desc.encode("utf-8").decode("utf-8")
-                      f.write('                      description: "'+desc+'"\n')
+                      f.write('          description: "'+desc+'"\n')
                     except:
                       pass
                     break

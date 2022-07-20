@@ -144,7 +144,6 @@ questions:
 
         - variable: tcp-port-1
           label: 'tcp-port-1 service'
-        - variable: tcp-port-1
           schema:
             additional_attrs: true
             type: dict
@@ -204,7 +203,6 @@ questions:
                                     default: 6080
         - variable: tcp-port-2
           label: 'tcp-port-2 service'
-        - variable: tcp-port-2
           schema:
             additional_attrs: true
             type: dict

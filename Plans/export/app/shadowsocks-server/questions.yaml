@@ -170,7 +170,7 @@ questions:
 
         - variable: port_udp
           label: 'port_udp service'
-        - variable: port_udp
+          description: "Container Port 8388"
           schema:
             additional_attrs: true
             type: dict

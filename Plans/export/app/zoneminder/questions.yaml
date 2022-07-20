@@ -144,7 +144,6 @@ questions:
 
         - variable: zmninjaeventno
           label: 'zmninjaeventno service'
-        - variable: zmninjaeventno
           schema:
             additional_attrs: true
             type: dict

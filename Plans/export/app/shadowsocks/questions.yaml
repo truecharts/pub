@@ -176,7 +176,7 @@ questions:
 
         - variable: portudp
           label: 'portudp service'
-        - variable: portudp
+          description: "Container Port 8388"
           schema:
             additional_attrs: true
             type: dict

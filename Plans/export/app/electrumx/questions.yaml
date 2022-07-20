@@ -188,7 +188,7 @@ questions:
 
         - variable: ssl
           label: 'ssl service'
-        - variable: ssl
+          description: "Electrum SSL"
           schema:
             additional_attrs: true
             type: dict
@@ -248,7 +248,7 @@ questions:
                                     default: 50002
         - variable: wss
           label: 'wss service'
-        - variable: wss
+          description: "Electrum WSS"
           schema:
             additional_attrs: true
             type: dict
@@ -308,7 +308,7 @@ questions:
                                     default: 50004
         - variable: rpc
           label: 'rpc service'
-        - variable: rpc
+          description: "ElectrumX RPC"
           schema:
             additional_attrs: true
             type: dict

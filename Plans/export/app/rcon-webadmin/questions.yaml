@@ -176,7 +176,7 @@ questions:
 
         - variable: websocketacces
           label: 'websocketacces service'
-        - variable: websocketacces
+          description: "Container Port 4327"
           schema:
             additional_attrs: true
             type: dict

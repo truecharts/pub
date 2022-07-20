@@ -158,7 +158,7 @@ questions:
 
         - variable: rtmpport
           label: 'rtmpport service'
-        - variable: rtmpport
+          description: "The port to accept an RTMP stream on."
           schema:
             additional_attrs: true
             type: dict
@@ -218,7 +218,7 @@ questions:
                                     default: 1935
         - variable: rtmpsport
           label: 'rtmpsport service'
-        - variable: rtmpsport
+          description: "The port to accept an RTMPS stream on."
           schema:
             additional_attrs: true
             type: dict

@@ -218,7 +218,7 @@ questions:
 
         - variable: portimap4
           label: 'portimap4 service'
-        - variable: portimap4
+          description: "IMAP4 (explicit TLS =&gt; STARTTLS) Port"
           schema:
             additional_attrs: true
             type: dict
@@ -278,7 +278,7 @@ questions:
                                     default: 143
         - variable: portesmtp
           label: 'portesmtp service'
-        - variable: portesmtp
+          description: "ESMTP (implicit TLS) Port"
           schema:
             additional_attrs: true
             type: dict
@@ -338,7 +338,7 @@ questions:
                                     default: 465
         - variable: portesmtpssl
           label: 'portesmtpssl service'
-        - variable: portesmtpssl
+          description: "ESMTP (explicit TLS =&gt; STARTTLS) Port"
           schema:
             additional_attrs: true
             type: dict
@@ -398,7 +398,7 @@ questions:
                                     default: 587
         - variable: portimap4ssl
           label: 'portimap4ssl service'
-        - variable: portimap4ssl
+          description: "IMAP4 (implicit TLS) Port"
           schema:
             additional_attrs: true
             type: dict
@@ -458,7 +458,7 @@ questions:
                                     default: 993
         - variable: portmanagesiev
           label: 'portmanagesiev service'
-        - variable: portmanagesiev
+          description: "Managesieve"
           schema:
             additional_attrs: true
             type: dict

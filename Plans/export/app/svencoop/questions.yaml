@@ -182,7 +182,7 @@ questions:
 
         - variable: tcp-rconport
           label: 'tcp-rconport service'
-        - variable: tcp-rconport
+          description: "Not needed"
           schema:
             additional_attrs: true
             type: dict

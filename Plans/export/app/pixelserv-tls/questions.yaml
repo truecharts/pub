@@ -144,7 +144,7 @@ questions:
 
         - variable: http
           label: 'http service'
-        - variable: http
+          description: "Webserver - Http"
           schema:
             additional_attrs: true
             type: dict

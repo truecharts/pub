@@ -144,7 +144,7 @@ questions:
 
         - variable: https
           label: 'https service'
-        - variable: https
+          description: "HTTPs (Not Required if you use reverse proxy)"
           schema:
             additional_attrs: true
             type: dict

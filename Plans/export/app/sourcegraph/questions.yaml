@@ -144,7 +144,7 @@ questions:
 
         - variable: adminconsolepo
           label: 'adminconsolepo service'
-        - variable: adminconsolepo
+          description: "This is SourceGraphs Admin Console WebUI port you can access via a web browser"
           schema:
             additional_attrs: true
             type: dict
@@ -204,7 +204,7 @@ questions:
                                     default: 2633
         - variable: grafanaport
           label: 'grafanaport service'
-        - variable: grafanaport
+          description: "This is SourceGraphs Grafana Port you can access via a web browser"
           schema:
             additional_attrs: true
             type: dict

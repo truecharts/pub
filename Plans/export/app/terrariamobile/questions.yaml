@@ -164,7 +164,6 @@ questions:
 
         - variable: tcp
           label: 'tcp service'
-        - variable: tcp
           schema:
             additional_attrs: true
             type: dict

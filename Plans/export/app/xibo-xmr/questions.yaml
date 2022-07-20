@@ -182,7 +182,7 @@ questions:
 
         - variable: listenport
           label: 'listenport service'
-        - variable: listenport
+          description: "Container Port 50001"
           schema:
             additional_attrs: true
             type: dict

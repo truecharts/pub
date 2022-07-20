@@ -170,7 +170,7 @@ questions:
 
         - variable: pasvportrange
           label: 'pasvportrange service'
-        - variable: pasvportrange
+          description: "PASV port range"
           schema:
             additional_attrs: true
             type: dict

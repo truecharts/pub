@@ -163,7 +163,6 @@ questions:
 
         - variable: portvpn
           label: 'portvpn service'
-        - variable: portvpn
           schema:
             additional_attrs: true
             type: dict

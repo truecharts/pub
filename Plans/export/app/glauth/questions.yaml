@@ -144,7 +144,7 @@ questions:
 
         - variable: ldapport
           label: 'ldapport service'
-        - variable: ldapport
+          description: "Container LDAP Port"
           schema:
             additional_attrs: true
             type: dict
@@ -204,7 +204,7 @@ questions:
                                     default: 389
         - variable: ldapsport
           label: 'ldapsport service'
-        - variable: ldapsport
+          description: "Container LDAPS Port"
           schema:
             additional_attrs: true
             type: dict

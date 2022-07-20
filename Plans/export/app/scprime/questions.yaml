@@ -158,7 +158,7 @@ questions:
 
         - variable: hostapiaddress
           label: 'hostapiaddress service'
-        - variable: hostapiaddress
+          description: "Open this port in your firewall and forward to your server."
           schema:
             additional_attrs: true
             type: dict

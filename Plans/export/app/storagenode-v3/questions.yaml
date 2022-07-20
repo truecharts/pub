@@ -182,7 +182,7 @@ questions:
 
         - variable: tcpport
           label: 'tcpport service'
-        - variable: tcpport
+          description: "Default Storj V3 node port."
           schema:
             additional_attrs: true
             type: dict

@@ -290,7 +290,7 @@ questions:
 
         - variable: httpport
           label: 'httpport service'
-        - variable: httpport
+          description: "Container Port 80"
           schema:
             additional_attrs: true
             type: dict

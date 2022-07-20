@@ -144,7 +144,6 @@ questions:
 
         - variable: hostport2
           label: 'hostport2 service'
-        - variable: hostport2
           schema:
             additional_attrs: true
             type: dict
@@ -204,7 +203,6 @@ questions:
                                     default: 21116
         - variable: hostport3
           label: 'hostport3 service'
-        - variable: hostport3
           schema:
             additional_attrs: true
             type: dict
@@ -264,7 +262,6 @@ questions:
                                     default: 21116
         - variable: hostport4
           label: 'hostport4 service'
-        - variable: hostport4
           schema:
             additional_attrs: true
             type: dict

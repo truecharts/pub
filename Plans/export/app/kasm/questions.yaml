@@ -176,7 +176,7 @@ questions:
 
         - variable: port6333
           label: 'port6333 service'
-        - variable: port6333
+          description: "Kasm Workspaces interface. (https)"
           schema:
             additional_attrs: true
             type: dict

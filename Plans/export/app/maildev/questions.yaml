@@ -144,7 +144,6 @@ questions:
 
         - variable: portsmtp
           label: 'portsmtp service'
-        - variable: portsmtp
           schema:
             additional_attrs: true
             type: dict

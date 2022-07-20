@@ -144,7 +144,6 @@ questions:
 
         - variable: factorioport
           label: 'factorioport service'
-        - variable: factorioport
           schema:
             additional_attrs: true
             type: dict

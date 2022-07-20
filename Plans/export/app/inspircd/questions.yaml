@@ -320,7 +320,7 @@ questions:
 
         - variable: clients,tls
           label: 'clients,tls service'
-        - variable: clients,tls
+          description: "TCP Clients Connection Port (Encrypted)"
           schema:
             additional_attrs: true
             type: dict
@@ -380,7 +380,7 @@ questions:
                                     default: 6697
         - variable: server,plainte
           label: 'server,plainte service'
-        - variable: server,plainte
+          description: "TCP Server Port (Unencrypted - You dont have to forward this port if you use this as a standalone IRC Server)"
           schema:
             additional_attrs: true
             type: dict
@@ -440,7 +440,7 @@ questions:
                                     default: 7000
         - variable: server,tls
           label: 'server,tls service'
-        - variable: server,tls
+          description: "TCP Server Port (Encrypted - You dont have to forward this port if you use this as a standalone IRC Server)"
           schema:
             additional_attrs: true
             type: dict

@@ -1,6 +1,6 @@
         - variable: PLACEHOLDERSVCNAME
           label: "PLACEHOLDERSVCLABEL Service"
-          description: "The PLACEHOLDERSVCNAME service"
+          description: "The PLACEHOLDERDESCRIPTION service"
           schema:
             additional_attrs: true
             type: dict

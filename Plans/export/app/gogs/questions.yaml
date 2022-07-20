@@ -144,7 +144,6 @@ questions:
 
         - variable: tcp-port-0
           label: 'tcp-port-0 service'
-        - variable: tcp-port-0
           schema:
             additional_attrs: true
             type: dict

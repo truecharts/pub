@@ -212,7 +212,7 @@ questions:
 
         - variable: vncportforgui
           label: 'vncportforgui service'
-        - variable: vncportforgui
+          description: "Port used to access the applications GUI via the VNC protocol.  Optional if no VNC client is used."
           schema:
             additional_attrs: true
             type: dict
@@ -272,7 +272,7 @@ questions:
                                     default: 5900
         - variable: p2pport
           label: 'p2pport service'
-        - variable: p2pport
+          description: "Port used by P2P"
           schema:
             additional_attrs: true
             type: dict

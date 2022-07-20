@@ -144,7 +144,7 @@ questions:
 
         - variable: hostport1
           label: 'hostport1 service'
-        - variable: hostport1
+          description: "Container Port 80"
           schema:
             additional_attrs: true
             type: dict

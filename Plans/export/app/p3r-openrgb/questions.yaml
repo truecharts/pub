@@ -169,7 +169,7 @@ questions:
 
         - variable: vncport
           label: 'vncport service'
-        - variable: vncport
+          description: "Container Port 5900"
           schema:
             additional_attrs: true
             type: dict
@@ -229,7 +229,7 @@ questions:
                                     default: 5900
         - variable: sdkserverport
           label: 'sdkserverport service'
-        - variable: sdkserverport
+          description: "Container Port 6742"
           schema:
             additional_attrs: true
             type: dict

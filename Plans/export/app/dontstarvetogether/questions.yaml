@@ -188,7 +188,7 @@ questions:
 
         - variable: masterserver
           label: 'masterserver service'
-        - variable: masterserver
+          description: "Container Port 27016"
           schema:
             additional_attrs: true
             type: dict
@@ -248,7 +248,7 @@ questions:
                                     default: 27016
         - variable: authentication
           label: 'authentication service'
-        - variable: authentication
+          description: "Container Port 8766"
           schema:
             additional_attrs: true
             type: dict

@@ -157,7 +157,6 @@ questions:
 
         - variable: portallouéause
           label: 'portallouéause service'
-        - variable: portallouéause
           schema:
             additional_attrs: true
             type: dict
@@ -217,7 +216,6 @@ questions:
                                     default: 6881
         - variable: portforwarddoi
           label: 'portforwarddoi service'
-        - variable: portforwarddoi
           schema:
             additional_attrs: true
             type: dict

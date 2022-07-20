@@ -158,7 +158,7 @@ questions:
 
         - variable: vncport
           label: 'vncport service'
-        - variable: vncport
+          description: "Container Port 5900"
           schema:
             additional_attrs: true
             type: dict

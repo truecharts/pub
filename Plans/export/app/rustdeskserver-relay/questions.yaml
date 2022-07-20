@@ -144,7 +144,6 @@ questions:
 
         - variable: hostport2
           label: 'hostport2 service'
-        - variable: hostport2
           schema:
             additional_attrs: true
             type: dict

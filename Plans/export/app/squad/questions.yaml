@@ -182,7 +182,7 @@ questions:
 
         - variable: gameport2
           label: 'gameport2 service'
-        - variable: gameport2
+          description: "UDP Game Port 1"
           schema:
             additional_attrs: true
             type: dict
@@ -242,7 +242,7 @@ questions:
                                     default: 7788
         - variable: queryport1
           label: 'queryport1 service'
-        - variable: queryport1
+          description: "UDP Query Port (if you need another port, please delete this entry and create a new UDP Port with the required port number, also dont forget to change the port number in the GAMEPARAMS)"
           schema:
             additional_attrs: true
             type: dict
@@ -302,7 +302,7 @@ questions:
                                     default: 27165
         - variable: queryport2
           label: 'queryport2 service'
-        - variable: queryport2
+          description: "Container Port 27166"
           schema:
             additional_attrs: true
             type: dict
@@ -362,7 +362,7 @@ questions:
                                     default: 27166
         - variable: rconport
           label: 'rconport service'
-        - variable: rconport
+          description: "UDP RCON Port (not required)"
           schema:
             additional_attrs: true
             type: dict

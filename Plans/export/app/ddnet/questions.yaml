@@ -158,7 +158,7 @@ questions:
 
         - variable: tcp
           label: 'tcp service'
-        - variable: tcp
+          description: "TCP Gameport (delete this entry and create a new one if you change the port in the config file with the corresponding port)"
           schema:
             additional_attrs: true
             type: dict

@@ -182,7 +182,7 @@ questions:
 
         - variable: query
           label: 'query service'
-        - variable: query
+          description: "Container Port 27015"
           schema:
             additional_attrs: true
             type: dict
@@ -242,7 +242,7 @@ questions:
                                     default: 27015
         - variable: tcp-webadmin
           label: 'tcp-webadmin service'
-        - variable: tcp-webadmin
+          description: "Container Port 8080"
           schema:
             additional_attrs: true
             type: dict
@@ -302,7 +302,7 @@ questions:
                                     default: 8080
         - variable: steam
           label: 'steam service'
-        - variable: steam
+          description: "Container Port 20560"
           schema:
             additional_attrs: true
             type: dict

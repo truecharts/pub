@@ -144,7 +144,7 @@ questions:
 
         - variable: https
           label: 'https service'
-        - variable: https
+          description: "Container Port 443"
           schema:
             additional_attrs: true
             type: dict

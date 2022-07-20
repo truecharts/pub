@@ -284,7 +284,7 @@ questions:
 
         - variable: udpports
           label: 'udpports service'
-        - variable: udpports
+          description: "UDP Port"
           schema:
             additional_attrs: true
             type: dict

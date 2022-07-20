@@ -200,7 +200,7 @@ questions:
 
         - variable: queryport
           label: 'queryport service'
-        - variable: queryport
+          description: "Container Port 27131"
           schema:
             additional_attrs: true
             type: dict

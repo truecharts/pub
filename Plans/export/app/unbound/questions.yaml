@@ -144,7 +144,7 @@ questions:
 
         - variable: udpdnsport
           label: 'udpdnsport service'
-        - variable: udpdnsport
+          description: "Container Port 53"
           schema:
             additional_attrs: true
             type: dict

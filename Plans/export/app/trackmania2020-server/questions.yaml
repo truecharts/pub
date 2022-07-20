@@ -170,7 +170,7 @@ questions:
 
         - variable: gameudp
           label: 'gameudp service'
-        - variable: gameudp
+          description: "Required to connect to the game server"
           schema:
             additional_attrs: true
             type: dict
@@ -230,7 +230,7 @@ questions:
                                     default: 2350
         - variable: xmlrpc
           label: 'xmlrpc service'
-        - variable: xmlrpc
+          description: "This port can be safely removed for improved security of your server.(no remote control)"
           schema:
             additional_attrs: true
             type: dict

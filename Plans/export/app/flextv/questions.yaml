@@ -157,7 +157,6 @@ questions:
 
         - variable: tcp-port-1
           label: 'tcp-port-1 service'
-        - variable: tcp-port-1
           schema:
             additional_attrs: true
             type: dict

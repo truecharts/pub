@@ -158,7 +158,7 @@ questions:
 
         - variable: port9666
           label: 'port9666 service'
-        - variable: port9666
+          description: "ClicknLoad port."
           schema:
             additional_attrs: true
             type: dict

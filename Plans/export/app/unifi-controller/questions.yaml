@@ -170,7 +170,7 @@ questions:
 
         - variable: port3478
           label: 'port3478 service'
-        - variable: port3478
+          description: "Unifi STUN port"
           schema:
             additional_attrs: true
             type: dict
@@ -230,7 +230,7 @@ questions:
                                     default: 3478
         - variable: port10001
           label: 'port10001 service'
-        - variable: port10001
+          description: "Required for AP discovery"
           schema:
             additional_attrs: true
             type: dict
@@ -290,7 +290,7 @@ questions:
                                     default: 10001
         - variable: port8080
           label: 'port8080 service'
-        - variable: port8080
+          description: "Required for device communication"
           schema:
             additional_attrs: true
             type: dict
@@ -350,7 +350,7 @@ questions:
                                     default: 8080
         - variable: port1900
           label: 'port1900 service'
-        - variable: port1900
+          description: "Required for `Make controller discoverable on L2 network` option"
           schema:
             additional_attrs: true
             type: dict
@@ -410,7 +410,7 @@ questions:
                                     default: 1900
         - variable: port8843
           label: 'port8843 service'
-        - variable: port8843
+          description: "Unifi guest portal HTTPS redirect port"
           schema:
             additional_attrs: true
             type: dict
@@ -470,7 +470,7 @@ questions:
                                     default: 8843
         - variable: port8880
           label: 'port8880 service'
-        - variable: port8880
+          description: "Unifi guest portal HTTP redirect port"
           schema:
             additional_attrs: true
             type: dict
@@ -530,7 +530,7 @@ questions:
                                     default: 8880
         - variable: port6789
           label: 'port6789 service'
-        - variable: port6789
+          description: "For mobile throughput test"
           schema:
             additional_attrs: true
             type: dict
@@ -590,7 +590,7 @@ questions:
                                     default: 6789
         - variable: port5514
           label: 'port5514 service'
-        - variable: port5514
+          description: "Remote syslog port"
           schema:
             additional_attrs: true
             type: dict

@@ -170,7 +170,7 @@ questions:
 
         - variable: tcp-gameport
           label: 'tcp-gameport service'
-        - variable: tcp-gameport
+          description: "Container Port 3979"
           schema:
             additional_attrs: true
             type: dict
@@ -230,7 +230,7 @@ questions:
                                     default: 3979
         - variable: udp-gameport
           label: 'udp-gameport service'
-        - variable: udp-gameport
+          description: "Container Port 3979"
           schema:
             additional_attrs: true
             type: dict

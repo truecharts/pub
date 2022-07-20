@@ -167,7 +167,6 @@ questions:
 
         - variable: httpsport
           label: 'httpsport service'
-        - variable: httpsport
           schema:
             additional_attrs: true
             type: dict

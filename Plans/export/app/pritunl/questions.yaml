@@ -144,7 +144,7 @@ questions:
 
         - variable: http
           label: 'http service'
-        - variable: http
+          description: "Container Port 80. Only used for LetsEncrypt."
           schema:
             additional_attrs: true
             type: dict
@@ -204,7 +204,7 @@ questions:
                                     default: 80
         - variable: vpntcp
           label: 'vpntcp service'
-        - variable: vpntcp
+          description: "Container Port 1194tcp"
           schema:
             additional_attrs: true
             type: dict
@@ -264,7 +264,7 @@ questions:
                                     default: 1194
         - variable: vpnudp
           label: 'vpnudp service'
-        - variable: vpnudp
+          description: "Container Port 1194udp"
           schema:
             additional_attrs: true
             type: dict

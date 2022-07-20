@@ -170,7 +170,7 @@ questions:
 
         - variable: udp-gameport
           label: 'udp-gameport service'
-        - variable: udp-gameport
+          description: "UDP Game Port (If you need another port delete this Entry and create a new UDP port mapping with the corresponding port  also dont forget to set the right port in your server configuration file!)"
           schema:
             additional_attrs: true
             type: dict

@@ -182,7 +182,7 @@ questions:
 
         - variable: query
           label: 'query service'
-        - variable: query
+          description: "Container Port 7708"
           schema:
             additional_attrs: true
             type: dict
@@ -242,7 +242,7 @@ questions:
                                     default: 7708
         - variable: gamespyquery
           label: 'gamespyquery service'
-        - variable: gamespyquery
+          description: "Container Port 7717"
           schema:
             additional_attrs: true
             type: dict
@@ -302,7 +302,7 @@ questions:
                                     default: 7717
         - variable: masterserverbr
           label: 'masterserverbr service'
-        - variable: masterserverbr
+          description: "Container Port 28852"
           schema:
             additional_attrs: true
             type: dict
@@ -362,7 +362,7 @@ questions:
                                     default: 28852
         - variable: adminport
           label: 'adminport service'
-        - variable: adminport
+          description: "Container Port 8075"
           schema:
             additional_attrs: true
             type: dict
@@ -422,7 +422,7 @@ questions:
                                     default: 8075
         - variable: steamport
           label: 'steamport service'
-        - variable: steamport
+          description: "Container Port 20560"
           schema:
             additional_attrs: true
             type: dict

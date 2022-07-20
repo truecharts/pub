@@ -144,7 +144,7 @@ questions:
 
         - variable: port25
           label: 'port25 service'
-        - variable: port25
+          description: "Container Port "
           schema:
             additional_attrs: true
             type: dict
@@ -204,7 +204,7 @@ questions:
                                     default: 25
         - variable: pop3port
           label: 'pop3port service'
-        - variable: pop3port
+          description: "POP3"
           schema:
             additional_attrs: true
             type: dict
@@ -264,7 +264,7 @@ questions:
                                     default: 110
         - variable: imap
           label: 'imap service'
-        - variable: imap
+          description: "IMAP"
           schema:
             additional_attrs: true
             type: dict
@@ -324,7 +324,7 @@ questions:
                                     default: 143
         - variable: containerhttps
           label: 'containerhttps service'
-        - variable: containerhttps
+          description: "HTTPS"
           schema:
             additional_attrs: true
             type: dict
@@ -384,7 +384,7 @@ questions:
                                     default: 443
         - variable: containersmtps
           label: 'containersmtps service'
-        - variable: containersmtps
+          description: "SMTPS"
           schema:
             additional_attrs: true
             type: dict
@@ -444,7 +444,7 @@ questions:
                                     default: 465
         - variable: containermsa
           label: 'containermsa service'
-        - variable: containermsa
+          description: "MSA"
           schema:
             additional_attrs: true
             type: dict
@@ -504,7 +504,7 @@ questions:
                                     default: 587
         - variable: containerimaps
           label: 'containerimaps service'
-        - variable: containerimaps
+          description: "IMAPS"
           schema:
             additional_attrs: true
             type: dict
@@ -564,7 +564,7 @@ questions:
                                     default: 993
         - variable: containerpop3s
           label: 'containerpop3s service'
-        - variable: containerpop3s
+          description: "POP3S"
           schema:
             additional_attrs: true
             type: dict
@@ -624,7 +624,7 @@ questions:
                                     default: 995
         - variable: externalsievef
           label: 'externalsievef service'
-        - variable: externalsievef
+          description: "When you are going to use clients with ability to manage Sieve filters externally, you need also publish port 4190"
           schema:
             additional_attrs: true
             type: dict

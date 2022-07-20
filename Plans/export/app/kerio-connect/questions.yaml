@@ -144,7 +144,6 @@ questions:
 
         - variable: tcp-port-1
           label: 'tcp-port-1 service'
-        - variable: tcp-port-1
           schema:
             additional_attrs: true
             type: dict
@@ -204,7 +203,6 @@ questions:
                                     default: 22
         - variable: tcp-port-2
           label: 'tcp-port-2 service'
-        - variable: tcp-port-2
           schema:
             additional_attrs: true
             type: dict
@@ -264,7 +262,6 @@ questions:
                                     default: 25
         - variable: tcp-port-3
           label: 'tcp-port-3 service'
-        - variable: tcp-port-3
           schema:
             additional_attrs: true
             type: dict
@@ -324,7 +321,6 @@ questions:
                                     default: 465
         - variable: tcp-port-4
           label: 'tcp-port-4 service'
-        - variable: tcp-port-4
           schema:
             additional_attrs: true
             type: dict
@@ -384,7 +380,6 @@ questions:
                                     default: 587
         - variable: tcp-port-5
           label: 'tcp-port-5 service'
-        - variable: tcp-port-5
           schema:
             additional_attrs: true
             type: dict
@@ -444,7 +439,6 @@ questions:
                                     default: 110
         - variable: tcp-port-6
           label: 'tcp-port-6 service'
-        - variable: tcp-port-6
           schema:
             additional_attrs: true
             type: dict
@@ -504,7 +498,6 @@ questions:
                                     default: 995
         - variable: tcp-port-7
           label: 'tcp-port-7 service'
-        - variable: tcp-port-7
           schema:
             additional_attrs: true
             type: dict
@@ -564,7 +557,6 @@ questions:
                                     default: 143
         - variable: tcp-port-8
           label: 'tcp-port-8 service'
-        - variable: tcp-port-8
           schema:
             additional_attrs: true
             type: dict
@@ -624,7 +616,6 @@ questions:
                                     default: 993
         - variable: tcp-port-9
           label: 'tcp-port-9 service'
-        - variable: tcp-port-9
           schema:
             additional_attrs: true
             type: dict
@@ -684,7 +675,6 @@ questions:
                                     default: 119
         - variable: tcp-port-10
           label: 'tcp-port-10 service'
-        - variable: tcp-port-10
           schema:
             additional_attrs: true
             type: dict
@@ -744,7 +734,6 @@ questions:
                                     default: 563
         - variable: tcp-port-11
           label: 'tcp-port-11 service'
-        - variable: tcp-port-11
           schema:
             additional_attrs: true
             type: dict
@@ -804,7 +793,6 @@ questions:
                                     default: 389
         - variable: tcp-port-12
           label: 'tcp-port-12 service'
-        - variable: tcp-port-12
           schema:
             additional_attrs: true
             type: dict
@@ -864,7 +852,6 @@ questions:
                                     default: 636
         - variable: tcp-port-13
           label: 'tcp-port-13 service'
-        - variable: tcp-port-13
           schema:
             additional_attrs: true
             type: dict
@@ -924,7 +911,6 @@ questions:
                                     default: 80
         - variable: tcp-port-14
           label: 'tcp-port-14 service'
-        - variable: tcp-port-14
           schema:
             additional_attrs: true
             type: dict
@@ -984,7 +970,6 @@ questions:
                                     default: 443
         - variable: tcp-port-15
           label: 'tcp-port-15 service'
-        - variable: tcp-port-15
           schema:
             additional_attrs: true
             type: dict
@@ -1044,7 +1029,6 @@ questions:
                                     default: 5222
         - variable: tcp-port-16
           label: 'tcp-port-16 service'
-        - variable: tcp-port-16
           schema:
             additional_attrs: true
             type: dict

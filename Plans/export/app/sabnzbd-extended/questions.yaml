@@ -236,7 +236,7 @@ questions:
 
         - variable: hostportfor909
           label: 'hostportfor909 service'
-        - variable: hostportfor909
+          description: "Container Port 9090"
           schema:
             additional_attrs: true
             type: dict

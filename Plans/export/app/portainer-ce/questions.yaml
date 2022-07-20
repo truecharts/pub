@@ -144,7 +144,7 @@ questions:
 
         - variable: sshtunnel
           label: 'sshtunnel service'
-        - variable: sshtunnel
+          description: "Used to connect to Edge Agent via SSH."
           schema:
             additional_attrs: true
             type: dict

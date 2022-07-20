@@ -182,7 +182,7 @@ questions:
 
         - variable: gameport
           label: 'gameport service'
-        - variable: gameport
+          description: "Container Port 22003"
           schema:
             additional_attrs: true
             type: dict
@@ -242,7 +242,7 @@ questions:
                                     default: 22003
         - variable: aseport
           label: 'aseport service'
-        - variable: aseport
+          description: "Game Port 123"
           schema:
             additional_attrs: true
             type: dict

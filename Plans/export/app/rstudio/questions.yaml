@@ -170,7 +170,7 @@ questions:
 
         - variable: hostport2
           label: 'hostport2 service'
-        - variable: hostport2
+          description: "Required for shiny server"
           schema:
             additional_attrs: true
             type: dict

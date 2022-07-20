@@ -188,7 +188,7 @@ questions:
 
         - variable: steamqueryport
           label: 'steamqueryport service'
-        - variable: steamqueryport
+          description: "UDP Steam Query Port"
           schema:
             additional_attrs: true
             type: dict

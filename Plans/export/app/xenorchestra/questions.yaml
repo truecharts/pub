@@ -144,7 +144,7 @@ questions:
 
         - variable: webuihttps
           label: 'webuihttps service'
-        - variable: webuihttps
+          description: "HTTPS WebUI"
           schema:
             additional_attrs: true
             type: dict

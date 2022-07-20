@@ -290,7 +290,7 @@ questions:
 
         - variable: https
           label: 'https service'
-        - variable: https
+          description: "HTTPS"
           schema:
             additional_attrs: true
             type: dict

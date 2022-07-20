@@ -172,7 +172,6 @@ questions:
 
         - variable: udp-port-1
           label: 'udp-port-1 service'
-        - variable: udp-port-1
           schema:
             additional_attrs: true
             type: dict
@@ -232,7 +231,6 @@ questions:
                                     default: 19132
         - variable: tcp-port-2
           label: 'tcp-port-2 service'
-        - variable: tcp-port-2
           schema:
             additional_attrs: true
             type: dict
@@ -292,7 +290,6 @@ questions:
                                     default: 19133
         - variable: udp-port-3
           label: 'udp-port-3 service'
-        - variable: udp-port-3
           schema:
             additional_attrs: true
             type: dict

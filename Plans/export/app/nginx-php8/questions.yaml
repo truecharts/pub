@@ -158,7 +158,7 @@ questions:
 
         - variable: port443
           label: 'port443 service'
-        - variable: port443
+          description: "https"
           schema:
             additional_attrs: true
             type: dict

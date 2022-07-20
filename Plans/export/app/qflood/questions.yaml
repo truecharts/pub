@@ -164,7 +164,7 @@ questions:
 
         - variable: hostportfor808
           label: 'hostportfor808 service'
-        - variable: hostportfor808
+          description: "Container Port 8080"
           schema:
             additional_attrs: true
             type: dict

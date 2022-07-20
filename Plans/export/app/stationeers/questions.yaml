@@ -182,7 +182,7 @@ questions:
 
         - variable: gameport
           label: 'gameport service'
-        - variable: gameport
+          description: "Container Port 27500"
           schema:
             additional_attrs: true
             type: dict

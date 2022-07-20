@@ -144,7 +144,7 @@ questions:
 
         - variable: db
           label: 'db service'
-        - variable: db
+          description: "Container Port 5432"
           schema:
             additional_attrs: true
             type: dict

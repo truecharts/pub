@@ -182,7 +182,7 @@ questions:
 
         - variable: tcp-gameport
           label: 'tcp-gameport service'
-        - variable: tcp-gameport
+          description: "Container Port 7777"
           schema:
             additional_attrs: true
             type: dict

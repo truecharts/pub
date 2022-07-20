@@ -194,7 +194,7 @@ questions:
 
         - variable: udp-gameport
           label: 'udp-gameport service'
-        - variable: udp-gameport
+          description: "UDP Game Port"
           schema:
             additional_attrs: true
             type: dict

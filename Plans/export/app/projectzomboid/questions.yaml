@@ -188,7 +188,7 @@ questions:
 
         - variable: tcp-
           label: 'tcp- service'
-        - variable: tcp-
+          description: "Every player that connects to your server needs its own port (if you dont need that many ports you can also delete this entry and create a new Port for TCP eg 16 players 16262-16278)"
           schema:
             additional_attrs: true
             type: dict
@@ -248,7 +248,7 @@ questions:
                                     default: 16262
         - variable: tcp-rconport
           label: 'tcp-rconport service'
-        - variable: tcp-rconport
+          description: "Not required"
           schema:
             additional_attrs: true
             type: dict

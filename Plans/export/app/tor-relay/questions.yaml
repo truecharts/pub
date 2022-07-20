@@ -164,7 +164,7 @@ questions:
 
         - variable: 9001
           label: '9001 service'
-        - variable: 9001
+          description: "Container Port "
           schema:
             additional_attrs: true
             type: dict

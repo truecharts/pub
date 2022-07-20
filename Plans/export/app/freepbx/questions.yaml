@@ -212,7 +212,7 @@ questions:
 
         - variable: https
           label: 'https service'
-        - variable: https
+          description: "HTTPs"
           schema:
             additional_attrs: true
             type: dict
@@ -272,7 +272,7 @@ questions:
                                     default: 443
         - variable: pjsip
           label: 'pjsip service'
-        - variable: pjsip
+          description: "PJSIP"
           schema:
             additional_attrs: true
             type: dict
@@ -332,7 +332,7 @@ questions:
                                     default: 5060
         - variable: sip
           label: 'sip service'
-        - variable: sip
+          description: "SIP"
           schema:
             additional_attrs: true
             type: dict
@@ -392,7 +392,7 @@ questions:
                                     default: 5160
         - variable: tlssip
           label: 'tlssip service'
-        - variable: tlssip
+          description: "TLS SIP"
           schema:
             additional_attrs: true
             type: dict
@@ -452,7 +452,7 @@ questions:
                                     default: 5161
         - variable: rtpports
           label: 'rtpports service'
-        - variable: rtpports
+          description: "RTP Ports"
           schema:
             additional_attrs: true
             type: dict
@@ -512,7 +512,7 @@ questions:
                                     default: 18000
         - variable: fop
           label: 'fop service'
-        - variable: fop
+          description: "FOP"
           schema:
             additional_attrs: true
             type: dict

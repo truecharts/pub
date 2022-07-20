@@ -182,7 +182,7 @@ questions:
 
         - variable: udp-gameport
           label: 'udp-gameport service'
-        - variable: udp-gameport
+          description: "If you specify another game port then delete this entry and create a new UDP entry with your desired port number (also dont forget to set it in the GAMEPARAMS)."
           schema:
             additional_attrs: true
             type: dict
@@ -242,7 +242,6 @@ questions:
                                     default: 7777
         - variable: udp2
           label: 'udp2 service'
-        - variable: udp2
           schema:
             additional_attrs: true
             type: dict
@@ -302,7 +301,6 @@ questions:
                                     default: 8177
         - variable: udp3
           label: 'udp3 service'
-        - variable: udp3
           schema:
             additional_attrs: true
             type: dict

@@ -144,7 +144,7 @@ questions:
 
         - variable: dnsudp
           label: 'dnsudp service'
-        - variable: dnsudp
+          description: "Container Port 53"
           schema:
             additional_attrs: true
             type: dict

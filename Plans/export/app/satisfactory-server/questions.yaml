@@ -164,7 +164,7 @@ questions:
 
         - variable: beaconport
           label: 'beaconport service'
-        - variable: beaconport
+          description: "Set the games beacon port"
           schema:
             additional_attrs: true
             type: dict
@@ -224,7 +224,7 @@ questions:
                                     default: 15000
         - variable: queryport
           label: 'queryport service'
-        - variable: queryport
+          description: "Set the games query port"
           schema:
             additional_attrs: true
             type: dict

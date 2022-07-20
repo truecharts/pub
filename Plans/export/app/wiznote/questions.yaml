@@ -144,7 +144,7 @@ questions:
 
         - variable: 9269
           label: '9269 service'
-        - variable: 9269
+          description: "Container Port 9269"
           schema:
             additional_attrs: true
             type: dict

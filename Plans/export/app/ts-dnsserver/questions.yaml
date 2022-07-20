@@ -144,7 +144,7 @@ questions:
 
         - variable: dnsport
           label: 'dnsport service'
-        - variable: dnsport
+          description: "Container Port 53"
           schema:
             additional_attrs: true
             type: dict

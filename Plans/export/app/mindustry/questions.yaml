@@ -176,7 +176,7 @@ questions:
 
         - variable: udp-gameport
           label: 'udp-gameport service'
-        - variable: udp-gameport
+          description: "Container Port 6567"
           schema:
             additional_attrs: true
             type: dict

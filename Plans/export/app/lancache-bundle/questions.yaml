@@ -332,7 +332,7 @@ questions:
 
         - variable: httpport
           label: 'httpport service'
-        - variable: httpport
+          description: "Container Port 80Dont change!"
           schema:
             additional_attrs: true
             type: dict
@@ -392,7 +392,7 @@ questions:
                                     default: 80
         - variable: httpsport
           label: 'httpsport service'
-        - variable: httpsport
+          description: "Container Port 443SNIProxy port, dont change!"
           schema:
             additional_attrs: true
             type: dict

@@ -188,7 +188,7 @@ questions:
 
         - variable: tcp1
           label: 'tcp1 service'
-        - variable: tcp1
+          description: "Container Port 30110"
           schema:
             additional_attrs: true
             type: dict
@@ -248,7 +248,7 @@ questions:
                                     default: 30110
         - variable: tcp2
           label: 'tcp2 service'
-        - variable: tcp2
+          description: "Container Port 30120"
           schema:
             additional_attrs: true
             type: dict
@@ -308,7 +308,7 @@ questions:
                                     default: 30120
         - variable: udp1
           label: 'udp1 service'
-        - variable: udp1
+          description: "Container Port 30110"
           schema:
             additional_attrs: true
             type: dict
@@ -368,7 +368,7 @@ questions:
                                     default: 30110
         - variable: udp2
           label: 'udp2 service'
-        - variable: udp2
+          description: "Container Port 30120"
           schema:
             additional_attrs: true
             type: dict

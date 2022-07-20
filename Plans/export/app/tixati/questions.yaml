@@ -200,7 +200,7 @@ questions:
 
         - variable: vncportforgui
           label: 'vncportforgui service'
-        - variable: vncportforgui
+          description: "Port used to access the applications GUI via the VNC protocol.  Optional if no VNC client is used."
           schema:
             additional_attrs: true
             type: dict
@@ -260,7 +260,7 @@ questions:
                                     default: 5900
         - variable: containerport
           label: 'containerport service'
-        - variable: containerport
+          description: "Container Port."
           schema:
             additional_attrs: true
             type: dict

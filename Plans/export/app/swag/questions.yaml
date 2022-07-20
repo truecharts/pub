@@ -224,7 +224,7 @@ questions:
 
         - variable: port80
           label: 'port80 service'
-        - variable: port80
+          description: "Http port (required for http validation and http - https redirect)"
           schema:
             additional_attrs: true
             type: dict

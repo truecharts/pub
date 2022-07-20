@@ -164,7 +164,7 @@ questions:
 
         - variable: management
           label: 'management service'
-        - variable: management
+          description: "HTTPS API"
           schema:
             additional_attrs: true
             type: dict
@@ -224,7 +224,7 @@ questions:
                                     default: 8089
         - variable: dataingest
           label: 'dataingest service'
-        - variable: dataingest
+          description: "SplunkTCP input"
           schema:
             additional_attrs: true
             type: dict

@@ -194,7 +194,7 @@ questions:
 
         - variable: porttcp
           label: 'porttcp service'
-        - variable: porttcp
+          description: "Edonkey network"
           schema:
             additional_attrs: true
             type: dict
@@ -254,7 +254,7 @@ questions:
                                     default: 23732
         - variable: portudp
           label: 'portudp service'
-        - variable: portudp
+          description: "Kad network"
           schema:
             additional_attrs: true
             type: dict

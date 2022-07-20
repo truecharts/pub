@@ -144,7 +144,7 @@ questions:
 
         - variable: socks5proxy
           label: 'socks5proxy service'
-        - variable: socks5proxy
+          description: "SOCKS5 proxy"
           schema:
             additional_attrs: true
             type: dict

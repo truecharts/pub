@@ -144,7 +144,6 @@ questions:
 
         - variable: homebridgeport
           label: 'homebridgeport service'
-        - variable: homebridgeport
           schema:
             additional_attrs: true
             type: dict

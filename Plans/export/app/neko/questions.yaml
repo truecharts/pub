@@ -182,7 +182,7 @@ questions:
 
         - variable: port52000-
           label: 'port52000- service'
-        - variable: port52000-
+          description: "Needed for Webrtc Communication"
           schema:
             additional_attrs: true
             type: dict

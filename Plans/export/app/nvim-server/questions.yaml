@@ -170,7 +170,7 @@ questions:
 
         - variable: markdownprevie
           label: 'markdownprevie service'
-        - variable: markdownprevie
+          description: "Port for the Instant Markdown Preview Server"
           schema:
             additional_attrs: true
             type: dict

@@ -206,7 +206,7 @@ questions:
 
         - variable: queryport
           label: 'queryport service'
-        - variable: queryport
+          description: "UDP Query Port (if you need another port delete this entry and create a new Port mapping with the same Port for the Host and Container Port, also dont forget to change the QueryPort value in the Game Parameters!)"
           schema:
             additional_attrs: true
             type: dict

@@ -172,7 +172,7 @@ questions:
 
         - variable: webui2
           label: 'webui2 service'
-        - variable: webui2
+          description: "Port for VNC."
           schema:
             additional_attrs: true
             type: dict

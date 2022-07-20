@@ -188,7 +188,7 @@ questions:
 
         - variable: beaconport
           label: 'beaconport service'
-        - variable: beaconport
+          description: "UDP Beacon Port"
           schema:
             additional_attrs: true
             type: dict

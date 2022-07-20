@@ -182,7 +182,7 @@ questions:
 
         - variable: gameport
           label: 'gameport service'
-        - variable: gameport
+          description: "Container Port 27015"
           schema:
             additional_attrs: true
             type: dict
@@ -242,7 +242,7 @@ questions:
                                     default: 27015
         - variable: steamqueryport
           label: 'steamqueryport service'
-        - variable: steamqueryport
+          description: "Container Port 27016"
           schema:
             additional_attrs: true
             type: dict
