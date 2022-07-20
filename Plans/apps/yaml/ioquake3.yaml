@@ -140,7 +140,6 @@ Keywords:
 Name: ioquake3
 Overview: "This Docker will download and install ioquake3 Server (You have to copy\
   \ your pak0.pk3 file from your game directory to your server).\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/ioquake3
 Repository: ich777/ioquake3

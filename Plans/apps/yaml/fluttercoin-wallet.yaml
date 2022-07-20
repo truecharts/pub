@@ -144,7 +144,6 @@ Keywords:
 Name: fluttercoin-wallet
 Overview: "FlutterCoin may be a coin with the tried and true algorithm of scrypt,\
   \ but it's definitely anything but ordinary.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/fluttercoin
 Repository: ich777/fluttercoin

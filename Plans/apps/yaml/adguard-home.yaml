@@ -50,7 +50,6 @@ Overview: "AdGuard Home is a network-wide software for blocking ads & tracking. 
   \ you set it up, it\u2019ll cover ALL your home devices, and you don\u2019t need\
   \ any client-side software for that. With the rise of Internet-Of-Things and connected\
   \ devices, it becomes more and more important to be able to control your whole network."
-PostArgs: ''
 Privileged: 'false'
 Registry: https://registry.hub.docker.com/r/adguard/adguardhome
 Repository: adguard/adguardhome

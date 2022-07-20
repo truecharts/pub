@@ -84,7 +84,6 @@ Overview: A utility to help manage your library. Options include adding 4k banne
   and HDR banners to your poster art automactically, auto collections for Disney and
   Pixar Studios and hiding/auto optimising media files where there is only a 4k version
   available.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jkirkcaldy/plex-utills/
 Repository: jkirkcaldy/plex-utills

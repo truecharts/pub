@@ -41,7 +41,6 @@ Keywords:
 Name: maildev
 Official: true
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/maildev/maildev
 Repository: maildev/maildev

@@ -93,7 +93,6 @@ Keywords:
 Name: gpodder
 Overview: "gPodder is a simple, open source podcast client written in Python using\
   \ GTK+. In development since 2005 with a proven, mature codebase.&amp;#xD;\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/xthursdayx/gpodder-docker/
 Repository: xthursdayx/gpodder-docker

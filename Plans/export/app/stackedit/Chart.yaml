@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -15,7 +15,7 @@ description: "StackEdit\u2019s Markdown syntax highlighting is unique. The refin
   \ text formatting of the editor helps you visualize the final rendering of your\
   \ files."
 home: https://github.com/truecharts/apps/tree/master/charts/stable/stackedit
-icon: https://truecharts.org/_static/img/appicons/stackedit.png
+icon: https://truecharts.org/img/chart-icons/stackedit.png
 keywords:
 - stackedit
 - Productivity

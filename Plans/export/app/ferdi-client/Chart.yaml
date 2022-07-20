@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -17,7 +17,7 @@ description: "Ferdi is a destkop app that helps you organize how you use your fa
   \ many additional features and doesn't restrict its usage! Ferdi is compatible with\
   \ your existing Franz account so you can continue right where you left off.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ferdi-client
-icon: https://truecharts.org/_static/img/appicons/ferdi-client.png
+icon: https://truecharts.org/img/chart-icons/ferdi-client.png
 keywords:
 - ferdi-client
 - Productivity

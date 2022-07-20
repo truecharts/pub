@@ -62,7 +62,6 @@ Keywords:
 - Tools-Utilities
 Name: magicmirror-2
 Overview: "This Container will download and install MagicMirror\xB2.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/magic-mirror2
 Repository: ich777/magic-mirror2

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Management
@@ -15,7 +15,7 @@ deprecated: false
 description: "This tool will continuosly run Speedtests at the chosen interval and\
   \ export the data to InfluxDB. &lt;br&gt;\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/speedflux
-icon: https://truecharts.org/_static/img/appicons/speedflux.png
+icon: https://truecharts.org/img/chart-icons/speedflux.png
 keywords:
 - speedflux
 - Tools-Utilities

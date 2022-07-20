@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "This Docker will download and install the preferred version of Xonotic.\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/xonotic
-icon: https://truecharts.org/_static/img/appicons/xonotic.png
+icon: https://truecharts.org/img/chart-icons/xonotic.png
 keywords:
 - xonotic
 - GameServers

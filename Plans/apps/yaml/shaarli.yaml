@@ -46,7 +46,6 @@ Keywords:
 Name: shaarli
 Official: true
 Overview: The personal, minimalist, super-fast, database free, bookmarking service.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/shaarli/shaarli/
 Repository: shaarli/shaarli

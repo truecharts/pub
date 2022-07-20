@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: Multi-arch tar1090 container for visualising ADSB data.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/tar1090
-icon: https://truecharts.org/_static/img/appicons/tar1090.png
+icon: https://truecharts.org/img/chart-icons/tar1090.png
 keywords:
 - tar1090
 - Other

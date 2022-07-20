@@ -142,7 +142,6 @@ Overview: 'Serve your Electrum clients from your own Bitcoin node! Avoid trustin
   Internet to support other Electrum users who can''t run their own nodes.
 
   '
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ofawx/electrumx/
 Repository: ofawx/electrumx
@@ -151,4 +150,3 @@ Sources:
 - https://github.com/spesmilo/electrumx/
 - https://hub.docker.com/r/ofawx/electrumx/
 Tag: latest
-WebUI: ''

@@ -213,7 +213,6 @@ Overview: 'Automated Movie Trailer Downloader :: AMTD is a Radarr Companion scri
   to automatically download movie trailers for use in media applications
 
   '
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/randomninjaatk/amtd
 Repository: randomninjaatk/amtd
@@ -222,4 +221,3 @@ Sources:
 - https://github.com/RandomNinjaAtk/docker-amtd
 - https://hub.docker.com/r/randomninjaatk/amtd
 Tag: latest
-WebUI: ''

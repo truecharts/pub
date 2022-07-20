@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-DNS
   truecharts.org/grade: U
@@ -16,7 +16,7 @@ description: Technitium DNS Server is an open source tool that can be used for s
   configuration and provides a user friendly web console accessible using any web
   browser.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ts-dnsserver
-icon: https://truecharts.org/_static/img/appicons/ts-dnsserver.png
+icon: https://truecharts.org/img/chart-icons/ts-dnsserver.png
 keywords:
 - ts-dnsserver
 - Network-DNS

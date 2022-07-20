@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "Build agents that monitor and act on your behalf. Your agents are standing\
   \ by! \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/huginn
-icon: https://truecharts.org/_static/img/appicons/huginn.png
+icon: https://truecharts.org/img/chart-icons/huginn.png
 keywords:
 - huginn
 - HomeAutomation

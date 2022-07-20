@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -16,7 +16,7 @@ description: "PhantomBot is a Twitch chat bot powered by Java. PhantomBot has ma
   \ can also be integrated with many services such as Discord, Twitter, TipeeeStream,\
   \ StreamLabs and StreamElements!\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/phantombot-1
-icon: https://truecharts.org/_static/img/appicons/phantombot-1.png
+icon: https://truecharts.org/img/chart-icons/phantombot-1.png
 keywords:
 - phantombot-1
 - GameServers

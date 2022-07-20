@@ -40,7 +40,6 @@ Keywords:
 - MediaServer-Music
 Name: euterpe
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ironsmile/euterpe
 Repository: ironsmile/euterpe

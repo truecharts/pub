@@ -59,7 +59,6 @@ Keywords:
 Name: jupyterlab
 Overview: "JupyterLab is a web-based interactive development environment for Jupyter\
   \ notebooks, code, and data. \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/bgameiro/arch-jupyterlab
 Repository: bgameiro/arch-jupyterlab

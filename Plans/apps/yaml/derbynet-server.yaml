@@ -132,7 +132,6 @@ Name: derbynet-server
 Overview: DerbyNet is the new standard in race management software for Pinewood Derby
   events. It's free, and it's open source. With DerbyNet, multiple browsers connect
   to a web server running on your laptop or in the cloud.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://registry.hub.docker.com/r/mitchellriley/derbynet_server
 Repository: mitchellriley/derbynet_server

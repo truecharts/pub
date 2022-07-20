@@ -22,7 +22,6 @@ Config:
       Target: 8080
       value: 8099
   Variable: {}
-Icon: ''
 Keywords:
 - rdiffweb
 - Cloud

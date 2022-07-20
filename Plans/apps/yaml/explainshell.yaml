@@ -13,7 +13,6 @@ Keywords:
 Name: explainshell
 Overview: "Not everyone, especially people new to Linux and Unraid, know what a command\
   \ that they type i will actually do.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/spaceinvaderone/explainshell
 Repository: spaceinvaderone/explainshell

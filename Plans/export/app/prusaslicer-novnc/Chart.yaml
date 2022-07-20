@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Productivity
@@ -14,7 +14,7 @@ deprecated: false
 description: "Enjoy Prusaslicer directly in your browser with this easy to use Docker\
   \ container.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/prusaslicer-novnc
-icon: https://truecharts.org/_static/img/appicons/prusaslicer-novnc.png
+icon: https://truecharts.org/img/chart-icons/prusaslicer-novnc.png
 keywords:
 - prusaslicer-novnc
 - HomeAutomation

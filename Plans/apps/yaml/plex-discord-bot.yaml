@@ -129,14 +129,12 @@ Config:
       Target: TZ
       Type: Variable
       value: America/Denver
-Icon: ''
 Keywords:
 - plex-discord-bot
 - Other
 Name: plex-discord-bot
 Overview: "A Discord bot that allows you to search, play, and queue music from your\
   \ Plex Media Server.[br][br]\r\n"
-PostArgs: ''
 Privileged: 'true'
 Registry: https://hub.docker.com/r/ninjaneer/plex-discord-bot/
 Repository: ninjaneer/plex-discord-bot
@@ -144,4 +142,3 @@ Requires: ''
 Sources:
 - https://hub.docker.com/r/ninjaneer/plex-discord-bot/
 Tag: latest
-WebUI: ''

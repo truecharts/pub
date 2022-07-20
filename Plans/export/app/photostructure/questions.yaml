@@ -90,6 +90,12 @@ questions:
           schema:
             type: string
             default: ""
+        - variable: UMASK
+          label: 'UMASK'
+          description: "Files written by PhotoStructure will be applied with this umask."
+          schema:
+            type: string
+            default: ""
 
 # Include{containerConfig}
 
@@ -231,7 +237,7 @@ questions:
 # Include{persistenceAdvanced}
         - variable: tempscratchdisk
           label: "tempscratchdisk Storage"
-          description: "This needs to be fast, local disk."
+          description: "This must be fast, local disk."
           schema:
             additional_attrs: true
             type: dict

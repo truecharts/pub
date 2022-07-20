@@ -58,7 +58,6 @@ Name: dim
 Overview: Dim is a self-hosted media manager. With minimal setup, Dim will organize
   and beautify your media collections, letting you access and play them anytime from
   anywhere
-PostArgs: ''
 Privileged: 'false'
 Registry: https://github.com/Dusk-Labs/dim/pkgs/container/dim
 Repository: ghcr.io/dusk-labs/dim

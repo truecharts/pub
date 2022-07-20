@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Other
     - Productivity
@@ -16,7 +16,7 @@ deprecated: false
 description: "FlutterCoin may be a coin with the tried and true algorithm of scrypt,\
   \ but it's definitely anything but ordinary.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/fluttercoin-wallet
-icon: https://truecharts.org/_static/img/appicons/fluttercoin-wallet.png
+icon: https://truecharts.org/img/chart-icons/fluttercoin-wallet.png
 keywords:
 - fluttercoin-wallet
 - Network-Other

@@ -69,7 +69,6 @@ Name: sonarqube
 Official: true
 Overview: "SonarQube is an open source platform for continuous inspection of code\
   \ quality.   \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/_/sonarqube/
 Repository: sonarqube

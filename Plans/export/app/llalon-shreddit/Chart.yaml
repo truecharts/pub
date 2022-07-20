@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: Automatically purge reddit comment and post history. Allows for custom
   configuration.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/llalon-shreddit
-icon: https://truecharts.org/_static/img/appicons/llalon-shreddit.png
+icon: https://truecharts.org/img/chart-icons/llalon-shreddit.png
 keywords:
 - llalon-shreddit
 - Tools-Utilities

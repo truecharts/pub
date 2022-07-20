@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - MediaApp-Video
@@ -18,7 +18,7 @@ dependencies:
 deprecated: false
 description: "Homepage: http://bpatrik.github.io/pigallery2/\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pigallery2
-icon: https://truecharts.org/_static/img/appicons/pigallery2.png
+icon: https://truecharts.org/img/chart-icons/pigallery2.png
 keywords:
 - pigallery2
 - Cloud

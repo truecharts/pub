@@ -46,7 +46,6 @@ Keywords:
 Name: discord-gameservermonitor
 Overview: "Monitor your game servers on Discord and tracks the live data of your game\
   \ servers.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/joey291/discordgsm
 Repository: joey291/discordgsm
@@ -56,4 +55,3 @@ Sources:
 - https://discordgsm.com/
 - https://hub.docker.com/r/joey291/discordgsm
 Tag: latest
-WebUI: ''

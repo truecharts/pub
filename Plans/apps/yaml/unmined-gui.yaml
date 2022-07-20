@@ -116,7 +116,6 @@ Name: unmined-gui
 Overview: "uNmINeD-GUI is an easy to use and fast Minecraft world viewer and mapper\
   \ tool. It can read Minecraft Java and Bedrock Edition world files and renders a\
   \ browseable 2D overview map that you can export.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/unmined/
 Repository: ich777/unmined

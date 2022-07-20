@@ -49,7 +49,6 @@ Name: pixelserv-tls
 Overview: "pixelserv-tls is a tiny bespoke HTTP/1.1 webserver with HTTPS and SNI support.\
   \ It acts on behalf of hundreds of thousands of advert/tracker servers and responds\
   \ to all requests with nothing to speed up web browsing.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/imthai/pixelserv-tls/
 Repository: imthai/pixelserv-tls

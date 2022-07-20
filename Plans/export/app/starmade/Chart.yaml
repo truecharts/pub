@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "This container will download and install a StarMade Dedicated Server.\
   \ It will also install a basic server.cfg at the first startup.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/starmade
-icon: https://truecharts.org/_static/img/appicons/starmade.png
+icon: https://truecharts.org/img/chart-icons/starmade.png
 keywords:
 - starmade
 - GameServers

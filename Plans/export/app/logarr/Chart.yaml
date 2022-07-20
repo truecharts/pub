@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: Logarr is a self-hosted, single-page, log consolidation tool written
   in PHP
 home: https://github.com/truecharts/apps/tree/master/charts/stable/logarr
-icon: https://truecharts.org/_static/img/appicons/logarr.png
+icon: https://truecharts.org/img/chart-icons/logarr.png
 keywords:
 - logarr
 - Tools-Utilities

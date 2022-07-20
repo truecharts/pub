@@ -37,7 +37,6 @@ Keywords:
 Name: lingva
 Overview: Alternative front-end for Google Translate, serving as a Free and Open Source
   translator with over a hundred languages available
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/thedaviddelta/lingva-translate
 Repository: thedaviddelta/lingva-translate

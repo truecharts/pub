@@ -1,5 +1,6 @@
 env:
   PS_LOG_LEVEL: ''
+  UMASK: ''
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/photostructure

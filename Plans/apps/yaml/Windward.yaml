@@ -95,7 +95,6 @@ Keywords:
 - GameServers
 Name: windward
 Overview: "This Docker will download and install Windwardand run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/windward/
 Repository: ich777/windward
@@ -104,5 +103,4 @@ Sources:
 - https://www.steampowered.com/
 - https://hub.docker.com/r/ich777/windward/
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Windward.xml

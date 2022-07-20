@@ -207,7 +207,6 @@ Overview: "Roundcube Webmail is a browser-based multilingual IMAP client with an
   \ spell checking. Roundcube Webmail is written in PHP and requires the MySQL, PostgreSQL\
   \ or SQLite database. With its plugin API it is easily extendable and the user interface\
   \ is fully customizable using skins. \n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/roundcube/roundcubemail
 Repository: roundcube/roundcubemail

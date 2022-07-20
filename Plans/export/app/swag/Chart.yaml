@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Web
@@ -17,7 +17,7 @@ description: "SWAG - Secure Web Application Gateway (formerly known as letsencry
   \ certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also\
   \ contains fail2ban for intrusion prevention."
 home: https://github.com/truecharts/apps/tree/master/charts/stable/swag
-icon: https://truecharts.org/_static/img/appicons/swag.png
+icon: https://truecharts.org/img/chart-icons/swag.png
 keywords:
 - swag
 - Tools-Utilities

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Management
     - Network-Other
@@ -15,7 +15,7 @@ description: Gets external IP via DIG command ( OpenDNS , Cloudflare, google ) o
   a scheduled basis that can be customized. Also includes the ability to alert you
   via pushover if the IP changes.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/external-ip
-icon: https://truecharts.org/_static/img/appicons/external-ip.png
+icon: https://truecharts.org/img/chart-icons/external-ip.png
 keywords:
 - external-ip
 - Network-Management

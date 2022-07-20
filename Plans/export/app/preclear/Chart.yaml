@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -16,7 +16,7 @@ description: A utility to "burn-in" a new disk, before adding it to your array h
   disk before adding it to your array.  When a special "signature" is detected, the
   lengthy "clearing" step otherwise performed by unRAID is skipped.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/preclear
-icon: https://truecharts.org/_static/img/appicons/preclear.png
+icon: https://truecharts.org/img/chart-icons/preclear.png
 keywords:
 - preclear
 - Productivity

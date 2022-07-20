@@ -84,7 +84,6 @@ Overview: 'This docker image will install the latest current stable version of T
   server. It will run Tor as an unprivileged regular user, as recommended by torproject.org.
 
   '
-PostArgs: ''
 Privileged: 'false'
 Registry: https://registry.hub.docker.com/r/doudou34/tor-server
 Repository: doudou34/tor-server
@@ -93,4 +92,3 @@ Sources:
 - https://github.com/maschhoff/docker/tree/master/tor-relay
 - https://registry.hub.docker.com/r/doudou34/tor-server
 Tag: latest
-WebUI: ''

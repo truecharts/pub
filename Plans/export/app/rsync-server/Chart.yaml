@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Backup
     - Tools-Utilities
@@ -13,7 +13,7 @@ dependencies:
 deprecated: false
 description: "Simple rsync server based on Alpine\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rsync-server
-icon: https://truecharts.org/_static/img/appicons/rsync-server.png
+icon: https://truecharts.org/img/chart-icons/rsync-server.png
 keywords:
 - rsync-server
 - Backup

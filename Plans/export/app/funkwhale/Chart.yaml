@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaApp-Music
     - MediaServer-Music
@@ -14,7 +14,7 @@ deprecated: false
 description: Funkwhale is designed to make it easy to listen to music you like, and
   to discover new artists.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/funkwhale
-icon: https://truecharts.org/_static/img/appicons/funkwhale.png
+icon: https://truecharts.org/img/chart-icons/funkwhale.png
 keywords:
 - funkwhale
 - MediaApp-Music

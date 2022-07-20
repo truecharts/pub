@@ -583,7 +583,6 @@ Keywords:
 - Network-Messenger
 Name: jitsi-prosody
 Overview: Prosody image for Jitsi Meet
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jitsi/prosody/
 Repository: jitsi/prosody
@@ -592,4 +591,3 @@ Sources:
 - https://jitsi.org/
 - https://hub.docker.com/r/jitsi/prosody/
 Tag: latest
-WebUI: ''

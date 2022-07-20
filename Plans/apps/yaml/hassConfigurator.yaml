@@ -45,7 +45,6 @@ Keywords:
 - HomeAutomation
 Name: hassconfigurator
 Overview: Home Assistant online configurator container from https://github.com/danielperna84/hass-configurator
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/causticlab/hass-configurator-docker//Dockerfile/
 Repository: causticlab/hass-configurator-docker

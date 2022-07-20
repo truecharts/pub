@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-DNS
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "A very simple DNS server to connect to DNS-over-HTTPS service. This\
   \ is similar to my other Pihole-with-DoH docker, without Pihole.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/dns-doh-companion
-icon: https://truecharts.org/_static/img/appicons/dns-doh-companion.png
+icon: https://truecharts.org/img/chart-icons/dns-doh-companion.png
 keywords:
 - dns-doh-companion
 - Network-DNS

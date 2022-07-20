@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Web
     - Other
@@ -15,7 +15,7 @@ description: "All-in-one image for feeding FlightRadar24/FlightAware ADS-B/MLAT 
   \ with an RTL-SDR device and local web server for displaying aircraft positions\
   \ on a map.[br][br]\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/fr24feed-piaware
-icon: https://truecharts.org/_static/img/appicons/fr24feed-piaware.png
+icon: https://truecharts.org/img/chart-icons/fr24feed-piaware.png
 keywords:
 - fr24feed-piaware
 - Network-Web

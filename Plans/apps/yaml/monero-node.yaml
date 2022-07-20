@@ -82,7 +82,6 @@ Keywords:
 - Network-Other
 Name: monero-node
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/kannix/monero-full-node
 Repository: kannix/monero-full-node
@@ -91,4 +90,3 @@ Sources:
 - https://github.com/kannix/monero-full-node
 - https://hub.docker.com/r/kannix/monero-full-node
 Tag: latest
-WebUI: ''

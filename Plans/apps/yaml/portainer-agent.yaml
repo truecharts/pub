@@ -48,7 +48,6 @@ Keywords:
 Name: portainer-agent
 Official: true
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/portainer/agent
 Repository: portainer/agent
@@ -57,4 +56,3 @@ Sources:
 - https://github.com/portainer/agent
 - https://hub.docker.com/r/portainer/agent
 Tag: latest
-WebUI: ''

@@ -78,7 +78,6 @@ Keywords:
 - Productivity
 Name: rstudio
 Overview: "***NOTE*** First run is slow.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/rocker/rstudio/
 Repository: rocker/rstudio

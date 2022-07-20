@@ -2,7 +2,6 @@ env:
   EULA: 'false'
   JVM_OPTS: -Xms4096m -Xmx6144m
   LEVEL: world
-  MOTD: ''
   OPS: ''
 image:
   pullPolicy: IfNotPresent

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "Liquid-dl is a simple tool for utlities such as FFMPEG, youtube-dl
   \ and scdl. It provides a simple framework with simple point and click options allowing\
   \ users\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/liquid-dl
-icon: https://truecharts.org/_static/img/appicons/liquid-dl.png
+icon: https://truecharts.org/img/chart-icons/liquid-dl.png
 keywords:
 - liquid-dl
 - Downloaders

@@ -63,6 +63,18 @@ Config:
       Target: UID
       Type: Variable
       value: '99'
+    vintagestoryreleasechannel:
+      Default: ''
+      Description: Select which release channel you want to use (valid values are
+        'stable', 'unstable' &amp; 'pre' without quotes).
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Vintage Story Release Channel
+      Required: 'true'
+      Target: VS_CHANNEL
+      Type: Variable
+      value: stable
 ExtraParams: --restart=unless-stopped
 Icon: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/vintagestory.png
 Keywords:
@@ -71,7 +83,6 @@ Keywords:
 Name: vintage-story
 Overview: "This is a Basic Vintage Story Server it will download and install Vintage\
   \ Story Server and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/vintagestory/
 Repository: ich777/vintagestory
@@ -80,5 +91,4 @@ Sources:
 - https://www.vintagestory.at/
 - https://hub.docker.com/r/ich777/vintagestory/
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Vintage-Story.xml

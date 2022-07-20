@@ -56,7 +56,6 @@ Keywords:
 - Tools-Utilities
 Name: mongo-express
 Overview: Web-based MongoDB admin interface, written with Node.js and express.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://registry.hub.docker.com/r/ulisses1478/mongo-express
 Repository: ulisses1478/mongo-express

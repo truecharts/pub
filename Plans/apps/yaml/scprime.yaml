@@ -31,39 +31,28 @@ Config:
       Type: Path
       value: ''
   Port:
-    port1:
+    hostaddress:
       Default: '4282'
       Description: Open this port in your firewall and forward to your server.
       Display: always
       Mask: 'false'
       Mode: tcp
-      Name: Port 1
+      Name: Host Address
       Required: 'true'
       Target: 4282
       Type: Port
       value: 4282
-    port2:
+    hostapiaddress:
       Default: '4283'
       Description: Open this port in your firewall and forward to your server.
       Display: always
       Mask: 'false'
       Mode: tcp
-      Name: Port 2
+      Name: Host API Address
       Required: 'true'
       Target: 4283
       Type: Port
       value: 4283
-    port3:
-      Default: '4285'
-      Description: Open this port in your firewall and forward to your server.
-      Display: always
-      Mask: 'false'
-      Mode: tcp
-      Name: Port 3
-      Required: 'true'
-      Target: 4285
-      Type: Port
-      value: 4285
   Variable:
     walletpassword:
       Default: ''
@@ -99,4 +88,4 @@ Sources:
 - https://scpri.me
 - https://hub.docker.com/r/scprime/scprime
 Tag: latest
-WebUI: ''
+caTemplateURL: https://raw.githubusercontent.com/rythmik/docker-templates/master/rythmik/scprime/scprime.xml

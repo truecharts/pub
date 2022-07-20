@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
     - MediaApp-Video
@@ -17,7 +17,7 @@ description: "TubeSync is a PVR (personal video recorder) for YouTube. Or, like 
   \ channels and playlists from YouTube to local directories and update your media\
   \ server once media is downloaded.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/tubesync
-icon: https://truecharts.org/_static/img/appicons/tubesync.png
+icon: https://truecharts.org/img/chart-icons/tubesync.png
 keywords:
 - tubesync
 - Downloaders

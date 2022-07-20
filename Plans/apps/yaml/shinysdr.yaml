@@ -59,7 +59,6 @@ Keywords:
 Name: shinysdr
 Overview: "Software-defined radio receiver application built on GNU Radio with a web-based\
   \ UI and plugins.[br][br]\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jeffersonjhunt/shinysdr
 Repository: jeffersonjhunt/shinysdr

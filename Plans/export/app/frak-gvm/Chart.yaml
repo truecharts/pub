@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Security
@@ -17,7 +17,7 @@ description: OpenVAS is a full-featured vulnerability scanner. Its capabilities 
   a powerful internal programming language to implement any type of vulnerability
   test.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/frak-gvm
-icon: https://truecharts.org/_static/img/appicons/frak-gvm.png
+icon: https://truecharts.org/img/chart-icons/frak-gvm.png
 keywords:
 - frak-gvm
 - Tools-Utilities

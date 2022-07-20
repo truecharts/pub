@@ -59,7 +59,6 @@ Keywords:
 Name: prusaslicer-novnc
 Overview: "Enjoy Prusaslicer directly in your browser with this easy to use Docker\
   \ container.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/mikeah/prusaslicer-novnc
 Repository: mikeah/prusaslicer-novnc

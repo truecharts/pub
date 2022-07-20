@@ -36,7 +36,6 @@ Keywords:
 - MediaApp-Video
 Name: media-roller
 Overview: "Mobile friendly tool for downloading videos from social media.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/ronnieroller/media-roller
 Repository: ronnieroller/media-roller

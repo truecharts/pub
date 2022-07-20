@@ -13,7 +13,6 @@ Keywords:
 Name: rickroll
 Overview: Self-hosted Rickrolls. Image is based on Nginx stable alpine, and all the
   content is local to the container.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/modem7/docker-rickroll
 Repository: modem7/docker-rickroll
@@ -22,4 +21,4 @@ Sources:
 - https://github.com/modem7/docker-rickroll
 - https://hub.docker.com/r/modem7/docker-rickroll
 Tag: latest
-WebUI: http://[IP]:[PORT:80]
+WebUI: http://[IP]:[PORT:8080]

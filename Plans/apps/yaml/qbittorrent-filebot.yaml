@@ -161,7 +161,6 @@ Overview: "qBittorrent is a cross-platform free and open-source BitTorrent clien
   \ It is a native application written in C++. It uses Boost, Qt 5 toolkit, and the\
   \ libtorrent-rasterbar library (for the torrent back-end). Its optional search engine\
   \ is written in Python.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/imthai/qbittorrent-filebot
 Repository: imthai/qbittorrent-filebot

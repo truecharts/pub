@@ -106,7 +106,6 @@ Keywords:
 - Network-FTP
 Name: filegator
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/maxime1907/filegator
 Repository: maxime1907/filegator

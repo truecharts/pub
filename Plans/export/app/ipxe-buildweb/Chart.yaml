@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network
     - Network-Other
@@ -17,7 +17,7 @@ description: 'A web-based user interface that provide a way for the user to sele
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ipxe-buildweb
-icon: https://truecharts.org/_static/img/appicons/ipxe-buildweb.png
+icon: https://truecharts.org/img/chart-icons/ipxe-buildweb.png
 keywords:
 - ipxe-buildweb
 - Network

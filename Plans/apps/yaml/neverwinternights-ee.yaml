@@ -291,7 +291,6 @@ Name: neverwinternights-ee
 Overview: "This Docker will download and install Neverwinter Nights: Enhanced Edition\
   \ and run it (by default this container has a MariaDB and Redis Server integrated).\r\
   \n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/nwnee-server/
 Repository: ich777/nwnee-server
@@ -300,5 +299,4 @@ Sources:
 - https://www.beamdog.com/games/neverwinter-nights-enhanced/
 - https://hub.docker.com/r/ich777/nwnee-server/
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/NeverWinterNights-EE.xml

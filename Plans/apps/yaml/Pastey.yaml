@@ -129,7 +129,6 @@ Keywords:
 Name: pastey
 Overview: A lightweight, self-hosted paste platform (Pastebin alternative) with language
   detection and on-disk encryption.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/cesura/pastey/
 Repository: cesura/pastey

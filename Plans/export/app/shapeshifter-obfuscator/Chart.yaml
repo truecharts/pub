@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Security
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: "Shapeshifter-Obfuscator is a dockerized implementation of shapeshi
   \ proxy and obfuscation tools that effectively modify packets to evade advanced\
   \ IDS systems. \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/shapeshifter-obfuscator
-icon: https://truecharts.org/_static/img/appicons/shapeshifter-obfuscator.png
+icon: https://truecharts.org/img/chart-icons/shapeshifter-obfuscator.png
 keywords:
 - shapeshifter-obfuscator
 - Security

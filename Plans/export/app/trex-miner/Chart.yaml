@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Crypto
@@ -15,7 +15,7 @@ description: "T-Rex is a versatile cryptocurrency mining software. It supports a
   \ of algorithms and we, as developers, are trying to do our best to make it as fast\
   \ and as convenient to use as possible.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/trex-miner
-icon: https://truecharts.org/_static/img/appicons/trex-miner.png
+icon: https://truecharts.org/img/chart-icons/trex-miner.png
 keywords:
 - trex-miner
 - Tools-Utilities

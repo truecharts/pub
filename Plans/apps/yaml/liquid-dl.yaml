@@ -58,7 +58,6 @@ Name: liquid-dl
 Overview: "Liquid-dl is a simple tool for utlities such as FFMPEG, youtube-dl, and\
   \ scdl. It provides a simple framework with simple point and click options allowing\
   \ users\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/kthulu120/liquid_dl/
 Repository: kthulu120/liquid_dl

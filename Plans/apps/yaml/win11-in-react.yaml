@@ -11,8 +11,7 @@ Keywords:
 - win11-in-react
 - Other
 Name: win11-in-react
-Overview: "Windows 11 in React is an Windows 11 Web-Clone in React.\r\n"
-PostArgs: ''
+Overview: "Windows 11 in React is a Windows 11 web clone written in React.\r\n"
 Privileged: 'false'
 Registry: https://hub.docker.com/r/blueedge/win11react/
 Repository: blueedge/win11react

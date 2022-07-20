@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Management
@@ -15,7 +15,7 @@ description: The Unifi-controller(https://www.ubnt.com/enterprise/#unifi) softwa
   is a powerful, enterprise wireless software engine ideal for high-density client
   deployments requiring low latency and high uptime performance.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/unifi-controller
-icon: https://truecharts.org/_static/img/appicons/unifi-controller.png
+icon: https://truecharts.org/img/chart-icons/unifi-controller.png
 keywords:
 - unifi-controller
 - Tools-Utilities

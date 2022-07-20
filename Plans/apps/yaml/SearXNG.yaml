@@ -6,14 +6,14 @@ Config:
   Label: {}
   Path:
     config:
-      Default: /mnt/cache/appdata/searx/
+      Default: /mnt/cache/appdata/searxng/
       Description: SearXNG's config location
       Display: always
       Mask: 'false'
       Mode: rw
       Name: Config
       Required: 'true'
-      Target: /etc/searx
+      Target: /etc/searxng
       Type: Path
       value: ''
   Port:
@@ -50,7 +50,6 @@ Official: true
 Overview: "SearXNG is a free internet metasearch engine which aggregates results from\
   \ more than 70 search services. Users are neither tracked nor profiled. Additionally,\
   \ SearXNG can be used over Tor for online anonymity.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/searxng/searxng
 Repository: searxng/searxng

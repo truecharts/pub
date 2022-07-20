@@ -84,6 +84,24 @@ questions:
       type: dict
       attrs:
 
+        - variable: APP_NAME
+          label: 'APP_NAME'
+          description: "This is the title of the browsers tab."
+          schema:
+            type: string
+            default: "Vorta"
+        - variable: SECURE_CONNECTION
+          label: 'SECURE_CONNECTION'
+          description: "Use an encrypted connection to access the applications GUI (HTTPS)."
+          schema:
+            type: string
+            default: "0"
+        - variable: VNC_PASSWORD
+          label: 'VNC_PASSWORD'
+          description: "Password to connect to the applications GUI. (leave it blank to access without a password)"
+          schema:
+            type: string
+            default: ""
         - variable: USER_ID
           label: 'USER_ID'
           description: "Default 1028"
@@ -96,6 +114,11 @@ questions:
           schema:
             type: string
             default: "100"
+        - variable: UMASK
+          label: 'UMASK'
+          schema:
+            type: string
+            default: "022"
 
 # Include{containerConfig}
 
@@ -194,7 +217,7 @@ questions:
 
         - variable: backupsto
           label: "backupsto Storage"
-          description: "Specify the location for backups (destination)."
+          description: "This is the location for backups (destination)."
           schema:
             additional_attrs: true
             type: dict
@@ -235,9 +258,9 @@ questions:
                     - value: "Memory"
                       description: "Memory"
 # Include{persistenceAdvanced}
-        - variable: data
-          label: "data Storage"
-          description: "Specify the location for backups (source)."
+        - variable: backupsfrom
+          label: "backupsfrom Storage"
+          description: "This is the location for backups (source)."
           schema:
             additional_attrs: true
             type: dict

@@ -42,7 +42,6 @@ Keywords:
 - Network-Other
 Name: hastebin
 Overview: "Alpine-based Docker image for Hastebin, the node.js paste service  \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/flippinturt/hastebin
 Repository: flippinturt/hastebin

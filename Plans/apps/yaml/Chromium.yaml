@@ -104,7 +104,6 @@ Keywords:
 Name: chromium
 Overview: Chromium is a free and open-source software project developed by the Google-sponsored
   Chromium project.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/chrome/
 Repository: ich777/chrome

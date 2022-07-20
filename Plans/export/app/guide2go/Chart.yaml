@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: "a xml grabber from schedule direct service\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/guide2go
-icon: https://truecharts.org/_static/img/appicons/guide2go.png
+icon: https://truecharts.org/img/chart-icons/guide2go.png
 keywords:
 - guide2go
 - Downloaders

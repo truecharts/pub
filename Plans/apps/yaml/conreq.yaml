@@ -76,7 +76,6 @@ Keywords:
 - MediaApp-Other
 Name: conreq
 Overview: Conreq, a Content Requesting platform.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/hotio/conreq
 Repository: cr.hotio.dev/hotio/conreq

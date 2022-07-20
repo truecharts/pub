@@ -119,7 +119,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 1443
+                              default: 180
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -132,7 +132,7 @@ questions:
                                   label: "Port Type"
                                   schema:
                                     type: string
-                                    default: TCP
+                                    default: HTTP
                                     enum:
                                       - value: HTTP
                                         description: "HTTP"
@@ -154,18 +154,18 @@ questions:
                                   description: "The internal(!) port on the container the Application runs on"
                                   schema:
                                     type: int
-                                    default: 443
+                                    default: 80
 
-        - variable: http
-          label: 'http service'
+        - variable: https
+          label: 'https service'
           description: "The Primary service on which the healthcheck runs, often the webUI"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: http
-                      label: "http Service Port Configuration"
+                    - variable: https
+                      label: "https Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -175,7 +175,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 180
+                              default: 1443
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -215,7 +215,7 @@ questions:
                                   description: "The internal(!) port on the container the Application runs on"
                                   schema:
                                     type: int
-                                    default: 80
+                                    default: 443
         - variable: 5443
           label: '5443 service'
           description: "The Primary service on which the healthcheck runs, often the webUI"

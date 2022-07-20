@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "TES3MP is a project adding multiplayer functionality to OpenMW, a 
   \ and open source engine recreation of the popular Bethesda Softworks game \"The\
   \ Elder Scrolls III: Morrowind\".\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/openmw-tes3mp
-icon: https://truecharts.org/_static/img/appicons/openmw-tes3mp.png
+icon: https://truecharts.org/img/chart-icons/openmw-tes3mp.png
 keywords:
 - openmw-tes3mp
 - GameServers

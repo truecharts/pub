@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-DNS
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: 'No-Ip is a dynamic DNS service, with a free tier supporting up to 
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/noip
-icon: https://truecharts.org/_static/img/appicons/noip.png
+icon: https://truecharts.org/img/chart-icons/noip.png
 keywords:
 - noip
 - Network-DNS

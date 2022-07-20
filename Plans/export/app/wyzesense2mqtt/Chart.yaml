@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Tools-Utilities
@@ -15,7 +15,7 @@ description: Configurable WyzeSense to MQTT Gateway for Home Assistant.  Refer t
   the WyzeSense2MQTT docs for configuration. Change your hidraw port to pass into
   the container as necessary.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/wyzesense2mqtt
-icon: https://truecharts.org/_static/img/appicons/wyzesense2mqtt.png
+icon: https://truecharts.org/img/chart-icons/wyzesense2mqtt.png
 keywords:
 - wyzesense2mqtt
 - HomeAutomation

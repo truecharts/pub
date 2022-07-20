@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-System
@@ -14,7 +14,7 @@ deprecated: false
 description: "This Container is a full Debian Bullseye Xfce4 Desktop environment with\
   \ a noVNC webGUI and all the basic tools pre-installed.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/debian-bullseye
-icon: https://truecharts.org/_static/img/appicons/debian-bullseye.png
+icon: https://truecharts.org/img/chart-icons/debian-bullseye.png
 keywords:
 - debian-bullseye
 - Productivity

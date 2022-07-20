@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Messenger
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "Rocket.Chat is a Web Chat Server, developed in JavaScript, using the\
   \ Meteor fullstack framework.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rocket-chat
-icon: https://truecharts.org/_static/img/appicons/rocket-chat.png
+icon: https://truecharts.org/img/chart-icons/rocket-chat.png
 keywords:
 - rocket-chat
 - Network-Messenger

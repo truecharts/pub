@@ -107,7 +107,6 @@ Keywords:
 - MediaApp-Music
 Name: tartube
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/468654/tartube
 Repository: 468654/tartube

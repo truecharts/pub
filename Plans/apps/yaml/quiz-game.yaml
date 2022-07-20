@@ -22,7 +22,6 @@ Overview: Test your General Knowledge in different types of topics. This game is
   and their categories are randomized each time you start a new match. At the end
   of your playthrough you can optionally register your score in the ranking, however
   only the top 10 results will be displayed
-PostArgs: ''
 Privileged: 'false'
 Registry: https://registry.hub.docker.com/r/patrickstigler/quiz-game
 Repository: patrickstigler/quiz-game

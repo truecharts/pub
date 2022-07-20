@@ -36,7 +36,6 @@ Keywords:
 - Tools-Utilities
 Name: hiccup
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/bleckbeard/hiccup
 Repository: bleckbeard/hiccup

@@ -47,7 +47,6 @@ Name: songkong
 Official: true
 Overview: Official SongKong Docker repository, Identify your songs and add metadata
   and artwork automatically
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/songkong/songkong/
 RepoShort: Songkong

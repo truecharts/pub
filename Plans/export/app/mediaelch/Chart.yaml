@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools
     - MediaApp-Video
@@ -14,7 +14,7 @@ deprecated: false
 description: Mediaelch is a Tool to manage your movie and show libary regarding the
   metadata and artwork.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/mediaelch
-icon: https://truecharts.org/_static/img/appicons/mediaelch.png
+icon: https://truecharts.org/img/chart-icons/mediaelch.png
 keywords:
 - mediaelch
 - Tools

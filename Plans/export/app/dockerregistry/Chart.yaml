@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Network-Management
@@ -19,7 +19,7 @@ description: 'Docker Registry is used to store and distribute Docker images usin
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/dockerregistry
-icon: https://truecharts.org/_static/img/appicons/dockerregistry.png
+icon: https://truecharts.org/img/chart-icons/dockerregistry.png
 keywords:
 - dockerregistry
 - Cloud

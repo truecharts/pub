@@ -95,7 +95,6 @@ Name: trex-miner
 Overview: "T-Rex is a versatile cryptocurrency mining software. It supports a variety\
   \ of algorithms and we, as developers, are trying to do our best to make it as fast\
   \ and as convenient to use as possible.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://registry.hub.docker.com/r/ptrfrll/nv-docker-trex
 Repository: ptrfrll/nv-docker-trex

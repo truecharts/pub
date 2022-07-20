@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -16,7 +16,7 @@ description: "HexChat is an IRC client based on XChat, but unlike XChat it\u2019
   \ it\u2019s perfectly legal. For more info. HexChat was originally called XChat-WDK\
   \ which in turn was a successor of freakschat."
 home: https://github.com/truecharts/apps/tree/master/charts/stable/hexchat
-icon: https://truecharts.org/_static/img/appicons/hexchat.png
+icon: https://truecharts.org/img/chart-icons/hexchat.png
 keywords:
 - hexchat
 - Productivity

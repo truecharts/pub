@@ -88,7 +88,6 @@ MinVer: 6.4.1
 Name: storj
 Overview: "STORJ DAEMON Docker - using Storj public automated build. This template,\
   \ nor author, are affiliated with storj.io. \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/oreandawe/storjshare-cli/
 Repository: oreandawe/storjshare-cli
@@ -97,4 +96,3 @@ Sources:
 - https://storj.io
 - https://hub.docker.com/r/oreandawe/storjshare-cli/
 Tag: latest
-WebUI: ''

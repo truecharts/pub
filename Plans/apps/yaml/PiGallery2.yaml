@@ -86,7 +86,6 @@ Keywords:
 Name: pigallery2
 Official: true
 Overview: "Homepage: http://bpatrik.github.io/pigallery2/\r\n"
-PostArgs: ''
 Privileged: 'true'
 Registry: https://hub.docker.com/r/bpatrik/pigallery2
 Repository: bpatrik/pigallery2

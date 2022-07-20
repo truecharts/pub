@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Web
@@ -15,7 +15,7 @@ description: "YaCy decentralized search engine (https://yacy.net)[br][br][b][u][
   \ style='color: #ff9900;']Default user/password[/span][/u][/b][br]User: [B][u]admin[/B][/u][br]Password:\
   \ [B][u]yacy[/B][/u][/b]\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/yacy
-icon: https://truecharts.org/_static/img/appicons/yacy.png
+icon: https://truecharts.org/img/chart-icons/yacy.png
 keywords:
 - yacy
 - Tools-Utilities

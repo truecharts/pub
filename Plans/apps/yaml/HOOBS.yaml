@@ -50,7 +50,6 @@ Name: hoobs
 Official: true
 Overview: "HOOBS is a Homebridge stack with a interface that simplifies configuration\
   \ and installing plugins. This adds a process wrapper for Homebridge.  \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/hoobs/hoobs
 Repository: hoobs/hoobs

@@ -28,7 +28,7 @@ Config:
       Required: 'true'
       Target: /ps/library
       Type: Path
-      value: /mnt/user/Photos
+      value: ''
     logs:
       Default: /mnt/user/appdata/photostructure/logs
       Description: 'Logfiles will be written into this directory. Set environment
@@ -42,8 +42,8 @@ Config:
       Type: Path
       value: /mnt/user/appdata/photostructure/logs
     tempscratchdisk:
-      Default: /mnt/cache/appdata/photostructure/tmp
-      Description: This needs to be fast, local disk.
+      Default: /mnt/user/appdata/photostructure/tmp
+      Description: This must be fast, local disk.
       Display: advanced
       Mask: 'false'
       Mode: rw
@@ -51,7 +51,7 @@ Config:
       Required: 'true'
       Target: /ps/tmp
       Type: Path
-      value: /mnt/cache/appdata/photostructure/tmp
+      value: /mnt/user/appdata/photostructure/tmp
   Port:
     main:
       Default: ''
@@ -67,7 +67,7 @@ Config:
       value: 1787
   Variable:
     groupid:
-      Default: ''
+      Default: '100'
       Description: 'This is the groupid that PhotoStructure will run under. '
       Display: always
       Mask: 'false'
@@ -90,10 +90,11 @@ Config:
       Type: Variable
       value: ''
     tz:
-      Default: TZ
-      Description: "Setting the default timezone helps PhotoStructure infer captured-at\
-        \ time for assets that are missing timezone metadata.\r\n\r\n"
-      Display: always
+      Default: Europe/London
+      Description: Setting the default timezone helps PhotoStructure infer captured-at
+        time for assets that are missing timezone metadata. Valid examples include
+        Europe/London and America/Los_Angeles.
+      Display: advanced
       Mask: 'false'
       Mode: ''
       Name: TZ
@@ -101,8 +102,19 @@ Config:
       Target: TZ
       Type: Variable
       value: ''
+    umask:
+      Default: '0002'
+      Description: Files written by PhotoStructure will be applied with this umask.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: UMASK
+      Required: 'false'
+      Target: UMASK
+      Type: Variable
+      value: ''
     userid:
-      Default: ''
+      Default: '99'
       Description: "This is the userid that PhotoStructure will run under, instead\
         \ of the default of root (userid 0).\r\n\r\nFiles copied into your library\
         \ will be owned by this userid."
@@ -126,7 +138,6 @@ Official: true
 Overview: '[b]PhotoStructure is your new home for all your photos and videos.[/b]
 
   '
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/photostructure/server/
 RepoShort: PhotoStructure

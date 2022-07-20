@@ -46,7 +46,6 @@ Keywords:
 Name: psitransfer
 Overview: Simple open source self-hosted file sharing solution.[br] To access Admin
   Page add /admin at the end of the URL[/br]
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/psitrax/psitransfer/
 Repository: psitrax/psitransfer

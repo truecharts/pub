@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "This Docker will download and install SteamCMD. It will also insta
   \ PIXARK and run it (a normal server startup of PIXARK can take a long time!).\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pixark
-icon: https://truecharts.org/_static/img/appicons/pixark.png
+icon: https://truecharts.org/img/chart-icons/pixark.png
 keywords:
 - pixark
 - GameServers

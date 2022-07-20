@@ -118,13 +118,11 @@ Overview: 'Plexanisync lets you synchronize your plex library with anilist, plug
   from RickDB, Docker-Hub version maintained by Mizz141.
 
   '
-PostArgs: ''
 Privileged: 'false'
-Registry: https://hub.docker.com/r/mizz141/plexanisync-mizz141/
-Repository: mizz141/plexanisync-mizz141
+Registry: https://ghcr.io/rickdb/plexanisync
+Repository: ghcr.io/rickdb/plexanisync
 Requires: ''
 Sources:
 - https://github.com/RickDB/PlexAniSync
-- https://hub.docker.com/r/mizz141/plexanisync-mizz141/
+- https://ghcr.io/rickdb/plexanisync
 Tag: latest
-WebUI: ''

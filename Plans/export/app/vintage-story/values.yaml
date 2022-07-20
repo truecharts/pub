@@ -1,5 +1,6 @@
 env:
   GAME_PARAMS: ''
+  VS_CHANNEL: stable
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/vintage-story

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Network-Web
@@ -16,7 +16,7 @@ description: Mailpile is software, an e-mail client. It runs on your desktop or 
   computer and you interact with it by using your web browser. The goal of Mailpile
   is to allow people to send e-mail in a more secure and private manner than before.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/mailpile
-icon: https://truecharts.org/_static/img/appicons/mailpile.png
+icon: https://truecharts.org/img/chart-icons/mailpile.png
 keywords:
 - mailpile
 - Productivity

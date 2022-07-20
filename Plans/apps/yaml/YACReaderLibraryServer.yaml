@@ -85,7 +85,6 @@ Keywords:
 - MediaServer-Other
 Name: yacreaderlibraryserver
 Overview: "Headless version of the YACReaderLibraryServer.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/xthursdayx/yacreaderlibrary-server-docker/
 Repository: xthursdayx/yacreaderlibrary-server-docker

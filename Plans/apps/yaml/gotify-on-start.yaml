@@ -72,7 +72,6 @@ Name: gotify-on-start
 Overview: This is a simple container that sends a message when the container is started
   (needed this for a headless machine to know when I can connect or better speaking
   start up the VM's with WOL).
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/gotify-on-start
 Repository: ich777/gotify-on-start
@@ -81,5 +80,4 @@ Sources:
 - https://hub.docker.com/r/ich777/gotify-on-start
 - https://hub.docker.com/r/ich777/gotify-on-start
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Gotify-On-Start.xml

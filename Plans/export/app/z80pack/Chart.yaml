@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -17,7 +17,7 @@ description: 'Z80Pack is an emulator for emulating CP/M 1, CP/M 2, CP/M 3, and M
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/z80pack
-icon: https://truecharts.org/_static/img/appicons/z80pack.png
+icon: https://truecharts.org/img/chart-icons/z80pack.png
 keywords:
 - z80pack
 - Other

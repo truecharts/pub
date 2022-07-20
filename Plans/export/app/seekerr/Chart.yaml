@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: 'Tool to add new movies to Radarr based on RSS, IMDB and Trakt list
   You need to create your config file before running the image. For more info on setup
   of your config file, check out: https://hub.docker.com/r/lightglitch/seekerr/'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/seekerr
-icon: https://truecharts.org/_static/img/appicons/seekerr.png
+icon: https://truecharts.org/img/chart-icons/seekerr.png
 keywords:
 - seekerr
 - Tools-Utilities

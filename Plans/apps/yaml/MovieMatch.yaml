@@ -48,7 +48,6 @@ Keywords:
 Name: moviematch
 Overview: "This is an app that helps you and your friends pick a movie to watch from\
   \ a Plex server.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://registry.hub.docker.com/r/lukechannings/moviematch
 Repository: lukechannings/moviematch

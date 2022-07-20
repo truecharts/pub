@@ -145,7 +145,6 @@ Keywords:
 Name: speedflux
 Overview: "This tool will continuosly run Speedtests at the chosen interval and export\
   \ the data to InfluxDB. &lt;br&gt;\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://github.com/users/breadlysm/packages/container/package/speedflux
 Repository: ghcr.io/breadlysm/speedflux
@@ -154,4 +153,3 @@ Sources:
 - https://github.com/breadlysm/speedtest-to-influxdb
 - https://github.com/users/breadlysm/packages/container/package/speedflux
 Tag: latest
-WebUI: ''

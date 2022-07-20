@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Management
     - Tools-Utilities
@@ -16,7 +16,7 @@ description: "This is an all-in-one Alpine Linux based Docker image for running 
   \ to run UNMS in a single container and uses the s6-overlay for process management.\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/unms
-icon: https://truecharts.org/_static/img/appicons/unms.png
+icon: https://truecharts.org/img/chart-icons/unms.png
 keywords:
 - unms
 - Network-Management

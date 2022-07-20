@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: A one-of-a-kind resume builder that keeps your privacy in mind.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/reactive-resume
-icon: https://truecharts.org/_static/img/appicons/reactive-resume.png
+icon: https://truecharts.org/img/chart-icons/reactive-resume.png
 keywords:
 - reactive-resume
 - Productivity

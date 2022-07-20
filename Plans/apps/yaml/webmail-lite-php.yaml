@@ -17,7 +17,6 @@ Keywords:
 Name: webmail-lite-php
 Official: true
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/afterlogic/docker-webmail-lite
 Repository: afterlogic/docker-webmail-lite

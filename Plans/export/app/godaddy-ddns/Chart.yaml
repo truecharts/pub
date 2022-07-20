@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Web
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: Docker image to provide a DDNS service for godaddy domains. Uses th
   of the host it is executing on. Performs a check every 10 minutes, but you can alter
   this if you like by modifying /etc/cron.d/godaddy-ddns inside the container.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/godaddy-ddns
-icon: https://truecharts.org/_static/img/appicons/godaddy-ddns.png
+icon: https://truecharts.org/img/chart-icons/godaddy-ddns.png
 keywords:
 - godaddy-ddns
 - Network-Web

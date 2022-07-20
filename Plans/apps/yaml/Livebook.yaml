@@ -47,7 +47,6 @@ Name: livebook
 Official: true
 Overview: Livebook is a web application for writing interactive and collaborative
   code notebooks for Elixir
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/livebook/livebook
 Repository: livebook/livebook

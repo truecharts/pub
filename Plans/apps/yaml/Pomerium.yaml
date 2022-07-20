@@ -39,17 +39,6 @@ Config:
       Target: 5443
       Type: Port
       value: 5443
-    http:
-      Default: '80'
-      Description: 'Container Port: 80'
-      Display: always
-      Mask: 'false'
-      Mode: tcp
-      Name: HTTP
-      Required: 'true'
-      Target: 80
-      Type: Port
-      value: 180
     https:
       Default: '443'
       Description: 'Container Port: 443'
@@ -61,6 +50,17 @@ Config:
       Target: 443
       Type: Port
       value: 1443
+    main:
+      Default: '80'
+      Description: 'Container Port: 80'
+      Display: always
+      Mask: 'false'
+      Mode: HTTP
+      Name: HTTP
+      Required: 'true'
+      Target: 80
+      Type: Port
+      value: 180
   Variable:
     cookiesecret:
       Default: ''
@@ -96,4 +96,4 @@ Sources:
 - https://github.com/pomerium/pomerium
 - https://hub.docker.com/r/pomerium/pomerium
 Tag: latest
-WebUI: http://[IP]:[PORT:180]
+WebUI: http://[IP]:[PORT:80]

@@ -1,7 +1,6 @@
 env:
   GAME_ID: '349090'
   GAME_PARAMS: ''
-  GAME_PORT: '27016'
   PASSWRD: ''
   USERNAME: ''
   VALIDATE: ''

@@ -98,52 +98,6 @@ Config:
       Target: CountryCode
       Type: Variable
       value: ''
-    musicvideosfilepermissions:
-      Default: '666'
-      Description: Based on chmod linux permissions
-      Display: always
-      Mask: 'false'
-      Mode: ''
-      Name: Music Videos File Permissions
-      Required: 'true'
-      Target: FilePermissions
-      Type: Variable
-      value: ''
-    musicvideosfiltermatch:
-      Default: live
-      Description: This will filter out videos Matching MusicBrainz secondary release
-        type and album disambiguation (single word only)
-      Display: always
-      Mask: 'false'
-      Mode: ''
-      Name: Music Videos Filter Match
-      Required: 'true'
-      Target: videofilter
-      Type: Variable
-      value: ''
-    musicvideosfolderpermissions:
-      Default: '766'
-      Description: Based on chmod linux permissions
-      Display: always
-      Mask: 'false'
-      Mode: ''
-      Name: Music Videos Folder Permissions
-      Required: 'true'
-      Target: FolderPermissions
-      Type: Variable
-      value: ''
-    musicvideosrequirematch:
-      Default: 'true'
-      Description: 'true = enabled :: Only keep videos that could be matched to a
-        Musicbrainz music track.'
-      Display: always
-      Mask: 'false'
-      Mode: ''
-      Name: Music Videos Require Match
-      Required: 'true'
-      Target: RequireVideoMatch
-      Type: Variable
-      value: ''
     musicvideossourceconnection:
       Default: lidarr
       Description: 'lidarr or ama :: ama requires the AMA config folder to be mounted
@@ -245,7 +199,6 @@ Keywords:
 Name: amvd
 Overview: 'Automated Music Video Downloader :: AMVD is a Lidarr Companion script to
   automatically download and tag Music Videos for use in various media applications'
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/randomninjaatk/amvd
 Repository: randomninjaatk/amvd
@@ -254,4 +207,3 @@ Sources:
 - https://github.com/RandomNinjaAtk/docker-amvd
 - https://hub.docker.com/r/randomninjaatk/amvd
 Tag: latest
-WebUI: ''

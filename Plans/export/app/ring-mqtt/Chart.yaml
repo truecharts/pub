@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: Interact with Ring Inc products (cameras/alarms/smart lighting) via MQTT  -
   See the project page for token auth procedure - https://github.com/tsightler/ring-mqtt#authentication
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ring-mqtt
-icon: https://truecharts.org/_static/img/appicons/ring-mqtt.png
+icon: https://truecharts.org/img/chart-icons/ring-mqtt.png
 keywords:
 - ring-mqtt
 - HomeAutomation

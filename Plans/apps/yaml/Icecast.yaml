@@ -31,14 +31,13 @@ Config:
       value: /mnt/user/appdata/icecast/void.mp3
   Port: {}
   Variable: {}
-Icon: https://www.mu-podcast.com/images/icecast_logo.png
+Icon: https://rockhost.com/wp-content/uploads/2018/11/icecast-server-hosting-cdn.jpg
 Keywords:
 - icecast
 - Other
 - MediaServer-Music
 Name: icecast
 Overview: "Icecast for Mopidy http stream\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/infiniteproject/icecast/
 Repository: infiniteproject/icecast

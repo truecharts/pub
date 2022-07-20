@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: "This Docker will download and install Windwardand run it.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/windward
-icon: https://truecharts.org/_static/img/appicons/windward.png
+icon: https://truecharts.org/img/chart-icons/windward.png
 keywords:
 - windward
 - GameServers

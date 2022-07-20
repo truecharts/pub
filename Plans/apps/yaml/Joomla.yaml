@@ -75,7 +75,6 @@ Overview: "Joomla is a free and open-source content management system (CMS) for 
   \ stores data in a MySQL, MS SQL, or PostgreSQL database, and includes features\
   \ such as page caching, RSS feeds, printable versions of pages, news flashes, blogs,\
   \ search, and support for language internationalization."
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/_/joomla/
 Repository: joomla

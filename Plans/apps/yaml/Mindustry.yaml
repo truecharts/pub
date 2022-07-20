@@ -116,7 +116,6 @@ Keywords:
 Name: mindustry
 Overview: "This is a Basic Mindustry Server. It will download the preferred version\
   \ of Mindustry and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/mindustry-server/
 Repository: ich777/mindustry-server
@@ -125,5 +124,4 @@ Sources:
 - https://anuke.itch.io/mindustry
 - https://hub.docker.com/r/ich777/mindustry-server/
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Mindustry.xml

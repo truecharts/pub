@@ -147,7 +147,6 @@ Name: post-recording
 Overview: "Watches for .ts files made by Live TV recordings, convert them to a friendly\
   \ format, extract .srt file, add chapters with comchap or remove them with comcut.\
   \ Tested with Emby recordings.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/chacawaca/post-recording
 Repository: chacawaca/post-recording
@@ -156,4 +155,3 @@ Sources:
 - https://github.com/chacawaca/docker-post-recording
 - https://hub.docker.com/r/chacawaca/post-recording
 Tag: latest
-WebUI: ''

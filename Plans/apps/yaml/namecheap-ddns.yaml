@@ -51,7 +51,6 @@ Name: namecheap-ddns
 Overview: "This simple container will update a namecheap dynamic dns domain. You must\
   \ set an 'A + Dynamic DNS Record' for the host and enable Dynamic DNS in the manage\
   \ page for your domain. \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/edchamberlain/namecheap_ddns
 Repository: edchamberlain/namecheap_ddns
@@ -60,4 +59,3 @@ Sources:
 - https://github.com/EdwardChamberlain/namecheap_ddns
 - https://hub.docker.com/r/edchamberlain/namecheap_ddns
 Tag: latest
-WebUI: ''

@@ -31,14 +31,14 @@ service:
     ports:
       main:
         enabled: true
-        port: 80
-        protocol: HTTP
-        targetPort: 80
-  webui:
-    enabled: true
-    ports:
-      webui:
-        enabled: true
         port: 443
         protocol: TCP
         targetPort: 443
+  port80:
+    enabled: true
+    ports:
+      port80:
+        enabled: true
+        port: 80
+        protocol: TCP
+        targetPort: 80

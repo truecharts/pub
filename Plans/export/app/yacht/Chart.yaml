@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -15,7 +15,7 @@ description: "A web interface for managing docker containers with an emphasis on
   \ to provide one-click deployments of dockerized applications. Think of it as a\
   \ decentralized app store for servers that anyone can make packages for.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/yacht
-icon: https://truecharts.org/_static/img/appicons/yacht.png
+icon: https://truecharts.org/img/chart-icons/yacht.png
 keywords:
 - yacht
 - Productivity

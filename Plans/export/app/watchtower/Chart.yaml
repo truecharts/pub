@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -16,7 +16,7 @@ description: "With watchtower you can update the running version of your contain
   \ and restart it with the same options that were used when it was deployed initially.\
   \ \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/watchtower
-icon: https://truecharts.org/_static/img/appicons/watchtower.png
+icon: https://truecharts.org/img/chart-icons/watchtower.png
 keywords:
 - watchtower
 - Other

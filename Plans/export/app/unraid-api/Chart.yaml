@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Tools-Utilities
@@ -16,7 +16,7 @@ description: 'This is an MQTT Home Assistant Bridge with a rest endpoint as well
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/unraid-api
-icon: https://truecharts.org/_static/img/appicons/unraid-api.png
+icon: https://truecharts.org/img/chart-icons/unraid-api.png
 keywords:
 - unraid-api
 - HomeAutomation

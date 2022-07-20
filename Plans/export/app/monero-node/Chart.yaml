@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Crypto
     - Tools-Utilities
@@ -14,7 +14,7 @@ dependencies:
 deprecated: false
 description: "DESCRIPTION\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/monero-node
-icon: https://truecharts.org/_static/img/appicons/monero-node.png
+icon: https://truecharts.org/img/chart-icons/monero-node.png
 keywords:
 - monero-node
 - Crypto

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaApp-Other
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: RA ROM Processor is a Docker container that is used to download/org
   a ROMs library automatically by matching ROMs to the RetroAchievement.org website
   Hash database.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ra-rom-processor
-icon: https://truecharts.org/_static/img/appicons/ra-rom-processor.png
+icon: https://truecharts.org/img/chart-icons/ra-rom-processor.png
 keywords:
 - ra-rom-processor
 - MediaApp-Other

@@ -81,7 +81,6 @@ Keywords:
 Name: go-auto-yt
 Overview: "GoAutoYT makes it easy for you to automatically download videos from as\
   \ many YouTube channels as you'd like.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/xiovv/go-auto-yt
 Repository: xiovv/go-auto-yt

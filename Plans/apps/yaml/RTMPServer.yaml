@@ -19,7 +19,6 @@ Overview: "This Docker image can be used to create a video streaming server that
   \ RTMP, HLS, DASH out of the box. It also allows adaptive streaming and custom transcoding\
   \ of video streams. All modules are built from source on Debian and Alpine Linux\
   \ base images.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/alqutami/rtmp-hls
 Repository: alqutami/rtmp-hls

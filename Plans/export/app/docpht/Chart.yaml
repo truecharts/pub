@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: DocPHT you can take notes and quickly document anything and without the
   use of any database.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/docpht
-icon: https://truecharts.org/_static/img/appicons/docpht.png
+icon: https://truecharts.org/img/chart-icons/docpht.png
 keywords:
 - docpht
 - Productivity

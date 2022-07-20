@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Network-Voip
@@ -15,7 +15,7 @@ deprecated: false
 description: FreePBX is a web-based open-source graphical user interface that manages
   Asterisk, a voice over IP and telephony server.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/freepbx
-icon: https://truecharts.org/_static/img/appicons/freepbx.png
+icon: https://truecharts.org/img/chart-icons/freepbx.png
 keywords:
 - freepbx
 - Productivity

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Productivity
@@ -14,7 +14,7 @@ deprecated: false
 description: "Teedy is an open-source, lightweight document management system (DMS)\
   \ for individuals and businesses.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/teedy-docs
-icon: https://truecharts.org/_static/img/appicons/teedy-docs.png
+icon: https://truecharts.org/img/chart-icons/teedy-docs.png
 keywords:
 - teedy-docs
 - Cloud

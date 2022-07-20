@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -16,7 +16,7 @@ description: 'The Ravencoin project is launched based on the hard work and conti
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ravencoinp2p
-icon: https://truecharts.org/_static/img/appicons/ravencoinp2p.png
+icon: https://truecharts.org/img/chart-icons/ravencoinp2p.png
 keywords:
 - ravencoinp2p
 - Other

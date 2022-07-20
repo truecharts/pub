@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network
     - Network-Web
@@ -18,7 +18,7 @@ description: "Roundcube Webmail is a browser-based multilingual IMAP client with
   \ the MySQL, PostgreSQL or SQLite database. With its plugin API it is easily extendable\
   \ and the user interface is fully customizable using skins. \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/roundcube-ver-mariadb
-icon: https://truecharts.org/_static/img/appicons/roundcube-ver-mariadb.png
+icon: https://truecharts.org/img/chart-icons/roundcube-ver-mariadb.png
 keywords:
 - roundcube-ver-mariadb
 - Network

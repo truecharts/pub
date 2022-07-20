@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: "HOOBS is a Homebridge stack with a interface that simplifies configuration\
   \ and installing plugins. This adds a process wrapper for Homebridge.  \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/hoobs
-icon: https://truecharts.org/_static/img/appicons/hoobs.png
+icon: https://truecharts.org/img/chart-icons/hoobs.png
 keywords:
 - hoobs
 - HomeAutomation

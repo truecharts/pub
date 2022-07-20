@@ -29,6 +29,67 @@ Config:
       Type: Port
       value: 7880
   Variable:
+    basic_auth:
+      Default: 'False'
+      Description: (Optional) Defaults to False. Set to True to enable nginx basic
+        authentication. Docker container needs to stopped or restarted each time this
+        flag is modified. This allows for the .htpasswd file to be changed accordingly.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: BASIC_AUTH
+      Required: 'false'
+      Target: BASIC_AUTH
+      Type: Variable
+      value: 'True'
+    basic_auth_password:
+      Default: 'False'
+      Description: (Optional) Requires BASIC_AUTH to bet set to True. Password for
+        basic authentication.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: BASIC_AUTH_PASSWORD
+      Required: 'false'
+      Target: BASIC_AUTH_PASSWORD
+      Type: Variable
+      value: x
+    basic_auth_username:
+      Default: 'False'
+      Description: Optional) Requires BASIC_AUTH to bet set to True. Username for
+        basic authentication.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: BASIC_AUTH_USERNAME
+      Required: 'false'
+      Target: BASIC_AUTH_USERNAME
+      Type: Variable
+      value: x
+    debug:
+      Default: 'False'
+      Description: (Optional) HTML version of the running goaccess.conf wihtin the
+        container
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DEBUG
+      Required: 'false'
+      Target: DEBUG
+      Type: Variable
+      value: 'False'
+    exclude_ips:
+      Default: ''
+      Description: '(Optional) IP Addresses or range of IPs delimited by comma refer
+        to https://goaccess.io/man. For example: 192.168.0.1-192.168.0.100 or 127.0.0.1,192.168.0.1-192.168.0.100'
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: EXCLUDE_IPS
+      Required: 'false'
+      Target: EXCLUDE_IPS
+      Type: Variable
+      value: ''
     hostkey1:
       Default: ''
       Description: 'Container Variable: TZ'
@@ -40,6 +101,18 @@ Config:
       Target: TZ
       Type: Variable
       value: America/Chicago
+    skip_archived_logs:
+      Default: 'False'
+      Description: (Optional) Defaults to False. Set to True to skip archived logs,
+        i.e. proxy-host*.gz
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SKIP_ARCHIVED_LOGS
+      Required: 'false'
+      Target: SKIP_ARCHIVED_LOGS
+      Type: Variable
+      value: 'False'
 Icon: https://raw.githubusercontent.com/xavier-hernandez/unraid-templates/master/resources/goaccess-npm.png
 Keywords:
 - goaccess-npm-logs
@@ -47,7 +120,6 @@ Keywords:
 - Network-Proxy
 Name: goaccess-npm-logs
 Overview: "GoAccess for Nginx Proxy Manager Logs\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/xavierh/goaccess-for-nginxproxymanager
 Repository: xavierh/goaccess-for-nginxproxymanager

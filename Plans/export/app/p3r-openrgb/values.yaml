@@ -1,4 +1,5 @@
 env:
+  '0': '0'
   DEFAULT_PROFILE: ''
   VNC_PASSWORD: ''
 image:
@@ -9,14 +10,6 @@ persistence:
   config:
     enabled: true
     mountPath: /config/
-  devi2c:
-    enabled: true
-    mountPath: /dev/i2c-0
-    readOnly: true
-  sysi2c:
-    enabled: true
-    mountPath: /sys/bus/i2c/devices/
-    readOnly: true
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0

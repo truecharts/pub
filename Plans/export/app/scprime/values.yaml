@@ -18,6 +18,14 @@ securityContext:
   readOnlyRootFilesystem: false
   runAsNonRoot: false
 service:
+  hostapiaddress:
+    enabled: true
+    ports:
+      hostapiaddress:
+        enabled: true
+        port: 4283
+        protocol: TCP
+        targetPort: 4283
   main:
     enabled: true
     ports:
@@ -26,19 +34,3 @@ service:
         port: 4282
         protocol: TCP
         targetPort: 4282
-  port2:
-    enabled: true
-    ports:
-      port2:
-        enabled: true
-        port: 4283
-        protocol: TCP
-        targetPort: 4283
-  port3:
-    enabled: true
-    ports:
-      port3:
-        enabled: true
-        port: 4285
-        protocol: TCP
-        targetPort: 4285

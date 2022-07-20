@@ -92,7 +92,6 @@ Keywords:
 Name: rcon-webadmin
 Overview: "Out of the box, RCON Web Admin can check users for high ping, VAC status,\
   \ or filter the chat for you around the clock.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/itzg/rcon/
 Repository: itzg/rcon

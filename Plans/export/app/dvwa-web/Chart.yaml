@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -17,7 +17,7 @@ description: "Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web applicat
   \ &amp; teachers to learn about web application security in a controlled class room\
   \ environment.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/dvwa-web
-icon: https://truecharts.org/_static/img/appicons/dvwa-web.png
+icon: https://truecharts.org/img/chart-icons/dvwa-web.png
 keywords:
 - dvwa-web
 - Other

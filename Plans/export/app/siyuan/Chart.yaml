@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: SiYuan is a local-first personal knowledge management system, support
   fine-grained block-level reference and Markdown WYSIWYG.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/siyuan
-icon: https://truecharts.org/_static/img/appicons/siyuan.png
+icon: https://truecharts.org/img/chart-icons/siyuan.png
 keywords:
 - siyuan
 - Productivity

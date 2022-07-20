@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Network-Management
@@ -15,7 +15,7 @@ description: Unifi Video Controller (NVR) is a NVR software from the company Ubi
   Networks to use with their UniFi Video IP Cameras.  To use the latest BETA version,
   add a :beta in the Repository field in Advanced view.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/unifi-video
-icon: https://truecharts.org/_static/img/appicons/unifi-video.png
+icon: https://truecharts.org/img/chart-icons/unifi-video.png
 keywords:
 - unifi-video
 - HomeAutomation

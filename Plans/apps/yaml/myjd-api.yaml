@@ -68,7 +68,6 @@ Keywords:
 Name: myjd-api
 Overview: "This is a standalone version of FeedCrawler's MyJDownloader API for use\
   \ with projects like Organizr.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/rix1337/docker-myjd-api
 Repository: rix1337/docker-myjd-api

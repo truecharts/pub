@@ -130,7 +130,6 @@ Keywords:
 - Backup
 Name: rapidphotodownloader
 Overview: "This Docker will download and install Rapid Photo Downloader.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/rapidphotodownloader/
 Repository: ich777/rapidphotodownloader

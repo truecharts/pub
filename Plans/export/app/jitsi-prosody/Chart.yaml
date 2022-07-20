@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Network-Voip
@@ -14,7 +14,7 @@ dependencies:
 deprecated: false
 description: Prosody image for Jitsi Meet
 home: https://github.com/truecharts/apps/tree/master/charts/stable/jitsi-prosody
-icon: https://truecharts.org/_static/img/appicons/jitsi-prosody.png
+icon: https://truecharts.org/img/chart-icons/jitsi-prosody.png
 keywords:
 - jitsi-prosody
 - Productivity

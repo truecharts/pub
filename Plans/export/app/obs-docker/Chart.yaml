@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -16,7 +16,7 @@ description: This is a container for running OBS applications completely inside 
   exposes a VNC webclient to the host and therefore everything is contained within
   the container.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/obs-docker
-icon: https://truecharts.org/_static/img/appicons/obs-docker.png
+icon: https://truecharts.org/img/chart-icons/obs-docker.png
 keywords:
 - obs-docker
 - Productivity

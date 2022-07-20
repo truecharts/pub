@@ -38,7 +38,6 @@ Keywords:
 - MediaServer-Books
 Name: tanoshi
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/faldez/tanoshi
 Repository: faldez/tanoshi

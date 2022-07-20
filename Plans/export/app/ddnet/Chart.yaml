@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "This Docker will download and install a simple DDNet Dedicated ser
   \ with a default autoexec.cfg preconfigured (the only thing that need to be changed\
   \ is the Server Name and the RCON Password in the autoexec.cfg).\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ddnet
-icon: https://truecharts.org/_static/img/appicons/ddnet.png
+icon: https://truecharts.org/img/chart-icons/ddnet.png
 keywords:
 - ddnet
 - GameServers

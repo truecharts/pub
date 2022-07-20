@@ -92,7 +92,6 @@ Keywords:
 - Other
 Name: teamcity-buildagent
 Overview: "This is an official JetBrains TeamCity build agent image.\r\n"
-PostArgs: ''
 Privileged: 'true'
 Registry: https://hub.docker.com/r/jetbrains/teamcity-agent/
 Repository: jetbrains/teamcity-agent
@@ -101,4 +100,3 @@ Sources:
 - https://hub.docker.com/r/jetbrains/teamcity-agent/
 - https://hub.docker.com/r/jetbrains/teamcity-agent/
 Tag: latest
-WebUI: ''

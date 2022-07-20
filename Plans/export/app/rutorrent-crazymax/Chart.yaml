@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "Si vous \xEAtes sujets au bug connu de la 6.10.1 concernant les droits\
   \ utilisateurs :\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rutorrent-crazymax
-icon: https://truecharts.org/_static/img/appicons/rutorrent-crazymax.png
+icon: https://truecharts.org/img/chart-icons/rutorrent-crazymax.png
 keywords:
 - rutorrent-crazymax
 - Downloaders

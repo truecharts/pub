@@ -35,7 +35,6 @@ Keywords:
 Name: remotely
 Overview: A remote control and remote scripting solution, built with .NET 5, Blazor,
   SignalR Core, and WebRTC.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/translucency/remotely/
 Repository: translucency/remotely

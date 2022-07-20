@@ -58,7 +58,6 @@ Name: rocket-chat
 Official: true
 Overview: "Rocket.Chat is a Web Chat Server, developed in JavaScript, using the Meteor\
   \ fullstack framework.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/library/rocket.chat/
 Repository: library/rocket.chat

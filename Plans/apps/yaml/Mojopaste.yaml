@@ -51,7 +51,6 @@ Keywords:
 - Network-Web
 Name: mojopaste
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jhthorsen/mojopaste
 Repository: jhthorsen/mojopaste

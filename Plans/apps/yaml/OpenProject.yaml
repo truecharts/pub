@@ -49,7 +49,6 @@ Name: openproject
 Official: true
 Overview: OpenProject is a web-based project management system for location-independent
   team collaboration.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/u/openproject
 Repository: openproject/community

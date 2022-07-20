@@ -72,7 +72,6 @@ Keywords:
 - Tools-Utilities
 Name: rustpad
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ekzhang/rustpad
 Repository: ekzhang/rustpad

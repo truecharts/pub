@@ -15,7 +15,6 @@ Keywords:
 Name: homelablabelmaker
 Overview: DIY tool to create and print labels for Dell Poweredge and HP Proliant drive
   caddies.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/davidspek/homelablabelmaker/
 Repository: davidspek/homelablabelmaker

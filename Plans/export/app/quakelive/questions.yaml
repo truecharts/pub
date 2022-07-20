@@ -114,12 +114,6 @@ questions:
           schema:
             type: string
             default: ""
-        - variable: GAME_PORT
-          label: 'GAME_PORT'
-          description: "Container Variable GAMEPORT"
-          schema:
-            type: string
-            default: "27016"
 
 # Include{containerConfig}
 

@@ -79,7 +79,6 @@ Keywords:
 Name: virt-manager
 Overview: "The virt-manager application is a desktop user interface for managing virtual\
   \ machines through libvirt.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/mber5/virt-manager
 Repository: mber5/virt-manager

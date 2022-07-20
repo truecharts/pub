@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Network-Web
@@ -15,7 +15,7 @@ description: 'Another web application bookmark dashboard, with fun features.[br]
   style=''color: #ff9900;'']Default user/password[/span][/u][/b][br]User: [B][u]admin[/B][/u][br]Password:
   [B][u]admin[/B][/u][/b]'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/dashmachine
-icon: https://truecharts.org/_static/img/appicons/dashmachine.png
+icon: https://truecharts.org/img/chart-icons/dashmachine.png
 keywords:
 - dashmachine
 - Productivity

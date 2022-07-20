@@ -75,4 +75,3 @@ Sources:
 - https://github.com/orgs/linuxserver/packages/container/package/limnoria
 - https://github.com/linuxserver/docker-limnoria#readme
 Tag: latest
-WebUI: http://[IP]:[PORT:8080]

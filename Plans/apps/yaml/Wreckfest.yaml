@@ -157,7 +157,6 @@ Keywords:
 Name: wreckfest
 Overview: "This Docker will download and install SteamCMD. It will also install Wreckfest\
   \ and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/steamcmd/
 Repository: ich777/steamcmd

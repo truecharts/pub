@@ -12,7 +12,6 @@ Keywords:
 - Productivity
 Name: reactive-resume
 Overview: A one-of-a-kind resume builder that keeps your privacy in mind.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/amruthpillai/reactive-resume/
 Repository: amruthpillai/reactive-resume

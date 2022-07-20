@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -21,7 +21,7 @@ description: 'IntelliJ IDEA is a special programming environment or integrated d
   and its solid design. This Docker Image includes Git for SCM and Scala, Kotlin and
   Groovy programming languages.'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/intellij
-icon: https://truecharts.org/_static/img/appicons/intellij.png
+icon: https://truecharts.org/img/chart-icons/intellij.png
 keywords:
 - intellij
 - Productivity

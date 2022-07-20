@@ -137,7 +137,6 @@ Keywords:
 - GameServers
 Name: teamfortress2
 Overview: "This Docker will download and install TeamFortress2 and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/steamcmd/
 Repository: ich777/steamcmd
@@ -146,5 +145,4 @@ Sources:
 - https://www.steampowered.com/
 - https://hub.docker.com/r/ich777/steamcmd/
 Tag: tf2
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/TeamFortress2.xml

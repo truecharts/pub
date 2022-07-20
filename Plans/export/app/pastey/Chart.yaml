@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: A lightweight, self-hosted paste platform (Pastebin alternative) with
   language detection and on-disk encryption.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pastey
-icon: https://truecharts.org/_static/img/appicons/pastey.png
+icon: https://truecharts.org/img/chart-icons/pastey.png
 keywords:
 - pastey
 - Productivity

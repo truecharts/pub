@@ -79,4 +79,4 @@ Sources:
 - https://www.atlassian.com/software/jira/service-desk
 - https://hub.docker.com/r/atlassian/jira-servicedesk
 Tag: latest
-WebUI: http://[IP]:[PORT:8585]/
+WebUI: http://[IP]:[PORT:8080]/

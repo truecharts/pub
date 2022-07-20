@@ -23,7 +23,6 @@ Name: seekerr
 Overview: 'Tool to add new movies to Radarr based on RSS, IMDB and Trakt lists. You
   need to create your config file before running the image. For more info on setup
   of your config file, check out: https://hub.docker.com/r/lightglitch/seekerr/'
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/lightglitch/seekerr/
 RepoShort: Selfhosters
@@ -33,4 +32,3 @@ Sources:
 - https://github.com/lightglitch/seekerr
 - https://hub.docker.com/r/lightglitch/seekerr/
 Tag: stable
-WebUI: ''

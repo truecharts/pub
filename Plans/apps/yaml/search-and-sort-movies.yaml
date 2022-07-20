@@ -46,7 +46,6 @@ Keywords:
 Name: search-and-sort-movies
 Overview: "This application will allow you to sort films and series. It will clean\
   \ up the names and move them to the folder you want.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/olprog/search-and-sort-movies/
 Repository: olprog/search-and-sort-movies
@@ -54,4 +53,3 @@ Requires: ''
 Sources:
 - https://hub.docker.com/r/olprog/search-and-sort-movies/
 Tag: latest
-WebUI: ''

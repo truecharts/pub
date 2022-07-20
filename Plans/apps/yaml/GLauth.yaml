@@ -57,7 +57,6 @@ Keywords:
 Name: glauth
 Official: true
 Overview: GLAuth is a secure, easy-to-use, LDAP server with configurable backends.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/glauth/glauth
 Repository: glauth/glauth

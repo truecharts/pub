@@ -85,7 +85,6 @@ Name: ddnet
 Overview: "This Docker will download and install a simple DDNet Dedicated server with\
   \ a default autoexec.cfg preconfigured (the only thing that need to be changed is\
   \ the Server Name and the RCON Password in the autoexec.cfg).\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/ddnetserver/
 Repository: ich777/ddnetserver
@@ -94,4 +93,3 @@ Sources:
 - https://ddnet.tw/
 - https://hub.docker.com/r/ich777/ddnetserver/
 Tag: latest
-WebUI: ''

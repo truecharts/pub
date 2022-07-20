@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: 'QuakeJS is a port of ioquake3 to JavaScript with the help of Emscr
   the ip and access it using you broswer [BR][span style=''color: #ff9900;''][B]DON''T
   USE BRIDGE I''M NOT RESPONSABLE FOR UNRAID CONFLICTING WITH PORT 80 FOR THIS DOCKER[/B]'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/quakejs
-icon: https://truecharts.org/_static/img/appicons/quakejs.png
+icon: https://truecharts.org/img/chart-icons/quakejs.png
 keywords:
 - quakejs
 - Other

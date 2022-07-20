@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: "Trilium Notes is a hierarchical note taking application with focus on\
   \ building large personal knowledge bases.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/trilium
-icon: https://truecharts.org/_static/img/appicons/trilium.png
+icon: https://truecharts.org/img/chart-icons/trilium.png
 keywords:
 - trilium
 - Productivity

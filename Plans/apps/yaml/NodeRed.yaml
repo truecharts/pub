@@ -39,6 +39,18 @@ Config:
       Target: NODE_RED_ENABLE_SAFE_MODE
       Type: Variable
       value: 'false'
+    timezone:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Timezone
+      Required: 'false'
+      Target: TZ
+      Type: Variable
+      value: Europe/London
+ExtraParams: '-u root '
 Icon: https://nodered.org/about/resources/media/node-red-icon.png
 Keywords:
 - nodered
@@ -46,7 +58,6 @@ Keywords:
 Name: nodered
 Official: true
 Overview: "Node-RED is a visual tool for wiring the Internet of Things[br][br]\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/nodered/node-red/
 Repository: nodered/node-red

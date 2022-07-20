@@ -106,7 +106,6 @@ Keywords:
 Name: enpass
 Overview: "Enpass is a cross-platform password management app to securely store passwords\
   \ and other credentials in a virtual vault locked with a master password.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/enpass
 Repository: ich777/enpass

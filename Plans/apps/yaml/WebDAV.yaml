@@ -92,7 +92,6 @@ Keywords:
 Name: webdav
 Overview: "Very simple WebDAV server based on SabreDav and NGINX as the webserver.\
   \ \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ck98/webdav-nginx
 Repository: ck98/webdav-nginx

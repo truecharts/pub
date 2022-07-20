@@ -172,9 +172,8 @@ questions:
       type: dict
       attrs:
 
-        - variable: storageconfigfile
-          label: "storageconfigfile Storage"
-          description: "This is the configuration file."
+        - variable: data
+          label: "data Storage"
           schema:
             additional_attrs: true
             type: dict
@@ -215,8 +214,9 @@ questions:
                     - value: "Memory"
                       description: "Memory"
 # Include{persistenceAdvanced}
-        - variable: data
-          label: "data Storage"
+        - variable: storageconfigfile
+          label: "storageconfigfile Storage"
+          description: "This is the configuration file."
           schema:
             additional_attrs: true
             type: dict

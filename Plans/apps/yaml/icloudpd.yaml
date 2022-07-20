@@ -220,7 +220,6 @@ Overview: 'iCloudPD, Alpine Linux Docker container wrriten by [a href="https://g
   Telegram, Prowl, PushBullet and WebHook notifications.
 
   '
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/boredazfcuk/icloudpd/
 Repository: boredazfcuk/icloudpd
@@ -229,4 +228,3 @@ Sources:
 - https://github.com/Womabre/-unraid-docker-templates
 - https://hub.docker.com/r/boredazfcuk/icloudpd/
 Tag: latest
-WebUI: ''

@@ -45,7 +45,6 @@ Keywords:
 - Tools-Utilities
 Name: go-playground
 Overview: mproved Go Playground powered by Monaco Editor and React
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/x1unix/go-playground
 Repository: x1unix/go-playground

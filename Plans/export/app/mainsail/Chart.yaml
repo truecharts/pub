@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -18,7 +18,7 @@ description: "Mainsail makes Klipper more accessible by adding a lightweight, re
   \ web user interface, centred around an intuitive and consistent design philosophy.\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/mainsail
-icon: https://truecharts.org/_static/img/appicons/mainsail.png
+icon: https://truecharts.org/img/chart-icons/mainsail.png
 keywords:
 - mainsail
 - Productivity

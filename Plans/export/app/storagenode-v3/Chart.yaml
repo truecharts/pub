@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Crypto
@@ -16,7 +16,7 @@ description: "This is official Storj V3 node client. To participate you must fir
   \ have to have an authorization token, to get the Authentication Token go to: [b]https://storj.io/sign-up-farmer[/b]\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/storagenode-v3
-icon: https://truecharts.org/_static/img/appicons/storagenode-v3.png
+icon: https://truecharts.org/img/chart-icons/storagenode-v3.png
 keywords:
 - storagenode-v3
 - Cloud

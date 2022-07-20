@@ -110,7 +110,6 @@ Overview: "Electrum is a Bitcoin wallet focused on speed and simplicity, with lo
   \ resource usage. It uses remote servers that handle the most complicated parts\
   \ of the Bitcoin system, and it allows you to recover your wallet from a secret\
   \ phrase.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/electrum
 Repository: ich777/electrum

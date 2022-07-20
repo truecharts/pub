@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Other
     - Network-Messenger
@@ -12,11 +12,11 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 9.2.6
 deprecated: false
-description: A self-hosted telegram python bot that dumps posts from RSS feeds to
-  a telegram chat. This script was created because all the third party services were
+description: A self-hosted telegram JS/TS bot that dumps posts from RSS feeds to a
+  telegram chat. This script was created because all the third party services were
   unreliable, slow.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rss-to-telegram
-icon: https://truecharts.org/_static/img/appicons/rss-to-telegram.png
+icon: https://truecharts.org/img/chart-icons/rss-to-telegram.png
 keywords:
 - rss-to-telegram
 - Network-Other

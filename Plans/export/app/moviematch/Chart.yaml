@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - MediaApp-Other
@@ -14,7 +14,7 @@ deprecated: false
 description: "This is an app that helps you and your friends pick a movie to watch\
   \ from a Plex server.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/moviematch
-icon: https://truecharts.org/_static/img/appicons/moviematch.png
+icon: https://truecharts.org/img/chart-icons/moviematch.png
 keywords:
 - moviematch
 - Tools-Utilities

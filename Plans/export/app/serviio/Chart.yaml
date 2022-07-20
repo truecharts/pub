@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaServer-Video
     - MediaServer-Music
@@ -18,7 +18,7 @@ description: "Serviio is a freeware media server designed to let users stream mu
   \ video, or image files to DLNA compliant televisions, Blu-ray players, game consoles,\
   \ and Android or Windows Mobile devices on a home network.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/serviio
-icon: https://truecharts.org/_static/img/appicons/serviio.png
+icon: https://truecharts.org/img/chart-icons/serviio.png
 keywords:
 - serviio
 - MediaServer-Video

@@ -48,7 +48,6 @@ Keywords:
 Name: teamcity
 Overview: "TeamCity Server - Powerful Continuous Integration and Continuous Delivery\
   \ out of the box\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jetbrains/teamcity-server
 Repository: jetbrains/teamcity-server

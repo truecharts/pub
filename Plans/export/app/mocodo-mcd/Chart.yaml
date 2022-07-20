@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "Mocodo est un logiciel d'aide \xE0 l'enseignement et \xE0 la conception\
   \ des bases de donn\xE9es relationnelles.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/mocodo-mcd
-icon: https://truecharts.org/_static/img/appicons/mocodo-mcd.png
+icon: https://truecharts.org/img/chart-icons/mocodo-mcd.png
 keywords:
 - mocodo-mcd
 - Productivity

@@ -38,7 +38,6 @@ Name: sftp
 Overview: "Easy to use SFTP (SSH File Transfer Protocol) server with OpenSSH and Fail2ban\
   \ installed for extra hardening against brute force attacks. Forked from atmoz/sftp.\
   \ Based on phusion/baseimage.\r\n"
-PostArgs: ''
 Privileged: 'true'
 Registry: https://hub.docker.com/r/markusmcnugen/sftp/
 Repository: markusmcnugen/sftp
@@ -47,4 +46,3 @@ Sources:
 - https://github.com/MarkusMcNugen/docker-sftp
 - https://hub.docker.com/r/markusmcnugen/sftp/
 Tag: latest
-WebUI: ''

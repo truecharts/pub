@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -17,7 +17,7 @@ description: 'The Pixelmon Modpack 9.0.3 Modded Minecraft Server[br][br][b]The P
   can setup a comma separated list of players who will have admin privileges in game
   by setting [b]OPS[/b]'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pixelmon
-icon: https://truecharts.org/_static/img/appicons/pixelmon.png
+icon: https://truecharts.org/img/chart-icons/pixelmon.png
 keywords:
 - pixelmon
 - GameServers

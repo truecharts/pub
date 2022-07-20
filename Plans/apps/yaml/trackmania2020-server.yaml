@@ -91,7 +91,6 @@ Keywords:
 Name: trackmania2020-server
 Overview: "This will run a TrackMania 2020 server. You can also install the EvoSC\
   \ to get an admin interface in the game.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/evotm/trackmania
 Repository: evotm/trackmania
@@ -100,4 +99,3 @@ Sources:
 - https://github.com/EvoTM/docker-trackmania
 - https://hub.docker.com/r/evotm/trackmania
 Tag: latest
-WebUI: ''

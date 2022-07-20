@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: GoAccess is an open source real-time web log analyzer and interacti
   fast and valuable HTTP statistics for system administrators that require a visual
   server report on the fly.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/goaccess
-icon: https://truecharts.org/_static/img/appicons/goaccess.png
+icon: https://truecharts.org/img/chart-icons/goaccess.png
 keywords:
 - goaccess
 - Other

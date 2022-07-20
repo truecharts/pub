@@ -114,6 +114,12 @@ questions:
           schema:
             type: string
             default: "true"
+        - variable: FORCE_X64
+          label: 'FORCE_X64'
+          description: "Set to true if you want to run the game in 64bit mode or leave empty to run it in 32bit mode."
+          schema:
+            type: string
+            default: "true"
 
 # Include{containerConfig}
 

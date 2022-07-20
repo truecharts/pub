@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Web
@@ -16,7 +16,7 @@ description: "Sshwifty is a SSH and Telnet connector made for the Web. It can be
   \ on your computer or server to provide SSH and Telnet access interface for any\
   \ compatible (standard) web browser.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/sshwifty
-icon: https://truecharts.org/_static/img/appicons/sshwifty.png
+icon: https://truecharts.org/img/chart-icons/sshwifty.png
 keywords:
 - sshwifty
 - Tools-Utilities

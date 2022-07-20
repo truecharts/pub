@@ -71,7 +71,6 @@ Keywords:
 - MediaApp-Photos
 Name: gimp-desktop-g3
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/accetto/ubuntu-vnc-xfce-gimp-g3
 Repository: accetto/ubuntu-vnc-xfce-gimp-g3

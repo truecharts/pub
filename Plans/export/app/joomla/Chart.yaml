@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Web
   truecharts.org/grade: U
@@ -18,7 +18,7 @@ description: "Joomla is a free and open-source content management system (CMS) f
   \ such as page caching, RSS feeds, printable versions of pages, news flashes, blogs,\
   \ search, and support for language internationalization."
 home: https://github.com/truecharts/apps/tree/master/charts/stable/joomla
-icon: https://truecharts.org/_static/img/appicons/joomla.png
+icon: https://truecharts.org/img/chart-icons/joomla.png
 keywords:
 - joomla
 - Network-Web

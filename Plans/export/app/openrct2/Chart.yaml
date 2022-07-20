@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "This Docker will download and install the preferred version of OpenRCT2\
   \ (don't forget to put in the server version to download).\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/openrct2
-icon: https://truecharts.org/_static/img/appicons/openrct2.png
+icon: https://truecharts.org/img/chart-icons/openrct2.png
 keywords:
 - openrct2
 - GameServers

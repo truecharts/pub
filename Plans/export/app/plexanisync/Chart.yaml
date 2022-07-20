@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaApp-Video
     - MediaServer-Video
@@ -16,7 +16,7 @@ description: 'Plexanisync lets you synchronize your plex library with anilist, p
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/plexanisync
-icon: https://truecharts.org/_static/img/appicons/plexanisync.png
+icon: https://truecharts.org/img/chart-icons/plexanisync.png
 keywords:
 - plexanisync
 - MediaApp-Video
@@ -29,6 +29,6 @@ maintainers:
 name: plexanisync
 sources:
 - https://github.com/RickDB/PlexAniSync
-- https://hub.docker.com/r/mizz141/plexanisync-mizz141/
+- https://ghcr.io/rickdb/plexanisync
 type: application
 version: 0.0.1

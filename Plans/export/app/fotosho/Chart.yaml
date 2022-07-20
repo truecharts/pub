@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaApp-Photos
     - MediaServer-Photos
@@ -15,7 +15,7 @@ description: '*BETA* Fotosho is a photo gallery for your home server. Organize y
   photos into albums internally and view as a slideshow. Free and open source. Does
   not require a database. Does not move, copy or modify your photos.'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/fotosho
-icon: https://truecharts.org/_static/img/appicons/fotosho.png
+icon: https://truecharts.org/img/chart-icons/fotosho.png
 keywords:
 - fotosho
 - MediaApp-Photos

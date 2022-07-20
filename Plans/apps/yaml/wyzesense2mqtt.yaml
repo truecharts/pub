@@ -49,7 +49,6 @@ Name: wyzesense2mqtt
 Overview: Configurable WyzeSense to MQTT Gateway for Home Assistant.  Refer to the
   WyzeSense2MQTT docs for configuration. Change your hidraw port to pass into the
   container as necessary.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/raetha/wyzesense2mqtt/
 Repository: raetha/wyzesense2mqtt
@@ -57,4 +56,3 @@ Requires: ''
 Sources:
 - https://hub.docker.com/r/raetha/wyzesense2mqtt/
 Tag: latest
-WebUI: ''

@@ -1,6 +1,9 @@
 postgresql10
 postgresql11
 postgresql12-5
+postgres10
+postgres11
+postgres12-5
 postgresql12
 postgresql13
 postgresql14
@@ -29,11 +32,16 @@ pgadmin4
 pihole-dot-doh
 plexpass
 zwave2mqtt
+7daystodie
+aria2-daemon
+aria2webui
 amd
 apacheguacamole
 apacheguacamolenomariaDB
 collabora
+collabora-code
 calibreweb
+cassandra
 composerize
 containernursery
 couchpotato-git
@@ -64,3 +72,4 @@ octofarm-alpine
 office-document-server-ee
 openkm-ce
 organizrv2
+

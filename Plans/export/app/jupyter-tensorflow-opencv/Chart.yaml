@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "Unraid compatible Jupyter Notebook (Python kernel) container with 
   \ Tensorflow, OpenCV, Pandas, PyTorch -- based on datamachines/tensorflow_opencv\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/jupyter-tensorflow-opencv
-icon: https://truecharts.org/_static/img/appicons/jupyter-tensorflow-opencv.png
+icon: https://truecharts.org/img/chart-icons/jupyter-tensorflow-opencv.png
 keywords:
 - jupyter-tensorflow-opencv
 - Productivity

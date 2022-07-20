@@ -335,7 +335,6 @@ Keywords:
 Name: stun-turn-server
 Overview: "This is a Basic STUN &amp; TURN server that was mainly created for Nextcloud\
   \ Talk.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/stun-turn-server
 Repository: ich777/stun-turn-server
@@ -343,5 +342,4 @@ Requires: ''
 Sources:
 - https://hub.docker.com/r/ich777/stun-turn-server
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Stun-Turn-Server.xml

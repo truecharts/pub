@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Other
     - Productivity
@@ -17,7 +17,7 @@ description: "Electrum is a Bitcoin wallet focused on speed and simplicity, with
   \ of the Bitcoin system, and it allows you to recover your wallet from a secret\
   \ phrase.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/electrum
-icon: https://truecharts.org/_static/img/appicons/electrum.png
+icon: https://truecharts.org/img/chart-icons/electrum.png
 keywords:
 - electrum
 - Network-Other

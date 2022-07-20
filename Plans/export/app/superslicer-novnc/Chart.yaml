@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Productivity
@@ -14,7 +14,7 @@ deprecated: false
 description: "Enjoy Superslicer directly in your browser with this easy to use Docker\
   \ container.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/superslicer-novnc
-icon: https://truecharts.org/_static/img/appicons/superslicer-novnc.png
+icon: https://truecharts.org/img/chart-icons/superslicer-novnc.png
 keywords:
 - superslicer-novnc
 - HomeAutomation

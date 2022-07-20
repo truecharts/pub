@@ -44,7 +44,6 @@ Keywords:
 Name: breitbandmessung-de
 Overview: "A script to enable customers of lazy ISPs to perform measurement campaigns\
   \ of the connection speed as described here in an automated way.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/shneezin/breitbandmessung-node
 Repository: shneezin/breitbandmessung-node
@@ -53,4 +52,3 @@ Sources:
 - https://github.com/shneezin/breitbandmessung-node
 - https://hub.docker.com/r/shneezin/breitbandmessung-node
 Tag: latest
-WebUI: ''

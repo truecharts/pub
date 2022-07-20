@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - MediaServer-Other
@@ -14,7 +14,7 @@ deprecated: false
 description: "This is a dependancy container for the application \"TubeArchivist\"\
   \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/tubearchivist-es
-icon: https://truecharts.org/_static/img/appicons/tubearchivist-es.png
+icon: https://truecharts.org/img/chart-icons/tubearchivist-es.png
 keywords:
 - tubearchivist-es
 - Tools-Utilities

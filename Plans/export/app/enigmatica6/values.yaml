@@ -1,7 +1,6 @@
 env:
   EULA: 'false'
   MAX_RAM: 5G
-  MOTD: ''
   OPS: ''
 image:
   pullPolicy: IfNotPresent

@@ -184,7 +184,6 @@ Keywords:
 Name: killingfloor
 Overview: "This Docker will download and install SteamCMD. It will also install Killing\
   \ Floor and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/steamcmd/
 Repository: ich777/steamcmd
@@ -193,5 +192,4 @@ Sources:
 - https://www.tripwireinteractive.com/
 - https://hub.docker.com/r/ich777/steamcmd/
 Tag: killingfloor
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/KillingFloor.xml

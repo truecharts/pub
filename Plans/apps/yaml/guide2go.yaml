@@ -48,7 +48,6 @@ Keywords:
 - Downloaders
 Name: guide2go
 Overview: "a xml grabber from schedule direct service\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/alturismo/guide2go
 Repository: alturismo/guide2go
@@ -57,4 +56,3 @@ Sources:
 - https://github.com/alturismo/guide2go
 - https://hub.docker.com/r/alturismo/guide2go
 Tag: latest
-WebUI: ''

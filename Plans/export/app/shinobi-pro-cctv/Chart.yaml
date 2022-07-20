@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: 'Shinobi Docker from official Dockerhub repo. Note to use GPU for h
   encoding or Object detection: 1. add `--runtime=nvidia` in Extra Parameters.  2.
   Add Nvidia GPU Devices variables ID & Driver capabilities in advanced'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/shinobi-pro-cctv
-icon: https://truecharts.org/_static/img/appicons/shinobi-pro-cctv.png
+icon: https://truecharts.org/img/chart-icons/shinobi-pro-cctv.png
 keywords:
 - shinobi-pro-cctv
 - HomeAutomation

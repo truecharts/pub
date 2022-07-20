@@ -105,7 +105,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 8080
+                              default: 31000
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -172,9 +172,8 @@ questions:
       type: dict
       attrs:
 
-        - variable: configpath
-          label: "configpath Storage"
-          description: "Container Path varwwwhtml"
+        - variable: appdata
+          label: "appdata Storage"
           schema:
             additional_attrs: true
             type: dict

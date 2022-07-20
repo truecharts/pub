@@ -1,2 +1,0 @@
-FROM qmcgaw/ddns-updater:latest
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

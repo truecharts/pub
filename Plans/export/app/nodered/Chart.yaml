@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "Node-RED is a visual tool for wiring the Internet of Things[br][br]\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/nodered
-icon: https://truecharts.org/_static/img/appicons/nodered.png
+icon: https://truecharts.org/img/chart-icons/nodered.png
 keywords:
 - nodered
 - HomeAutomation

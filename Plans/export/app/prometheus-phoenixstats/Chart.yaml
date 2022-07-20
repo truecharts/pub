@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Productivity
@@ -15,7 +15,7 @@ deprecated: false
 description: Simple container for displaying stats from any PhoenixMiner instance.
   Made to go with PhoenixMiner-AMD.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/prometheus-phoenixstats
-icon: https://truecharts.org/_static/img/appicons/prometheus-phoenixstats.png
+icon: https://truecharts.org/img/chart-icons/prometheus-phoenixstats.png
 keywords:
 - prometheus-phoenixstats
 - Cloud

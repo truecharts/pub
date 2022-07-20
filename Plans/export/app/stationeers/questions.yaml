@@ -95,7 +95,7 @@ questions:
           description: "Enter your start up commands for the server."
           schema:
             type: string
-            default: "-autosaveinterval=300"
+            default: "AutoSave true SaveInterval 300"
         - variable: USERNAME
           label: 'USERNAME'
           description: "Your Steam username goes here if you want to install a game that needs a valid account, otherwise leave it blank (ATTENTION You have to disable Steam Guard)."
@@ -217,7 +217,7 @@ questions:
                                   label: "Port Type"
                                   schema:
                                     type: string
-                                    default: TCP
+                                    default: UDP
                                     enum:
                                       - value: HTTP
                                         description: "HTTP"

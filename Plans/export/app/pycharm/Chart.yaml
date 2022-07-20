@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -17,7 +17,7 @@ description: PyCharm is an Integrated Development Environment (IDE) used in comp
   unit tester, integration with version control systems (VCSes), and supports web
   development with Django.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pycharm
-icon: https://truecharts.org/_static/img/appicons/pycharm.png
+icon: https://truecharts.org/img/chart-icons/pycharm.png
 keywords:
 - pycharm
 - Productivity

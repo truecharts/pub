@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaServer-Video
     - MediaServer-Music
@@ -17,7 +17,7 @@ description: TwonkyMedia server (TMS) is DLNA-compliant UPnP AV server software 
   AV or DLNA-compliant clients, in addition to non-UPnP devices through the HTML,
   RSS, and JSON supported front ends.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/twonky-server
-icon: https://truecharts.org/_static/img/appicons/twonky-server.png
+icon: https://truecharts.org/img/chart-icons/twonky-server.png
 keywords:
 - twonky-server
 - MediaServer-Video

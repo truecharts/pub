@@ -17,7 +17,7 @@ Registry: https://hub.docker.com/r/bndw/wifi-card/
 Repository: bndw/wifi-card
 Requires: ''
 Sources:
-- https://wifi.dev.bdw.to/
+- https://github.com/bndw/wifi-card
 - https://hub.docker.com/r/bndw/wifi-card/
 Tag: latest
 WebUI: http://[IP]:[PORT:80]/

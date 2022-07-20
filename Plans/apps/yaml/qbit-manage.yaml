@@ -226,7 +226,6 @@ Keywords:
 - Tools-Utilities
 Name: qbit-manage
 Overview: "This is a program used to manage your qBittorrent instance such as:\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/bobokun/qbit_manage
 Repository: bobokun/qbit_manage
@@ -235,4 +234,3 @@ Sources:
 - https://github.com/StuffAnThings/qbit_manage
 - https://hub.docker.com/r/bobokun/qbit_manage
 Tag: latest
-WebUI: ''

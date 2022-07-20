@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Messenger
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: Limnoria(https://github.com/ProgVal/limnoria) A robust, full-featur
   and user/programmer-friendly Python IRC bot, with many existing plugins. Successor
   of the well-known Supybot.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/limnoria
-icon: https://truecharts.org/_static/img/appicons/limnoria.png
+icon: https://truecharts.org/img/chart-icons/limnoria.png
 keywords:
 - limnoria
 - Network-Messenger

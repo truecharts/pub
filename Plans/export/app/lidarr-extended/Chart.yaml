@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
     - MediaApp-Music
@@ -17,7 +17,7 @@ description: "Lidarr is a music collection manager for Usenet and BitTorrent use
   \ the quality of files already downloaded when a better quality format becomes available..\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/lidarr-extended
-icon: https://truecharts.org/_static/img/appicons/lidarr-extended.png
+icon: https://truecharts.org/img/chart-icons/lidarr-extended.png
 keywords:
 - lidarr-extended
 - Downloaders

@@ -37,7 +37,6 @@ Overview: "Google Photos Sync downloads your Google Photos to the local file sys
   \ It will backup all the photos the user uploaded to Google Photos, but also the\
   \ album information and additional Google Photos 'Creations' (animations, panoramas,\
   \ movies, effects and collages).\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/rix1337/docker-gphotos-sync
 Repository: rix1337/docker-gphotos-sync
@@ -45,4 +44,3 @@ Requires: ''
 Sources:
 - https://hub.docker.com/r/rix1337/docker-gphotos-sync
 Tag: latest
-WebUI: ''

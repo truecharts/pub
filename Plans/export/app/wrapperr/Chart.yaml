@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -17,7 +17,7 @@ description: A website-based platform and API for collecting Plex user stats wit
   like Spotify Wrapped. Yes, you need Tautulli to have been running beforehand and
   currently for this to work.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/wrapperr
-icon: https://truecharts.org/_static/img/appicons/wrapperr.png
+icon: https://truecharts.org/img/chart-icons/wrapperr.png
 keywords:
 - wrapperr
 - Productivity

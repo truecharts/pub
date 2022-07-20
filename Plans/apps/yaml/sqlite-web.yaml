@@ -49,7 +49,6 @@ Keywords:
 - Network-Other
 Name: sqlite-web
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/coleifer/sqlite-web
 Repository: coleifer/sqlite-web

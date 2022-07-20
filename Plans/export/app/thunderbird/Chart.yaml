@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: "This container will download and install Thunderbird in the preferred\
   \ version and language.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/thunderbird
-icon: https://truecharts.org/_static/img/appicons/thunderbird.png
+icon: https://truecharts.org/img/chart-icons/thunderbird.png
 keywords:
 - thunderbird
 - Productivity

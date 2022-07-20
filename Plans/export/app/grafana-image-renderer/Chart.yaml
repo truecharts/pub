@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "A Grafana remote image renderer that handles rendering panels &amp;\
   \ dashboards to PNGs using headless chrome.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/grafana-image-renderer
-icon: https://truecharts.org/_static/img/appicons/grafana-image-renderer.png
+icon: https://truecharts.org/img/chart-icons/grafana-image-renderer.png
 keywords:
 - grafana-image-renderer
 - Productivity

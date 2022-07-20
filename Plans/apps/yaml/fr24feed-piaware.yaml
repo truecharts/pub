@@ -71,7 +71,6 @@ Name: fr24feed-piaware
 Overview: "All-in-one image for feeding FlightRadar24/FlightAware ADS-B/MLAT data\
   \ with an RTL-SDR device and local web server for displaying aircraft positions\
   \ on a map.[br][br]\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/thomx/fr24feed-piaware/
 Repository: thomx/fr24feed-piaware

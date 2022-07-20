@@ -53,7 +53,8 @@ Config:
       value: '1280'
     ferdiversion:
       Default: ''
-      Description: 'Define your preferred Ferdi version here (valid options are '
+      Description: Define your preferred Ferdi version here (valid options are 'stable'
+        and 'latest' where latest refers to pre-releases)
       Display: always
       Mask: 'false'
       Mode: ''
@@ -107,7 +108,6 @@ Overview: "Ferdi is a destkop app that helps you organize how you use your favou
   \ already used by thousands of people - with the difference that Ferdi gives you\
   \ many additional features and doesn't restrict its usage! Ferdi is compatible with\
   \ your existing Franz account so you can continue right where you left off.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/ferdi-client/
 Repository: ich777/ferdi-client

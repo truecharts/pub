@@ -71,7 +71,6 @@ Keywords:
 - Network-Web
 Name: firefox-desktop-g3
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/accetto/ubuntu-vnc-xfce-firefox-g3
 Repository: accetto/ubuntu-vnc-xfce-firefox-g3

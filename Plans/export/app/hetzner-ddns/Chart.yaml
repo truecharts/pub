@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-DNS
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: This Docker image will allow you to use the Hetzner DNS Service (https://www.hetzner.com/dns-console)
   as a Dynamic DNS (DDNS) Provider.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/hetzner-ddns
-icon: https://truecharts.org/_static/img/appicons/hetzner-ddns.png
+icon: https://truecharts.org/img/chart-icons/hetzner-ddns.png
 keywords:
 - hetzner-ddns
 - Network-DNS

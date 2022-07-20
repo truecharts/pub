@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Security
     - Network-Proxy
@@ -18,7 +18,7 @@ description: "A secure SOCKS5 proxy. Shadowsocks is a free and open-source encry
   \ of the protocol have been made available since. Can be used with any SOCKS or\
   \ Shadowsocks client.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/shadowsocks
-icon: https://truecharts.org/_static/img/appicons/shadowsocks.png
+icon: https://truecharts.org/img/chart-icons/shadowsocks.png
 keywords:
 - shadowsocks
 - Security

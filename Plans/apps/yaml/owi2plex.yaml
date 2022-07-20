@@ -47,7 +47,6 @@ Keywords:
 - Downloaders
 Name: owi2plex
 Overview: "a xml grabber for enigma with open webif\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/alturismo/owi2plex
 Repository: alturismo/owi2plex
@@ -56,4 +55,3 @@ Sources:
 - https://github.com/alturismo/owi2plex
 - https://hub.docker.com/r/alturismo/owi2plex
 Tag: latest
-WebUI: ''

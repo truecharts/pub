@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: A self-hosted blogging platform in which posts are written in markdown
 home: https://github.com/truecharts/apps/tree/master/charts/stable/hexo-blog
-icon: https://truecharts.org/_static/img/appicons/hexo-blog.png
+icon: https://truecharts.org/img/chart-icons/hexo-blog.png
 keywords:
 - hexo-blog
 - Productivity

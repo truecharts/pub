@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Tools-Utilities
@@ -18,7 +18,7 @@ description: Membarr is a discord bot that invites discord users to Plex and/or 
   Manually create users and invite server members with a single command, or let Membarr
   automatically add server members with a certain role.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/membarr
-icon: https://truecharts.org/_static/img/appicons/membarr.png
+icon: https://truecharts.org/img/chart-icons/membarr.png
 keywords:
 - membarr
 - HomeAutomation

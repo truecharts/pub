@@ -17,12 +17,12 @@ Config:
       Type: Path
       value: ''
   Port:
-    main:
+    port80:
       Default: '80'
       Description: Http port (required for http validation and http - https redirect)
       Display: always
       Mask: 'false'
-      Mode: HTTP
+      Mode: tcp
       Name: 'Port: 80'
       Required: 'false'
       Target: 80
@@ -56,12 +56,12 @@ Config:
     dnsplugin:
       Default: cloudflare
       Description: Required if `VALIDATION` is set to `dns`. Options are `aliyun`,
-        `cloudflare`, `cloudxns`, `cpanel`, `desec`, `digitalocean`, `directadmin`,
+        `azure`, `cloudflare`, `cloudxns`, `cpanel`, `desec`, `digitalocean`, `directadmin`,
         `dnsimple`, `dnsmadeeasy`, `dnspod`, `domeneshop`, `gandi`, `gehirn`, `google`,
-        `he`, `hetzner`, `infomaniak`, `inwx`, `ionos`, `linode`, `luadns`, `netcup`,
-        `njalla`, `nsone`, `ovh`, `rfc2136`, `route53`, `sakuracloud`, `transip` and
-        `vultr`. Also need to enter the credentials into the corresponding ini (or
-        json for some plugins) file under `/config/dns-conf`.
+        `he`, `hetzner`, `infomaniak`, `inwx`, `ionos`, `linode`, `loopia`, `luadns`,
+        `netcup`, `njalla`, `nsone`, `ovh`, `rfc2136`, `route53`, `sakuracloud`, `standalone`,
+        `transip` and `vultr`. Also need to enter the credentials into the corresponding
+        ini (or json for some plugins) file under `/config/dns-conf`.
       Display: always
       Mask: 'false'
       Name: DNSPLUGIN
@@ -224,4 +224,3 @@ Sources:
 - https://github.com/orgs/linuxserver/packages/container/package/swag
 - https://github.com/linuxserver/docker-swag#readme
 Tag: latest
-WebUI: http://[IP]:[PORT:80]

@@ -47,7 +47,6 @@ Keywords:
 Name: hetzner-ddns
 Overview: This Docker image will allow you to use the Hetzner DNS Service (https://www.hetzner.com/dns-console)
   as a Dynamic DNS (DDNS) Provider.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/kutzilla/hetzner-ddns
 Repository: kutzilla/hetzner-ddns
@@ -56,4 +55,3 @@ Sources:
 - https://github.com/kutzilla/docker-hetzner-ddns
 - https://hub.docker.com/r/kutzilla/hetzner-ddns
 Tag: latest
-WebUI: ''

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: 'App for taking notes and tracking tasks on a daily basis.
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/dailynotes
-icon: https://truecharts.org/_static/img/appicons/dailynotes.png
+icon: https://truecharts.org/img/chart-icons/dailynotes.png
 keywords:
 - dailynotes
 - Other

@@ -60,7 +60,6 @@ Keywords:
 - Tools-Utilities
 Name: rustypaste
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/orhunp/rustypaste
 Repository: orhunp/rustypaste

@@ -59,7 +59,6 @@ Keywords:
 Name: superslicer-novnc
 Overview: "Enjoy Superslicer directly in your browser with this easy to use Docker\
   \ container.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/mikeah/superslicer-novnc
 Repository: mikeah/superslicer-novnc

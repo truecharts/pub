@@ -47,7 +47,6 @@ Keywords:
 - Tools-Utilities
 Name: obsidian
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://github.com/sytone/obsidian-remote/pkgs/container/obsidian-remote
 Repository: ghcr.io/sytone/obsidian-remote

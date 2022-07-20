@@ -237,7 +237,6 @@ Overview: 'SABnzbd makes Usenet as simple and streamlined as possible by automat
   away with zero human interaction.[br]
 
   '
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/randomninjaatk/sabnzbd-extended
 Repository: randomninjaatk/sabnzbd-extended

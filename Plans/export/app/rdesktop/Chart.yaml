@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: Rdesktop(http://xrdp.org/) - Containers containing full desktop environments
   in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rdesktop
-icon: https://truecharts.org/_static/img/appicons/rdesktop.png
+icon: https://truecharts.org/img/chart-icons/rdesktop.png
 keywords:
 - rdesktop
 - Other

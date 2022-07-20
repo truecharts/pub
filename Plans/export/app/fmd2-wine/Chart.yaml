@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
     - MediaApp-Books
@@ -15,7 +15,7 @@ description: "**FMD2:** This is an active fork of the Free Manga Downloader whic
   \ is a free open source application written in Object Pascal for managing and downloading\
   \ manga from various websites.  \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/fmd2-wine
-icon: https://truecharts.org/_static/img/appicons/fmd2-wine.png
+icon: https://truecharts.org/img/chart-icons/fmd2-wine.png
 keywords:
 - fmd2-wine
 - Downloaders

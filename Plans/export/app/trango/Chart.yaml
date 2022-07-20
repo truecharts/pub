@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Other
     - Tools-Utilities
@@ -18,7 +18,7 @@ description: "Trango self-hosted is a calling and file sharing solution that wor
   \ comes with a discovery server and a web app that can be deployed on the local\
   \ machine and can be accessed from anywhere in the network.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/trango
-icon: https://truecharts.org/_static/img/appicons/trango.png
+icon: https://truecharts.org/img/chart-icons/trango.png
 keywords:
 - trango
 - Network-Other

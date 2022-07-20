@@ -62,14 +62,13 @@ Config:
       Type: Variable
       value: ''
 ExtraParams: --log-opt max-size=50m
-Icon: https://raw.githubusercontent.com/rix1337/FeedCrawler/master/feedcrawler/web/public/favicon.ico
+Icon: https://raw.githubusercontent.com/rix1337/FeedCrawler/master/feedcrawler/web_interface/vuejs_frontend/public/favicon.ico
 Keywords:
 - feedcrawler
 - Downloaders
 Name: feedcrawler
 Overview: "This python-based script automates downloads for JDownloader crawling web\
   \ feeds.[br]\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://registry.hub.docker.com/r/rix1337/docker-feedcrawler
 Repository: rix1337/docker-feedcrawler

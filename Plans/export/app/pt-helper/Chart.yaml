@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: A tool that can automatically download free seeds and delete them after
   the free time expires.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pt-helper
-icon: https://truecharts.org/_static/img/appicons/pt-helper.png
+icon: https://truecharts.org/img/chart-icons/pt-helper.png
 keywords:
 - pt-helper
 - Tools-Utilities

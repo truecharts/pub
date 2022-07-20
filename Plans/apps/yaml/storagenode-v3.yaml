@@ -100,7 +100,6 @@ Name: storagenode-v3
 Overview: "This is official Storj V3 node client. To participate you must first have\
   \ to have an authorization token, to get the Authentication Token go to: [b]https://storj.io/sign-up-farmer[/b]\r\
   \n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/storjlabs/storagenode
 Repository: storjlabs/storagenode

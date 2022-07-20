@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "This Docker will download and install SteamCMD. It will also insta
   \ Starbound (Valid Steam useraccount with the game purchased and Steam Guard disabled\
   \ required) and run it.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/starbound
-icon: https://truecharts.org/_static/img/appicons/starbound.png
+icon: https://truecharts.org/img/chart-icons/starbound.png
 keywords:
 - starbound
 - GameServers

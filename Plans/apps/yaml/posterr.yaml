@@ -67,7 +67,6 @@ Keywords:
 - MediaServer-Other
 Name: posterr
 Overview: Media display for Plex, sonarr and radarr
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/petersem/posterr/
 Repository: petersem/posterr

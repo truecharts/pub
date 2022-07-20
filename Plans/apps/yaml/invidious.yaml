@@ -35,7 +35,6 @@ Keywords:
 - Network-Web
 Name: invidious
 Overview: An open source alternative front-end to YouTube
-PostArgs: ''
 Privileged: 'false'
 Registry: https://quay.io/repository/invidious/invidious
 Repository: quay.io/invidious/invidious

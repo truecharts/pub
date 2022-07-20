@@ -48,7 +48,6 @@ Keywords:
 Name: multi-scrobbler
 Overview: "Track your music listening history from many sources and record to many\
   \ scrobble clients.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/foxxmd/multi-scrobbler
 Repository: foxxmd/multi-scrobbler

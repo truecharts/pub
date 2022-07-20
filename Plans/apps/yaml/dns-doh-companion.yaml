@@ -36,7 +36,6 @@ Keywords:
 Name: dns-doh-companion
 Overview: "A very simple DNS server to connect to DNS-over-HTTPS service. This is\
   \ similar to my other Pihole-with-DoH docker, without Pihole.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/testdasi/simple-dns-doh/
 Repository: testdasi/simple-dns-doh
@@ -45,4 +44,3 @@ Sources:
 - https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/
 - https://hub.docker.com/r/testdasi/simple-dns-doh/
 Tag: latest
-WebUI: ''

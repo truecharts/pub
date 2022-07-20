@@ -24,10 +24,10 @@ service:
         port: 6530
         protocol: HTTP
         targetPort: 8080
-  port52000-5210:
+  port52000-:
     enabled: true
     ports:
-      port52000-5210:
+      port52000-:
         enabled: true
         port: 52000
         protocol: UDP

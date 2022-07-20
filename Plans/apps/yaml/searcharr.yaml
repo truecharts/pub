@@ -39,7 +39,6 @@ Config:
       value: /mnt/user/appdata/searcharr/settings.py
   Port: {}
   Variable: {}
-Icon: /plugins/dynamix.docker.manager/images/question.png
 Keywords:
 - searcharr
 - Other

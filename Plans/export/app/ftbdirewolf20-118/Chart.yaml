@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -18,7 +18,7 @@ description: 'FTB Presents Direwolf20 1.18 Modded Minecraft Server[br][br][b]FTB
   a comma separated list of players who will have admin privileges in game by setting
   [b]OPS[/b]'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ftbdirewolf20-118
-icon: https://truecharts.org/_static/img/appicons/ftbdirewolf20-118.png
+icon: https://truecharts.org/img/chart-icons/ftbdirewolf20-118.png
 keywords:
 - ftbdirewolf20-118
 - GameServers

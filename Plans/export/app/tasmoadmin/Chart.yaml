@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Network-Management
@@ -15,7 +15,7 @@ description: "TasmoAdmin is an administrative Website for Home Automation Device
   \ flashed with Tasmota (PLEASE Stop this container while not in use and during Tasmota\
   \ upgrades) (https://github.com/arendst/Tasmota). \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/tasmoadmin
-icon: https://truecharts.org/_static/img/appicons/tasmoadmin.png
+icon: https://truecharts.org/img/chart-icons/tasmoadmin.png
 keywords:
 - tasmoadmin
 - HomeAutomation

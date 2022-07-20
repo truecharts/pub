@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Management
     - Network-VPN
@@ -13,7 +13,7 @@ dependencies:
 deprecated: false
 description: Tailscale is a zero config VPN for building secure networks.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/tailscaleclient
-icon: https://truecharts.org/_static/img/appicons/tailscaleclient.png
+icon: https://truecharts.org/img/chart-icons/tailscaleclient.png
 keywords:
 - tailscaleclient
 - Network-Management

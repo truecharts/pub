@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaApp-Video
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "Watches for .ts files made by Live TV recordings, convert them to 
   \ friendly format, extract .srt file, add chapters with comchap or remove them with\
   \ comcut. Tested with Emby recordings.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/post-recording
-icon: https://truecharts.org/_static/img/appicons/post-recording.png
+icon: https://truecharts.org/img/chart-icons/post-recording.png
 keywords:
 - post-recording
 - MediaApp-Video

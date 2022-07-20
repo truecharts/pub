@@ -127,7 +127,6 @@ Keywords:
 Name: luckybackup
 Overview: "LuckyBackup is a very user-friendly GUI backup program. It uses rsync as\
   \ a backend and transfers over only changes made rather than all data.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/luckybackup/
 Repository: ich777/luckybackup

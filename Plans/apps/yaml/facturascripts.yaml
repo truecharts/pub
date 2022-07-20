@@ -1,29 +1,25 @@
 CategoryList:
 - Cloud
 - Productivity
-- Tools-Utilities
-- Other
-- Network-Web
-- Network-Other
 Config:
   Device: {}
   Label: {}
   Path:
-    configpath:
+    appdata:
       Default: ''
-      Description: 'Container Path: /var/www/html'
+      Description: ''
       Display: always
       Mask: 'false'
       Mode: rw
-      Name: Config Path
-      Required: 'false'
+      Name: Appdata
+      Required: 'true'
       Target: /var/www/html
       Type: Path
-      value: /mnt/user/appdata/facturascripts/www/
+      value: /mnt/user/appdata/facturascripts/www
   Port:
     main:
       Default: ''
-      Description: 'Container Port: 80'
+      Description: ''
       Display: always
       Mask: 'false'
       Mode: tcp
@@ -31,29 +27,24 @@ Config:
       Required: 'false'
       Target: 80
       Type: Port
-      value: 8080
+      value: 31000
   Variable: {}
 ExtraParams: --restart=always
-Icon: https://github.com/patrickstigler/unraid_app_templates/raw/main/facturaScripts/facturascripts.png
+Icon: https://raw.githubusercontent.com/UnRAIDES/templates-UnRAID/main/icons/facturascripts-icon.png
 Keywords:
 - facturascripts
 - Cloud
 - Productivity
-- Tools-Utilities
-- Other
-- Network-Web
-- Network-Other
 Name: facturascripts
-Overview: "FacturaScripts is an accounting and billing program. With it you can manage\
-  \ the day to day of your company: make invoices, orders, delivery notes, budgets,\
-  \ accounting, inventory and much more.\r\n"
-PostArgs: ''
+Overview: "FacturaScripts is an accounting, billing and CRM program with it you can\
+  \ manage the day to day of your company: invoices, receipts, expenses, budgets,\
+  \ orders, delivery notes, inventory...\r\n"
 Privileged: 'false'
-Registry: https://hub.docker.com/r/patrickstigler/facturascripts
-Repository: patrickstigler/facturascripts
+Registry: https://hub.docker.com/r/unraides/facturascripts
+Repository: unraides/facturascripts
 Requires: ''
 Sources:
 - https://facturascripts.com/
-- https://hub.docker.com/r/patrickstigler/facturascripts
+- https://hub.docker.com/r/unraides/facturascripts
 Tag: latest
 WebUI: http://[IP]:[PORT:80]

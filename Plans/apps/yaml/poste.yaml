@@ -146,7 +146,6 @@ MinVer: 6.4.1
 Name: poste
 Overview: "FREE version of Poste.io, full mail server solution. POP3, SMTP, IMAP,\
   \ Spamassassin, WebMail, WebAdmin. \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/analogic/poste.io/
 Repository: analogic/poste.io

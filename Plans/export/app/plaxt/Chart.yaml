@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
     - MediaApp-Other
@@ -17,7 +17,7 @@ description: "This Tools provides a way to keep your watched history synced FROM
   \ WebHooks to Accomplish this so a PLEX PASS Subscription is needed to use WebHooks.\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/plaxt
-icon: https://truecharts.org/_static/img/appicons/plaxt.png
+icon: https://truecharts.org/img/chart-icons/plaxt.png
 keywords:
 - plaxt
 - Other

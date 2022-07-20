@@ -76,7 +76,7 @@ Config:
       Type: Variable
       value: ''
     rclonedestination:
-      Default: ''
+      Default: local:/data
       Description: '`rclone` destination path in the format {rclone remote}:{path
         on remote}. E.g.`gdrive:/backups/unifi_protect`'
       Display: always

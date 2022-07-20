@@ -18,7 +18,6 @@ Keywords:
 - Network-FTP
 Name: fileshelter
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/epoupon/fileshelter
 Repository: epoupon/fileshelter

@@ -99,7 +99,6 @@ Keywords:
 - Backup
 Name: duplicacy
 Overview: A new generation cross-platform cloud backup tool.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/hotio/duplicacy
 Repository: cr.hotio.dev/hotio/duplicacy

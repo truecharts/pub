@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "A command-line application that will automatically synchronize recommended\
   \ settings from TRaSH guides to your Sonarr/Radarr instances.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/recyclarr
-icon: https://truecharts.org/_static/img/appicons/recyclarr.png
+icon: https://truecharts.org/img/chart-icons/recyclarr.png
 keywords:
 - recyclarr
 - Tools-Utilities

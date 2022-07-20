@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Backup
     - Cloud
@@ -15,7 +15,7 @@ description: 'A simple way to backup important files to Google Cloud Storage.
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/google-cloud-storage-backup
-icon: https://truecharts.org/_static/img/appicons/google-cloud-storage-backup.png
+icon: https://truecharts.org/img/chart-icons/google-cloud-storage-backup.png
 keywords:
 - google-cloud-storage-backup
 - Backup

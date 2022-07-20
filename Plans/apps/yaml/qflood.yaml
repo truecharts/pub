@@ -94,7 +94,6 @@ Keywords:
 - Downloaders
 Name: qflood
 Overview: Docker image with qBittorrent and the Flood UI.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/hotio/qflood
 Repository: cr.hotio.dev/hotio/qflood

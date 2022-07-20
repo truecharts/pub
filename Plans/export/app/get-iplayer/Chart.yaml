@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaApp-Video
     - MediaServer-Video
@@ -18,7 +18,7 @@ description: "get_iplayer has PVR-like capabilities (like Sky+ / TiVo / Series-L
   \ broadband speeds or if your broadband streams too slowly at peak hours when you\
   \ want to watch a programme."
 home: https://github.com/truecharts/apps/tree/master/charts/stable/get-iplayer
-icon: https://truecharts.org/_static/img/appicons/get-iplayer.png
+icon: https://truecharts.org/img/chart-icons/get-iplayer.png
 keywords:
 - get-iplayer
 - MediaApp-Video

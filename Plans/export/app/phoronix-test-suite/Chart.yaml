@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "The Phoronix Test Suite is the most comprehensive testing and benc
   \ platform available that provides an extensible framework for which new tests can\
   \ be easily added.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/phoronix-test-suite
-icon: https://truecharts.org/_static/img/appicons/phoronix-test-suite.png
+icon: https://truecharts.org/img/chart-icons/phoronix-test-suite.png
 keywords:
 - phoronix-test-suite
 - Tools-Utilities

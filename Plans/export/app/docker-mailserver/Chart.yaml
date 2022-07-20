@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Other
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "A production-ready fullstack but simple mail server (SMTP, IMAP, L
   \ Antispam, Antivirus, etc.). Only configuration files, no SQL database. Keep it\
   \ simple and versioned. Easy to deploy and upgrade.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/docker-mailserver
-icon: https://truecharts.org/_static/img/appicons/docker-mailserver.png
+icon: https://truecharts.org/img/chart-icons/docker-mailserver.png
 keywords:
 - docker-mailserver
 - Network-Other

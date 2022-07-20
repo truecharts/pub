@@ -48,7 +48,6 @@ Overview: This is a container for running OBS applications completely inside a D
   container. You do not need to forward your running XAuth or allow Docker to draw
   onto your display. Nor do you need to use SSH to forward X11. This container exposes
   a VNC webclient to the host and therefore everything is contained within the container.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/cieg/obs-docker
 Repository: cieg/obs-docker

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Tools-Utilities
@@ -14,7 +14,7 @@ dependencies:
 deprecated: false
 description: "DESCRIPTION\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/docker-hub-rss
-icon: https://truecharts.org/_static/img/appicons/docker-hub-rss.png
+icon: https://truecharts.org/img/chart-icons/docker-hub-rss.png
 keywords:
 - docker-hub-rss
 - Cloud

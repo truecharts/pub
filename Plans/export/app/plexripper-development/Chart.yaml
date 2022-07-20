@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Backup
     - Downloaders
@@ -21,7 +21,7 @@ description: DEVELOPMENT BUILD - Latest changes are made here! Tired of searchin
   servers you have access to and expand your collection that way! Let others collect
   media for you and then just download everything!
 home: https://github.com/truecharts/apps/tree/master/charts/stable/plexripper-development
-icon: https://truecharts.org/_static/img/appicons/plexripper-development.png
+icon: https://truecharts.org/img/chart-icons/plexripper-development.png
 keywords:
 - plexripper-development
 - Backup

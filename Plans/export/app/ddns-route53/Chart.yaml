@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-DNS
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: "Dynamic DNS for Amazon Route 53\u200E on a time-based schedule"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ddns-route53
-icon: https://truecharts.org/_static/img/appicons/ddns-route53.png
+icon: https://truecharts.org/img/chart-icons/ddns-route53.png
 keywords:
 - ddns-route53
 - Network-DNS

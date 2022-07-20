@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Other
@@ -15,7 +15,7 @@ description: "pixelserv-tls is a tiny bespoke HTTP/1.1 webserver with HTTPS and 
   \ support. It acts on behalf of hundreds of thousands of advert/tracker servers\
   \ and responds to all requests with nothing to speed up web browsing.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pixelserv-tls
-icon: https://truecharts.org/_static/img/appicons/pixelserv-tls.png
+icon: https://truecharts.org/img/chart-icons/pixelserv-tls.png
 keywords:
 - pixelserv-tls
 - Tools-Utilities

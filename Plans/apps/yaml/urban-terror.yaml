@@ -93,7 +93,6 @@ Name: urban-terror
 Overview: "Urban Terror\u2122 is a free multiplayer first person shooter developed\
   \ by FrozenSand, that will run on any Quake III Arena compatible engine. It is available\
   \ for Windows, Linux and Macintosh.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/urbanterror/
 Repository: ich777/urbanterror
@@ -102,4 +101,3 @@ Sources:
 - https://www.urbanterror.info/
 - https://hub.docker.com/r/ich777/urbanterror/
 Tag: latest
-WebUI: ''

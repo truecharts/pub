@@ -59,7 +59,6 @@ Keywords:
 Name: portainer-ce
 Official: true
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/portainer/portainer-ce
 Repository: portainer/portainer-ce

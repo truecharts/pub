@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: "This Docker will download and install SteamCMD. It will also insta
   \ ADMINPASSWORD: 'adminDocker' (you can change this in your SERVERFOLDER/config/config.cfg)\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/theforest
-icon: https://truecharts.org/_static/img/appicons/theforest.png
+icon: https://truecharts.org/img/chart-icons/theforest.png
 keywords:
 - theforest
 - GameServers

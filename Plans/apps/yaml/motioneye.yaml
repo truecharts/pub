@@ -68,7 +68,6 @@ Keywords:
 MinVer: ''
 Name: motioneye
 Overview: "MotionEye Docker&lt;br /&gt;\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/malvarez00/docker-motioneye
 Repository: malvarez00/docker-motioneye

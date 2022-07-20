@@ -106,7 +106,6 @@ Keywords:
 - MediaServer-Video
 Name: youtube-dl
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jeeaaasustest/youtube-dl/
 Repository: jeeaaasustest/youtube-dl

@@ -69,7 +69,6 @@ Name: qbitmanage
 Overview: This tool will help manage tedious tasks in qBittorrent and automate them.
   Tag, categorize, remove orphaned data, remove unregistered torrents and much much
   more.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/hotio/qbitmanage
 Repository: cr.hotio.dev/hotio/qbitmanage
@@ -78,5 +77,4 @@ Sources:
 - https://hotio.dev/containers/qbitmanage
 - https://hub.docker.com/r/hotio/qbitmanage
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/qbitmanage.xml

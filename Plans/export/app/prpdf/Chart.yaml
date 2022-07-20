@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: "This tool is for Preview and Rename scanned PDF-Documents. Rulebased\
   \ autoscan with OCR. Merge etc. \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/prpdf
-icon: https://truecharts.org/_static/img/appicons/prpdf.png
+icon: https://truecharts.org/img/chart-icons/prpdf.png
 keywords:
 - prpdf
 - Productivity

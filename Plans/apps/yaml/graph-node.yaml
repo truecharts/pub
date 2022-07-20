@@ -136,7 +136,6 @@ Keywords:
 Name: graph-node
 Overview: "The Graph is a protocol for building decentralized applications (dApps)\
   \ quickly on Ethereum and IPFS using GraphQL.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/graphprotocol/graph-node/
 Repository: graphprotocol/graph-node

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: "MotionEye Docker&lt;br /&gt;\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/motioneye
-icon: https://truecharts.org/_static/img/appicons/motioneye.png
+icon: https://truecharts.org/img/chart-icons/motioneye.png
 keywords:
 - motioneye
 - Network

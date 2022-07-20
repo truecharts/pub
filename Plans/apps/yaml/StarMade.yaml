@@ -152,7 +152,6 @@ Keywords:
 Name: starmade
 Overview: "This container will download and install a StarMade Dedicated Server. It\
   \ will also install a basic server.cfg at the first startup.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/starmade-server/
 Repository: ich777/starmade-server
@@ -161,5 +160,4 @@ Sources:
 - https://www.star-made.org/
 - https://hub.docker.com/r/ich777/starmade-server/
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Starmade.xml

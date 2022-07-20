@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "Tracks is a web-based todo application to help you implement the GTD\
   \ methodology. \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/tracks
-icon: https://truecharts.org/_static/img/appicons/tracks.png
+icon: https://truecharts.org/img/chart-icons/tracks.png
 keywords:
 - tracks
 - Productivity

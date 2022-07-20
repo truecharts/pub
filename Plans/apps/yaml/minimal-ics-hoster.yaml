@@ -41,7 +41,6 @@ Keywords:
 - Network-Web
 Name: minimal-ics-hoster
 Overview: "minimal ics / iCal / Calendar hoster, \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/patrickstigler/minimal-ics-hoster
 Repository: patrickstigler/minimal-ics-hoster

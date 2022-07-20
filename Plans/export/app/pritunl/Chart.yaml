@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Other
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: 'Run a Pritunl VPN Server [br][br]
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pritunl
-icon: https://truecharts.org/_static/img/appicons/pritunl.png
+icon: https://truecharts.org/img/chart-icons/pritunl.png
 keywords:
 - pritunl
 - Network-Other

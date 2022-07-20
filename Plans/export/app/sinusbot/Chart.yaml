@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -15,7 +15,7 @@ deprecated: false
 description: "SinusBot is a MusicBot that will let you listen to music together with\
   \ your friends on either TeamSpeak 3 or Discord. \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/sinusbot
-icon: https://truecharts.org/_static/img/appicons/sinusbot.png
+icon: https://truecharts.org/img/chart-icons/sinusbot.png
 keywords:
 - sinusbot
 - Productivity

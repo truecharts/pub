@@ -89,7 +89,6 @@ Keywords:
 - MediaApp-Music
 Name: musicbrainz-picard
 Overview: Picard is a cross-platform music tagger written in Python.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/mikenye/picard
 Repository: mikenye/picard

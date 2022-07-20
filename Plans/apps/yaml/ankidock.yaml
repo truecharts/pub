@@ -13,7 +13,6 @@ Config:
 ExtraParams: --mount type=volume,dst=/anki-sync-server,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=/mnt/user/appdata/ankidock/anki-server
   --mount type=volume,dst=/etc/nginx,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=/mnt/user/appdata/ankidock/nginx
   -it
-Icon: /plugins/dynamix.docker.manager/images/question.png
 Keywords:
 - ankidock
 - Backup

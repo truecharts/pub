@@ -40,7 +40,6 @@ Keywords:
 - Network-Management
 Name: keeweb
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/antelle/keeweb
 Repository: antelle/keeweb

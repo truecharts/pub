@@ -13,7 +13,6 @@ Keywords:
 - Downloaders
 Name: xware
 Overview: "This is a docker image of Thunder downloader.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/caiguai/docker-xware
 Repository: caiguai/docker-xware

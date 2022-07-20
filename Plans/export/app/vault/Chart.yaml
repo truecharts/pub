@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Security
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: "Hashicorp Vault is a tool for securely accessing secrets. A secret
   \ certificates, and more. Vault provides a unified interface to any secret, while\
   \ providing tight access control and recording a detailed audit log.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/vault
-icon: https://truecharts.org/_static/img/appicons/vault.png
+icon: https://truecharts.org/img/chart-icons/vault.png
 keywords:
 - vault
 - Security

@@ -127,7 +127,6 @@ Keywords:
 Name: ungoogled-chromium
 Overview: "Ungoogled-Chromium is a lightweight approach to removing Google web service\
   \ dependency from the Chromium project web browser.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/ungoogled-chromium/
 Repository: ich777/ungoogled-chromium

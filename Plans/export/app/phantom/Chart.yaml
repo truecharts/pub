@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: Makes hosted Bedrock/MCPE servers show up as LAN servers, specifica
   for consoles. You can now play on remote servers (not Realms!) on your Xbox and
   PS4 with friends. It's like having a LAN server that's not actually there, spooky.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/phantom
-icon: https://truecharts.org/_static/img/appicons/phantom.png
+icon: https://truecharts.org/img/chart-icons/phantom.png
 keywords:
 - phantom
 - GameServers

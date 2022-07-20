@@ -28,14 +28,12 @@ Config:
       Type: Port
       value: 5000
   Variable: {}
-Icon: ''
 Keywords:
 - autofiller-web
 - Tools-Utilities
 Name: autofiller-web
 Overview: "With lancache-autofill (formal known as Autofill.Web) you automatically\
   \ fill a lancache with the content you want.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/redvex2460/autofillerweb
 Repository: redvex2460/autofillerweb

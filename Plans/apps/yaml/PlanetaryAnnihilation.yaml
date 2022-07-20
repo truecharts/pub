@@ -185,7 +185,6 @@ Keywords:
 - GameServers
 Name: planetaryannihilation
 Overview: "This Docker will download and install Planetary Annihilation.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/planetaryannihilationserver
 Repository: ich777/planetaryannihilationserver
@@ -194,5 +193,4 @@ Sources:
 - https://www.steampowered.com/
 - https://hub.docker.com/r/ich777/planetaryannihilationserver
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/PlanetaryAnnihilation.xml

@@ -16,7 +16,6 @@ Keywords:
 - Network-Web
 Name: docker-hub-rss
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/theconnman/docker-hub-rss
 Repository: theconnman/docker-hub-rss

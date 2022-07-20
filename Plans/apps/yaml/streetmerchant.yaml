@@ -480,7 +480,6 @@ Overview: "This service is a automated stock checker primarily focused on CPUs, 
   \ and Console Gaming Systems that has an abundance of mechanisms to notify your\
   \ user group when items are available to include a link to add to an online cart.\r\
   \n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/mitchellriley/streetmerchant
 Repository: mitchellriley/streetmerchant

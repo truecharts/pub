@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: phpBB is a bulletin board solution that allows you to create forums and
   subforums.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/phpbb
-icon: https://truecharts.org/_static/img/appicons/phpbb.png
+icon: https://truecharts.org/img/chart-icons/phpbb.png
 keywords:
 - phpbb
 - Productivity

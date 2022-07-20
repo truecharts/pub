@@ -48,7 +48,6 @@ Keywords:
 - Network-VPN
 Name: tailscaleclient
 Overview: Tailscale is a zero config VPN for building secure networks.
-PostArgs: ''
 Privileged: 'true'
 Registry: https://hub.docker.com/repository/docker/hussainalhaddad/tailscale
 Repository: hussainalhaddad/tailscale

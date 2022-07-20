@@ -70,7 +70,6 @@ Keywords:
 Name: phpmyadmin
 Official: true
 Overview: A web interface for MySQL and MariaDB.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/phpmyadmin/phpmyadmin/
 Repository: phpmyadmin/phpmyadmin

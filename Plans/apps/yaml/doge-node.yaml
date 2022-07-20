@@ -38,7 +38,6 @@ Keywords:
 Name: doge-node
 Overview: "Support the Dogecoin network by hosting your own node! This template provides\
   \ a full Dogecoin Core node based on Ubuntu.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/bigmandave/doge-node
 Repository: bigmandave/doge-node
@@ -47,4 +46,3 @@ Sources:
 - https://dogecoin.com/
 - https://hub.docker.com/r/bigmandave/doge-node
 Tag: latest
-WebUI: ''

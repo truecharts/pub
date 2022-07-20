@@ -34,7 +34,6 @@ Keywords:
 - MediaServer-Other
 Name: tubearchivist-redisjson
 Overview: "This is a dependancy container for the application \"TubeArchivist\"\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/redislabs/rejson/
 Repository: redislabs/rejson
@@ -43,4 +42,3 @@ Sources:
 - https://github.com/RedisJSON/RedisJSON
 - https://hub.docker.com/r/redislabs/rejson/
 Tag: latest
-WebUI: ''

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -19,7 +19,7 @@ description: "Krusader is an advanced orthodox file manager for KDE and other de
   \ advanced search, viewer/editor, directory synchronisation, file content comparisons,\
   \ batch renaming, etc.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/krusader
-icon: https://truecharts.org/_static/img/appicons/krusader.png
+icon: https://truecharts.org/img/chart-icons/krusader.png
 keywords:
 - krusader
 - Productivity

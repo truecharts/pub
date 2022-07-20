@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: This is a Dockerized version of the Satisfactory dedicated server.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/satisfactory-server
-icon: https://truecharts.org/_static/img/appicons/satisfactory-server.png
+icon: https://truecharts.org/img/chart-icons/satisfactory-server.png
 keywords:
 - satisfactory-server
 - GameServers

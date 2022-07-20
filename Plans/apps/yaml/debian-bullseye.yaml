@@ -142,7 +142,6 @@ Keywords:
 Name: debian-bullseye
 Overview: "This Container is a full Debian Bullseye Xfce4 Desktop environment with\
   \ a noVNC webGUI and all the basic tools pre-installed.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/debian-bullseye
 Repository: ich777/debian-bullseye

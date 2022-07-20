@@ -144,7 +144,6 @@ Keywords:
 Name: craftopia
 Overview: "This Docker will download and install SteamCMD. It will also install Craftopia\
   \ and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/steamcmd/
 Repository: ich777/steamcmd
@@ -153,5 +152,4 @@ Sources:
 - https://www.steampowered.com/
 - https://hub.docker.com/r/ich777/steamcmd/
 Tag: craftopia
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Craftopia.xml

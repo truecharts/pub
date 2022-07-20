@@ -98,13 +98,13 @@ questions:
             default: ""
         - variable: DISCORD_WEBHOOK_URL
           label: 'DISCORD_WEBHOOK_URL'
-          description: "The url of your Discord webhook, retrieve it from your server webhook settings."
+          description: "The url of your Discord webhook, retrieve it from your server webhook settings. A comma seperated list of urls is also possible."
           schema:
             type: string
             default: ""
         - variable: UPDATED_LIBRARIES
           label: 'UPDATED_LIBRARIES'
-          description: "List of libraries that will be checked, if this is empty all libraries will be checked."
+          description: "List of libraries that will be checked for new media, if this is empty it checks all libraries."
           schema:
             type: string
             default: ""

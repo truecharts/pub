@@ -36,7 +36,6 @@ Keywords:
 - Tools-Utilities
 Name: mininote
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/n1try/mininote
 Repository: n1try/mininote

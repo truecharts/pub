@@ -130,7 +130,6 @@ Keywords:
 Name: machinebox-videobox
 Overview: Videobox extracts frames from videos and passes them to other Machine Box
   boxes for processing.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/machinebox/videobox
 Repository: machinebox/videobox

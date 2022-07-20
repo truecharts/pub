@@ -15,7 +15,6 @@ Keywords:
 MinVer: ''
 Name: speedtest
 Overview: "Self-hosted HTML5 Speedtest Docker Container\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/adolfintel/speedtest/
 Repository: adolfintel/speedtest

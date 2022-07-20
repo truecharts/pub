@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Crypto
     - Tools-Utilities
@@ -17,7 +17,7 @@ deprecated: false
 description: "Full node of the Witnet Oracle. The decentralized oracle that is true\
   \ to the censorship resistant nature of blockchains.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/witnet-node
-icon: https://truecharts.org/_static/img/appicons/witnet-node.png
+icon: https://truecharts.org/img/chart-icons/witnet-node.png
 keywords:
 - witnet-node
 - Crypto

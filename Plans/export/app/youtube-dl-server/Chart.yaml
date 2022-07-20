@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "Web / REST interface for downloading youtube videos onto a server.[br]\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/youtube-dl-server
-icon: https://truecharts.org/_static/img/appicons/youtube-dl-server.png
+icon: https://truecharts.org/img/chart-icons/youtube-dl-server.png
 keywords:
 - youtube-dl-server
 - Downloaders

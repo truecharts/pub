@@ -95,7 +95,6 @@ Keywords:
 - Network-FTP
 Name: gokapi
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/f0rc3/gokapi
 Repository: f0rc3/gokapi

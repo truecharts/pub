@@ -16,7 +16,6 @@ Keywords:
 - Network-Other
 Name: vlmcsd-kms-server
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/mikolatero/vlmcsd/
 Repository: mikolatero/vlmcsd
@@ -25,4 +24,3 @@ Sources:
 - https://github.com/mikolatero/docker-vlmcsd
 - https://hub.docker.com/r/mikolatero/vlmcsd/
 Tag: latest
-WebUI: ''

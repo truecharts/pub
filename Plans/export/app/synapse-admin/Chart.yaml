@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Messenger
@@ -13,7 +13,7 @@ dependencies:
 deprecated: false
 description: "Admin UI for Matrix Synapse homeserver. \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/synapse-admin
-icon: https://truecharts.org/_static/img/appicons/synapse-admin.png
+icon: https://truecharts.org/img/chart-icons/synapse-admin.png
 keywords:
 - synapse-admin
 - Tools-Utilities

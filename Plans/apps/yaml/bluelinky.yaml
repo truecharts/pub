@@ -28,13 +28,11 @@ Config:
       Type: Port
       value: 8080
   Variable: {}
-Icon: ''
 Keywords:
 - bluelinky
 - Other
 Name: bluelinky
 Overview: "Unofficial Hyundai Blue Link API (bluelinky)\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/wranglatang/bluelinky
 Repository: wranglatang/bluelinky
@@ -43,4 +41,3 @@ Sources:
 - https://github.com/Hacksore/bluelinky
 - https://hub.docker.com/repository/docker/wranglatang/bluelinky
 Tag: latest
-WebUI: ''

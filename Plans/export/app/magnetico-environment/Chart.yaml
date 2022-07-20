@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: magnetico is an autonomous (self-hosted) BitTorrent DHT indexer / crawler
   / search engine suite.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/magnetico-environment
-icon: https://truecharts.org/_static/img/appicons/magnetico-environment.png
+icon: https://truecharts.org/img/chart-icons/magnetico-environment.png
 keywords:
 - magnetico-environment
 - Downloaders

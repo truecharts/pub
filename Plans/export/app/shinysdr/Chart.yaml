@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaApp-Music
     - MediaApp-Other
@@ -14,7 +14,7 @@ deprecated: false
 description: "Software-defined radio receiver application built on GNU Radio with\
   \ a web-based UI and plugins.[br][br]\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/shinysdr
-icon: https://truecharts.org/_static/img/appicons/shinysdr.png
+icon: https://truecharts.org/img/chart-icons/shinysdr.png
 keywords:
 - shinysdr
 - MediaApp-Music

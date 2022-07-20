@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Tools-Utilities
@@ -13,7 +13,7 @@ dependencies:
 deprecated: false
 description: "Jira Software is a software development tool used by agile teams.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/jira-software
-icon: https://truecharts.org/_static/img/appicons/jira-software.png
+icon: https://truecharts.org/img/chart-icons/jira-software.png
 keywords:
 - jira-software
 - Cloud

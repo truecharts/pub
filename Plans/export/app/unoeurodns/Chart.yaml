@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-DNS
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: Keep your DNS records for your own domains updated with this UnoEuro
   DDNS script.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/unoeurodns
-icon: https://truecharts.org/_static/img/appicons/unoeurodns.png
+icon: https://truecharts.org/img/chart-icons/unoeurodns.png
 keywords:
 - unoeurodns
 - Network-DNS

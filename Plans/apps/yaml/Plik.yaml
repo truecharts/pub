@@ -51,7 +51,6 @@ Keywords:
 - Network-FTP
 Name: plik
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/rootgg/plik
 Repository: rootgg/plik

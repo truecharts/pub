@@ -53,7 +53,6 @@ Overview: 'Support the Bitcoin network by hosting your own node! This template p
   a full Bitcoin Core node, built in a verifiably trustless way.
 
   '
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ofawx/bitcoind/
 Repository: ofawx/bitcoind
@@ -62,4 +61,3 @@ Sources:
 - https://bitcoin.org/
 - https://hub.docker.com/r/ofawx/bitcoind/
 Tag: latest
-WebUI: ''

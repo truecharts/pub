@@ -135,7 +135,6 @@ MinVer: 6.4.1
 Name: storjmonitor
 Overview: "Storj daemon + CLI; multiple-node in template support; Storjstat.com monitor\
   \ installed.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/zugz/r8mystorj
 Repository: zugz/r8mystorj
@@ -144,4 +143,3 @@ Sources:
 - https://github.com/Jcloud67/docker-storjshare-cli
 - https://hub.docker.com/r/zugz/r8mystorj
 Tag: latest
-WebUI: ''

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: "A fork of Mozilla's Firefox Send.Mozilla discontinued Send, this fork\
   \ is a community effort to keep the project up-to-date and alive.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/send
-icon: https://truecharts.org/_static/img/appicons/send.png
+icon: https://truecharts.org/img/chart-icons/send.png
 keywords:
 - send
 - Cloud

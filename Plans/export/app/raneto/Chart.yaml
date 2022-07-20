@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: Raneto(http://raneto.com/) - is an open source Knowledgebase platform
   that uses static Markdown files to power your Knowledgebase.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/raneto
-icon: https://truecharts.org/_static/img/appicons/raneto.png
+icon: https://truecharts.org/img/chart-icons/raneto.png
 keywords:
 - raneto
 - Productivity

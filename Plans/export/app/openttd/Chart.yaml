@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: "This Docker will download and install the version of OpenTTD that 
   \ the latest build, if you define 'testing' it will always pull down the latest\
   \ testing build).\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/openttd
-icon: https://truecharts.org/_static/img/appicons/openttd.png
+icon: https://truecharts.org/img/chart-icons/openttd.png
 keywords:
 - openttd
 - GameServers

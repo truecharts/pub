@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-DNS
   truecharts.org/grade: U
@@ -16,7 +16,7 @@ description: 'Unbound is a validating, recursive, and caching DNS resolver.  It 
   https://www.youtube.com/watch?v=FnFtWsZ8IP0&amp;t=695s) or you can create custom
   DNS Records for your local network.'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/unbound
-icon: https://truecharts.org/_static/img/appicons/unbound.png
+icon: https://truecharts.org/img/chart-icons/unbound.png
 keywords:
 - unbound
 - Network-DNS

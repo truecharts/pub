@@ -45,7 +45,6 @@ Keywords:
 - Tools-Utilities
 Name: rollarr
 Overview: "A automated pre-roll program for your plex pre-roll needs.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/thehumanrobot/rollarr/
 Repository: thehumanrobot/rollarr

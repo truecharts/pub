@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "Allows the installation of Nightscout, a remote CGM monitoring sys
   \ It allows the upload and display of blood glucous values and can be configuered\
   \ to issue warnings etc. This is mainly useful to diabetics.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/nightscout
-icon: https://truecharts.org/_static/img/appicons/nightscout.png
+icon: https://truecharts.org/img/chart-icons/nightscout.png
 keywords:
 - nightscout
 - Cloud

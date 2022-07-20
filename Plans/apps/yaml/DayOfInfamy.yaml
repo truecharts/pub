@@ -101,7 +101,7 @@ Config:
       Description: 'Your Steam password goes here if you want to install a game that
         needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
         Steam Guard).'
-      Display: always-hide
+      Display: advanced-hide
       Mask: 'true'
       Mode: ''
       Name: Steam-Password
@@ -114,7 +114,7 @@ Config:
       Description: 'Your Steam username goes here if you want to install a game that
         needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
         Steam Guard).'
-      Display: always-hide
+      Display: advanced-hide
       Mask: 'false'
       Mode: ''
       Name: Steam-Username
@@ -153,7 +153,6 @@ Keywords:
 Name: dayofinfamy
 Overview: "This Docker will download and install SteamCMD. It will also install Day\
   \ Of Infamy and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/steamcmd/
 Repository: ich777/steamcmd
@@ -162,5 +161,4 @@ Sources:
 - https://www.steampowered.com/
 - https://hub.docker.com/r/ich777/steamcmd/
 Tag: dayofinfamy
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/DayOfInfamy.xml

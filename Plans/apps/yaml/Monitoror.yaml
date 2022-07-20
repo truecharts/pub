@@ -52,7 +52,6 @@ Keywords:
 Name: monitoror
 Official: true
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/monitoror/monitoror
 Repository: monitoror/monitoror

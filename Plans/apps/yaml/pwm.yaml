@@ -54,4 +54,4 @@ Sources:
 - https://github.com/pwm-project/pwm
 - https://hub.docker.com/r/fjudith/pwm
 Tag: latest
-WebUI: http://[IP]:[PORT:8282]
+WebUI: http://[IP]:[PORT:8080]

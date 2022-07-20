@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Web
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "&lt;p&gt;Dashboard is just that - a dashboard. It's inspired by SU
   \ and has all the same features as SUI, such as simple customization through JSON-files\
   \ and a handy search bar to search the internet more efficiently.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/dashboard
-icon: https://truecharts.org/_static/img/appicons/dashboard.png
+icon: https://truecharts.org/img/chart-icons/dashboard.png
 keywords:
 - dashboard
 - Network-Web

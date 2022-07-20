@@ -102,12 +102,6 @@ questions:
           schema:
             type: string
             default: ""
-        - variable: MOTD
-          label: 'MOTD'
-          description: "Custom Message of the Day"
-          schema:
-            type: string
-            default: ""
         - variable: LEVEL
           label: 'LEVEL'
           description: "Name of the world directory.  It is usually world."

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "This Docker Container will download the latest stable release of the\
   \ game, generate the map and you're ready to play.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/factorio
-icon: https://truecharts.org/_static/img/appicons/factorio.png
+icon: https://truecharts.org/img/chart-icons/factorio.png
 keywords:
 - factorio
 - GameServers

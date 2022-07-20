@@ -35,7 +35,6 @@ Keywords:
 - Other
 Name: ubuntu-xfce
 Overview: "Ubuntu 20.04 (LTS), XFCE-Desktop, noVNC, LibreOffice, Firefox\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/knilix/ubuntu-xfce-vnc-novnc
 Repository: knilix/ubuntu-xfce-vnc-novnc
@@ -43,4 +42,3 @@ Requires: ''
 Sources:
 - https://hub.docker.com/r/knilix/ubuntu-xfce-vnc-novnc
 Tag: latest
-WebUI: ''

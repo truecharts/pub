@@ -181,7 +181,6 @@ Keywords:
 - Network-Messenger
 Name: jitsi-jicofo
 Overview: Jicofo image for Jitsi Meet
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jitsi/jicofo/
 Repository: jitsi/jicofo
@@ -190,4 +189,3 @@ Sources:
 - https://jitsi.org/
 - https://hub.docker.com/r/jitsi/jicofo/
 Tag: latest
-WebUI: ''

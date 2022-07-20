@@ -12,7 +12,6 @@ Keywords:
 - Productivity
 Name: todo
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/prologic/todo
 Repository: prologic/todo

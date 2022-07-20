@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Management
@@ -15,7 +15,7 @@ description: 'Simple puppet master docker based on Centos7
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/puppetmaster
-icon: https://truecharts.org/_static/img/appicons/puppetmaster.png
+icon: https://truecharts.org/img/chart-icons/puppetmaster.png
 keywords:
 - puppetmaster
 - Tools-Utilities

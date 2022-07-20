@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
     - MediaApp-Video
@@ -16,7 +16,7 @@ description: "YoutubeDL-Material is a self-hosted youtube-dl Server with a moder
   \ Material-based GUI and the capability to apply advanced configurations, like setting\
   \ your own download paths based on rules.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/youtube-dl-material
-icon: https://truecharts.org/_static/img/appicons/youtube-dl-material.png
+icon: https://truecharts.org/img/chart-icons/youtube-dl-material.png
 keywords:
 - youtube-dl-material
 - Downloaders

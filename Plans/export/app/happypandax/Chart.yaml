@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
     - MediaServer-Books
@@ -14,7 +14,7 @@ deprecated: false
 description: A cross-platform server and client application for managing and reading
   manga and doujinshi.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/happypandax
-icon: https://truecharts.org/_static/img/appicons/happypandax.png
+icon: https://truecharts.org/img/chart-icons/happypandax.png
 keywords:
 - happypandax
 - Downloaders

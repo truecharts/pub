@@ -36,7 +36,6 @@ Keywords:
 - Productivity
 Name: cowyo
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/schollz/cowyo
 Repository: schollz/cowyo

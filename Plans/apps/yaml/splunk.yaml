@@ -103,7 +103,6 @@ Keywords:
 Name: splunk
 Overview: "This is a Dockerfile for Splunk designed for OpenShift and unRAID based\
   \ on Alpine Linux - https://www.splunk.com\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/atunnecliffe/splunk
 Repository: atunnecliffe/splunk
@@ -112,4 +111,4 @@ Sources:
 - https://www.splunk.com/
 - https://hub.docker.com/r/atunnecliffe/splunk
 Tag: latest
-WebUI: http://[IP]:[PORT:8000}
+WebUI: http://[IP]:[PORT:8000]

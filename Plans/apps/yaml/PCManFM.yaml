@@ -47,7 +47,6 @@ Keywords:
 - Other
 Name: pcmanfm
 Overview: Manage your Unraid server with PCManFM using XPRA remote display server
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/hussainalhaddad/pcmanfm
 Repository: hussainalhaddad/pcmanfm

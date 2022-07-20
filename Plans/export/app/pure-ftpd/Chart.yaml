@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-FTP
@@ -15,7 +15,7 @@ description: Pure-FTPd is a free (BSD), secure, production-quality and standard-
   FTP server. [br]Creating user by using console "pure-pw useradd admin -u 99 -g 100
   -d /home/admin -m"[/br]
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pure-ftpd
-icon: https://truecharts.org/_static/img/appicons/pure-ftpd.png
+icon: https://truecharts.org/img/chart-icons/pure-ftpd.png
 keywords:
 - pure-ftpd
 - Tools-Utilities

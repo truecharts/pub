@@ -59,10 +59,9 @@ Keywords:
 - Network-Messenger
 - Productivity
 Name: rss-to-telegram
-Overview: A self-hosted telegram python bot that dumps posts from RSS feeds to a telegram
+Overview: A self-hosted telegram JS/TS bot that dumps posts from RSS feeds to a telegram
   chat. This script was created because all the third party services were unreliable,
   slow.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/bokker/rss.to.telegram
 Repository: bokker/rss.to.telegram
@@ -71,4 +70,3 @@ Sources:
 - https://github.com/BoKKeR/RSS-to-Telegram-Bot
 - https://hub.docker.com/r/bokker/rss.to.telegram
 Tag: latest
-WebUI: ''

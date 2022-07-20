@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Management
@@ -16,7 +16,7 @@ description: '[b]Collect ALL UniFi Controller, Device and Client Data - Export t
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/unifi-poller
-icon: https://truecharts.org/_static/img/appicons/unifi-poller.png
+icon: https://truecharts.org/img/chart-icons/unifi-poller.png
 keywords:
 - unifi-poller
 - Tools-Utilities

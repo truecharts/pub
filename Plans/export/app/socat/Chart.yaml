@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Proxy
     - Network-Other
@@ -14,7 +14,7 @@ deprecated: false
 description: Socat is a command line based utility that establishes two bidirectional
   byte streams and transfers data between them.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/socat
-icon: https://truecharts.org/_static/img/appicons/socat.png
+icon: https://truecharts.org/img/chart-icons/socat.png
 keywords:
 - socat
 - Network-Proxy

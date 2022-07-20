@@ -38,7 +38,6 @@ Keywords:
 Name: statping-ng
 Overview: "Statping-ng aims to be an updated drop-in replacement of statping after\
   \ development stopped on the original fork.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/adamboutcher/statping-ng
 Repository: adamboutcher/statping-ng

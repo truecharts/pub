@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Tools-Utilities
@@ -15,7 +15,7 @@ dependencies:
 deprecated: false
 description: "Repetier server:\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/repetier-server
-icon: https://truecharts.org/_static/img/appicons/repetier-server.png
+icon: https://truecharts.org/img/chart-icons/repetier-server.png
 keywords:
 - repetier-server
 - HomeAutomation

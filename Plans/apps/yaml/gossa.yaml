@@ -89,7 +89,6 @@ Keywords:
 - Cloud
 Name: gossa
 Overview: "\U0001F3B6 a fast and simple multimedia fileserver"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/pldubouilh/gossa/
 Repository: pldubouilh/gossa

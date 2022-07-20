@@ -172,7 +172,6 @@ Overview: 'Backup PostgresSQL to the local filesystem with periodic rotating bac
   host by setting the database names in POSTGRES_DB separated by commas or spaces.
 
   '
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/prodrigestivill/postgres-backup-local
 Repository: prodrigestivill/postgres-backup-local
@@ -181,4 +180,3 @@ Sources:
 - https://github.com/prodrigestivill/docker-postgres-backup-local
 - https://hub.docker.com/r/prodrigestivill/postgres-backup-local
 Tag: latest
-WebUI: ''

@@ -119,7 +119,6 @@ Keywords:
 Name: yourls
 Official: true
 Overview: YOURLS is a set of PHP scripts that will allow you to run Your Own URL Shortener.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/_/yourls/
 Repository: yourls

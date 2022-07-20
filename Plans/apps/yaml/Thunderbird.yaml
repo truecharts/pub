@@ -75,7 +75,7 @@ Config:
       value: '100'
     preferredthunderbirdlanguage:
       Default: ''
-      Description: 'Enter your preferred language here (eg: ''en_US'', ''de'', ''fr'',
+      Description: 'Enter your preferred language here (eg: ''en-US'', ''de'', ''fr'',
         ''en_UK'',... you can get a full list here: https://archive.mozilla.org/pub/thunderbird/releases/latest/README.txt)'
       Display: always
       Mask: 'false'
@@ -128,7 +128,6 @@ Keywords:
 Name: thunderbird
 Overview: "This container will download and install Thunderbird in the preferred version\
   \ and language.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/thunderbird/
 Repository: ich777/thunderbird

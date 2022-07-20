@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-DNS
@@ -16,7 +16,7 @@ description: "This simple container will update a namecheap dynamic dns domain. 
   \ must set an 'A + Dynamic DNS Record' for the host and enable Dynamic DNS in the\
   \ manage page for your domain. \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/namecheap-ddns
-icon: https://truecharts.org/_static/img/appicons/namecheap-ddns.png
+icon: https://truecharts.org/img/chart-icons/namecheap-ddns.png
 keywords:
 - namecheap-ddns
 - Tools-Utilities

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Backup
     - Cloud
@@ -17,7 +17,7 @@ deprecated: false
 description: "Backup your files to Google Drive using Grive2 client in a docker container\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/grive2
-icon: https://truecharts.org/_static/img/appicons/grive2.png
+icon: https://truecharts.org/img/chart-icons/grive2.png
 keywords:
 - grive2
 - Backup

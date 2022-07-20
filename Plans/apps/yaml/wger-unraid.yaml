@@ -338,7 +338,6 @@ Keywords:
 Name: wger-unraid
 Overview: "wger (\u02C8v\u025B\u0261\u0250) Workout Manager is a free, open source\
   \ web\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://registry.hub.docker.com/r/wger/devel
 Repository: wger/devel

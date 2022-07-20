@@ -39,7 +39,6 @@ Keywords:
 Name: fogproject
 Overview: "FOG Project can capture, deploy, and manage Windows, Mac OSX, and various\
   \ Linux distributions.\r\n"
-PostArgs: ''
 Privileged: 'true'
 Registry: https://github.com/redvex2460/fogproject
 Repository: redvex2460/fogproject

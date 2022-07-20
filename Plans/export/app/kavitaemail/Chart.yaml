@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Other
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: This is a simple email relay server that handles emails from Kavita
   if a user wants to setup their own SMTP service, then they can run their own instance
   of this microService.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/kavitaemail
-icon: https://truecharts.org/_static/img/appicons/kavitaemail.png
+icon: https://truecharts.org/img/chart-icons/kavitaemail.png
 keywords:
 - kavitaemail
 - Network-Other

@@ -103,7 +103,6 @@ Keywords:
 Name: grive2
 Overview: "Backup your files to Google Drive using Grive2 client in a docker container\r\
   \n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/agusalex/grive2
 Repository: agusalex/grive2

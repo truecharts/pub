@@ -423,7 +423,6 @@ Keywords:
 Name: inspircd
 Overview: "InspIRCd is a modular Internet Relay Chat (IRC) server written in C++\r\
   \n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/inspircd
 Repository: ich777/inspircd
@@ -432,4 +431,3 @@ Sources:
 - https://www.inspircd.org/
 - https://hub.docker.com/r/ich777/inspircd
 Tag: latest
-WebUI: ''

@@ -69,7 +69,6 @@ Keywords:
 - Network-Web
 Name: chromium-desktop-g3
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/accetto/ubuntu-vnc-xfce-chromium-g3
 Repository: accetto/ubuntu-vnc-xfce-chromium-g3

@@ -564,7 +564,7 @@ for name, app in combinedfree.items():
   appchartyaml["sources"] = app["Sources"]
   appchartyaml["keywords"] = app["Keywords"]
   appchartyaml["home"] = "https://github.com/truecharts/apps/tree/master/charts/stable/"+tmpname
-  appchartyaml["icon"] = "https://truecharts.org/_static/img/appicons/"+tmpname+".png"
+  appchartyaml["icon"] = "https://truecharts.org/img/chart-icons/"+tmpname+".png"
   
 
   appyamlString = yaml.dump(appchartyaml)

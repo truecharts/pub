@@ -94,7 +94,6 @@ Keywords:
 Name: terraria
 Overview: "This Docker will download and install Terraria and run it. SERVER PASSWORD:\
   \ Docker\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/terrariaserver/
 Repository: ich777/terrariaserver

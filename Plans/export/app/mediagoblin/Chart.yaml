@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaApp-Photos
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: 'MediaGoblin is a free software media publishing platform that anyo
   SoundCloud, etc. [br][br][b][u][span style=''color: #ff9900;'']Default user/password[/span][/u][/b][br]User:
   [B][u]admin[/B][/u][br]Password: [B][u]admin[/B][/u][/b]'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/mediagoblin
-icon: https://truecharts.org/_static/img/appicons/mediagoblin.png
+icon: https://truecharts.org/img/chart-icons/mediagoblin.png
 keywords:
 - mediagoblin
 - MediaApp-Photos

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Management
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: phpIPAM - Open source IP address management.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/phpipam-www
-icon: https://truecharts.org/_static/img/appicons/phpipam-www.png
+icon: https://truecharts.org/img/chart-icons/phpipam-www.png
 keywords:
 - phpipam-www
 - Network-Management

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Web
     - Network-Management
@@ -14,7 +14,7 @@ deprecated: false
 description: "Statping-ng aims to be an updated drop-in replacement of statping after\
   \ development stopped on the original fork.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/statping-ng
-icon: https://truecharts.org/_static/img/appicons/statping-ng.png
+icon: https://truecharts.org/img/chart-icons/statping-ng.png
 keywords:
 - statping-ng
 - Network-Web

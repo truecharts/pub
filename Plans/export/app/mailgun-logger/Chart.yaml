@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Backup
     - Cloud
@@ -17,7 +17,7 @@ description: MailgunLogger is a simple admin tool that uses the Mailgun API to r
   events on a regular basis from Mailgun - who only provide a limited time of event
   storage - and stores them inside a MySQL database.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/mailgun-logger
-icon: https://truecharts.org/_static/img/appicons/mailgun-logger.png
+icon: https://truecharts.org/img/chart-icons/mailgun-logger.png
 keywords:
 - mailgun-logger
 - Backup

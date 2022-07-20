@@ -15,7 +15,6 @@ Keywords:
 Name: bwapp
 Overview: "bWAPP, or a buggy web application, is a free and open source deliberately\
   \ insecure web application.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/raesene/bwapp/
 Repository: raesene/bwapp

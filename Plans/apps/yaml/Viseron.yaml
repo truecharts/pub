@@ -28,14 +28,12 @@ Config:
       value: /mnt/user/appdata/viseron-recordings/
   Port: {}
   Variable: {}
-Icon: /plugins/dynamix.docker.manager/images/question.png
 Keywords:
 - viseron
 - Other
 Name: viseron
 Overview: Viseron is a self-hosted, local only NVR implemented in Python. The goal
   is ease of use while also leveraging hardware acceleration for minimal system load.
-PostArgs: ''
 Privileged: 'true'
 Registry: https://hub.docker.com/r/roflcoopter/viseron/
 Repository: roflcoopter/viseron
@@ -43,4 +41,3 @@ Requires: ''
 Sources:
 - https://hub.docker.com/r/roflcoopter/viseron/
 Tag: latest
-WebUI: ''

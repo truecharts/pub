@@ -35,7 +35,6 @@ Keywords:
 Name: mocodo-mcd
 Overview: "Mocodo est un logiciel d'aide \xE0 l'enseignement et \xE0 la conception\
   \ des bases de donn\xE9es relationnelles.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/olprog/mocodo
 Repository: olprog/mocodo

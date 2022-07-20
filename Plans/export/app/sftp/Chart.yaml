@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Other
@@ -15,7 +15,7 @@ description: "Easy to use SFTP (SSH File Transfer Protocol) server with OpenSSH 
   \ Fail2ban installed for extra hardening against brute force attacks. Forked from\
   \ atmoz/sftp. Based on phusion/baseimage.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/sftp
-icon: https://truecharts.org/_static/img/appicons/sftp.png
+icon: https://truecharts.org/img/chart-icons/sftp.png
 keywords:
 - sftp
 - Tools-Utilities

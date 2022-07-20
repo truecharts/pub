@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -19,7 +19,7 @@ description: 'JetBrains Rider is a cross-platform .NET IDE based on the IntelliJ
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rider
-icon: https://truecharts.org/_static/img/appicons/rider.png
+icon: https://truecharts.org/img/chart-icons/rider.png
 keywords:
 - rider
 - Productivity

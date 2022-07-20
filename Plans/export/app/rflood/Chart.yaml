@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: Docker image with rTorrent and the Flood UI.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rflood
-icon: https://truecharts.org/_static/img/appicons/rflood.png
+icon: https://truecharts.org/img/chart-icons/rflood.png
 keywords:
 - rflood
 - Downloaders

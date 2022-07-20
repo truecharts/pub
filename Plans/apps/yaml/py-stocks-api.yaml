@@ -7,13 +7,11 @@ Config:
   Port: {}
   Variable: {}
 ExtraParams: --restart=always
-Icon: ''
 Keywords:
 - py-stocks-api
 - Tools-Utilities
 Name: py-stocks-api
 Overview: "A minimal stocks API wrapper of Yfinance.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/patrickstigler/py-stocks-api
 Repository: patrickstigler/py-stocks-api

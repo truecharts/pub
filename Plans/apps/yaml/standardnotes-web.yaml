@@ -13,7 +13,6 @@ Keywords:
 - Productivity
 Name: standardnotes-web
 Overview: "A safe and private place for your life's work.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/standardnotes/web
 Repository: standardnotes/web

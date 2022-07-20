@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: Tandoor Recipes is a Django application to manage, tag and search r
   using either built in models or external storage providers hosting PDF's, Images
   or other files.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/tandoorrecipes
-icon: https://truecharts.org/_static/img/appicons/tandoorrecipes.png
+icon: https://truecharts.org/img/chart-icons/tandoorrecipes.png
 keywords:
 - tandoorrecipes
 - Productivity

@@ -82,7 +82,6 @@ Overview: "This Docker will download and install a simple Teeworlds Dedicated se
   \ with a autoexec.cfg, dm.cfg, tdm.cfg &amp; ctf.cfg preconfigured (the only thing\
   \ that need to be changed is the Server Name and the RCON Password in the autoexec.cfg).\r\
   \n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/teeworldsserver/
 Repository: ich777/teeworldsserver
@@ -91,5 +90,4 @@ Sources:
 - https://www.teeworlds.com/
 - https://hub.docker.com/r/ich777/teeworldsserver/
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Teeworlds.xml

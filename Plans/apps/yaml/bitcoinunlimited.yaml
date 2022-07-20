@@ -75,4 +75,3 @@ Requires: ''
 Sources:
 - https://hub.docker.com/r/amacneil/bitcoinunlimited/~/dockerfile/
 Tag: latest
-WebUI: ''

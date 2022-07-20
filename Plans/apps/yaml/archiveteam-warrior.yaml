@@ -40,7 +40,6 @@ Name: archiveteam-warrior
 Overview: "The Archive Team Warrior is a virtual archiving appliance. You can run\
   \ it to help with the Archive Team archiving efforts. It will download sites and\
   \ upload them to our archive\u2014and it\u2019s really easy to do!\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/archiveteam/warrior-dockerfile/
 Repository: atdr.meo.ws/archiveteam/warrior-dockerfile

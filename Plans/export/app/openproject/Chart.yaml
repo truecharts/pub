@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: OpenProject is a web-based project management system for location-independent
   team collaboration.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/openproject
-icon: https://truecharts.org/_static/img/appicons/openproject.png
+icon: https://truecharts.org/img/chart-icons/openproject.png
 keywords:
 - openproject
 - Productivity

@@ -326,7 +326,6 @@ Keywords:
 - Network-Messenger
 Name: jitsi-web
 Overview: Jitsi Meet's web interface image
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jitsi/web/
 Repository: jitsi/web

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Other
     - Crypto
@@ -14,7 +14,7 @@ deprecated: false
 description: "Support the Dogecoin network by hosting your own node! This template\
   \ provides a full Dogecoin Core node based on Ubuntu.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/doge-node
-icon: https://truecharts.org/_static/img/appicons/doge-node.png
+icon: https://truecharts.org/img/chart-icons/doge-node.png
 keywords:
 - doge-node
 - Network-Other

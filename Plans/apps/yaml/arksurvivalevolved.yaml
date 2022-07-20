@@ -1,0 +1,238 @@
+CategoryList:
+- GameServers
+Config:
+  Device: {}
+  Label: {}
+  Path:
+    serverfiles:
+      Default: ''
+      Description: 'Container Path: /serverdata/serverfiles'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: ServerFiles
+      Required: 'true'
+      Target: /serverdata/serverfiles
+      Type: Path
+      value: /mnt/cache/appdata/ark-se
+    steamcmd:
+      Default: ''
+      Description: 'Container Path: /serverdata/steamcmd'
+      Display: always
+      Mask: 'false'
+      Mode: rw
+      Name: SteamCMD
+      Required: 'true'
+      Target: /serverdata/steamcmd
+      Type: Path
+      value: /mnt/user/appdata/steamcmd
+  Port:
+    rcontcp:
+      Default: ''
+      Description: 'Container Port: 27020'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: RCON TCP
+      Required: 'false'
+      Target: 27020
+      Type: Port
+      value: 27020
+    udp1:
+      Default: ''
+      Description: UDP Gameport (if you need another port, please delete this entry
+        and create a new UDP Port with the required port number, also don't forget
+        to click an 'Show more settings ...' and change the port number
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP 1
+      Required: 'false'
+      Target: 7777
+      Type: Port
+      value: 7777
+    udp2:
+      Default: ''
+      Description: 'Container Port: 7778'
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP 2
+      Required: 'false'
+      Target: 7778
+      Type: Port
+      value: 7778
+    udpsteam:
+      Default: ''
+      Description: 'Container Port: 27015'
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP Steam
+      Required: 'false'
+      Target: 27015
+      Type: Port
+      value: 27015
+  Variable:
+    extragameparameters:
+      Default: ''
+      Description: 'Type in your Extra Game Parameters seperated with a space and
+        - (eg: -DisableDeathSpectator -UseBattlEye)'
+      Display: always-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Extra Game Parameters
+      Required: 'true'
+      Target: GAME_PARAMS_EXTRA
+      Type: Variable
+      value: -server -log
+    game_id:
+      Default: ''
+      Description: "The GAME_ID that the container download at startup.\r\nIf you\
+        \ want to install a static or beta version of the game change the value to:\
+        \ '376030 -beta YOURBRANCH' (without quotes, replace YOURBRANCH with the branch\
+        \ or version you want to install)."
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: GAME_ID
+      Required: 'true'
+      Target: GAME_ID
+      Type: Variable
+      value: '376030'
+    gameparameters:
+      Default: ''
+      Description: 'Enter your game parameters seperated with ? and start with a ?
+        (don''t put spaces in between eg: ?MaxPlayers=40?FastDecayUnsnappedCoreStructures=true)'
+      Display: always-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Game Parameters
+      Required: 'false'
+      Target: GAME_PARAMS
+      Type: Variable
+      value: ''
+    gid:
+      Default: ''
+      Description: 'Container Variable: GID'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: GID
+      Required: 'true'
+      Target: GID
+      Type: Variable
+      value: '100'
+    map:
+      Default: TheIsland
+      Description: 'Container Variable: MAP'
+      Display: always-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Map
+      Required: 'true'
+      Target: MAP
+      Type: Variable
+      value: TheIsland
+    serveradminpassword:
+      Default: ''
+      Description: Leave empty if you want to use the settings from GameUserSettings.ini
+        (this field accepts no spaces)
+      Display: always-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Server Admin Password
+      Required: 'false'
+      Target: SRV_ADMIN_PWD
+      Type: Variable
+      value: ''
+    servername:
+      Default: ''
+      Description: Leave empty if you want to use the settings from GameUserSettings.ini
+        (this field accepts no spaces)
+      Display: always-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Server Name
+      Required: 'false'
+      Target: SERVER_NAME
+      Type: Variable
+      value: ''
+    serverpassword:
+      Default: ''
+      Description: Leave empty if you want to use the settings from GameUserSettings.ini
+        (this field accepts no spaces)
+      Display: always-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Server Password
+      Required: 'false'
+      Target: SRV_PWD
+      Type: Variable
+      value: ''
+    steam-password:
+      Default: ''
+      Description: 'Your Steam password goes here if you want to install a game that
+        needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
+        Steam Guard).'
+      Display: advanced-hide
+      Mask: 'true'
+      Mode: ''
+      Name: Steam-Password
+      Required: 'false'
+      Target: PASSWRD
+      Type: Variable
+      value: ''
+    steam-username:
+      Default: ''
+      Description: 'Your Steam username goes here if you want to install a game that
+        needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
+        Steam Guard).'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Steam-Username
+      Required: 'false'
+      Target: USERNAME
+      Type: Variable
+      value: ''
+    uid:
+      Default: ''
+      Description: 'Container Variable: UID'
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: UID
+      Required: 'true'
+      Target: UID
+      Type: Variable
+      value: '99'
+    validateinstallation:
+      Default: ''
+      Description: Set the Variable to 'true' if you want to validate the installation
+        otherwise leave it blank.
+      Display: always-hide
+      Mask: 'false'
+      Mode: ''
+      Name: Validate Installation
+      Required: 'false'
+      Target: VALIDATE
+      Type: Variable
+      value: ''
+ExtraParams: --restart=unless-stopped
+Icon: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/arkse.png
+Keywords:
+- arksurvivalevolved
+- GameServers
+Name: arksurvivalevolved
+Overview: "This Docker will download and install SteamCMD. It will also install ARK:SurvivalEvolved\
+  \ and run it (Normal server startup of ARK can take a long time!).\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/ich777/steamcmd/
+Repository: ich777/steamcmd
+Requires: ''
+Sources:
+- https://survivetheark.com/
+- https://hub.docker.com/r/ich777/steamcmd/
+Tag: arkse
+caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/ARKSurvivalEvolved.xml

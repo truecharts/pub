@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Network-Web
@@ -14,7 +14,7 @@ deprecated: false
 description: "Get Google search results, but without any ads, javascript, AMP links,\
   \ cookies, or IP address tracking. Also includes a dark mode.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/whoogle-search
-icon: https://truecharts.org/_static/img/appicons/whoogle-search.png
+icon: https://truecharts.org/img/chart-icons/whoogle-search.png
 keywords:
 - whoogle-search
 - Cloud

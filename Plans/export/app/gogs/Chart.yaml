@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Productivity
@@ -14,7 +14,7 @@ dependencies:
 deprecated: false
 description: gogs https://gogs.io/ is a painless self-hosted Git service [br][br]
 home: https://github.com/truecharts/apps/tree/master/charts/stable/gogs
-icon: https://truecharts.org/_static/img/appicons/gogs.png
+icon: https://truecharts.org/img/chart-icons/gogs.png
 keywords:
 - gogs
 - Cloud

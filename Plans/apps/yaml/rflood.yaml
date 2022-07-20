@@ -83,7 +83,6 @@ Keywords:
 - Downloaders
 Name: rflood
 Overview: Docker image with rTorrent and the Flood UI.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/hotio/rflood
 Repository: cr.hotio.dev/hotio/rflood

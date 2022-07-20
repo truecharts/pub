@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Backup
     - Cloud
@@ -15,7 +15,7 @@ description: "This application backs up every folder mounted at `/data/` to a gi
   \ AWS S3 path using the `aws s3 sync` command. It requires a pair of (IAM) Access\
   \ and Secret Keys.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/s3sync
-icon: https://truecharts.org/_static/img/appicons/s3sync.png
+icon: https://truecharts.org/img/chart-icons/s3sync.png
 keywords:
 - s3sync
 - Backup

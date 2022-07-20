@@ -39,7 +39,6 @@ Name: tasmoadmin
 Overview: "TasmoAdmin is an administrative Website for Home Automation Devices flashed\
   \ with Tasmota (PLEASE Stop this container while not in use and during Tasmota upgrades)\
   \ (https://github.com/arendst/Tasmota). \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/raymondmm/tasmoadmin/
 Repository: raymondmm/tasmoadmin

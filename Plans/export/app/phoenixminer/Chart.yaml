@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Crypto
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: Containerised version of PhoenixMiner. Helps turn your Unraid serve
   by the AMD reset bug as it doesn't rely on vfio. Works with most Nvidia GPUs as
   well via Open Source drivers. Check the support link for detailed installation instructions.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/phoenixminer
-icon: https://truecharts.org/_static/img/appicons/phoenixminer.png
+icon: https://truecharts.org/img/chart-icons/phoenixminer.png
 keywords:
 - phoenixminer
 - Crypto

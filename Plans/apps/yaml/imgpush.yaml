@@ -53,7 +53,6 @@ Keywords:
 - Network-FTP
 Name: imgpush
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/hauxir/imgpush
 Repository: hauxir/imgpush

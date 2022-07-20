@@ -38,7 +38,6 @@ Keywords:
 - Network-Other
 Name: uptimekuma
 Overview: "Self-hosted monitoring tool like \"Uptime Robot\".  \r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/louislam/uptime-kuma/
 Repository: louislam/uptime-kuma

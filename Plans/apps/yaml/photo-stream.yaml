@@ -84,7 +84,6 @@ Keywords:
 - MediaServer-Photos
 Name: photo-stream
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/waschinski/photo-stream
 Repository: waschinski/photo-stream

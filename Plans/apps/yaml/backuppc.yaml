@@ -70,7 +70,6 @@ Keywords:
 Name: backuppc
 Overview: BackupPC is a high-performance, enterprise-grade system for backing up Linux,
   Windows and macOS PCs and laptops to a server's disk.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/tiredofit/backuppc/
 Repository: tiredofit/backuppc

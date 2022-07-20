@@ -1,12 +1,8 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Productivity
-    - Tools-Utilities
-    - Other
-    - Network-Web
-    - Network-Other
   truecharts.org/grade: U
 apiVersion: v2
 appVersion: 0.0.1
@@ -15,19 +11,15 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 9.2.6
 deprecated: false
-description: "FacturaScripts is an accounting and billing program. With it you can\
-  \ manage the day to day of your company: make invoices, orders, delivery notes,\
-  \ budgets, accounting, inventory and much more.\r\n"
+description: "FacturaScripts is an accounting, billing and CRM program with it you\
+  \ can manage the day to day of your company: invoices, receipts, expenses, budgets,\
+  \ orders, delivery notes, inventory...\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/facturascripts
-icon: https://truecharts.org/_static/img/appicons/facturascripts.png
+icon: https://truecharts.org/img/chart-icons/facturascripts.png
 keywords:
 - facturascripts
 - Cloud
 - Productivity
-- Tools-Utilities
-- Other
-- Network-Web
-- Network-Other
 kubeVersion: '>=1.16.0-0'
 maintainers:
 - email: info@truecharts.org
@@ -36,6 +28,6 @@ maintainers:
 name: facturascripts
 sources:
 - https://facturascripts.com/
-- https://hub.docker.com/r/patrickstigler/facturascripts
+- https://hub.docker.com/r/unraides/facturascripts
 type: application
 version: 0.0.1

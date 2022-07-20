@@ -5,15 +5,26 @@ Config:
   Device: {}
   Label: {}
   Path:
+    backupsfrom:
+      Default: ''
+      Description: This is the location for backups (source).
+      Display: always
+      Mask: 'false'
+      Mode: ro
+      Name: Backups (from)
+      Required: 'true'
+      Target: /data/bkp_from
+      Type: Path
+      value: ''
     backupsto:
       Default: ''
-      Description: Specify the location for backups (destination).
+      Description: This is the location for backups (destination).
       Display: always
       Mask: 'false'
       Mode: rw
       Name: Backups (to)
       Required: 'true'
-      Target: /destination
+      Target: /data/bkp_to
       Type: Path
       value: ''
     config:
@@ -27,17 +38,6 @@ Config:
       Target: /config
       Type: Path
       value: /mnt/user/appdata/vorta
-    data:
-      Default: ''
-      Description: Specify the location for backups (source).
-      Display: always
-      Mask: 'false'
-      Mode: ro
-      Name: Backups (from)
-      Required: 'true'
-      Target: /data
-      Type: Path
-      value: ''
   Port:
     main:
       Default: ''
@@ -51,6 +51,17 @@ Config:
       Type: Port
       value: 5800
   Variable:
+    app_name:
+      Default: ''
+      Description: This is the title of the browser's tab.
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: APP_NAME
+      Required: 'false'
+      Target: APP_NAME
+      Type: Variable
+      value: Vorta
     group_id:
       Default: ''
       Description: 'Default: 100'
@@ -62,17 +73,39 @@ Config:
       Target: GROUP_ID
       Type: Variable
       value: '100'
-    timezone:
+    secure_connection:
+      Default: 0|1
+      Description: Use an encrypted connection to access the application's GUI (HTTPS).
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: SECURE_CONNECTION
+      Required: 'false'
+      Target: SECURE_CONNECTION
+      Type: Variable
+      value: '0'
+    tz:
       Default: ''
       Description: ''
       Display: advanced
       Mask: 'false'
       Mode: ''
-      Name: Timezone
+      Name: TZ
       Required: 'false'
       Target: TZ
       Type: Variable
       value: Europe/Madrid
+    umask:
+      Default: ''
+      Description: ''
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: UMASK
+      Required: 'false'
+      Target: UMASK
+      Type: Variable
+      value: '022'
     user_id:
       Default: ''
       Description: 'Default: 1028'
@@ -84,6 +117,18 @@ Config:
       Target: USER_ID
       Type: Variable
       value: '99'
+    vnc_password:
+      Default: ''
+      Description: Password to connect to the application's GUI. (leave it blank to
+        access without a password)
+      Display: advanced
+      Mask: 'true'
+      Mode: ''
+      Name: VNC_PASSWORD
+      Required: 'false'
+      Target: VNC_PASSWORD
+      Type: Variable
+      value: ''
 Icon: https://raw.githubusercontent.com/SmartPhoneLover/unraid-docker-templates/main/templates/icons/vorta_200x200.png
 Keywords:
 - vorta
@@ -91,7 +136,6 @@ Keywords:
 - Tools-Utilities
 Name: vorta
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://ghcr.io/borgbase/vorta-docker
 Repository: ghcr.io/borgbase/vorta-docker

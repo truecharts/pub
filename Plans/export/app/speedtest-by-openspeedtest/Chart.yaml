@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Web
@@ -15,7 +15,7 @@ description: "An application for launching HTML5 Network Speed Test Server. You 
   \ test download &amp; upload speed from any device within your network with a web\
   \ browser that is IE10 or new.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/speedtest-by-openspeedtest
-icon: https://truecharts.org/_static/img/appicons/speedtest-by-openspeedtest.png
+icon: https://truecharts.org/img/chart-icons/speedtest-by-openspeedtest.png
 keywords:
 - speedtest-by-openspeedtest
 - Tools-Utilities

@@ -162,7 +162,6 @@ Keywords:
 Name: machinebox-tagbox
 Overview: Tagbox lets you identify the content of images by getting a list of ordered
   tags.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/machinebox/tagbox
 Repository: machinebox/tagbox

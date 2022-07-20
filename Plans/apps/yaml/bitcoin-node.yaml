@@ -45,7 +45,6 @@ Keywords:
 - Crypto
 Name: bitcoin-node
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/kylemanna/bitcoind
 Repository: kylemanna/bitcoind
@@ -54,4 +53,3 @@ Sources:
 - https://github.com/kylemanna/docker-bitcoind
 - https://hub.docker.com/r/kylemanna/bitcoind
 Tag: latest
-WebUI: ''

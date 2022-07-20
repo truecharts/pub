@@ -1,20 +1,16 @@
 env:
   AUTOSTART: ''
   CountryCode: ''
-  FilePermissions: ''
-  FolderPermissions: ''
   LidarrAPIkey: ''
   LidarrUrl: ''
   MBRAINZMIRROR: ''
   MBRATELIMIT: ''
-  RequireVideoMatch: ''
   SCRIPTINTERVAL: ''
   SOURCE_CONNECTION: ''
   USEFOLDERS: ''
   USEVIDEOFOLDERS: ''
   WriteNFOs: ''
   subtitlelanguage: ''
-  videofilter: ''
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/amvd

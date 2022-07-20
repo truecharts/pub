@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -15,7 +15,7 @@ description: ROOT is a framework for data processing, born at CERN, at the heart
   the research on high-energy physics. Every day, thousands of physicists use ROOT
   applications to analyze their data or to perform simulations.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/root
-icon: https://truecharts.org/_static/img/appicons/root.png
+icon: https://truecharts.org/img/chart-icons/root.png
 keywords:
 - root
 - Productivity

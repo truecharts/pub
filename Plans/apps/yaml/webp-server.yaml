@@ -88,7 +88,6 @@ Keywords:
 - Network-FTP
 Name: webp-server
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/webpsh/webps
 Repository: webpsh/webps
@@ -97,4 +96,3 @@ Sources:
 - https://github.com/webp-sh/webp_server_go
 - https://hub.docker.com/r/webpsh/webps
 Tag: latest
-WebUI: ''

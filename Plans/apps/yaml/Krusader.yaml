@@ -19,9 +19,10 @@ Config:
     datapath:
       Default: ''
       Description: Main data path to your unRAID shares (if you want to get access
-        to a disk mounted through UnassignedDevices change the Host Path to '/mnt',
-        if you want to get system level access change the Host Path to '/', you will
-        then find the mounted path in Kruser in '/mnt/user').
+        to a disk mounted through UnassignedDevices change the Host and Container
+        Path to '/mnt' and change the Access Mode to Read/Write Slave, if you want
+        to get system level access change the Host Path to '/' and the Container Path
+        to '/mnt', you will then find the mounted path in Kruser in '/mnt').
       Display: always
       Mask: 'false'
       Mode: rw
@@ -117,7 +118,6 @@ Overview: "Krusader is an advanced orthodox file manager for KDE and other deskt
   \ for DOS. It supports extensive archive handling, mounted filesystem support, FTP,\
   \ advanced search, viewer/editor, directory synchronisation, file content comparisons,\
   \ batch renaming, etc.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/krusader
 Repository: ich777/krusader

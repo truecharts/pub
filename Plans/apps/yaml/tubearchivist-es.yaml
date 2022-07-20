@@ -80,7 +80,6 @@ Keywords:
 - MediaServer-Other
 Name: tubearchivist-es
 Overview: "This is a dependancy container for the application \"TubeArchivist\"\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/_/elasticsearch
 Repository: bbilly1/tubearchivist-es
@@ -89,4 +88,3 @@ Sources:
 - https://github.com/elastic/elasticsearch
 - https://hub.docker.com/_/elasticsearch
 Tag: latest
-WebUI: ''

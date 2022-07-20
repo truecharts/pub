@@ -35,7 +35,6 @@ Keywords:
 Name: pt-helper
 Overview: A tool that can automatically download free seeds and delete them after
   the free time expires.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/crazyq/pt_helper
 Repository: crazyq/pt_helper

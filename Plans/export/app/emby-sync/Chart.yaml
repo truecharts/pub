@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: A small flask based service to sync up Emby clients
 home: https://github.com/truecharts/apps/tree/master/charts/stable/emby-sync
-icon: https://truecharts.org/_static/img/appicons/emby-sync.png
+icon: https://truecharts.org/img/chart-icons/emby-sync.png
 keywords:
 - emby-sync
 - Tools-Utilities

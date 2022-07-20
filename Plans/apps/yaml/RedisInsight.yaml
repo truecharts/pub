@@ -12,7 +12,6 @@ Keywords:
 - Tools-Utilities
 Name: redisinsight
 Overview: RedisInsight - The GUI for Redis.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/redislabs/redisinsight
 Repository: redislabs/redisinsight

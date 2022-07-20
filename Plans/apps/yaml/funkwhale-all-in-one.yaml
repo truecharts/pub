@@ -91,7 +91,6 @@ Keywords:
 Name: funkwhale-all-in-one
 Overview: "Funkwhale is a community-driven project that lets you listen and share\
   \ music and audio within a decentralised, open network.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/funkwhale/all-in-one/
 Repository: funkwhale/all-in-one

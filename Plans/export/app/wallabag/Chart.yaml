@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: 'Wallabag is a self hostable application for saving web pages. Unli
   style=''color: #ff9900;'']Default user/password[/span][/u][/b][br]User: [B][u]wallabag[/B][/u][br]Password:
   [B][u]wallabag[/B][/u][/b]'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/wallabag
-icon: https://truecharts.org/_static/img/appicons/wallabag.png
+icon: https://truecharts.org/img/chart-icons/wallabag.png
 keywords:
 - wallabag
 - Productivity

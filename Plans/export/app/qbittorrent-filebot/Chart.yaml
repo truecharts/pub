@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Downloaders
     - Tools-Utilities
@@ -16,7 +16,7 @@ description: "qBittorrent is a cross-platform free and open-source BitTorrent cl
   \ libtorrent-rasterbar library (for the torrent back-end). Its optional search engine\
   \ is written in Python.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/qbittorrent-filebot
-icon: https://truecharts.org/_static/img/appicons/qbittorrent-filebot.png
+icon: https://truecharts.org/img/chart-icons/qbittorrent-filebot.png
 keywords:
 - qbittorrent-filebot
 - Downloaders

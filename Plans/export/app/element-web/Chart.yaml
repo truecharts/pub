@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Productivity
@@ -16,7 +16,7 @@ description: Open, secure and interoperable communication for work and home. Use
   to call Riot-web. before the running the docker run [br]mkdir -p /mnt/user/appdata/element-web/config
   [/br]wget -O /mnt/user/appdata/element-web/config/config.json https://raw.githubusercontent.com/vector-im/element-web/develop/element.io/app/config.json
 home: https://github.com/truecharts/apps/tree/master/charts/stable/element-web
-icon: https://truecharts.org/_static/img/appicons/element-web.png
+icon: https://truecharts.org/img/chart-icons/element-web.png
 keywords:
 - element-web
 - Cloud

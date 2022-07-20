@@ -86,7 +86,7 @@ questions:
 
         - variable: FERDI_V
           label: 'FERDI_V'
-          description: "Define your preferred Ferdi version here (valid options are "
+          description: "Define your preferred Ferdi version here (valid options are stable and latest where latest refers to pre-releases)"
           schema:
             type: string
             default: "stable"

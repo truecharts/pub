@@ -1,7 +1,29 @@
 CategoryList:
 - Tools-Utilities
 Config:
-  Device: {}
+  Device:
+    DEV I2C:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: DEV I2C
+      Required: 'true'
+      Target: ''
+      Type: Device
+      value: /dev/i2c-0
+    SYS I2C:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: SYS I2C
+      Required: 'true'
+      Target: ''
+      Type: Device
+      value: /sys/bus/i2c/devices
   Label: {}
   Path:
     config:
@@ -15,28 +37,6 @@ Config:
       Target: /config/
       Type: Path
       value: /mnt/user/appdata/P3R-OpenRGB/
-    devi2c:
-      Default: ''
-      Description: 'Container Path: /dev/i2c-0'
-      Display: always
-      Mask: 'false'
-      Mode: ro
-      Name: DEV I2C
-      Required: 'false'
-      Target: /dev/i2c-0
-      Type: Path
-      value: /dev/i2c-0
-    sysi2c:
-      Default: ''
-      Description: 'Container Path: /sys/bus/i2c/devices/'
-      Display: always
-      Mask: 'false'
-      Mode: ro
-      Name: SYS I2C
-      Required: 'false'
-      Target: /sys/bus/i2c/devices/
-      Type: Path
-      value: /sys/bus/i2c/devices/
   Port:
     main:
       Default: '5800'
@@ -83,6 +83,28 @@ Config:
       Target: DEFAULT_PROFILE
       Type: Variable
       value: ''
+    groupid:
+      Default: ''
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: GROUP ID
+      Required: 'false'
+      Target: '0'
+      Type: Variable
+      value: '0'
+    userid:
+      Default: ''
+      Description: ''
+      Display: advanced-hide
+      Mask: 'false'
+      Mode: ''
+      Name: USER ID
+      Required: 'false'
+      Target: '0'
+      Type: Variable
+      value: '0'
     vncpassword:
       Default: ''
       Description: Set New VNC Password
@@ -94,7 +116,6 @@ Config:
       Target: VNC_PASSWORD
       Type: Variable
       value: ''
-ExtraParams: -e 'USER_ID'='0' -e 'GROUP_ID'='0'
 Icon: https://raw.githubusercontent.com/P3R-CO/unraid/master/OpenRGB-P3R-256px.png
 Keywords:
 - p3r-openrgb

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Other
@@ -19,7 +19,7 @@ description: Sia is a decentralized cloud storage platform that radically alters
   price. And since there is no barrier to entry for hosts, anyone with spare storage
   capacity can join the network and start making money.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/sia-daemon
-icon: https://truecharts.org/_static/img/appicons/sia-daemon.png
+icon: https://truecharts.org/img/chart-icons/sia-daemon.png
 keywords:
 - sia-daemon
 - Cloud

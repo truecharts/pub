@@ -226,7 +226,6 @@ Keywords:
 Name: shinobipro
 Overview: "Default tag is spaceinvaderone/shinobi_pro_unraid:latest  but this can\
   \ be changed to :nvidia\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/spaceinvaderone/shinobi_pro_unraid
 Repository: spaceinvaderone/shinobi_pro_unraid

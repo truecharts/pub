@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
     - Security
@@ -14,7 +14,7 @@ dependencies:
 deprecated: false
 description: "With this container you have all possible settings available[br]\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/machinebox-facebox
-icon: https://truecharts.org/_static/img/appicons/machinebox-facebox.png
+icon: https://truecharts.org/img/chart-icons/machinebox-facebox.png
 keywords:
 - machinebox-facebox
 - HomeAutomation

@@ -48,7 +48,6 @@ Keywords:
 Name: trilium
 Overview: "Trilium Notes is a hierarchical note taking application with focus on building\
   \ large personal knowledge bases.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/zadam/trilium
 Repository: bgameiro/trilium

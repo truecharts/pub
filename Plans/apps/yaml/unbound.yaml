@@ -48,7 +48,6 @@ Overview: 'Unbound is a validating, recursive, and caching DNS resolver.  It can
   used to create your own recursive DNS-Server at home. You can use Unbound for services
   such as Pi-Hole (Here is a tutorial how to configure Pi-Hole with Unbound: https://www.youtube.com/watch?v=FnFtWsZ8IP0&amp;t=695s)
   or you can create custom DNS Records for your local network.'
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/kutzilla/unbound
 Repository: kutzilla/unbound
@@ -57,4 +56,3 @@ Sources:
 - https://github.com/kutzilla/unbound-docker
 - https://hub.docker.com/r/kutzilla/unbound
 Tag: latest
-WebUI: ''

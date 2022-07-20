@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: "Urban Terror\u2122 is a free multiplayer first person shooter deve
   \ by FrozenSand, that will run on any Quake III Arena compatible engine. It is available\
   \ for Windows, Linux and Macintosh.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/urban-terror
-icon: https://truecharts.org/_static/img/appicons/urban-terror.png
+icon: https://truecharts.org/img/chart-icons/urban-terror.png
 keywords:
 - urban-terror
 - GameServers

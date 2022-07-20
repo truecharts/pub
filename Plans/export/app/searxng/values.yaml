@@ -7,7 +7,7 @@ image:
 persistence:
   config:
     enabled: true
-    mountPath: /etc/searx
+    mountPath: /etc/searxng
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0

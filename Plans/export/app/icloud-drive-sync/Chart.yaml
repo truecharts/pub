@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Backup
     - Cloud
@@ -17,7 +17,7 @@ deprecated: false
 description: "This container will DOWNLOAD (not upload - yet) all your files / photos\
   \ from iCloud.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/icloud-drive-sync
-icon: https://truecharts.org/_static/img/appicons/icloud-drive-sync.png
+icon: https://truecharts.org/img/chart-icons/icloud-drive-sync.png
 keywords:
 - icloud-drive-sync
 - Backup

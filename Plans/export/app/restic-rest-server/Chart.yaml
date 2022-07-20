@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Backup
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: 'Rest Server is a high performance HTTP server that implements rest
   REST backend API. It provides secure and efficient way to backup data remotely,
   using restic backup client via the rest: URL.'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/restic-rest-server
-icon: https://truecharts.org/_static/img/appicons/restic-rest-server.png
+icon: https://truecharts.org/img/chart-icons/restic-rest-server.png
 keywords:
 - restic-rest-server
 - Backup

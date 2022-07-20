@@ -17,7 +17,6 @@ Keywords:
 Name: webmail-pro-php
 Official: true
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/afterlogic/docker-webmail-pro
 Repository: afterlogic/docker-webmail-pro

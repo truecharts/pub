@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Network-Voip
@@ -15,7 +15,7 @@ deprecated: false
 description: "Matrix Chat's reference server. By default it uses a sqlite database;\
   \ for production use you should connect it to a separate PostgreSQL database.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/matrix-synapse
-icon: https://truecharts.org/_static/img/appicons/matrix-synapse.png
+icon: https://truecharts.org/img/chart-icons/matrix-synapse.png
 keywords:
 - matrix-synapse
 - Productivity

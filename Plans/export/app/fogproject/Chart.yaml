@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Backup
     - Network-DNS
@@ -14,7 +14,7 @@ deprecated: false
 description: "FOG Project can capture, deploy, and manage Windows, Mac OSX, and various\
   \ Linux distributions.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/fogproject
-icon: https://truecharts.org/_static/img/appicons/fogproject.png
+icon: https://truecharts.org/img/chart-icons/fogproject.png
 keywords:
 - fogproject
 - Backup

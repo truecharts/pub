@@ -103,7 +103,7 @@ Config:
       Mask: 'true'
       Mode: ''
       Name: Steam-Password
-      Required: 'false'
+      Required: 'true'
       Target: PASSWRD
       Type: Variable
       value: ''
@@ -116,7 +116,7 @@ Config:
       Mask: 'false'
       Mode: ''
       Name: Steam-Username
-      Required: 'false'
+      Required: 'true'
       Target: USERNAME
       Type: Variable
       value: ''
@@ -152,7 +152,6 @@ Name: starbound
 Overview: "This Docker will download and install SteamCMD. It will also install Starbound\
   \ (Valid Steam useraccount with the game purchased and Steam Guard disabled required)\
   \ and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/steamcmd/
 Repository: ich777/steamcmd
@@ -161,5 +160,4 @@ Sources:
 - https://www.steampowered.com/
 - https://hub.docker.com/r/ich777/steamcmd/
 Tag: starbound
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Starbound.xml

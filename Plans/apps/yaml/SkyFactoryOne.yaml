@@ -34,7 +34,6 @@ Config:
         Server will not start without accepting.
       Display: always
       Mask: 'false'
-      Mode: ''
       Name: EULA
       Required: 'true'
       Target: EULA
@@ -45,7 +44,6 @@ Config:
       Description: Java Options
       Display: always
       Mask: 'false'
-      Mode: ''
       Name: JVM_OPTS
       Required: 'false'
       Target: JVM_OPTS
@@ -56,7 +54,6 @@ Config:
       Description: Name of the world directory.  It is usually world.
       Display: advanced
       Mask: 'false'
-      Mode: ''
       Name: LEVEL
       Required: 'false'
       Target: LEVEL
@@ -67,7 +64,6 @@ Config:
       Description: Custom Message of the Day
       Display: always
       Mask: 'false'
-      Mode: ''
       Name: MOTD
       Required: 'false'
       Target: MOTD
@@ -78,32 +74,31 @@ Config:
       Description: Comma separated list of players to have op capability
       Display: always
       Mask: 'false'
-      Mode: ''
       Name: OPS
       Required: 'false'
       Target: OPS
       Type: Variable
       value: ''
+ExtraSearchTerms: minecraft
 Icon: https://raw.githubusercontent.com/Goobaroo/docker-SkyFactoryOne/main/SkyFactoryOne.png
 Keywords:
 - skyfactoryone
 - GameServers
 Name: skyfactoryone
-Overview: "SkyFactory One Modded Minecraft Server[br]The new ultimate skyblock modpack!\
-  \ Watch development at: darkosto.tv/SkyFactoryOneLive[br]It's skyblock like you've\
-  \ never seen it before... Or have you?! High tech mods, automation, and spawning\
-  \ in the void with nothing but a tree and a single piece of dirt between you and\
-  \ certain death![br]SkyFactory\xAE One is a modernization of the original SkyFactory\
-  \ for Minecraft 1.6.4. The goal of this project is to remain true to the original\
-  \ modpack while updating features and mods to 1.16.5. Find yourself sieving for\
-  \ resources, twerk for trees, decorate your trophy room, exploring a deep, dark\
-  \ dimension, and much more! Many original mods have returned joined by several new\
-  \ and updated mods! And what would SkyFactory be without ForceCraft, a reconstruction\
-  \ of the original DartCraft mod.[br]SkyFactory One delivers a nostalgic experience\
-  \ with the quality of life upgrades to make it even more exciting! If you've never\
-  \ played SkyFactory before, prepare for a fresh experience in a modded skyblock.\
-  \ The original can never be replaced, but we can sure try!"
-PostArgs: ''
+Overview: "SkyFactory One Modded Minecraft Server[br][br]The new ultimate skyblock\
+  \ modpack! Watch development at: darkosto.tv/SkyFactoryOneLive[br]It's skyblock\
+  \ like you've never seen it before... Or have you?! High tech mods, automation,\
+  \ and spawning in the void with nothing but a tree and a single piece of dirt between\
+  \ you and certain death![br]SkyFactory\xAE One is a modernization of the original\
+  \ SkyFactory for Minecraft 1.6.4. The goal of this project is to remain true to\
+  \ the original modpack while updating features and mods to 1.16.5. Find yourself\
+  \ sieving for resources, twerk for trees, decorate your trophy room, exploring a\
+  \ deep, dark dimension, and much more! Many original mods have returned joined by\
+  \ several new and updated mods! And what would SkyFactory be without ForceCraft,\
+  \ a reconstruction of the original DartCraft mod.[br]SkyFactory One delivers a nostalgic\
+  \ experience with the quality of life upgrades to make it even more exciting! If\
+  \ you've never played SkyFactory before, prepare for a fresh experience in a modded\
+  \ skyblock. The original can never be replaced, but we can sure try!"
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/goobaroo/skyfactoryone
 Repository: goobaroo/skyfactoryone
@@ -112,4 +107,3 @@ Sources:
 - https://www.curseforge.com/minecraft/modpacks/skyfactory-one
 - https://hub.docker.com/repository/docker/goobaroo/skyfactoryone
 Tag: latest
-WebUI: ''

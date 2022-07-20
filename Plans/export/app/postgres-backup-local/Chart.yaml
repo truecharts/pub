@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Backup
     - Tools-Utilities
@@ -17,7 +17,7 @@ description: 'Backup PostgresSQL to the local filesystem with periodic rotating 
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/postgres-backup-local
-icon: https://truecharts.org/_static/img/appicons/postgres-backup-local.png
+icon: https://truecharts.org/img/chart-icons/postgres-backup-local.png
 keywords:
 - postgres-backup-local
 - Backup

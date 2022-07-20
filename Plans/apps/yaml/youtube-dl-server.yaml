@@ -35,7 +35,6 @@ Keywords:
 Name: youtube-dl-server
 Overview: "Web / REST interface for downloading youtube videos onto a server.[br]\r\
   \n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/kmb32123/youtube-dl-server/
 Repository: kmb32123/youtube-dl-server

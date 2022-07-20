@@ -169,7 +169,6 @@ Keywords:
 - Network-Management
 Name: phpipam-cron
 Overview: phpIPAM - Open source IP address management.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/phpipam/phpipam-cron
 Repository: phpipam/phpipam-cron
@@ -178,4 +177,3 @@ Sources:
 - https://phpipam.net/
 - https://hub.docker.com/r/phpipam/phpipam-cron
 Tag: latest
-WebUI: ''

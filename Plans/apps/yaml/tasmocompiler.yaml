@@ -17,7 +17,6 @@ Keywords:
 Name: tasmocompiler
 Overview: "TasmoCompiler is a simple web GUI which allows you to compile fantastic\
   \ Tasmota firmware with your own settings\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/benzino77/tasmocompiler
 Repository: benzino77/tasmocompiler

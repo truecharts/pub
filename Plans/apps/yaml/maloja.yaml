@@ -58,7 +58,6 @@ Keywords:
 Name: maloja
 Overview: "Self-hosted music scrobble database to create personal listening statistics\
   \ and charts as a substitute for Last.fm / Libre.fm / GNU FM.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/krateng/maloja
 Repository: krateng/maloja

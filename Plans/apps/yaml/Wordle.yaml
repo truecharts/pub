@@ -17,7 +17,6 @@ Keywords:
 - Other
 Name: wordle
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/modem7/wordle
 Repository: modem7/wordle
@@ -26,4 +25,4 @@ Sources:
 - https://github.com/modem7/docker-wordle
 - https://hub.docker.com/r/modem7/wordle
 Tag: latest
-WebUI: http://[IP]:[PORT:80]
+WebUI: http://[IP]:[PORT:8080]

@@ -191,7 +191,6 @@ Name: tandoorrecipes
 Overview: Tandoor Recipes is a Django application to manage, tag and search recipes
   using either built in models or external storage providers hosting PDF's, Images
   or other files.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/vabene1111/recipes/
 Repository: vabene1111/recipes

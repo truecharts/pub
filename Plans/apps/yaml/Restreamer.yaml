@@ -66,7 +66,6 @@ Overview: "Datarhei/Restreamer allows smart free video streaming in real time. S
   \ Our Docker-Image is easy to install and runs on Linux, MacOS and Windows. Datarhei/Restreamer\
   \ can be perfectly combined with single-board computers like Raspberry Pi and Odroid.\r\
   \n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/datarhei/restreamer
 Repository: datarhei/restreamer
@@ -75,5 +74,5 @@ Sources:
 - https://datarhei.github.io/restreamer/
 - https://hub.docker.com/r/datarhei/restreamer
 Tag: latest
-WebUI: http://[IP]:[PORT:8080]
+WebUI: http://[IP]:[PORT:8080]/ui
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Restreamer.xml

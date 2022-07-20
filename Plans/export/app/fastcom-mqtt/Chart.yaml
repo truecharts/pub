@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - HomeAutomation
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: 'Docker Container with Fast.com CLI sending data directly to MQTT B
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/fastcom-mqtt
-icon: https://truecharts.org/_static/img/appicons/fastcom-mqtt.png
+icon: https://truecharts.org/img/chart-icons/fastcom-mqtt.png
 keywords:
 - fastcom-mqtt
 - HomeAutomation

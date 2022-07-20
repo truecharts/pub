@@ -13,7 +13,6 @@ Keywords:
 - Tools-Utilities
 Name: ffmpeg-nvidia
 Overview: "Dockerized ffmpeg with nvidia HW support.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jrottenberg/ffmpeg
 Repository: jrottenberg/ffmpeg
@@ -22,4 +21,3 @@ Sources:
 - https://github.com/jrottenberg/ffmpeg
 - https://hub.docker.com/r/jrottenberg/ffmpeg
 Tag: 4.2-nvidia
-WebUI: ''

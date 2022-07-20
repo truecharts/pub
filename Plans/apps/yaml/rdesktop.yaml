@@ -189,4 +189,3 @@ Sources:
 - https://github.com/orgs/linuxserver/packages/container/package/rdesktop
 - https://github.com/linuxserver/docker-rdesktop#readme
 Tag: latest
-WebUI: http://[IP]:[PORT:3000]

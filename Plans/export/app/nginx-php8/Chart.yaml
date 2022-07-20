@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Web
     - Network-Proxy
@@ -14,7 +14,7 @@ deprecated: false
 description: "Nginx(https://nginx.org/) is a simple webserver with php support. The\
   \ config is in the docker side go in the console.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/nginx-php8
-icon: https://truecharts.org/_static/img/appicons/nginx-php8.png
+icon: https://truecharts.org/img/chart-icons/nginx-php8.png
 keywords:
 - nginx-php8
 - Network-Web

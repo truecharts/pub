@@ -17,7 +17,6 @@ Keywords:
 Name: aurora-files
 Official: true
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/afterlogic/docker-aurora-files
 Repository: afterlogic/docker-aurora-files

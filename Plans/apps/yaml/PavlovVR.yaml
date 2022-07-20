@@ -6,7 +6,7 @@ Config:
   Path:
     serverfiles:
       Default: ''
-      Description: 'Container Path: /serverdata/serverfiles'
+      Description: ''
       Display: always
       Mask: 'false'
       Mode: rw
@@ -17,7 +17,7 @@ Config:
       value: /mnt/cache/appdata/pavlovvr
     steamcmd:
       Default: ''
-      Description: 'Container Path: /serverdata/steamcmd'
+      Description: ''
       Display: always
       Mask: 'false'
       Mode: rw
@@ -27,17 +27,19 @@ Config:
       Type: Path
       value: /mnt/user/appdata/steamcmd
   Port:
-    serverport:
+    tcp-gameport:
       Default: ''
-      Description: 'Container Port: 7200'
-      Display: advanced
+      Description: If you specify another game port then delete this entry and create
+        a new TCP entry with your desired port number (also don't forget to set it
+        in the GAME_PARAMS).
+      Display: always
       Mask: 'false'
-      Mode: udp
-      Name: UDP3 - ServerPort
+      Mode: tcp
+      Name: TCP - Game Port
       Required: 'true'
-      Target: 7200
+      Target: 7777
       Type: Port
-      value: 7200
+      value: 7777
     udp-gameport:
       Default: ''
       Description: If you specify another game port then delete this entry and create
@@ -51,6 +53,28 @@ Config:
       Target: 7777
       Type: Port
       value: 7777
+    udp2:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP2
+      Required: 'true'
+      Target: 8177
+      Type: Port
+      value: 8177
+    udp3:
+      Default: ''
+      Description: ''
+      Display: always
+      Mask: 'false'
+      Mode: udp
+      Name: UDP3
+      Required: 'true'
+      Target: 7977
+      Type: Port
+      value: 7977
   Variable:
     game_id:
       Default: ''
@@ -77,7 +101,7 @@ Config:
       value: ''
     gid:
       Default: ''
-      Description: 'Container Variable: GID'
+      Description: ''
       Display: advanced-hide
       Mask: 'false'
       Mode: ''
@@ -91,7 +115,7 @@ Config:
       Description: 'Your Steam password goes here if you want to install a game that
         needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
         Steam Guard).'
-      Display: always-hide
+      Display: advanced-hide
       Mask: 'true'
       Mode: ''
       Name: Steam-Password
@@ -104,7 +128,7 @@ Config:
       Description: 'Your Steam username goes here if you want to install a game that
         needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
         Steam Guard).'
-      Display: always-hide
+      Display: advanced-hide
       Mask: 'false'
       Mode: ''
       Name: Steam-Username
@@ -114,7 +138,7 @@ Config:
       value: ''
     uid:
       Default: ''
-      Description: 'Container Variable: UID'
+      Description: ''
       Display: advanced-hide
       Mask: 'false'
       Mode: ''
@@ -143,7 +167,6 @@ Keywords:
 Name: pavlovvr
 Overview: "This Docker will download and install SteamCMD. It will also install Pavlov\
   \ VR and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/steamcmd/
 Repository: ich777/steamcmd
@@ -152,5 +175,4 @@ Sources:
 - https://www.steampowered.com/
 - https://hub.docker.com/r/ich777/steamcmd/
 Tag: pavlovvr
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/PavlovVR.xml

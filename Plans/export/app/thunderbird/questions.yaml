@@ -92,7 +92,7 @@ questions:
             default: "latest"
         - variable: THUNDERBIRD_LANG
           label: 'THUNDERBIRD_LANG'
-          description: "Enter your preferred language here (eg enUS, de, fr, enUK,... you can get a full list here httpsarchive.mozilla.orgpubthunderbirdreleaseslatestREADME.txt)"
+          description: "Enter your preferred language here (eg en-US, de, fr, enUK,... you can get a full list here httpsarchive.mozilla.orgpubthunderbirdreleaseslatestREADME.txt)"
           schema:
             type: string
             default: "en-US"

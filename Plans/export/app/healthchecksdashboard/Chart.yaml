@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Other
@@ -15,7 +15,7 @@ deprecated: false
 description: "A standalone dashboard page showing the status of the checks in your\
   \ Healthchecks.io account.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/healthchecksdashboard
-icon: https://truecharts.org/_static/img/appicons/healthchecksdashboard.png
+icon: https://truecharts.org/img/chart-icons/healthchecksdashboard.png
 keywords:
 - healthchecksdashboard
 - Tools-Utilities

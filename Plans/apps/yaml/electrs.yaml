@@ -63,7 +63,6 @@ Config:
       Target: ELECTRS_ELECTRUM_RPC_ADDR
       Type: Variable
       value: 0.0.0.0:50001
-Icon: ''
 Keywords:
 - electrs
 - Tools-Utilities
@@ -83,4 +82,3 @@ Sources:
 - https://github.com/romanz/electrs
 - https://hub.docker.com/r/ofawx/electrs/
 Tag: latest
-WebUI: ''

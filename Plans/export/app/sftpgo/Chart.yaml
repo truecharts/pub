@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-FTP
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: 'Fully featured and highly configurable SFTP server with optional H
   encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage,
   Azure Blob Storage, SFTP.'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/sftpgo
-icon: https://truecharts.org/_static/img/appicons/sftpgo.png
+icon: https://truecharts.org/img/chart-icons/sftpgo.png
 keywords:
 - sftpgo
 - Network-FTP

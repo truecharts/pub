@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Tools-Utilities
@@ -16,7 +16,7 @@ deprecated: false
 description: "STORJ DAEMON Docker - using Storj public automated build. This template,\
   \ nor author, are affiliated with storj.io. \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/storj
-icon: https://truecharts.org/_static/img/appicons/storj.png
+icon: https://truecharts.org/img/chart-icons/storj.png
 keywords:
 - storj
 - Cloud

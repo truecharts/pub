@@ -37,7 +37,6 @@ Keywords:
 Name: stackedit
 Overview: "StackEdit\u2019s Markdown syntax highlighting is unique. The refined text\
   \ formatting of the editor helps you visualize the final rendering of your files."
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/qmcgaw/stackedit/
 Repository: qmcgaw/stackedit

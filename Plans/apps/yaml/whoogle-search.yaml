@@ -63,7 +63,6 @@ Keywords:
 Name: whoogle-search
 Overview: "Get Google search results, but without any ads, javascript, AMP links,\
   \ cookies, or IP address tracking. Also includes a dark mode.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/benbusby/whoogle-search/
 Repository: benbusby/whoogle-search

@@ -106,7 +106,6 @@ Overview: "Radarr - A fork of Sonarr to work with movies \xE0 la Couchpotato. Th
   \ style='color: #E80000;']Intel GPU Use[/span][/u][/b][br]Edit your [b]go[/b] file\
   \ to include:[br][b]modprobe i915[br][/b], save and reboot, then [br]add [b]--device=/dev/dri[/b]\
   \ to [b]\"extra parameters\"[/b] (switch on advanced view)"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/randomninjaatk/radarr-sma
 Repository: randomninjaatk/radarr-sma

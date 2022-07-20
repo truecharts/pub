@@ -72,7 +72,6 @@ Config:
       Target: PUID
       Type: Variable
       value: '99'
-Icon: ''
 Keywords:
 - comixed
 - MediaServer-Other

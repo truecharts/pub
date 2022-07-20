@@ -61,7 +61,6 @@ Overview: "Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application
   \ understand the processes of securing web applications and to aid both students\
   \ &amp; teachers to learn about web application security in a controlled class room\
   \ environment.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/vulnerables/web-dvwa/
 Repository: vulnerables/web-dvwa

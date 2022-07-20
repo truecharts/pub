@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Tools-Utilities
@@ -16,7 +16,7 @@ description: DerbyNet is the new standard in race management software for Pinewo
   Derby events. It's free, and it's open source. With DerbyNet, multiple browsers
   connect to a web server running on your laptop or in the cloud.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/derbynet-server
-icon: https://truecharts.org/_static/img/appicons/derbynet-server.png
+icon: https://truecharts.org/img/chart-icons/derbynet-server.png
 keywords:
 - derbynet-server
 - Cloud

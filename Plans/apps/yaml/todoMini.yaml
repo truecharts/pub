@@ -37,7 +37,6 @@ Keywords:
 - Tools-Utilities
 Name: todomini
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/brettdocker/minitodo
 Repository: brettdocker/minitodo

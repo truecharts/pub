@@ -28,13 +28,29 @@ service:
       main:
         enabled: true
         port: 7777
-        protocol: UDP
+        protocol: TCP
         targetPort: 7777
-  serverport:
+  udp-gameport:
     enabled: true
     ports:
-      serverport:
+      udp-gameport:
         enabled: true
-        port: 7200
+        port: 7777
         protocol: UDP
-        targetPort: 7200
+        targetPort: 7777
+  udp2:
+    enabled: true
+    ports:
+      udp2:
+        enabled: true
+        port: 8177
+        protocol: UDP
+        targetPort: 8177
+  udp3:
+    enabled: true
+    ports:
+      udp3:
+        enabled: true
+        port: 7977
+        protocol: UDP
+        targetPort: 7977

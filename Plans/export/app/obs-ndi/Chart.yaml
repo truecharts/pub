@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
     - Productivity
@@ -18,7 +18,7 @@ description: "This container is based on bb12489/gui-docker &amp;amp;amp; bb1248
   \ your desktop. The main reason for this fork is to update the container and add\
   \ it to the unraid app store.&amp;#xD;\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/obs-ndi
-icon: https://truecharts.org/_static/img/appicons/obs-ndi.png
+icon: https://truecharts.org/img/chart-icons/obs-ndi.png
 keywords:
 - obs-ndi
 - GameServers

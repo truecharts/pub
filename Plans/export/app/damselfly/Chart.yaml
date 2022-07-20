@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaApp-Photos
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: Damselfly is a server-based Digital Asset Management system.  The g
   search and retrieval of those images, using metadata such as the IPTC keyword tags,
   as well as the folder and file names.  See https://damselfly.info for more details.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/damselfly
-icon: https://truecharts.org/_static/img/appicons/damselfly.png
+icon: https://truecharts.org/img/chart-icons/damselfly.png
 keywords:
 - damselfly
 - MediaApp-Photos

@@ -94,7 +94,6 @@ Keywords:
 - Tools-Utilities
 Name: metatube
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jvt038/metatube
 Repository: jvt038/metatube

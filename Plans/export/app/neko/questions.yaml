@@ -98,7 +98,7 @@ questions:
             default: "ChangeMeAlsoPls_:)"
         - variable: NEKO_NAT1TO1
           label: 'NEKO_NAT1TO1'
-          description: "Enter the IP of your Unraid-Server"
+          description: "Enter the IP of your Unraid-Server (or your defined IP in Custom br0 mode)"
           schema:
             type: string
             default: "192.168.1.x"
@@ -180,16 +180,16 @@ questions:
                                     type: int
                                     default: 8080
 
-        - variable: port52000-5210
-          label: 'port52000-5210 service'
+        - variable: port52000-
+          label: 'port52000- service'
           description: "The Primary service on which the healthcheck runs, often the webUI"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: port52000-5210
-                      label: "port52000-5210 Service Port Configuration"
+                    - variable: port52000-
+                      label: "port52000- Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

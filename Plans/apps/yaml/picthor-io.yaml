@@ -129,7 +129,6 @@ Keywords:
 - MediaServer-Photos
 Name: picthor-io
 Overview: "&lt;h1&gt;\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/picthorio/picthor-io
 Repository: picthorio/picthor-io

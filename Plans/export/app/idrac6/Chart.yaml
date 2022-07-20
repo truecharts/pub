@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Management
@@ -15,7 +15,7 @@ description: Allows access to the iDRAC 6 console without installing Java or mes
   with Java Web Start. Java is only run inside of the container and access is provided
   via web interface or directly with VNC.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/idrac6
-icon: https://truecharts.org/_static/img/appicons/idrac6.png
+icon: https://truecharts.org/img/chart-icons/idrac6.png
 keywords:
 - idrac6
 - Tools-Utilities

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -13,7 +13,7 @@ dependencies:
 deprecated: false
 description: A Docker container designed to watch a directory and encode media files.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ffmpeg-mkvdts2ac3
-icon: https://truecharts.org/_static/img/appicons/ffmpeg-mkvdts2ac3.png
+icon: https://truecharts.org/img/chart-icons/ffmpeg-mkvdts2ac3.png
 keywords:
 - ffmpeg-mkvdts2ac3
 - Productivity

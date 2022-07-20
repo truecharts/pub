@@ -14,7 +14,6 @@ Keywords:
 - Other
 Name: newyearcountdownclock
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/modem7/newyearcountdown
 Repository: modem7/newyearcountdown

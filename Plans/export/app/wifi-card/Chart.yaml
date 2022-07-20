@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: Print a neat little card with your WiFi info and stick it on the fridge.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/wifi-card
-icon: https://truecharts.org/_static/img/appicons/wifi-card.png
+icon: https://truecharts.org/img/chart-icons/wifi-card.png
 keywords:
 - wifi-card
 - Other
@@ -23,7 +23,7 @@ maintainers:
   url: https://truecharts.org
 name: wifi-card
 sources:
-- https://wifi.dev.bdw.to/
+- https://github.com/bndw/wifi-card
 - https://hub.docker.com/r/bndw/wifi-card/
 type: application
 version: 0.0.1

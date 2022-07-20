@@ -125,21 +125,9 @@ questions:
           schema:
             type: string
             default: ""
-        - variable: RequireVideoMatch
-          label: 'RequireVideoMatch'
-          description: "true = enabled  Only keep videos that could be matched to a Musicbrainz music track."
-          schema:
-            type: string
-            default: ""
         - variable: subtitlelanguage
           label: 'subtitlelanguage'
           description: "Desired Language Code  For guidence, please see youtube-dl documentation"
-          schema:
-            type: string
-            default: ""
-        - variable: videofilter
-          label: 'videofilter'
-          description: "This will filter out videos Matching MusicBrainz secondary release type and album disambiguation (single word only)"
           schema:
             type: string
             default: ""
@@ -158,18 +146,6 @@ questions:
         - variable: USEVIDEOFOLDERS
           label: 'USEVIDEOFOLDERS'
           description: "true = enabled  Creates subfolders using Video File Name only, requires USEFOLDERS to be enabled"
-          schema:
-            type: string
-            default: ""
-        - variable: FolderPermissions
-          label: 'FolderPermissions'
-          description: "Based on chmod linux permissions"
-          schema:
-            type: string
-            default: ""
-        - variable: FilePermissions
-          label: 'FilePermissions'
-          description: "Based on chmod linux permissions"
           schema:
             type: string
             default: ""

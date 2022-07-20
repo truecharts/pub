@@ -135,7 +135,6 @@ MinVer: ''
 Name: openra
 Overview: "Mudislanders Template for mounting OpenRA's dedicated server by rmoriz\
   \ [br][br]\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/rmoriz/openra
 Repository: rmoriz/openra
@@ -144,4 +143,3 @@ Sources:
 - http://openra.net/
 - https://hub.docker.com/r/rmoriz/openra
 Tag: latest
-WebUI: ''

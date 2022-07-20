@@ -202,7 +202,6 @@ Keywords:
 Name: freescout
 Overview: Open Source Helpscout/Zendesk Alternative based on Alpine linux.[br]Creating
   account CLI "cd /www/html" then "php artisan freescout:create-user"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/tiredofit/freescout/
 Repository: tiredofit/freescout

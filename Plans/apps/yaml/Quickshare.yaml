@@ -62,7 +62,6 @@ Keywords:
 - Network-FTP
 Name: quickshare
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/hexxa/quickshare
 Repository: hexxa/quickshare

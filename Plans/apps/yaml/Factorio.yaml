@@ -58,7 +58,6 @@ Keywords:
 Name: factorio
 Overview: "This Docker Container will download the latest stable release of the game,\
   \ generate the map and you're ready to play.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/factoriotools/factorio/
 Repository: factoriotools/factorio
@@ -67,5 +66,4 @@ Sources:
 - https://www.factorio.com/
 - https://hub.docker.com/r/factoriotools/factorio/
 Tag: stable
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Factorio.xml

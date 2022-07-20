@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - Network-Web
@@ -16,7 +16,7 @@ description: SUI Startpage is a simple and clean server start page or homepage t
   and also lets you search on various provider sites via a search bar at the top as
   well.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/suistartpage
-icon: https://truecharts.org/_static/img/appicons/suistartpage.png
+icon: https://truecharts.org/img/chart-icons/suistartpage.png
 keywords:
 - suistartpage
 - Tools-Utilities

@@ -49,7 +49,6 @@ Keywords:
 Name: flame
 Overview: Flame is self-hosted startpage for your server. Easily manage your apps
   and bookmarks with built-in editors.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/pawelmalak/flame
 Repository: pawelmalak/flame

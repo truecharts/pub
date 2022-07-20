@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Other
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: Self-hosted Rickrolls. Image is based on Nginx stable alpine, and all
   the content is local to the container.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rickroll
-icon: https://truecharts.org/_static/img/appicons/rickroll.png
+icon: https://truecharts.org/img/chart-icons/rickroll.png
 keywords:
 - rickroll
 - Other

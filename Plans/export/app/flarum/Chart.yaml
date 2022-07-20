@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Web
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: 'Flarum is the next-generation forum software that makes online dis
   fun. It''s simple, fast, and free. [br][br][b][u][span style=''color: #ff9900;'']Default
   user/password[/span][/u][/b][br]User: [B][u]flarum[/B][/u][br]Password: [B][u]flarum[/B][/u][/b]'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/flarum
-icon: https://truecharts.org/_static/img/appicons/flarum.png
+icon: https://truecharts.org/img/chart-icons/flarum.png
 keywords:
 - flarum
 - Network-Web

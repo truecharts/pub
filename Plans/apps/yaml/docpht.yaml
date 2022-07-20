@@ -82,7 +82,6 @@ Name: docpht
 Official: true
 Overview: DocPHT you can take notes and quickly document anything and without the
   use of any database.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/docpht/docpht/
 Repository: docpht/docpht

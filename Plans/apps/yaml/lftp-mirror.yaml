@@ -34,7 +34,6 @@ Config:
       Name: USERNAME
       Target: USERNAME
       value: ''
-Icon: /plugins/dynamix.docker.manager/images/question.png
 Keywords:
 - lftp-mirror
 - Other

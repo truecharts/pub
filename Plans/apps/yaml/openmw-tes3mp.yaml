@@ -110,7 +110,6 @@ Name: openmw-tes3mp
 Overview: "TES3MP is a project adding multiplayer functionality to OpenMW, a free\
   \ and open source engine recreation of the popular Bethesda Softworks game \"The\
   \ Elder Scrolls III: Morrowind\".\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/docker-openmw-tes3mp/
 Repository: ich777/docker-openmw-tes3mp
@@ -119,5 +118,4 @@ Sources:
 - https://tes3mp.com/
 - https://hub.docker.com/r/ich777/docker-openmw-tes3mp/
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/OpenMW-TES3MP.xml

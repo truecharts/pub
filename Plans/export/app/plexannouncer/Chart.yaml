@@ -1,6 +1,7 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
+    - HomeAutomation
     - Tools-Utilities
     - Other
   truecharts.org/grade: U
@@ -15,9 +16,10 @@ description: A Discord bot that sends updates about your plex media to a Discord
   using webhooks. Please see the support thread for more details on how to set it
   up and configure Discord and Plex.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/plexannouncer
-icon: https://truecharts.org/_static/img/appicons/plexannouncer.png
+icon: https://truecharts.org/img/chart-icons/plexannouncer.png
 keywords:
 - plexannouncer
+- HomeAutomation
 - Tools-Utilities
 - Other
 kubeVersion: '>=1.16.0-0'

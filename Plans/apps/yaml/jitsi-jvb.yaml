@@ -160,7 +160,6 @@ Keywords:
 - Network-Messenger
 Name: jitsi-jvb
 Overview: Jitsi Videobridge image for Jitsi Meet
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jitsi/jvb/
 Repository: jitsi/jvb
@@ -169,4 +168,3 @@ Sources:
 - https://jitsi.org/
 - https://hub.docker.com/r/jitsi/jvb/
 Tag: latest
-WebUI: ''

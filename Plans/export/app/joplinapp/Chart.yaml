@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "This container allows you to have a working Joplin desktop app, reachable\
   \ via a http noVNC that can be placed behind a reverse proxy.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/joplinapp
-icon: https://truecharts.org/_static/img/appicons/joplinapp.png
+icon: https://truecharts.org/img/chart-icons/joplinapp.png
 keywords:
 - joplinapp
 - Productivity

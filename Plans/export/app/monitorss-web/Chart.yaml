@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Messenger
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: 'WebUI for the Discord RSS bot (formerly known as Discord.RSS) with
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/monitorss-web
-icon: https://truecharts.org/_static/img/appicons/monitorss-web.png
+icon: https://truecharts.org/img/chart-icons/monitorss-web.png
 keywords:
 - monitorss-web
 - Network-Messenger

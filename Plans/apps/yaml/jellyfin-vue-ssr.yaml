@@ -22,7 +22,6 @@ Name: jellyfin-vue-ssr
 Overview: A modern web client for Jellyfin based on Vue. It relies on Jellyfin to
   store and manage your media. This version uses server side rendering for improved
   performance.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/jellyfin/jellyfin-vue
 Repository: jellyfin/jellyfin-vue

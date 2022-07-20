@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -18,7 +18,7 @@ description: "With this Docker you can run FiveM (GTA V MOD SERVER) it will auto
   \ To run this container you must provide a valid Server Key (you can get them from\
   \ here: https://keymaster.fivem.net/) and your prefered Server Name.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/fivem
-icon: https://truecharts.org/_static/img/appicons/fivem.png
+icon: https://truecharts.org/img/chart-icons/fivem.png
 keywords:
 - fivem
 - GameServers

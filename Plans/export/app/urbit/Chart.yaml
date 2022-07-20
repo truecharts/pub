@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Network
@@ -16,7 +16,7 @@ deprecated: false
 description: Urbit is a clean-slate OS and network for the 21st century. Self-host
   your computer, identity and access to the urbit world.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/urbit
-icon: https://truecharts.org/_static/img/appicons/urbit.png
+icon: https://truecharts.org/img/chart-icons/urbit.png
 keywords:
 - urbit
 - Cloud

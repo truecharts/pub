@@ -118,7 +118,6 @@ Overview: "PhantomBot is a Twitch chat bot powered by Java. PhantomBot has many 
   \ a point system, raffles, custom commands, a music player, and more. PhantomBot\
   \ can also be integrated with many services such as Discord, Twitter, TipeeeStream,\
   \ StreamLabs and StreamElements!\r\n"
-PostArgs: ''
 Privileged: 'true'
 Registry: https://hub.docker.com/r/gmt2001/phantombot-stable
 Repository: ghcr.io/phantombot/phantombot

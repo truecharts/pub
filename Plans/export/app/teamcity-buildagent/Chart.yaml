@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Other
@@ -13,7 +13,7 @@ dependencies:
 deprecated: false
 description: "This is an official JetBrains TeamCity build agent image.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/teamcity-buildagent
-icon: https://truecharts.org/_static/img/appicons/teamcity-buildagent.png
+icon: https://truecharts.org/img/chart-icons/teamcity-buildagent.png
 keywords:
 - teamcity-buildagent
 - Productivity

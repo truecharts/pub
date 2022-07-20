@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaServer-Music
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "Self-hosted music scrobble database to create personal listening statistics\
   \ and charts as a substitute for Last.fm / Libre.fm / GNU FM.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/maloja
-icon: https://truecharts.org/_static/img/appicons/maloja.png
+icon: https://truecharts.org/img/chart-icons/maloja.png
 keywords:
 - maloja
 - MediaServer-Music

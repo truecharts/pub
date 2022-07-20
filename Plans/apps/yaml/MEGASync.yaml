@@ -100,17 +100,6 @@ Config:
       Target: UMASK
       Type: Variable
       value: '000'
-    umaskvalue:
-      Default: ''
-      Description: 'Container Variable: UMASK'
-      Display: advanced
-      Mask: 'false'
-      Mode: ''
-      Name: Umask Value
-      Required: 'true'
-      Target: UMASK
-      Type: Variable
-      value: '000'
 ExtraParams: --restart=unless-stopped
 Icon: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/megasync.png
 Keywords:
@@ -123,7 +112,6 @@ Name: megasync
 Overview: "MEGAsync is an intuitive application that enables you to effortlessly synchronize\
   \ folders on several computers. You simply need to upload data in the cloud and,\
   \ within seconds, you can explore the same documents on your own PC.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/megasync
 Repository: ich777/megasync

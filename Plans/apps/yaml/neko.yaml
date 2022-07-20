@@ -16,7 +16,7 @@ Config:
       Target: 8080
       Type: Port
       value: 6530
-    port52000-5210:
+    port52000-:
       Default: 52000-52100
       Description: Needed for Webrtc Communication
       Display: advanced
@@ -41,7 +41,8 @@ Config:
       value: 52000-52100
     neko_nat1to1:
       Default: ''
-      Description: Enter the IP of your Unraid-Server
+      Description: 'Enter the IP of your Unraid-Server (or your defined IP in Custom:
+        br0 mode)'
       Display: always
       Mask: 'false'
       Mode: ''
@@ -89,9 +90,8 @@ Keywords:
 - neko
 - MediaApp-Video
 Name: neko
-Overview: "Neko is an Open-Source self-hosted Alternative to rabb.it(deprecated).\r\
+Overview: "Neko is an Open-Source self-hosted alternative to rabb.it(deprecated).\r\
   \n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/m1k1o/neko/
 Repository: m1k1o/neko

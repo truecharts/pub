@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
     - MediaApp-Other
@@ -16,7 +16,7 @@ description: A utility to help manage your library. Options include adding 4k ba
   Pixar Studios and hiding/auto optimising media files where there is only a 4k version
   available.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/plex-utills
-icon: https://truecharts.org/_static/img/appicons/plex-utills.png
+icon: https://truecharts.org/img/chart-icons/plex-utills.png
 keywords:
 - plex-utills
 - Tools-Utilities

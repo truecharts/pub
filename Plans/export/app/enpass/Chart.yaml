@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Other
     - Productivity
@@ -16,7 +16,7 @@ description: "Enpass is a cross-platform password management app to securely sto
   \ passwords and other credentials in a virtual vault locked with a master password.\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/enpass
-icon: https://truecharts.org/_static/img/appicons/enpass.png
+icon: https://truecharts.org/img/chart-icons/enpass.png
 keywords:
 - enpass
 - Network-Other

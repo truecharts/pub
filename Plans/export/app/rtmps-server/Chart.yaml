@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
     - Network-Other
@@ -16,7 +16,7 @@ description: "This Docker image can be used to create a video streaming server t
   \ and custom transcoding of video streams. All modules are built from source on\
   \ Debian and Alpine Linux base images.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rtmps-server
-icon: https://truecharts.org/_static/img/appicons/rtmps-server.png
+icon: https://truecharts.org/img/chart-icons/rtmps-server.png
 keywords:
 - rtmps-server
 - GameServers

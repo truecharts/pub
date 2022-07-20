@@ -203,7 +203,6 @@ Keywords:
 - Tools-Utilities
 Name: machinebox-facebox
 Overview: "With this container you have all possible settings available[br]\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/machinebox/facebox/
 Repository: machinebox/facebox

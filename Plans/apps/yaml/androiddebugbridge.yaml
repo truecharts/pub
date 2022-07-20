@@ -1,0 +1,70 @@
+CategoryList:
+- HomeAutomation
+Config:
+  Device: {}
+  Label: {}
+  Path: {}
+  Port:
+    main:
+      Default: '5037'
+      Description: 'Container Port: 5037'
+      Display: always
+      Mask: 'false'
+      Mode: tcp
+      Name: Port
+      Required: 'false'
+      Target: 5037
+      Type: Port
+      value: 5037
+  Variable:
+    bootwaittime:
+      Default: '10'
+      Description: Length of time in seconds to wait after the container has started
+        before attempting to connect to devices.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Boot Wait Time
+      Required: 'false'
+      Target: bootwait
+      Type: Variable
+      value: '10'
+    checkfrequency:
+      Default: '30'
+      Description: Length of time in seconds to wait between successive attempts to
+        connect (or re-connect) to devices.
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Check Frequency
+      Required: 'false'
+      Target: checkfreq
+      Type: Variable
+      value: '30'
+    devicelist:
+      Default: 192.168.1.100.1:5555,192.168.1.101:5555
+      Description: Comma separated list of androidtv/firetv devices to connect to,
+        each one listed as [ip/hostname]:[port],[ip/hostname]:[port].
+      Display: always
+      Mask: 'false'
+      Mode: ''
+      Name: Device List
+      Required: 'false'
+      Target: devicelist
+      Type: Variable
+      value: 10.0.0.192:5555
+Icon: https://raw.githubusercontent.com/CorneliousJD/Docker-Templates/master/icons/adb.png
+Keywords:
+- androiddebugbridge
+- HomeAutomation
+Name: androiddebugbridge
+Overview: "Control AndroidTV/FireTV devices through ADB from the Home Assistant Core\
+  \ docker image.\r\n"
+Privileged: 'false'
+Registry: https://hub.docker.com/r/barnybbb/adb-hass-androidtv/
+Repository: barnybbb/adb-hass-androidtv
+Requires: ''
+Sources:
+- https://hub.docker.com/r/barnybbb/adb-hass-androidtv
+- https://hub.docker.com/r/barnybbb/adb-hass-androidtv/
+Tag: latest

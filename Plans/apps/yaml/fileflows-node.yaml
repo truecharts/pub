@@ -73,6 +73,7 @@ Config:
       Target: TZ
       Type: Variable
       value: ''
+ExtraParams: --restart unless-stopped
 Icon: https://raw.githubusercontent.com/revenz/FileFlows/master/icon.png?raw=true
 Keywords:
 - fileflows-node
@@ -80,11 +81,12 @@ Keywords:
 Name: fileflows-node
 Overview: Additinal processing node for FileFlows.  See http://fileflows.com for more
   information
+PostArgs: --node
 Privileged: 'false'
-Registry: https://hub.docker.com/r/revenz/fileflows-node/
-Repository: revenz/fileflows-node
+Registry: https://hub.docker.com/r/revenz/fileflows/
+Repository: revenz/fileflows
 Requires: ''
 Sources:
 - https://fileflows.com/
-- https://hub.docker.com/r/revenz/fileflows-node/
+- https://hub.docker.com/r/revenz/fileflows/
 Tag: latest

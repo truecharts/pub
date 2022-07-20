@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -12,7 +12,7 @@ dependencies:
 deprecated: false
 description: "Docker Container for Rustic Waters II Minecraft Modpack\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rustic-waters-ii
-icon: https://truecharts.org/_static/img/appicons/rustic-waters-ii.png
+icon: https://truecharts.org/img/chart-icons/rustic-waters-ii.png
 keywords:
 - rustic-waters-ii
 - GameServers

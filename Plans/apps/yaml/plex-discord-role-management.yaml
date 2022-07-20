@@ -229,7 +229,6 @@ Keywords:
 Name: plex-discord-role-management
 Overview: "A discord bot that synchronizes with Tautulli and Sonarr to deliver tailored\
   \ notifications.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/cyaondanet/plex_discord_role_management
 Repository: cyaondanet/plex_discord_role_management
@@ -238,4 +237,3 @@ Sources:
 - https://github.com/CyaOnDaNet/plex_discord_role_management
 - https://hub.docker.com/r/cyaondanet/plex_discord_role_management
 Tag: latest
-WebUI: ''

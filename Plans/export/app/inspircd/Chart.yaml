@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Network-Other
     - Productivity
@@ -15,7 +15,7 @@ deprecated: false
 description: "InspIRCd is a modular Internet Relay Chat (IRC) server written in C++\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/inspircd
-icon: https://truecharts.org/_static/img/appicons/inspircd.png
+icon: https://truecharts.org/img/chart-icons/inspircd.png
 keywords:
 - inspircd
 - Network-Other

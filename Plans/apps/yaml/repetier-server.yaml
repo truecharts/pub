@@ -20,7 +20,6 @@ Keywords:
 - Network-Web
 Name: repetier-server
 Overview: "Repetier server:\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/codeluxe1/repetier-server
 Repository: codeluxe1/repetier-server

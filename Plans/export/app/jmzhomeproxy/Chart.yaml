@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Cloud
     - Network-Web
@@ -15,7 +15,7 @@ description: "Proxy is in quotes because I couldn't think of a better name. Ther
   \ is nothing overly special about this other than using it as a simple and easy\
   \ to use dashboard for all your self-hosted services.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/jmzhomeproxy
-icon: https://truecharts.org/_static/img/appicons/jmzhomeproxy.png
+icon: https://truecharts.org/img/chart-icons/jmzhomeproxy.png
 keywords:
 - jmzhomeproxy
 - Cloud

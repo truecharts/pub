@@ -162,7 +162,6 @@ Keywords:
 - Tools-Utilities
 Name: emule
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/reimashi/emule
 Repository: reimashi/emule

@@ -180,7 +180,6 @@ Overview: "With this Docker you can run RedM (Red Dead Redemption 2 MOD SERVER) 
   \ from here: https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/\
   \ To run this container you must provide a valid Server Key (you can get them from\
   \ here: https://keymaster.fivem.net/) and your prefered Server Name.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/redmserver/
 Repository: ich777/redmserver

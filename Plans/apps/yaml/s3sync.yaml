@@ -93,7 +93,6 @@ Name: s3sync
 Overview: "This application backs up every folder mounted at `/data/` to a given AWS\
   \ S3 path using the `aws s3 sync` command. It requires a pair of (IAM) Access and\
   \ Secret Keys.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/repository/docker/whatname/docker-s3sync
 Repository: whatname/docker-s3sync
@@ -102,4 +101,3 @@ Sources:
 - https://github.com/what-name/docker-s3sync
 - https://hub.docker.com/repository/docker/whatname/docker-s3sync
 Tag: latest
-WebUI: ''

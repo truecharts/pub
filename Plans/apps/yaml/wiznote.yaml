@@ -58,7 +58,6 @@ Name: wiznote
 Official: true
 Overview: "WizNote is a cloud service that you could use to save your notes or share\
   \ documents with your colleagues.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/wiznote/wizserver
 Repository: wiznote/wizserver

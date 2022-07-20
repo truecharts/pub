@@ -83,6 +83,18 @@ Config:
       Target: CAVES
       Type: Variable
       value: 'true'
+    force64bitmode:
+      Default: ''
+      Description: Set to true if you want to run the game in 64bit mode or leave
+        empty to run it in 32bit mode.
+      Display: advanced
+      Mask: 'false'
+      Mode: ''
+      Name: Force 64bit mode
+      Required: 'true'
+      Target: FORCE_X64
+      Type: Variable
+      value: 'true'
     game_id:
       Default: ''
       Description: "The GAME_ID that the container download at startup.\r\n(https://developer.valvesoftware.com/wiki/Dedicated_Servers_List)"
@@ -110,7 +122,7 @@ Config:
       Description: 'Your Steam password goes here if you want to install a game that
         needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
         Steam Guard).'
-      Display: always-hide
+      Display: advanced-hide
       Mask: 'true'
       Mode: ''
       Name: Steam-Password
@@ -123,7 +135,7 @@ Config:
       Description: 'Your Steam username goes here if you want to install a game that
         needs a valid account, otherwise leave it blank (ATTENTION: You have to disable
         Steam Guard).'
-      Display: always-hide
+      Display: advanced-hide
       Mask: 'false'
       Mode: ''
       Name: Steam-Username
@@ -162,7 +174,6 @@ Keywords:
 Name: dontstarvetogether
 Overview: "This Docker will download and install SteamCMD. It will also install Don't\
   \ Starve Together and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/steamcmd/
 Repository: ich777/steamcmd
@@ -171,5 +182,4 @@ Sources:
 - https://www.klei.com/games/dont-starve-together
 - https://hub.docker.com/r/ich777/steamcmd/
 Tag: dontstarve
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/DontStarveTogether.xml

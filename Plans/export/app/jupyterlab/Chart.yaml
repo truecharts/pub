@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: "JupyterLab is a web-based interactive development environment for Jupyter\
   \ notebooks, code, and data. \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/jupyterlab
-icon: https://truecharts.org/_static/img/appicons/jupyterlab.png
+icon: https://truecharts.org/img/chart-icons/jupyterlab.png
 keywords:
 - jupyterlab
 - Productivity

@@ -48,7 +48,6 @@ Official: true
 Overview: 'Rest Server is a high performance HTTP server that implements restic''s
   REST backend API. It provides secure and efficient way to backup data remotely,
   using restic backup client via the rest: URL.'
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/restic/rest-server
 Repository: restic/rest-server
@@ -57,4 +56,3 @@ Sources:
 - https://github.com/restic/rest-server
 - https://hub.docker.com/r/restic/rest-server
 Tag: latest
-WebUI: ''

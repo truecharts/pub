@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Crypto
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: Simple container for displaying stats from any PhoenixMiner instance.
   Made to go with PhoenixMiner-AMD.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/phoenixstats
-icon: https://truecharts.org/_static/img/appicons/phoenixstats.png
+icon: https://truecharts.org/img/chart-icons/phoenixstats.png
 keywords:
 - phoenixstats
 - Crypto

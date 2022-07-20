@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - MediaServer-Video
     - MediaServer-Music
@@ -17,7 +17,7 @@ description: "Universal Media Server is a DLNA-compliant UPnP Media Server. It i
   \ originally based on PS3 Media Server by shagrath, in order to ensure greater stability\
   \ and file-compatibility.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/universal-media-server
-icon: https://truecharts.org/_static/img/appicons/universal-media-server.png
+icon: https://truecharts.org/img/chart-icons/universal-media-server.png
 keywords:
 - universal-media-server
 - MediaServer-Video

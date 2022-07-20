@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
   truecharts.org/grade: U
@@ -15,7 +15,7 @@ description: Shoko server is the core component of the Shoko suite and with it's
   to your entire collection locally and over the internet with no additional work
   outside the initial configuration required.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/shoko-server
-icon: https://truecharts.org/_static/img/appicons/shoko-server.png
+icon: https://truecharts.org/img/chart-icons/shoko-server.png
 keywords:
 - shoko-server
 - Tools-Utilities

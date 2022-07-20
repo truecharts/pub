@@ -1,4 +1,5 @@
 CategoryList:
+- HomeAutomation
 - Tools-Utilities
 - Other
 Config:
@@ -22,7 +23,7 @@ Config:
     discordwebhookurl:
       Default: ''
       Description: The url of your Discord webhook, retrieve it from your server webhook
-        settings.
+        settings. A comma seperated list of urls is also possible.
       Display: always
       Mask: 'false'
       Mode: ''
@@ -57,8 +58,8 @@ Config:
       value: ''
     updatedlibraries:
       Default: ''
-      Description: List of libraries that will be checked, if this is empty all libraries
-        will be checked.
+      Description: List of libraries that will be checked for new media, if this is
+        empty it checks all libraries.
       Display: always
       Mask: 'false'
       Mode: ''
@@ -70,13 +71,13 @@ Config:
 Icon: https://raw.githubusercontent.com/tenasi/unraid-templates/main/plexannouncer/icon.png
 Keywords:
 - plexannouncer
+- HomeAutomation
 - Tools-Utilities
 - Other
 Name: plexannouncer
 Overview: A Discord bot that sends updates about your plex media to a Discord channel
   using webhooks. Please see the support thread for more details on how to set it
   up and configure Discord and Plex.
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/tenasi/plexannouncer
 Repository: tenasi/plexannouncer
@@ -85,4 +86,3 @@ Sources:
 - https://github.com/tenasi/plexannouncer
 - https://hub.docker.com/r/tenasi/plexannouncer
 Tag: latest
-WebUI: ''

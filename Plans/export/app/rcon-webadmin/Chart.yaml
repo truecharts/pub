@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
     - Tools-Utilities
@@ -14,7 +14,7 @@ deprecated: false
 description: "Out of the box, RCON Web Admin can check users for high ping, VAC status,\
   \ or filter the chat for you around the clock.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rcon-webadmin
-icon: https://truecharts.org/_static/img/appicons/rcon-webadmin.png
+icon: https://truecharts.org/img/chart-icons/rcon-webadmin.png
 keywords:
 - rcon-webadmin
 - GameServers

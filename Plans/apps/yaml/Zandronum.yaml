@@ -72,7 +72,6 @@ Keywords:
 - GameServers
 Name: zandronum
 Overview: "This Docker will download and install Zandronum Server and run it.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/zandronum
 Repository: ich777/zandronum
@@ -81,5 +80,4 @@ Sources:
 - https://www.steampowered.com/
 - https://hub.docker.com/r/ich777/zandronum
 Tag: latest
-WebUI: ''
 caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/Zandronum.xml

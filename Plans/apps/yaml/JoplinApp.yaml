@@ -79,7 +79,6 @@ Keywords:
 Name: joplinapp
 Overview: "This container allows you to have a working Joplin desktop app, reachable\
   \ via a http noVNC that can be placed behind a reverse proxy.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/acaranta/docker-joplin/
 Repository: acaranta/docker-joplin

@@ -170,7 +170,6 @@ Name: flarum
 Overview: 'Flarum is the next-generation forum software that makes online discussion
   fun. It''s simple, fast, and free. [br][br][b][u][span style=''color: #ff9900;'']Default
   user/password[/span][/u][/b][br]User: [B][u]flarum[/B][/u][br]Password: [B][u]flarum[/B][/u][/b]'
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/crazymax/flarum/
 Repository: crazymax/flarum

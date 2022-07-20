@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: 'KDE In Docker + VNC + noVNC Web UI
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/kdeindocker
-icon: https://truecharts.org/_static/img/appicons/kdeindocker.png
+icon: https://truecharts.org/img/chart-icons/kdeindocker.png
 keywords:
 - kdeindocker
 - Tools-Utilities

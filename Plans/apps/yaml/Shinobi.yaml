@@ -90,7 +90,6 @@ Keywords:
 Name: shinobi
 Overview: Shinobi Pro - The Next Generation in Open-Source Video Management Software
   with support for over 6000 IP and USB Cameras
-PostArgs: ''
 Privileged: 'false'
 Registry: https://registry.hub.docker.com/r/ivaxor/shinobi
 Repository: ivaxor/shinobi

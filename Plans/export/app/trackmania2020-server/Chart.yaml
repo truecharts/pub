@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - GameServers
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: "This will run a TrackMania 2020 server. You can also install the EvoSC\
   \ to get an admin interface in the game.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/trackmania2020-server
-icon: https://truecharts.org/_static/img/appicons/trackmania2020-server.png
+icon: https://truecharts.org/img/chart-icons/trackmania2020-server.png
 keywords:
 - trackmania2020-server
 - GameServers

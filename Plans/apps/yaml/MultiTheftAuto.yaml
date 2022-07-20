@@ -139,7 +139,6 @@ Keywords:
 Name: multitheftauto
 Overview: "This Docker will download and install Multi Theft Auto SERVERNAME: Docker\
   \ MTA Server SERVERPASSWORD: Docker.\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/mtaserver/
 Repository: ich777/mtaserver

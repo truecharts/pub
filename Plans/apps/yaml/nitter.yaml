@@ -35,7 +35,6 @@ Keywords:
 - Network-Web
 Name: nitter
 Overview: "Alternative Twitter front-end\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/zedeus/nitter/
 Repository: zedeus/nitter

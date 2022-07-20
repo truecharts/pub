@@ -117,7 +117,6 @@ Keywords:
 - Tools-Utilities
 Name: rclone-browser
 Overview: "DESCRIPTION\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/romancin/rclonebrowser
 Repository: romancin/rclonebrowser

@@ -80,7 +80,6 @@ Name: zcashwalletgui
 Overview: 'You need to run ZcashSwingWallet on the desktop to open the wallet&#xD;
 
   '
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ulisses1478/zcashwallet
 Repository: ulisses1478/zcashwallet

@@ -36,7 +36,6 @@ Keywords:
 - Tools-Utilities
 Name: cloudbeaver
 Overview: "Cloud Database Manager (Official Docker Image)\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/dbeaver/cloudbeaver/
 Repository: dbeaver/cloudbeaver

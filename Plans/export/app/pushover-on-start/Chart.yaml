@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Tools-Utilities
   truecharts.org/grade: U
@@ -14,7 +14,7 @@ description: This is a simple container that sends a message when the container 
   started (needed this for a headless machine to know when I can connect or better
   speaking start up the VM's with WOL).
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pushover-on-start
-icon: https://truecharts.org/_static/img/appicons/pushover-on-start.png
+icon: https://truecharts.org/img/chart-icons/pushover-on-start.png
 keywords:
 - pushover-on-start
 - Tools-Utilities

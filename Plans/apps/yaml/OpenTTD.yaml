@@ -120,7 +120,6 @@ Overview: "This Docker will download and install the version of OpenTTD that you
   \ in the variable 'GAME_VERSION' (if you define 'latest' it will always pull the\
   \ latest build, if you define 'testing' it will always pull down the latest testing\
   \ build).\r\n"
-PostArgs: ''
 Privileged: 'false'
 Registry: https://hub.docker.com/r/ich777/openttdserver
 Repository: ich777/openttdserver

@@ -1,5 +1,5 @@
 annotations:
-  truecharts.org/SCALE-support: 'true'
+  truecharts.org/SCALE-support: 'false'
   truecharts.org/catagories: |
     - Productivity
   truecharts.org/grade: U
@@ -13,7 +13,7 @@ deprecated: false
 description: Additinal processing node for FileFlows.  See http://fileflows.com for
   more information
 home: https://github.com/truecharts/apps/tree/master/charts/stable/fileflows-node
-icon: https://truecharts.org/_static/img/appicons/fileflows-node.png
+icon: https://truecharts.org/img/chart-icons/fileflows-node.png
 keywords:
 - fileflows-node
 - Productivity
@@ -25,6 +25,6 @@ maintainers:
 name: fileflows-node
 sources:
 - https://fileflows.com/
-- https://hub.docker.com/r/revenz/fileflows-node/
+- https://hub.docker.com/r/revenz/fileflows/
 type: application
 version: 0.0.1
