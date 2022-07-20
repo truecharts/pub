@@ -669,15 +669,26 @@ for name, app in combinedfree.items():
   if  "main" not in  appvaluesyaml["service"].keys() or not appvaluesyaml["service"]["main" ]:
     raise Exception("App does not have a main port set: "+app["Name"] )
 
-  if not appvaluesyaml["service"]["main"]["enabled"]:
-    print("NONEE")
-    #appvaluesyaml["probes"] = {}
-    #appvaluesyaml["probes"]["liveness"] = {}
-    #appvaluesyaml["probes"]["readiness"] = {}
-    #appvaluesyaml["probes"]["startup"] = {}
-    #appvaluesyaml["probes"]["liveness"]["enabled"] = False
-    #appvaluesyaml["probes"]["readiness"]["enabled"] = False
-    #appvaluesyaml["probes"]["startup"]["enabled"] = False
+  if appvaluesyaml["service"]["main"]["enabled"] is False:
+    appvaluesyaml["probes"] = {}
+    appvaluesyaml["probes"]["liveness"] = {}
+    appvaluesyaml["probes"]["readiness"] = {}
+    appvaluesyaml["probes"]["startup"] = {}
+    appvaluesyaml["probes"]["liveness"]["enabled"] = False
+    appvaluesyaml["probes"]["readiness"]["enabled"] = False
+    appvaluesyaml["probes"]["startup"]["enabled"] = False
+  elif "protocol" in  appvaluesyaml["service"]["main"]["ports"]["main"].keys() and appvaluesyaml["service"]["main"]["ports"]["main"]["protocol"] == "UDP":
+    appvaluesyaml["probes"] = {}
+    appvaluesyaml["probes"]["liveness"] = {}
+    appvaluesyaml["probes"]["readiness"] = {}
+    appvaluesyaml["probes"]["startup"] = {}
+    appvaluesyaml["probes"]["liveness"]["enabled"] = False
+    appvaluesyaml["probes"]["readiness"]["enabled"] = False
+    appvaluesyaml["probes"]["startup"]["enabled"] = False
+  else:
+    print("Keeping Probe enabled...")
+    appvaluesyaml.pop("probes", "")
+
 
   appvaluesyamlString = yaml.dump(appvaluesyaml)
   appvaluesyamlFile = open("./export/"+"app/"+tmpname+"/values.yaml", "w")
