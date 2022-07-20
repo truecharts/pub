@@ -12,11 +12,11 @@ annotations:
     - MediaServer-Other
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Seafile is an open source enterprise file sync and share platform with
   high reliability and performance. Seafile provides similar feature set to Dropbox,
@@ -48,4 +48,4 @@ sources:
 - https://www.seafile.com
 - https://hub.docker.com/r/seafileltd/seafile
 type: application
-version: 0.0.1
+version: 0.0.10

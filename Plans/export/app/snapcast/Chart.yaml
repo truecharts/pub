@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "use this Audio option in  mopidy.conf in mopidy docker to use Snapcast:\r\
   \n"
@@ -26,4 +26,4 @@ sources:
 - https://hub.docker.com/r/kevineye/snapcast
 - https://hub.docker.com/r/kevineye/snapcast
 type: application
-version: 0.0.1
+version: 0.0.10

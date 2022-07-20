@@ -22,10 +22,10 @@ service:
         port: 10090
         protocol: HTTP
         targetPort: 10090
-  tcp-port-0:
+  tcpport0:
     enabled: true
     ports:
-      tcp-port-0:
+      tcpport0:
         enabled: true
         port: 8090
         protocol: TCP

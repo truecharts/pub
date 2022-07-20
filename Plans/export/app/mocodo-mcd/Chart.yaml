@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Productivity
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Mocodo est un logiciel d'aide \xE0 l'enseignement et \xE0 la conception\
   \ des bases de donn\xE9es relationnelles.\r\n"
@@ -26,4 +26,4 @@ sources:
 - https://rawgit.com/laowantong/mocodo/master/doc/fr_refman.html#utiliser_mocodo_en_ligne_de_commande
 - https://hub.docker.com/r/olprog/mocodo
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -170,15 +170,15 @@ questions:
                                     type: int
                                     default: 19132
 
-        - variable: udp-port-1
-          label: 'udp-port-1 service'
+        - variable: udpport1
+          label: 'udpport1 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: udp-port-1
-                      label: "udp-port-1 Service Port Configuration"
+                    - variable: udpport1
+                      label: "udpport1 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -229,15 +229,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 19132
-        - variable: tcp-port-2
-          label: 'tcp-port-2 service'
+        - variable: tcpport2
+          label: 'tcpport2 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-2
-                      label: "tcp-port-2 Service Port Configuration"
+                    - variable: tcpport2
+                      label: "tcpport2 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -288,15 +288,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 19133
-        - variable: udp-port-3
-          label: 'udp-port-3 service'
+        - variable: udpport3
+          label: 'udpport3 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: udp-port-3
-                      label: "udp-port-3 Service Port Configuration"
+                    - variable: udpport3
+                      label: "udpport3 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

@@ -25,10 +25,10 @@ service:
         port: 25565
         protocol: TCP
         targetPort: 25565
-  udp-gameport:
+  udpgameport:
     enabled: true
     ports:
-      udp-gameport:
+      udpgameport:
         enabled: true
         port: 25565
         protocol: UDP

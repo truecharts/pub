@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: This program runs a speedtest check every hour and graphs the results.
   The back-end is written in Laravel and the front-end uses React. It uses the speedtest-cli
@@ -27,4 +27,4 @@ sources:
 - https://hub.docker.com/r/henrywhitaker3/speedtest-tracker
 - https://hub.docker.com/r/henrywhitaker3/speedtest-tracker/
 type: application
-version: 0.0.1
+version: 0.0.10

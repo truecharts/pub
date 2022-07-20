@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - MediaApp-Photos
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Damselfly is a server-based Digital Asset Management system.  The goal
   of Damselfly is to index an extremely large collection of images, and allow easy
@@ -28,4 +28,4 @@ sources:
 - https://github.com/Webreaper/Damselfly
 - https://hub.docker.com/r/webreaper/damselfly/
 type: application
-version: 0.0.1
+version: 0.0.10

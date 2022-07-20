@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: A Docker container designed to watch a directory and encode media files.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ffmpeg-mkvdts2ac3
@@ -26,4 +26,4 @@ name: ffmpeg-mkvdts2ac3
 sources:
 - https://registry.hub.docker.com/r/snoopy86/ffmpeg/
 type: application
-version: 0.0.1
+version: 0.0.10

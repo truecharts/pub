@@ -5,11 +5,11 @@ annotations:
     - Network-Management
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "This tool will continuosly run Speedtests at the chosen interval and\
   \ export the data to InfluxDB. &lt;br&gt;\r\n"
@@ -30,4 +30,4 @@ sources:
 - https://github.com/breadlysm/speedtest-to-influxdb
 - https://github.com/users/breadlysm/packages/container/package/speedflux
 type: application
-version: 0.0.1
+version: 0.0.10

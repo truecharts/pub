@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Downloaders
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: MovieGrabber is a fully automated way of downloading movie from usenet,
   it supports any nzb client that has a "watched" or "monitor" folder facility such
@@ -31,4 +31,4 @@ sources:
 - https://registry.hub.docker.com/r/binhex/arch-moviegrabber/
 - https://github.com/binhex/documentation
 type: application
-version: 0.0.1
+version: 0.0.10

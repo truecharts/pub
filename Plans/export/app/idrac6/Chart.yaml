@@ -4,11 +4,11 @@ annotations:
     - Tools-Utilities
     - Network-Management
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Allows access to the iDRAC 6 console without installing Java or messing
   with Java Web Start. Java is only run inside of the container and access is provided
@@ -29,4 +29,4 @@ sources:
 - https://github.com/DomiStyle/docker-idrac6/
 - https://hub.docker.com/r/domistyle/idrac6/
 type: application
-version: 0.0.1
+version: 0.0.10

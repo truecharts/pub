@@ -180,16 +180,16 @@ questions:
                                     type: int
                                     default: 21025
 
-        - variable: udp-gameport
-          label: 'udp-gameport service'
+        - variable: udpgameport
+          label: 'udpgameport service'
           description: "Container Port 21025"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: udp-gameport
-                      label: "udp-gameport Service Port Configuration"
+                    - variable: udpgameport
+                      label: "udpgameport Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -240,16 +240,16 @@ questions:
                                   schema:
                                     type: int
                                     default: 21025
-        - variable: tcp-rconport
-          label: 'tcp-rconport service'
+        - variable: tcprconport
+          label: 'tcprconport service'
           description: "Only if needed, else delete this entry"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-rconport
-                      label: "tcp-rconport Service Port Configuration"
+                    - variable: tcprconport
+                      label: "tcprconport Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

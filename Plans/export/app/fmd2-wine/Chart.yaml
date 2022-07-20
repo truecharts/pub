@@ -4,11 +4,11 @@ annotations:
     - Downloaders
     - MediaApp-Books
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "**FMD2:** This is an active fork of the Free Manga Downloader which\
   \ is a free open source application written in Object Pascal for managing and downloading\
@@ -29,4 +29,4 @@ sources:
 - https://github.com/Banh-Canh/docker-FMD2
 - https://hub.docker.com/r/banhcanh/docker-fmd2/
 type: application
-version: 0.0.1
+version: 0.0.10

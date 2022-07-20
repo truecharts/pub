@@ -9,7 +9,7 @@ Config:
       Name: unraid
       Target: /home/ubuntu/unraid
   Port:
-    tcp-port-0:
+    tcpport0:
       ContainerPort: '3389'
       HostPort: '3389'
       Mode: tcp
@@ -17,7 +17,7 @@ Config:
       Protocol: tcp
       Target: 3389
       value: 3389
-    tcp-port-1:
+    tcpport1:
       ContainerPort: '6080'
       HostPort: '6080'
       Mode: tcp
@@ -25,7 +25,7 @@ Config:
       Protocol: tcp
       Target: 6080
       value: 6080
-    tcp-port-2:
+    tcpport2:
       ContainerPort: '5900'
       HostPort: '5900'
       Mode: tcp

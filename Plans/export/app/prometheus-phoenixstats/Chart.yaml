@@ -5,11 +5,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Simple container for displaying stats from any PhoenixMiner instance.
   Made to go with PhoenixMiner-AMD.
@@ -30,4 +30,4 @@ sources:
 - https://github.com/corgan2222/Prometheus-phoenixstats-Exporter
 - https://hub.docker.com/r/stefanknaak/prometheus-phoenixstats
 type: application
-version: 0.0.1
+version: 0.0.10

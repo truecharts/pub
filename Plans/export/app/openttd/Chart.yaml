@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "This Docker will download and install the version of OpenTTD that you\
   \ enter in the variable 'GAME_VERSION' (if you define 'latest' it will always pull\
@@ -28,4 +28,4 @@ sources:
 - https://www.openttd.org/
 - https://hub.docker.com/r/ich777/openttdserver
 type: application
-version: 0.0.1
+version: 0.0.10

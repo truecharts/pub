@@ -6,11 +6,11 @@ annotations:
     - Network-Management
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "DESCRIPTION\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/monitoror
@@ -31,4 +31,4 @@ sources:
 - https://github.com/monitoror/monitoror
 - https://hub.docker.com/r/monitoror/monitoror
 type: application
-version: 0.0.1
+version: 0.0.10

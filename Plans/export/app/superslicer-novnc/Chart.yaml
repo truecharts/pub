@@ -4,11 +4,11 @@ annotations:
     - HomeAutomation
     - Productivity
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Enjoy Superslicer directly in your browser with this easy to use Docker\
   \ container.\r\n"
@@ -28,4 +28,4 @@ sources:
 - https://github.com/supermerill/SuperSlicer
 - https://hub.docker.com/r/mikeah/superslicer-novnc
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -20,7 +20,7 @@ Config:
       Protocol: tcp
       Target: 3000
       value: 8930
-    tcp-port-0:
+    tcpport0:
       ContainerPort: '22'
       HostPort: '8922'
       Mode: tcp

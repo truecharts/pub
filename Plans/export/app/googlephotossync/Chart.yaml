@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Google Photos Sync downloads your Google Photos to the local file system.\
   \ It will backup all the photos the user uploaded to Google Photos, but also the\
@@ -27,4 +27,4 @@ name: googlephotossync
 sources:
 - https://hub.docker.com/r/rix1337/docker-gphotos-sync
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -32,10 +32,10 @@ service:
         port: 3001
         protocol: HTTP
         targetPort: 3001
-  udp-gameport:
+  udpgameport:
     enabled: true
     ports:
-      udp-gameport:
+      udpgameport:
         enabled: true
         port: 3000
         protocol: UDP

@@ -4,11 +4,11 @@ annotations:
     - Tools-Utilities
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "SWAG - Secure Web Application Gateway (formerly known as letsencrypt,\
   \ no relation to Let's Encrypt\u2122) sets up an Nginx webserver and reverse proxy\
@@ -32,4 +32,4 @@ sources:
 - https://github.com/orgs/linuxserver/packages/container/package/swag
 - https://github.com/linuxserver/docker-swag#readme
 type: application
-version: 0.0.1
+version: 0.0.10

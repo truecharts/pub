@@ -30,10 +30,10 @@ service:
         port: 28960
         protocol: TCP
         targetPort: 28960
-  udp-gameport:
+  udpgameport:
     enabled: true
     ports:
-      udp-gameport:
+      udpgameport:
         enabled: true
         port: 28960
         protocol: UDP

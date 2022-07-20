@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Productivity
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Unraid compatible Jupyter Notebook (Python kernel) container with CPU-ready\
   \ Tensorflow, OpenCV, Pandas, PyTorch -- based on datamachines/tensorflow_opencv\r\
@@ -27,4 +27,4 @@ sources:
 - https://github.com/datamachines/cuda_tensorflow_opencv
 - https://hub.docker.com/r/datamachines/jupyter_to-unraid/
 type: application
-version: 0.0.1
+version: 0.0.10

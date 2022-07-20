@@ -185,16 +185,16 @@ questions:
                                     type: int
                                     default: 8080
 
-        - variable: udp-gameport
-          label: 'udp-gameport service'
+        - variable: udpgameport
+          label: 'udpgameport service'
           description: "Game Port (If you want to change the game port please click on more settings here in the template, change the port, then delete this entry and create a new one with the corresponding port number and UDP only!)."
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: udp-gameport
-                      label: "udp-gameport Service Port Configuration"
+                    - variable: udpgameport
+                      label: "udpgameport Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

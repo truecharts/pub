@@ -19,7 +19,7 @@ Config:
       Protocol: tcp
       Target: 4040
       value: 4040
-    tcp-port-1:
+    tcpport1:
       ContainerPort: '22'
       HostPort: '222'
       Mode: tcp
@@ -27,7 +27,7 @@ Config:
       Protocol: tcp
       Target: 22
       value: 222
-    tcp-port-10:
+    tcpport10:
       ContainerPort: '563'
       HostPort: '563'
       Mode: tcp
@@ -35,7 +35,7 @@ Config:
       Protocol: tcp
       Target: 563
       value: 563
-    tcp-port-11:
+    tcpport11:
       ContainerPort: '389'
       HostPort: '389'
       Mode: tcp
@@ -43,7 +43,7 @@ Config:
       Protocol: tcp
       Target: 389
       value: 389
-    tcp-port-12:
+    tcpport12:
       ContainerPort: '636'
       HostPort: '636'
       Mode: tcp
@@ -51,7 +51,7 @@ Config:
       Protocol: tcp
       Target: 636
       value: 636
-    tcp-port-13:
+    tcpport13:
       ContainerPort: '80'
       HostPort: '8001'
       Mode: tcp
@@ -59,7 +59,7 @@ Config:
       Protocol: tcp
       Target: 80
       value: 8001
-    tcp-port-14:
+    tcpport14:
       ContainerPort: '443'
       HostPort: '4443'
       Mode: tcp
@@ -67,7 +67,7 @@ Config:
       Protocol: tcp
       Target: 443
       value: 4443
-    tcp-port-15:
+    tcpport15:
       ContainerPort: '5222'
       HostPort: '5222'
       Mode: tcp
@@ -75,7 +75,7 @@ Config:
       Protocol: tcp
       Target: 5222
       value: 5222
-    tcp-port-16:
+    tcpport16:
       ContainerPort: '5223'
       HostPort: '5223'
       Mode: tcp
@@ -83,7 +83,7 @@ Config:
       Protocol: tcp
       Target: 5223
       value: 5223
-    tcp-port-2:
+    tcpport2:
       ContainerPort: '25'
       HostPort: '25'
       Mode: tcp
@@ -91,7 +91,7 @@ Config:
       Protocol: tcp
       Target: 25
       value: 25
-    tcp-port-3:
+    tcpport3:
       ContainerPort: '465'
       HostPort: '465'
       Mode: tcp
@@ -99,7 +99,7 @@ Config:
       Protocol: tcp
       Target: 465
       value: 465
-    tcp-port-4:
+    tcpport4:
       ContainerPort: '587'
       HostPort: '587'
       Mode: tcp
@@ -107,7 +107,7 @@ Config:
       Protocol: tcp
       Target: 587
       value: 587
-    tcp-port-5:
+    tcpport5:
       ContainerPort: '110'
       HostPort: '110'
       Mode: tcp
@@ -115,7 +115,7 @@ Config:
       Protocol: tcp
       Target: 110
       value: 110
-    tcp-port-6:
+    tcpport6:
       ContainerPort: '995'
       HostPort: '995'
       Mode: tcp
@@ -123,7 +123,7 @@ Config:
       Protocol: tcp
       Target: 995
       value: 995
-    tcp-port-7:
+    tcpport7:
       ContainerPort: '143'
       HostPort: '143'
       Mode: tcp
@@ -131,7 +131,7 @@ Config:
       Protocol: tcp
       Target: 143
       value: 143
-    tcp-port-8:
+    tcpport8:
       ContainerPort: '993'
       HostPort: '993'
       Mode: tcp
@@ -139,7 +139,7 @@ Config:
       Protocol: tcp
       Target: 993
       value: 993
-    tcp-port-9:
+    tcpport9:
       ContainerPort: '119'
       HostPort: '119'
       Mode: tcp

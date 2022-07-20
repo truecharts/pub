@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "This Docker will download and install a simple Teeworlds Dedicated server\
   \ with a autoexec.cfg, dm.cfg, tdm.cfg &amp; ctf.cfg preconfigured (the only thing\
@@ -28,4 +28,4 @@ sources:
 - https://www.teeworlds.com/
 - https://hub.docker.com/r/ich777/teeworldsserver/
 type: application
-version: 0.0.1
+version: 0.0.10

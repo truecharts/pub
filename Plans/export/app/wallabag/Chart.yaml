@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Productivity
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'Wallabag is a self hostable application for saving web pages. Unlike
   other services, wallabag is free (as in freedom) and open source. [br][br][b][u][span
@@ -28,4 +28,4 @@ sources:
 - https://www.wallabag.org
 - https://hub.docker.com/r/wallabag/wallabag/
 type: application
-version: 0.0.1
+version: 0.0.10

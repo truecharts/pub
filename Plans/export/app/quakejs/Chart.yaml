@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'QuakeJS is a port of ioquake3 to JavaScript with the help of Emscripten.[br]IMPORTANT
   Use Custom:br0 https://youtu.be/2VnQxxn00jU?t=121 put Fixed IP address, then copy
@@ -28,4 +28,4 @@ sources:
 - https://github.com/treyyoder/quakejs-docker
 - https://hub.docker.com/r/treyyoder/quakejs/
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -4,11 +4,11 @@ annotations:
     - Cloud
     - Crypto
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "ScPrime is a cryptocurrency project targeting public cloud services\
   \ with a blockchain based ecosystem to pay individuals to store data around the\
@@ -30,4 +30,4 @@ sources:
 - https://scpri.me
 - https://hub.docker.com/r/scprime/scprime
 type: application
-version: 0.0.1
+version: 0.0.10

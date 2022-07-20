@@ -198,16 +198,16 @@ questions:
                                     type: int
                                     default: 8000
 
-        - variable: json-rpc
-          label: 'json-rpc service'
+        - variable: jsonrpc
+          label: 'jsonrpc service'
           description: "JSON-RPC admin server."
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: json-rpc
-                      label: "json-rpc Service Port Configuration"
+                    - variable: jsonrpc
+                      label: "jsonrpc Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

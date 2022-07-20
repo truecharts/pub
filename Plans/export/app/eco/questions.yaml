@@ -192,16 +192,16 @@ questions:
                                     type: int
                                     default: 3001
 
-        - variable: udp-gameport
-          label: 'udp-gameport service'
+        - variable: udpgameport
+          label: 'udpgameport service'
           description: "UDP Game Port"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: udp-gameport
-                      label: "udp-gameport Service Port Configuration"
+                    - variable: udpgameport
+                      label: "udpgameport Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

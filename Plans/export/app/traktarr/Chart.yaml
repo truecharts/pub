@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Script to add new series and movies to Sonarr/Radarr based on Trakt\
   \ lists. [br][br]      \r\n"
@@ -26,4 +26,4 @@ sources:
 - https://github.com/l3uddz/traktarr
 - https://hub.docker.com/r/eafxx/traktarr
 type: application
-version: 0.0.1
+version: 0.0.10

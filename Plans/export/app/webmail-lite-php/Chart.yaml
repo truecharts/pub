@@ -5,11 +5,11 @@ annotations:
     - Productivity
     - Network-Management
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "DESCRIPTION\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/webmail-lite-php
@@ -29,4 +29,4 @@ sources:
 - https://github.com/afterlogic/webmail-lite
 - https://hub.docker.com/r/afterlogic/docker-webmail-lite
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -32,10 +32,10 @@ service:
         port: 20545
         protocol: TCP
         targetPort: 20545
-  udp-lanbeacon:
+  udplanbeacon:
     enabled: true
     ports:
-      udp-lanbeacon:
+      udplanbeacon:
         enabled: true
         port: 8192
         protocol: UDP

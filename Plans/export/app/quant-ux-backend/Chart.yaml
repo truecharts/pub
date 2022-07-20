@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Quant UX is a research, usability and prototyping tool to quickly test\
   \ your designs and get data driven insights. \r\n"
@@ -28,4 +28,4 @@ sources:
 - https://github.com/KlausSchaefers/quant-ux
 - https://hub.docker.com/r/bmcgonag/qux-be
 type: application
-version: 0.0.1
+version: 0.0.10

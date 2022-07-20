@@ -4,11 +4,11 @@ annotations:
     - Tools-Utilities
     - MediaApp-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Cette app permet de synchroniser le contenu de votre bibliotheque plex\
   \ (pas de plexpass obligatoire) avec le site trakt.tv .\r\n"
@@ -28,4 +28,4 @@ sources:
 - https://github.com/Taxel/PlexTraktSync
 - https://ghcr.io/taxel/plextraktsync
 type: application
-version: 0.0.1
+version: 0.0.10

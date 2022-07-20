@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: P3R LEMP Stack is an All-In-One container built on Debian with NGINX,
   MariaDB, and PHP7.3 all pre-loaded.
@@ -26,4 +26,4 @@ sources:
 - https://github.com/P3R-CO/lemp-container
 - https://hub.docker.com/r/p3rco/lemp
 type: application
-version: 0.0.1
+version: 0.0.10

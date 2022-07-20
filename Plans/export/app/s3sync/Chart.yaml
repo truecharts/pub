@@ -4,11 +4,11 @@ annotations:
     - Backup
     - Cloud
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "This application backs up every folder mounted at `/data/` to a given\
   \ AWS S3 path using the `aws s3 sync` command. It requires a pair of (IAM) Access\
@@ -29,4 +29,4 @@ sources:
 - https://github.com/what-name/docker-s3sync
 - https://hub.docker.com/repository/docker/whatname/docker-s3sync
 type: application
-version: 0.0.1
+version: 0.0.10

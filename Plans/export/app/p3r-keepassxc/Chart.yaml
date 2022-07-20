@@ -4,11 +4,11 @@ annotations:
     - Security
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "KeePassXC in a container.  Keep your passwords safe!\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/p3r-keepassxc
@@ -27,4 +27,4 @@ sources:
 - https://github.com/P3R-CO/keepassxc-container
 - https://hub.docker.com/repository/docker/p3rco/keepassxc
 type: application
-version: 0.0.1
+version: 0.0.10

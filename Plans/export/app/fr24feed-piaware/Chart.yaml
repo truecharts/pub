@@ -4,11 +4,11 @@ annotations:
     - Network-Web
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "All-in-one image for feeding FlightRadar24/FlightAware ADS-B/MLAT data\
   \ with an RTL-SDR device and local web server for displaying aircraft positions\
@@ -29,4 +29,4 @@ sources:
 - https://github.com/Thom-x/docker-fr24feed-piaware-dump1090-mutability
 - https://hub.docker.com/r/thomx/fr24feed-piaware/
 type: application
-version: 0.0.1
+version: 0.0.10

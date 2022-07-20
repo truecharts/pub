@@ -18,7 +18,7 @@ Config:
       Protocol: ''
       Target: 5800
       value: 5800
-    tcp-port-1:
+    tcpport1:
       ContainerPort: '5801'
       HostPort: '5801'
       Mode: tcp

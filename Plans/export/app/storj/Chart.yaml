@@ -6,11 +6,11 @@ annotations:
     - Other
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "STORJ DAEMON Docker - using Storj public automated build. This template,\
   \ nor author, are affiliated with storj.io. \r\n"
@@ -32,4 +32,4 @@ sources:
 - https://storj.io
 - https://hub.docker.com/r/oreandawe/storjshare-cli/
 type: application
-version: 0.0.1
+version: 0.0.10

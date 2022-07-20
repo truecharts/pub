@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'PS3netsrv is a program that allows Multiman or Webman to play game backups
   that are stored on your unRAID server. [span style=''color: #E80000;'']THIS IS IN
@@ -29,4 +29,4 @@ sources:
 - https://github.com/aldostools/webMAN-MOD/tree/master/_Projects_/ps3netsrv
 - https://hub.docker.com/r/shawly/ps3netsrv
 type: application
-version: 0.0.1
+version: 0.0.10

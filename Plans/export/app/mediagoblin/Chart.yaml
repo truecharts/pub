@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - MediaApp-Photos
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'MediaGoblin is a free software media publishing platform that anyone
   can run. You can think of it as a decentralized alternative to Flickr, YouTube,
@@ -28,4 +28,4 @@ sources:
 - https://mediagoblin.org/
 - https://hub.docker.com/r/mtlynch/mediagoblin/
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -22,10 +22,10 @@ service:
         port: 21025
         protocol: TCP
         targetPort: 21025
-  tcp-port-1:
+  tcpport1:
     enabled: true
     ports:
-      tcp-port-1:
+      tcpport1:
         enabled: true
         port: 21026
         protocol: TCP

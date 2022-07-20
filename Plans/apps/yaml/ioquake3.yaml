@@ -29,7 +29,7 @@ Config:
       Target: 8080
       Type: Port
       value: 9029
-    udp-gameport:
+    udpgameport:
       Default: ''
       Description: Game Port (If you want to change the game port please click on
         more settings here in the template, change the port, then delete this entry

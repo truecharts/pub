@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - HomeAutomation
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: RTMP/RTSP/HLS bridge for Wyze cams in a docker container
 home: https://github.com/truecharts/apps/tree/master/charts/stable/docker-wyze-bridge
@@ -25,4 +25,4 @@ sources:
 - https://github.com/mrlt8/docker-wyze-bridge
 - https://hub.docker.com/r/mrlt8/wyze-bridge
 type: application
-version: 0.0.1
+version: 0.0.10

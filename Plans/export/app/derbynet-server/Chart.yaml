@@ -5,11 +5,11 @@ annotations:
     - Tools-Utilities
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: DerbyNet is the new standard in race management software for Pinewood
   Derby events. It's free, and it's open source. With DerbyNet, multiple browsers
@@ -31,4 +31,4 @@ sources:
 - http://jeffpiazza.github.io/derbynet/
 - https://registry.hub.docker.com/r/mitchellriley/derbynet_server
 type: application
-version: 0.0.1
+version: 0.0.10

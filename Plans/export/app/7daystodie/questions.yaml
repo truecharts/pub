@@ -86,31 +86,31 @@ questions:
 
         - variable: GAME_ID
           label: 'GAME_ID'
-          description: "The GAMEID that the container download at startup.If you want to install a static or beta version of the game change the value to 740 -beta YOURBRANCH (without quotes, replace YOURBRANCH with the branch or version you want to install)."
+          description: "The GAMEID that the container download at startup.(httpsdeveloper.valvesoftware.comwikiDedicatedServersList)If you want to use a static version of the game and not always the latest one then enter this 294420 -beta stablealpha19.4 or 294420 -beta latestexperimental (without quotes) if you want to stay for example on alpha19.4."
           schema:
             type: string
-            default: "319060"
-        - variable: GAME_NAME
-          label: 'GAME_NAME'
-          description: "Game name to start (is connected to the GAMEPARAMS)."
+            default: "294420"
+        - variable: SERVERCONFIG
+          label: 'SERVERCONFIG'
+          description: "Please change if your serverconfigfile has another name."
           schema:
             type: string
-            default: "lambdawars"
+            default: "serverconfig.xml"
         - variable: GAME_PARAMS
           label: 'GAME_PARAMS'
           description: "Enter your start up commands for the server."
           schema:
             type: string
-            default: "+maxplayers 8 +map gamelobby"
-        - variable: VALIDATE
-          label: 'VALIDATE'
-          description: "Set the Variable to true if you want to validate the installation otherwise leave it blank."
-          schema:
-            type: string
-            default: ""
+            default: "-logfile 7DaysToDie_Data/output_log.txt $@"
         - variable: USERNAME
           label: 'USERNAME'
           description: "Your Steam username goes here if you want to install a game that needs a valid account, otherwise leave it blank (ATTENTION You have to disable Steam Guard)."
+          schema:
+            type: string
+            default: ""
+        - variable: VALIDATE
+          label: 'VALIDATE'
+          description: "Set the Variable to true if you want to validate the installation otherwise leave it blank."
           schema:
             type: string
             default: ""
@@ -120,11 +120,12 @@ questions:
           schema:
             type: string
             default: ""
-        - variable: GAME_PORT
-          label: 'GAME_PORT'
+        - variable: ENABLE_BEPINEX
+          label: 'ENABLE_BEPINEX'
+          description: "If you want to enable BepInEx set this variable to true (without quotes)."
           schema:
             type: string
-            default: "27015"
+            default: "false"
 
 # Include{containerConfig}
 
@@ -154,7 +155,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 27015
+                              default: 26900
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -167,7 +168,7 @@ questions:
                                   label: "Port Type"
                                   schema:
                                     type: string
-                                    default: UDP
+                                    default: TCP
                                     enum:
                                       - value: HTTP
                                         description: "HTTP"
@@ -189,17 +190,18 @@ questions:
                                   description: "The internal(!) port on the container the Application runs on"
                                   schema:
                                     type: int
-                                    default: 27015
+                                    default: 26900
 
-        - variable: udp2
-          label: 'udp2 service'
+        - variable: steammasterser
+          label: 'steammasterser service'
+          description: "Container Port 26900"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: udp2
-                      label: "udp2 Service Port Configuration"
+                    - variable: steammasterser
+                      label: "steammasterser Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -209,7 +211,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 27005
+                              default: 26900
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -249,75 +251,17 @@ questions:
                                   description: "The internal(!) port on the container the Application runs on"
                                   schema:
                                     type: int
-                                    default: 27005
-        - variable: udp3
-          label: 'udp3 service'
+                                    default: 26900
+        - variable: steamcommunica
+          label: 'steamcommunica service'
+          description: "Container Port 26901"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: udp3
-                      label: "udp3 Service Port Configuration"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              default: 27020
-                              required: true
-                          - variable: advanced
-                            label: "Show Advanced settings"
-                            schema:
-                              type: boolean
-                              default: false
-                              show_subquestions_if: true
-                              subquestions:
-                                - variable: enabled
-                                  label: "Enable the port"
-                                  schema:
-                                    type: boolean
-                                    default: true
-                                - variable: protocol
-                                  label: "Port Type"
-                                  schema:
-                                    type: string
-                                    default: UDP
-                                    enum:
-                                      - value: HTTP
-                                        description: "HTTP"
-                                      - value: "HTTPS"
-                                        description: "HTTPS"
-                                      - value: TCP
-                                        description: "TCP"
-                                      - value: "UDP"
-                                        description: "UDP"
-                                - variable: nodePort
-                                  label: "Node Port (Optional)"
-                                  description: "This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer"
-                                  schema:
-                                    type: int
-                                    min: 9000
-                                    max: 65535
-                                - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
-                                  schema:
-                                    type: int
-                                    default: 27020
-        - variable: udp4
-          label: 'udp4 service'
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-# Include{serviceSelector}
-                    - variable: udp4
-                      label: "udp4 Service Port Configuration"
+                    - variable: steamcommunica
+                      label: "steamcommunica Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -368,16 +312,256 @@ questions:
                                   schema:
                                     type: int
                                     default: 26901
-        - variable: tcprcon
-          label: 'tcprcon service'
-          description: "TCP RCON Port (not required)"
+        - variable: raknet
+          label: 'raknet service'
+          description: "Container Port 26902"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcprcon
-                      label: "tcprcon Service Port Configuration"
+                    - variable: raknet
+                      label: "raknet Service Port Configuration"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 26902
+                              required: true
+                          - variable: advanced
+                            label: "Show Advanced settings"
+                            schema:
+                              type: boolean
+                              default: false
+                              show_subquestions_if: true
+                              subquestions:
+                                - variable: enabled
+                                  label: "Enable the port"
+                                  schema:
+                                    type: boolean
+                                    default: true
+                                - variable: protocol
+                                  label: "Port Type"
+                                  schema:
+                                    type: string
+                                    default: UDP
+                                    enum:
+                                      - value: HTTP
+                                        description: "HTTP"
+                                      - value: "HTTPS"
+                                        description: "HTTPS"
+                                      - value: TCP
+                                        description: "TCP"
+                                      - value: "UDP"
+                                        description: "UDP"
+                                - variable: nodePort
+                                  label: "Node Port (Optional)"
+                                  description: "This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer"
+                                  schema:
+                                    type: int
+                                    min: 9000
+                                    max: 65535
+                                - variable: targetPort
+                                  label: "Target Port"
+                                  description: "The internal(!) port on the container the Application runs on"
+                                  schema:
+                                    type: int
+                                    default: 26902
+        - variable: unet
+          label: 'unet service'
+          description: "Container Port "
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+# Include{serviceSelector}
+                    - variable: unet
+                      label: "unet Service Port Configuration"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 26903
+                              required: true
+                          - variable: advanced
+                            label: "Show Advanced settings"
+                            schema:
+                              type: boolean
+                              default: false
+                              show_subquestions_if: true
+                              subquestions:
+                                - variable: enabled
+                                  label: "Enable the port"
+                                  schema:
+                                    type: boolean
+                                    default: true
+                                - variable: protocol
+                                  label: "Port Type"
+                                  schema:
+                                    type: string
+                                    default: UDP
+                                    enum:
+                                      - value: HTTP
+                                        description: "HTTP"
+                                      - value: "HTTPS"
+                                        description: "HTTPS"
+                                      - value: TCP
+                                        description: "TCP"
+                                      - value: "UDP"
+                                        description: "UDP"
+                                - variable: nodePort
+                                  label: "Node Port (Optional)"
+                                  description: "This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer"
+                                  schema:
+                                    type: int
+                                    min: 9000
+                                    max: 65535
+                                - variable: targetPort
+                                  label: "Target Port"
+                                  description: "The internal(!) port on the container the Application runs on"
+                                  schema:
+                                    type: int
+                                    default: 26903
+        - variable: webbasecontrol
+          label: 'webbasecontrol service'
+          description: "Container Port 8080"
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+# Include{serviceSelector}
+                    - variable: webbasecontrol
+                      label: "webbasecontrol Service Port Configuration"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 8080
+                              required: true
+                          - variable: advanced
+                            label: "Show Advanced settings"
+                            schema:
+                              type: boolean
+                              default: false
+                              show_subquestions_if: true
+                              subquestions:
+                                - variable: enabled
+                                  label: "Enable the port"
+                                  schema:
+                                    type: boolean
+                                    default: true
+                                - variable: protocol
+                                  label: "Port Type"
+                                  schema:
+                                    type: string
+                                    default: TCP
+                                    enum:
+                                      - value: HTTP
+                                        description: "HTTP"
+                                      - value: "HTTPS"
+                                        description: "HTTPS"
+                                      - value: TCP
+                                        description: "TCP"
+                                      - value: "UDP"
+                                        description: "UDP"
+                                - variable: nodePort
+                                  label: "Node Port (Optional)"
+                                  description: "This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer"
+                                  schema:
+                                    type: int
+                                    min: 9000
+                                    max: 65535
+                                - variable: targetPort
+                                  label: "Target Port"
+                                  description: "The internal(!) port on the container the Application runs on"
+                                  schema:
+                                    type: int
+                                    default: 8080
+        - variable: webpanel
+          label: 'webpanel service'
+          description: "Container Port 8082"
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+# Include{serviceSelector}
+                    - variable: webpanel
+                      label: "webpanel Service Port Configuration"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 8082
+                              required: true
+                          - variable: advanced
+                            label: "Show Advanced settings"
+                            schema:
+                              type: boolean
+                              default: false
+                              show_subquestions_if: true
+                              subquestions:
+                                - variable: enabled
+                                  label: "Enable the port"
+                                  schema:
+                                    type: boolean
+                                    default: true
+                                - variable: protocol
+                                  label: "Port Type"
+                                  schema:
+                                    type: string
+                                    default: TCP
+                                    enum:
+                                      - value: HTTP
+                                        description: "HTTP"
+                                      - value: "HTTPS"
+                                        description: "HTTPS"
+                                      - value: TCP
+                                        description: "TCP"
+                                      - value: "UDP"
+                                        description: "UDP"
+                                - variable: nodePort
+                                  label: "Node Port (Optional)"
+                                  description: "This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer"
+                                  schema:
+                                    type: int
+                                    min: 9000
+                                    max: 65535
+                                - variable: targetPort
+                                  label: "Target Port"
+                                  description: "The internal(!) port on the container the Application runs on"
+                                  schema:
+                                    type: int
+                                    default: 8082
+        - variable: registeringats
+          label: 'registeringats service'
+          description: "Should be in the range 27015 - 27030, dont forget to set also a different Container Port if you change this value."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+# Include{serviceSelector}
+                    - variable: registeringats
+                      label: "registeringats Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -405,7 +589,7 @@ questions:
                                   label: "Port Type"
                                   schema:
                                     type: string
-                                    default: TCP
+                                    default: UDP
                                     enum:
                                       - value: HTTP
                                         description: "HTTP"
@@ -460,6 +644,7 @@ questions:
 
         - variable: steamcmd
           label: "steamcmd Storage"
+          description: "Container Path serverdatasteamcmd"
           schema:
             additional_attrs: true
             type: dict
@@ -468,6 +653,7 @@ questions:
 # Include{persistenceAdvanced}
         - variable: serverfiles
           label: "serverfiles Storage"
+          description: "Container Path serverdataserverfiles"
           schema:
             additional_attrs: true
             type: dict

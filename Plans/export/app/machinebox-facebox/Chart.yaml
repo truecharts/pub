@@ -5,11 +5,11 @@ annotations:
     - Security
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "With this container you have all possible settings available[br]\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/machinebox-facebox
@@ -29,4 +29,4 @@ sources:
 - https://machinebox.io/docs/facebox
 - https://hub.docker.com/r/machinebox/facebox/
 type: application
-version: 0.0.1
+version: 0.0.10

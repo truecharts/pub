@@ -9,7 +9,7 @@ Config:
       Name: starbound
       Target: /starbound
   Port:
-    tcp-port-0:
+    tcpport0:
       ContainerPort: '21025'
       HostPort: '21025'
       Mode: tcp
@@ -17,7 +17,7 @@ Config:
       Protocol: tcp
       Target: 21025
       value: 21025
-    tcp-port-1:
+    tcpport1:
       ContainerPort: '21026'
       HostPort: '21026'
       Mode: tcp

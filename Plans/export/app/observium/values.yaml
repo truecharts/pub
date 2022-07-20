@@ -22,10 +22,10 @@ service:
         port: 8668
         protocol: HTTP
         targetPort: 8668
-  udp-port-1:
+  udpport1:
     enabled: true
     ports:
-      udp-port-1:
+      udpport1:
         enabled: true
         port: 8514
         protocol: UDP

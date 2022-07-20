@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: PyCharm is an Integrated Development Environment (IDE) used in computer
   programming, specifically for the Python language. It is developed by the Czech
@@ -32,4 +32,4 @@ sources:
 - https://registry.hub.docker.com/r/binhex/arch-pycharm/
 - https://github.com/binhex/documentation
 type: application
-version: 0.0.1
+version: 0.0.10

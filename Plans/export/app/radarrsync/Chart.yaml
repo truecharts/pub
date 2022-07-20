@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Downloaders
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "RadarrSync Syncs two Radarr servers through web API. This is a modified\
   \ version designed to be run in a docker container. This version supports only two\
@@ -27,4 +27,4 @@ sources:
 - https://github.com/dairefinn/RadarrSync
 - https://hub.docker.com/r/dmanius/radarrsync-docker/
 type: application
-version: 0.0.1
+version: 0.0.10

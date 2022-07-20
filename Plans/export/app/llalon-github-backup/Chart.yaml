@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Backup
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Automatically backup github repositories on schedule. Allows for custom
   configuration.
@@ -26,4 +26,4 @@ sources:
 - https://github.com/abusesa/github-backup
 - https://hub.docker.com/r/llalon/github-backup
 type: application
-version: 0.0.1
+version: 0.0.10

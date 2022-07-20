@@ -165,15 +165,15 @@ questions:
                                     type: int
                                     default: 5800
 
-        - variable: tcp-port-1
-          label: 'tcp-port-1 service'
+        - variable: tcpport1
+          label: 'tcpport1 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-1
-                      label: "tcp-port-1 Service Port Configuration"
+                    - variable: tcpport1
+                      label: "tcpport1 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

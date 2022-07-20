@@ -142,16 +142,16 @@ questions:
                                     type: int
                                     default: 80
 
-        - variable: https-port
-          label: 'https-port service'
+        - variable: httpsport
+          label: 'httpsport service'
           description: "Container Port 443"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: https-port
-                      label: "https-port Service Port Configuration"
+                    - variable: httpsport
+                      label: "httpsport Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'Z80Pack is an emulator for emulating CP/M 1, CP/M 2, CP/M 3, and MP/M
   II on Linux.  This is a command line Docker only.  There is a built in Shell in
@@ -30,4 +30,4 @@ sources:
 - http://www.autometer.de/unix4fun/z80pack/index.html
 - https://registry.hub.docker.com/r/dlandon/z80pack/
 type: application
-version: 0.0.1
+version: 0.0.10

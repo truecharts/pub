@@ -26,26 +26,26 @@ service:
         port: 19132
         protocol: TCP
         targetPort: 19132
-  tcp-port-2:
+  tcpport2:
     enabled: true
     ports:
-      tcp-port-2:
+      tcpport2:
         enabled: true
         port: 19133
         protocol: TCP
         targetPort: 19133
-  udp-port-1:
+  udpport1:
     enabled: true
     ports:
-      udp-port-1:
+      udpport1:
         enabled: true
         port: 19132
         protocol: UDP
         targetPort: 19132
-  udp-port-3:
+  udpport3:
     enabled: true
     ports:
-      udp-port-3:
+      udpport3:
         enabled: true
         port: 19133
         protocol: UDP

@@ -4,11 +4,11 @@ annotations:
     - Tools-Utilities
     - Crypto
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "T-Rex is a versatile cryptocurrency mining software. It supports a variety\
   \ of algorithms and we, as developers, are trying to do our best to make it as fast\
@@ -29,4 +29,4 @@ sources:
 - https://github.com/trexminer/T-Rex
 - https://registry.hub.docker.com/r/ptrfrll/nv-docker-trex
 type: application
-version: 0.0.1
+version: 0.0.10

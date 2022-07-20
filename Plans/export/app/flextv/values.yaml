@@ -23,10 +23,10 @@ service:
         port: 5666
         protocol: HTTP
         targetPort: 80
-  tcp-port-1:
+  tcpport1:
     enabled: true
     ports:
-      tcp-port-1:
+      tcpport1:
         enabled: true
         port: 5667
         protocol: TCP

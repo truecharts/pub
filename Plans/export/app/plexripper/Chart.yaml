@@ -8,11 +8,11 @@ annotations:
     - MediaApp-Photos
     - MediaApp-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Tired of searching for media on different torrent websites or paying
   for Usenet server access? Well look no further! You can now use PlexRipper to download
@@ -38,4 +38,4 @@ sources:
 - https://github.com/PlexRipper/PlexRipper/
 - https://hub.docker.com/r/plexripper/plexripper/
 type: application
-version: 0.0.1
+version: 0.0.10

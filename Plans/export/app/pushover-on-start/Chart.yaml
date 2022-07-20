@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: This is a simple container that sends a message when the container is
   started (needed this for a headless machine to know when I can connect or better
@@ -27,4 +27,4 @@ sources:
 - https://hub.docker.com/r/ich777/pushover-on-start
 - https://hub.docker.com/r/ich777/pushover-on-start
 type: application
-version: 0.0.1
+version: 0.0.10

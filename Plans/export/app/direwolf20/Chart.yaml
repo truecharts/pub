@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Docker Container for FTB Presents Direwolf20 1.18 Minecraft Modpack\r\
   \n"
@@ -26,4 +26,4 @@ sources:
 - https://www.feed-the-beast.com/modpack/95_ftb_presents_direwolf20_1_18
 - https://hub.docker.com/r/ratomas/direwolf20
 type: application
-version: 0.0.1
+version: 0.0.10

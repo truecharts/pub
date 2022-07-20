@@ -8,11 +8,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: This container will detect optical disks by their type and rip them automatically.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ripper
@@ -35,4 +35,4 @@ sources:
 - https://registry.hub.docker.com/r/rix1337/docker-ripper
 - https://github.com/rix1337/docker-ripper#readme
 type: application
-version: 0.0.1
+version: 0.0.10

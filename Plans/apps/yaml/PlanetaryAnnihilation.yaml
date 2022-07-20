@@ -16,7 +16,7 @@ Config:
       Type: Path
       value: /mnt/cache/appdata/planetaryannihilation
   Port:
-    tcp-serverport:
+    tcpserverport:
       Default: ''
       Description: TCP Serverport (if you need another port, please delete this entry
         and create a new TCP Port with the required port number, also don't forget
@@ -29,7 +29,7 @@ Config:
       Target: 20545
       Type: Port
       value: 20545
-    udp-lanbeacon:
+    udplanbeacon:
       Default: ''
       Description: 'Container Port: 8192'
       Display: always

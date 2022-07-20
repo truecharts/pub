@@ -18,7 +18,7 @@ Config:
       Protocol: tcp
       Target: 80
       value: 5666
-    tcp-port-1:
+    tcpport1:
       ContainerPort: '443'
       HostPort: '5667'
       Mode: tcp

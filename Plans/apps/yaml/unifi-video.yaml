@@ -19,7 +19,7 @@ Config:
       Protocol: tcp
       Target: 7080
       value: 7080
-    tcp-port-0:
+    tcpport0:
       ContainerPort: '1935'
       HostPort: '1935'
       Mode: tcp
@@ -27,7 +27,7 @@ Config:
       Protocol: tcp
       Target: 1935
       value: 1935
-    tcp-port-1:
+    tcpport1:
       ContainerPort: '6666'
       HostPort: '6666'
       Mode: tcp
@@ -35,7 +35,7 @@ Config:
       Protocol: tcp
       Target: 6666
       value: 6666
-    tcp-port-4:
+    tcpport4:
       ContainerPort: '7442'
       HostPort: '7442'
       Mode: tcp
@@ -43,7 +43,7 @@ Config:
       Protocol: tcp
       Target: 7442
       value: 7442
-    tcp-port-5:
+    tcpport5:
       ContainerPort: '7443'
       HostPort: '7443'
       Mode: tcp
@@ -51,7 +51,7 @@ Config:
       Protocol: tcp
       Target: 7443
       value: 7443
-    tcp-port-6:
+    tcpport6:
       ContainerPort: '7444'
       HostPort: '7444'
       Mode: tcp
@@ -59,7 +59,7 @@ Config:
       Protocol: tcp
       Target: 7444
       value: 7444
-    tcp-port-7:
+    tcpport7:
       ContainerPort: '7445'
       HostPort: '7445'
       Mode: tcp
@@ -67,7 +67,7 @@ Config:
       Protocol: tcp
       Target: 7445
       value: 7445
-    tcp-port-8:
+    tcpport8:
       ContainerPort: '7446'
       HostPort: '7446'
       Mode: tcp
@@ -75,7 +75,7 @@ Config:
       Protocol: tcp
       Target: 7446
       value: 7446
-    tcp-port-9:
+    tcpport9:
       ContainerPort: '7447'
       HostPort: '7447'
       Mode: tcp
@@ -83,7 +83,7 @@ Config:
       Protocol: tcp
       Target: 7447
       value: 7447
-    udp-port-2:
+    udpport2:
       ContainerPort: '7004'
       HostPort: '7004'
       Mode: udp

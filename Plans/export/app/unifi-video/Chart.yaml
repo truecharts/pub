@@ -4,11 +4,11 @@ annotations:
     - HomeAutomation
     - Network-Management
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Unifi Video Controller (NVR) is a NVR software from the company Ubiquiti
   Networks to use with their UniFi Video IP Cameras.  To use the latest BETA version,
@@ -28,4 +28,4 @@ name: unifi-video
 sources:
 - https://registry.hub.docker.com/r/pducharme/unifi-video-controller/
 type: application
-version: 0.0.1
+version: 0.0.10

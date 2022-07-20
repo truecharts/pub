@@ -5,11 +5,11 @@ annotations:
     - Network-Messenger
     - Productivity
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: A self-hosted telegram JS/TS bot that dumps posts from RSS feeds to a
   telegram chat. This script was created because all the third party services were
@@ -31,4 +31,4 @@ sources:
 - https://github.com/BoKKeR/RSS-to-Telegram-Bot
 - https://hub.docker.com/r/bokker/rss.to.telegram
 type: application
-version: 0.0.1
+version: 0.0.10

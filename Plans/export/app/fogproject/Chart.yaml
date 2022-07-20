@@ -4,11 +4,11 @@ annotations:
     - Backup
     - Network-DNS
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "FOG Project can capture, deploy, and manage Windows, Mac OSX, and various\
   \ Linux distributions.\r\n"
@@ -27,4 +27,4 @@ name: fogproject
 sources:
 - https://github.com/redvex2460/fogproject
 type: application
-version: 0.0.1
+version: 0.0.10

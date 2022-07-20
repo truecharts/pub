@@ -6,11 +6,11 @@ annotations:
     - Crypto
     - Downloaders
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Urbit is a clean-slate OS and network for the 21st century. Self-host
   your computer, identity and access to the urbit world.
@@ -32,4 +32,4 @@ sources:
 - https://urbit.org/
 - https://hub.docker.com/r/tloncorp/urbit
 type: application
-version: 0.0.1
+version: 0.0.10

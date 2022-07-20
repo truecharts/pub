@@ -38,7 +38,7 @@ Config:
       Target: 3001
       Type: Port
       value: 3001
-    udp-gameport:
+    udpgameport:
       Default: '3000'
       Description: UDP Game Port
       Display: always

@@ -192,16 +192,16 @@ questions:
                                     type: int
                                     default: 28960
 
-        - variable: udp-gameport
-          label: 'udp-gameport service'
+        - variable: udpgameport
+          label: 'udpgameport service'
           description: "UDP Game Port same as TCP (if you need another port, please delete this entry and create a new UDP Port with the corresponding port number, also dont forget to click an Show more settings ... and change the port number)"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: udp-gameport
-                      label: "udp-gameport Service Port Configuration"
+                    - variable: udpgameport
+                      label: "udpgameport Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

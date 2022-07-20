@@ -174,16 +174,16 @@ questions:
                                     type: int
                                     default: 6567
 
-        - variable: udp-gameport
-          label: 'udp-gameport service'
+        - variable: udpgameport
+          label: 'udpgameport service'
           description: "Container Port 6567"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: udp-gameport
-                      label: "udp-gameport Service Port Configuration"
+                    - variable: udpgameport
+                      label: "udpgameport Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

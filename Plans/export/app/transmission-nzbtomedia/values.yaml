@@ -22,10 +22,10 @@ service:
         port: 9091
         protocol: HTTP
         targetPort: 9091
-  tcp-port-1:
+  tcpport1:
     enabled: true
     ports:
-      tcp-port-1:
+      tcpport1:
         enabled: true
         port: 51413
         protocol: TCP

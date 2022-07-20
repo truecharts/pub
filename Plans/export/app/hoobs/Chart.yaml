@@ -4,11 +4,11 @@ annotations:
     - HomeAutomation
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "HOOBS is a Homebridge stack with a interface that simplifies configuration\
   \ and installing plugins. This adds a process wrapper for Homebridge.  \r\n"
@@ -27,4 +27,4 @@ name: hoobs
 sources:
 - https://hub.docker.com/r/hoobs/hoobs
 type: application
-version: 0.0.1
+version: 0.0.10

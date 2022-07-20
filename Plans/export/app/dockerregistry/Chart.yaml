@@ -6,11 +6,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'Docker Registry is used to store and distribute Docker images using
   HTTP API. This allows you host your own private Registry and store your images.
@@ -35,4 +35,4 @@ sources:
 - https://github.com/distribution/distribution
 - https://registry.hub.docker.com/_/registry/
 type: application
-version: 0.0.1
+version: 0.0.10

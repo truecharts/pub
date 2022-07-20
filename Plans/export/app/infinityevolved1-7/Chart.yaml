@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'FTB Infinity Evolved 1.7 Modded Minecraft Server[br][br][b]FTB Infinity
   Evolved 1.7[/b][br]Now Includes Quests! Infinity Evolved adds game modes! Two modes
@@ -30,4 +30,4 @@ sources:
 - https://feed-the-beast.com/modpack/ftb_infinity_evolved_1_7
 - https://hub.docker.com/repository/docker/goobaroo/infinityevolved
 type: application
-version: 0.0.1
+version: 0.0.10

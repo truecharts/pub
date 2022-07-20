@@ -26,10 +26,10 @@ service:
         port: 6567
         protocol: TCP
         targetPort: 6567
-  udp-gameport:
+  udpgameport:
     enabled: true
     ports:
-      udp-gameport:
+      udpgameport:
         enabled: true
         port: 6567
         protocol: UDP

@@ -4,11 +4,11 @@ annotations:
     - Backup
     - Cloud
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'Docker for Rclone FUSE mount feature (exposable to host and other docker
   containers, e.g. Plex, Nextcloud, glFTPd)
@@ -30,4 +30,4 @@ sources:
 - http://rclone.org/
 - https://hub.docker.com/r/tynor88/rclone-mount/
 type: application
-version: 0.0.1
+version: 0.0.10

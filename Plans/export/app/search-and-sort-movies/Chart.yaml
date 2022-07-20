@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "This application will allow you to sort films and series. It will clean\
   \ up the names and move them to the folder you want.\r\n"
@@ -25,4 +25,4 @@ name: search-and-sort-movies
 sources:
 - https://hub.docker.com/r/olprog/search-and-sort-movies/
 type: application
-version: 0.0.1
+version: 0.0.10

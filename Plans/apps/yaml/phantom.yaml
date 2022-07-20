@@ -10,7 +10,7 @@ Config:
       Target: /config
       value: /mnt/user/appdata/config
   Port:
-    tcp-port-0:
+    tcpport0:
       ContainerPort: '19132'
       HostPort: '19132'
       Mode: tcp
@@ -18,7 +18,7 @@ Config:
       Protocol: tcp
       Target: 19132
       value: 19132
-    tcp-port-2:
+    tcpport2:
       ContainerPort: '19133'
       HostPort: '19133'
       Mode: tcp
@@ -26,7 +26,7 @@ Config:
       Protocol: tcp
       Target: 19133
       value: 19133
-    udp-port-1:
+    udpport1:
       ContainerPort: '19132'
       HostPort: '19132'
       Mode: udp
@@ -34,7 +34,7 @@ Config:
       Protocol: udp
       Target: 19132
       value: 19132
-    udp-port-3:
+    udpport3:
       ContainerPort: '19133'
       HostPort: '19133'
       Mode: udp

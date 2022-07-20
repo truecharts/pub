@@ -60,7 +60,7 @@ Config:
       Target: 20560
       Type: Port
       value: 20560
-    tcp-webadmin:
+    tcpwebadmin:
       Default: ''
       Description: 'Container Port: 8080'
       Display: always

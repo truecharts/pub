@@ -5,11 +5,11 @@ annotations:
     - Network-Voip
     - Network-Messenger
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: FreePBX is a web-based open-source graphical user interface that manages
   Asterisk, a voice over IP and telephony server.
@@ -30,4 +30,4 @@ sources:
 - https://github.com/tiredofit/docker-freepbx/
 - https://hub.docker.com/r/tiredofit/freepbx/
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -40,7 +40,7 @@ Config:
       Target: 8080
       Type: Port
       value: 9028
-    udp-gameport:
+    udpgameport:
       Default: ''
       Description: UDP Game Port (if you need another port, please delete this entry
         and create a new UDP Port with the required port number, also don't forget
@@ -53,7 +53,7 @@ Config:
       Target: 33540
       Type: Port
       value: 33540
-    udp-steamquery:
+    udpsteamquery:
       Default: ''
       Description: UDP Steam/Query Ports (if you need another port, please delete
         this entry and create a new UDP Port with the required port number, also don't

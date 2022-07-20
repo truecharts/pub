@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "With watchtower you can update the running version of your containerized\
   \ app simply by pushing a new image to the Docker Hub or your own image registry.\
@@ -29,4 +29,4 @@ sources:
 - https://containrrr.dev/watchtower/
 - https://hub.docker.com/r/containrrr/watchtower
 type: application
-version: 0.0.1
+version: 0.0.10

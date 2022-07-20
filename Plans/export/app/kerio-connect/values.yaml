@@ -22,130 +22,130 @@ service:
         port: 4040
         protocol: HTTP
         targetPort: 4040
-  tcp-port-1:
+  tcpport1:
     enabled: true
     ports:
-      tcp-port-1:
+      tcpport1:
         enabled: true
         port: 222
         protocol: TCP
         targetPort: 22
-  tcp-port-10:
+  tcpport10:
     enabled: true
     ports:
-      tcp-port-10:
+      tcpport10:
         enabled: true
         port: 563
         protocol: TCP
         targetPort: 563
-  tcp-port-11:
+  tcpport11:
     enabled: true
     ports:
-      tcp-port-11:
+      tcpport11:
         enabled: true
         port: 389
         protocol: TCP
         targetPort: 389
-  tcp-port-12:
+  tcpport12:
     enabled: true
     ports:
-      tcp-port-12:
+      tcpport12:
         enabled: true
         port: 636
         protocol: TCP
         targetPort: 636
-  tcp-port-13:
+  tcpport13:
     enabled: true
     ports:
-      tcp-port-13:
+      tcpport13:
         enabled: true
         port: 8001
         protocol: TCP
         targetPort: 80
-  tcp-port-14:
+  tcpport14:
     enabled: true
     ports:
-      tcp-port-14:
+      tcpport14:
         enabled: true
         port: 4443
         protocol: TCP
         targetPort: 443
-  tcp-port-15:
+  tcpport15:
     enabled: true
     ports:
-      tcp-port-15:
+      tcpport15:
         enabled: true
         port: 5222
         protocol: TCP
         targetPort: 5222
-  tcp-port-16:
+  tcpport16:
     enabled: true
     ports:
-      tcp-port-16:
+      tcpport16:
         enabled: true
         port: 5223
         protocol: TCP
         targetPort: 5223
-  tcp-port-2:
+  tcpport2:
     enabled: true
     ports:
-      tcp-port-2:
+      tcpport2:
         enabled: true
         port: 25
         protocol: TCP
         targetPort: 25
-  tcp-port-3:
+  tcpport3:
     enabled: true
     ports:
-      tcp-port-3:
+      tcpport3:
         enabled: true
         port: 465
         protocol: TCP
         targetPort: 465
-  tcp-port-4:
+  tcpport4:
     enabled: true
     ports:
-      tcp-port-4:
+      tcpport4:
         enabled: true
         port: 587
         protocol: TCP
         targetPort: 587
-  tcp-port-5:
+  tcpport5:
     enabled: true
     ports:
-      tcp-port-5:
+      tcpport5:
         enabled: true
         port: 110
         protocol: TCP
         targetPort: 110
-  tcp-port-6:
+  tcpport6:
     enabled: true
     ports:
-      tcp-port-6:
+      tcpport6:
         enabled: true
         port: 995
         protocol: TCP
         targetPort: 995
-  tcp-port-7:
+  tcpport7:
     enabled: true
     ports:
-      tcp-port-7:
+      tcpport7:
         enabled: true
         port: 143
         protocol: TCP
         targetPort: 143
-  tcp-port-8:
+  tcpport8:
     enabled: true
     ports:
-      tcp-port-8:
+      tcpport8:
         enabled: true
         port: 993
         protocol: TCP
         targetPort: 993
-  tcp-port-9:
+  tcpport9:
     enabled: true
     ports:
-      tcp-port-9:
+      tcpport9:
         enabled: true
         port: 119
         protocol: TCP

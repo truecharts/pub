@@ -6,11 +6,11 @@ annotations:
     - MediaApp-Video
     - MediaServer-Video
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "This container is based on bb12489/gui-docker &amp;amp;amp; bb12489/docker-obs.\
   \ The OBS with NDI is incorporated into the container and can be used to stream\
@@ -34,4 +34,4 @@ sources:
 - https://github.com/patrickstigler/docker-obs-ndi
 - https://hub.docker.com/r/patrickstigler/obs-ndi
 type: application
-version: 0.0.1
+version: 0.0.10

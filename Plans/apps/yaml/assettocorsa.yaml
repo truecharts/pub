@@ -27,7 +27,7 @@ Config:
       Type: Path
       value: /mnt/user/appdata/steamcmd
   Port:
-    assetto-:
+    assetto:
       Default: ''
       Description: 'Only needed if you installed Assetto-Server-Manager (Webserver
         Address: http://[IPOFYOURSERVER]:8771).'

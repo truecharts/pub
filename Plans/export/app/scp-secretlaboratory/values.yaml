@@ -20,17 +20,11 @@ podSecurityContext:
   runAsUser: 0
 probes:
   liveness:
-    custom: true
-    spec:
-      port: 7777
+    port: '{{ .Values.service.tcpgameport.ports.tcpgameport.targetPort }}'
   readiness:
-    custom: true
-    spec:
-      port: 7777
+    port: '{{ .Values.service.tcpgameport.ports.tcpgameport.targetPort }}'
   startup:
-    custom: true
-    spec:
-      port: 7777
+    port: '{{ .Values.service.tcpgameport.ports.tcpgameport.targetPort }}'
 securityContext:
   readOnlyRootFilesystem: false
   runAsNonRoot: false
@@ -43,10 +37,10 @@ service:
         port: 7777
         protocol: UDP
         targetPort: 7777
-  tcp-gameport:
+  tcpgameport:
     enabled: true
     ports:
-      tcp-gameport:
+      tcpgameport:
         enabled: true
         port: 7777
         protocol: TCP

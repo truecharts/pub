@@ -30,7 +30,7 @@ Config:
       Type: Path
       value: /mnt/user/appdata/lancache/logs
   Port:
-    http-port:
+    httpport:
       Default: '80'
       Description: 'Container Port: 80'
       Display: always
@@ -41,7 +41,7 @@ Config:
       Target: 80
       Type: Port
       value: 80
-    https-port:
+    httpsport:
       Default: '443'
       Description: 'Container Port: 443'
       Display: always

@@ -27,7 +27,7 @@ Config:
       Type: Path
       value: /mnt/user/appdata/steamcmd
   Port:
-    tcp-gameport:
+    tcpgameport:
       Default: ''
       Description: 'Container Port: 21025'
       Display: always
@@ -38,7 +38,7 @@ Config:
       Target: 21025
       Type: Port
       value: 21025
-    tcp-rconport:
+    tcprconport:
       Default: ''
       Description: Only if needed, else delete this entry
       Display: always
@@ -49,7 +49,7 @@ Config:
       Target: 21026
       Type: Port
       value: 21026
-    udp-gameport:
+    udpgameport:
       Default: ''
       Description: 'Container Port: 21025'
       Display: always

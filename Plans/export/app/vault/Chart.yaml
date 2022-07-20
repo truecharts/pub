@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Security
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Hashicorp Vault is a tool for securely accessing secrets. A secret is\
   \ anything that you want to tightly control access to, such as API keys, passwords,\
@@ -28,4 +28,4 @@ sources:
 - https://github.com/hashicorp/docker-vault
 - https://hub.docker.com/_/vault
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Network-Messenger
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Limnoria(https://github.com/ProgVal/limnoria) A robust, full-featured,
   and user/programmer-friendly Python IRC bot, with many existing plugins. Successor
@@ -28,4 +28,4 @@ sources:
 - https://github.com/orgs/linuxserver/packages/container/package/limnoria
 - https://github.com/linuxserver/docker-limnoria#readme
 type: application
-version: 0.0.1
+version: 0.0.10

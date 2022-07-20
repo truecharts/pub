@@ -16,7 +16,7 @@ Config:
       Type: Path
       value: /mnt/cache/appdata/iw4x
   Port:
-    tcp-gameport:
+    tcpgameport:
       Default: ''
       Description: TCP Game Port same as UDP (if you need another port, please delete
         this entry and create a new TCP Port with the corresponding port number, also
@@ -29,7 +29,7 @@ Config:
       Target: 28960
       Type: Port
       value: 28960
-    udp-gameport:
+    udpgameport:
       Default: ''
       Description: UDP Game Port same as TCP (if you need another port, please delete
         this entry and create a new UDP Port with the corresponding port number, also

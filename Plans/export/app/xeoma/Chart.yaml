@@ -4,11 +4,11 @@ annotations:
     - HomeAutomation
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Xeoma is surveillance software. Connect your cameras and record any detected
   movement.
@@ -28,4 +28,4 @@ sources:
 - http://felenasoft.com/xeoma/
 - https://hub.docker.com/r/coppit/xeoma/
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -13,17 +13,11 @@ podSecurityContext:
   runAsUser: 0
 probes:
   liveness:
-    custom: true
-    spec:
-      port: 8303
+    port: '{{ .Values.service.tcp.ports.tcp.targetPort }}'
   readiness:
-    custom: true
-    spec:
-      port: 8303
+    port: '{{ .Values.service.tcp.ports.tcp.targetPort }}'
   startup:
-    custom: true
-    spec:
-      port: 8303
+    port: '{{ .Values.service.tcp.ports.tcp.targetPort }}'
 securityContext:
   readOnlyRootFilesystem: false
   runAsNonRoot: false

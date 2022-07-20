@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: HumHub is a free social network software and framework built to give
   you the tools to make communication and collaboration easy and successful. The Database
@@ -27,4 +27,4 @@ name: humhub
 sources:
 - https://ghcr.io/siwatinc/humhub
 type: application
-version: 0.0.1
+version: 0.0.10

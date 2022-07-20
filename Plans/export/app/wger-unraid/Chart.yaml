@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "wger (\u02C8v\u025B\u0261\u0250) Workout Manager is a free, open source\
   \ web\n"
@@ -28,4 +28,4 @@ sources:
 - https://wger.de/software/features
 - https://registry.hub.docker.com/r/wger/devel
 type: application
-version: 0.0.1
+version: 0.0.10

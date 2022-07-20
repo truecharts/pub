@@ -6,11 +6,11 @@ annotations:
     - Other
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Storj daemon + CLI; multiple-node in template support; Storjstat.com\
   \ monitor installed.\r\n"
@@ -32,4 +32,4 @@ sources:
 - https://github.com/Jcloud67/docker-storjshare-cli
 - https://hub.docker.com/r/zugz/r8mystorj
 type: application
-version: 0.0.1
+version: 0.0.10

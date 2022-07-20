@@ -5,11 +5,11 @@ annotations:
     - MediaApp-Video
     - MediaApp-Music
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "YoutubeDL-Material is a self-hosted youtube-dl Server with a modern\
   \ Material-based GUI and the capability to apply advanced configurations, like setting\
@@ -31,4 +31,4 @@ sources:
 - https://github.com/Tzahi12345/YoutubeDL-Material
 - https://hub.docker.com/r/tzahi12345/youtubedl-material/
 type: application
-version: 0.0.1
+version: 0.0.10

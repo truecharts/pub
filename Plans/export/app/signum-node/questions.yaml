@@ -142,15 +142,15 @@ questions:
                                     type: int
                                     default: 8125
 
-        - variable: tcp-port-0
-          label: 'tcp-port-0 service'
+        - variable: tcpport0
+          label: 'tcpport0 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-0
-                      label: "tcp-port-0 Service Port Configuration"
+                    - variable: tcpport0
+                      label: "tcpport0 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

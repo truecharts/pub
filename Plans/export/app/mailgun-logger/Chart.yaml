@@ -6,11 +6,11 @@ annotations:
     - Tools-Utilities
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: MailgunLogger is a simple admin tool that uses the Mailgun API to retrieves
   events on a regular basis from Mailgun - who only provide a limited time of event
@@ -33,4 +33,4 @@ sources:
 - https://github.com/jackjoe/mailgun_logger
 - https://hub.docker.com/r/jackjoe/mailgun_logger
 type: application
-version: 0.0.1
+version: 0.0.10

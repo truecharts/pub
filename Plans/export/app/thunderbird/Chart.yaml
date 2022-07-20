@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "This container will download and install Thunderbird in the preferred\
   \ version and language.\r\n"
@@ -28,4 +28,4 @@ sources:
 - https://www.thunderbird.net/
 - https://hub.docker.com/r/ich777/thunderbird/
 type: application
-version: 0.0.1
+version: 0.0.10

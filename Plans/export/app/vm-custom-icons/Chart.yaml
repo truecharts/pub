@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Downloads and installs additional custom VM icons to the Unraid VM Manager.\r\
   \n"
@@ -26,4 +26,4 @@ sources:
 - https://github.com/SpaceinvaderOne/unraid_vm_icons
 - https://hub.docker.com/r/spaceinvaderone/vm_custom_icons
 type: application
-version: 0.0.1
+version: 0.0.10

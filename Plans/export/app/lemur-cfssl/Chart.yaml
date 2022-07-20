@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Lemur manages TLS certificate creation. While not able to issue certificates\
   \ itself, Lemur acts as a broker between CAs and environments providing a central\
@@ -27,4 +27,4 @@ sources:
 - https://github.com/Netflix/lemur
 - https://hub.docker.com/r/halianelf/lemur/
 type: application
-version: 0.0.1
+version: 0.0.10

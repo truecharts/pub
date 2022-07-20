@@ -4,11 +4,11 @@ annotations:
     - Tools-Utilities
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: SUI Startpage is a simple and clean server start page or homepage that
   you can quickly and easily setup to access your server resources and quick booksmarks
@@ -30,4 +30,4 @@ sources:
 - https://github.com/CorneliousJD/SUI-Startpage
 - https://hub.docker.com/r/corneliousjd/sui-startpage/
 type: application
-version: 0.0.1
+version: 0.0.10

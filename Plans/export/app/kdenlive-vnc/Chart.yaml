@@ -6,11 +6,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: An instance of kdenlive accessible through vnc and noVnc (=Web Interface)
 home: https://github.com/truecharts/apps/tree/master/charts/stable/kdenlive-vnc
@@ -31,4 +31,4 @@ sources:
 - https://github.com/JonathanTreffler/kdenlive-vnc-docker
 - https://hub.docker.com/r/tessypowder/docker-kdenlive/
 type: application
-version: 0.0.1
+version: 0.0.10

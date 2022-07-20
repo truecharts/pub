@@ -4,11 +4,11 @@ annotations:
     - Network-Web
     - MediaServer-Music
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Track your music listening history from many sources and record to many\
   \ scrobble clients.\r\n"
@@ -27,4 +27,4 @@ name: multi-scrobbler
 sources:
 - https://hub.docker.com/repository/docker/foxxmd/multi-scrobbler
 type: application
-version: 0.0.1
+version: 0.0.10

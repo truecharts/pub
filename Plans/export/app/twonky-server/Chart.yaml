@@ -5,11 +5,11 @@ annotations:
     - MediaServer-Music
     - MediaServer-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: TwonkyMedia server (TMS) is DLNA-compliant UPnP AV server software from
   PacketVideo. TwonkyMedia server can be used to share and stream media to most UPnP
@@ -32,4 +32,4 @@ sources:
 - https://github.com/H2CK/twonkyserver
 - https://hub.docker.com/r/dtjs48jkt/twonkyserver/
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -186,16 +186,16 @@ questions:
                                     type: int
                                     default: 16261
 
-        - variable: tcp-
-          label: 'tcp- service'
+        - variable: tcp
+          label: 'tcp service'
           description: "Every player that connects to your server needs its own port (if you dont need that many ports you can also delete this entry and create a new Port for TCP eg 16 players 16262-16278)"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-
-                      label: "tcp- Service Port Configuration"
+                    - variable: tcp
+                      label: "tcp Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -246,16 +246,16 @@ questions:
                                   schema:
                                     type: int
                                     default: 16262
-        - variable: tcp-rconport
-          label: 'tcp-rconport service'
+        - variable: tcprconport
+          label: 'tcprconport service'
           description: "Not required"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-rconport
-                      label: "tcp-rconport Service Port Configuration"
+                    - variable: tcprconport
+                      label: "tcprconport Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Makes hosted Bedrock/MCPE servers show up as LAN servers, specifically
   for consoles. You can now play on remote servers (not Realms!) on your Xbox and
@@ -28,4 +28,4 @@ sources:
 - https://registry.hub.docker.com/r/binhex/arch-phantom/
 - https://github.com/binhex/documentation
 type: application
-version: 0.0.1
+version: 0.0.10

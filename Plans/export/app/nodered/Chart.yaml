@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - HomeAutomation
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Node-RED is a visual tool for wiring the Internet of Things[br][br]\r\
   \n"
@@ -26,4 +26,4 @@ sources:
 - https://nodered.org
 - https://hub.docker.com/r/nodered/node-red/
 type: application
-version: 0.0.1
+version: 0.0.10

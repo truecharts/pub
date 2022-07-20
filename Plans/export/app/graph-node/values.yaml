@@ -27,10 +27,10 @@ service:
         port: 8001
         protocol: TCP
         targetPort: 8001
-  json-rpc:
+  jsonrpc:
     enabled: true
     ports:
-      json-rpc:
+      jsonrpc:
         enabled: true
         port: 8020
         protocol: TCP

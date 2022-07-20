@@ -17,7 +17,7 @@ Config:
       Target: 8001
       Type: Port
       value: 8001
-    json-rpc:
+    jsonrpc:
       Default: ''
       Description: JSON-RPC admin server.
       Display: always

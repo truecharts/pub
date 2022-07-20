@@ -210,16 +210,16 @@ questions:
                                     type: int
                                     default: 20545
 
-        - variable: udp-lanbeacon
-          label: 'udp-lanbeacon service'
+        - variable: udplanbeacon
+          label: 'udplanbeacon service'
           description: "Container Port 8192"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: udp-lanbeacon
-                      label: "udp-lanbeacon Service Port Configuration"
+                    - variable: udplanbeacon
+                      label: "udplanbeacon Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

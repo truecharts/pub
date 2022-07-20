@@ -48,17 +48,11 @@ podSecurityContext:
   runAsUser: 0
 probes:
   liveness:
-    custom: true
-    spec:
-      port: 80
+    port: '{{ .Values.service.httpport.ports.httpport.targetPort }}'
   readiness:
-    custom: true
-    spec:
-      port: 80
+    port: '{{ .Values.service.httpport.ports.httpport.targetPort }}'
   startup:
-    custom: true
-    spec:
-      port: 80
+    port: '{{ .Values.service.httpport.ports.httpport.targetPort }}'
 securityContext:
   readOnlyRootFilesystem: false
   runAsNonRoot: false

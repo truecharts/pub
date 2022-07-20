@@ -18,7 +18,7 @@ Config:
       Protocol: tcp
       Target: 8125
       value: 8125
-    tcp-port-0:
+    tcpport0:
       ContainerPort: '8123'
       HostPort: '8123'
       Mode: tcp

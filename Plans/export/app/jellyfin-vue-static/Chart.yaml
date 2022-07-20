@@ -7,11 +7,11 @@ annotations:
     - MediaServer-Photos
     - MediaServer-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: A modern web client for Jellyfin based on Vue. It relies on Jellyfin
   to store and manage your media.
@@ -34,4 +34,4 @@ sources:
 - https://jellyfin.org
 - https://hub.docker.com/r/jellyfin/jellyfin-vue
 type: application
-version: 0.0.1
+version: 0.0.10

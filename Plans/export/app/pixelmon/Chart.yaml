@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'The Pixelmon Modpack 9.0.3 Modded Minecraft Server[br][br][b]The Pixelmon
   Modpack 9.0.3[/b][br]This is a Modpack designed to give players an easy time getting
@@ -30,4 +30,4 @@ sources:
 - https://www.curseforge.com/minecraft/modpacks/the-pixelmon-modpack
 - https://hub.docker.com/repository/docker/goobaroo/pixelmon
 type: application
-version: 0.0.1
+version: 0.0.10

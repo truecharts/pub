@@ -4,11 +4,11 @@ annotations:
     - Downloaders
     - MediaApp-Video
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple
   RSS feeds for new episodes of your favorite shows and will grab, sort and rename
@@ -37,4 +37,4 @@ sources:
 - https://github.com/RandomNinjaAtk/docker-sonarr-sma
 - https://hub.docker.com/r/randomninjaatk/sonarr-sma
 type: application
-version: 0.0.1
+version: 0.0.10

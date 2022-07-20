@@ -40,7 +40,7 @@ Config:
       Target: 8080
       Type: Port
       value: 9023
-    udp-gameport:
+    udpgameport:
       Default: ''
       Description: UDP Game Port (If you need another port delete this Entry and create
         a new UDP port mapping with the corresponding port | also don't forget to

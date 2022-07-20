@@ -32,7 +32,6 @@ pgadmin4
 pihole-dot-doh
 plexpass
 zwave2mqtt
-7daystodie
 aria2-daemon
 aria2webui
 amd

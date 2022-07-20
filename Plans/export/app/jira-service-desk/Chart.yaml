@@ -4,11 +4,11 @@ annotations:
     - Cloud
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Jira Service Desk is a fully featured service desk tool used by modern
   IT teams.
@@ -28,4 +28,4 @@ sources:
 - https://www.atlassian.com/software/jira/service-desk
 - https://hub.docker.com/r/atlassian/jira-servicedesk
 type: application
-version: 0.0.1
+version: 0.0.10

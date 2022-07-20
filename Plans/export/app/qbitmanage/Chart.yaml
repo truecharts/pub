@@ -4,11 +4,11 @@ annotations:
     - Downloaders
     - MediaApp-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: This tool will help manage tedious tasks in qBittorrent and automate
   them. Tag, categorize, remove orphaned data, remove unregistered torrents and much
@@ -29,4 +29,4 @@ sources:
 - https://hotio.dev/containers/qbitmanage
 - https://hub.docker.com/r/hotio/qbitmanage
 type: application
-version: 0.0.1
+version: 0.0.10

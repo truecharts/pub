@@ -4,11 +4,11 @@ annotations:
     - Tools-Utilities
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Yet another remote desktop software, written in Rust. Works out of the
   box, no configuration required. You have full control of your data, with no concerns
@@ -29,4 +29,4 @@ sources:
 - https://github.com/rustdesk/rustdesk-server
 - https://hub.docker.com/r/rustdesk/rustdesk-server
 type: application
-version: 0.0.1
+version: 0.0.10

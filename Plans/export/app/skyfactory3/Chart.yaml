@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'FTB Presents Skyfactory 3 Modded Minecraft Server[br][br][b]FTB Presents
   Skyfactory 3[/b][br]It''s skyblock like you''ve never seen it before! High tech
@@ -30,4 +30,4 @@ sources:
 - https://feed-the-beast.com/modpack/ftb_presents_skyfactory_3
 - https://hub.docker.com/repository/docker/goobaroo/ftbskyfactory3
 type: application
-version: 0.0.1
+version: 0.0.10

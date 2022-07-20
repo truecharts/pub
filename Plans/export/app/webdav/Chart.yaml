@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Cloud
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Very simple WebDAV server based on SabreDav and NGINX as the webserver.\
   \ \r\n"
@@ -26,4 +26,4 @@ sources:
 - https://sabre.io/
 - https://hub.docker.com/r/ck98/webdav-nginx
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -30,18 +30,18 @@ service:
         port: 9028
         protocol: HTTP
         targetPort: 8080
-  udp-gameport:
+  udpgameport:
     enabled: true
     ports:
-      udp-gameport:
+      udpgameport:
         enabled: true
         port: 33540
         protocol: UDP
         targetPort: 33540
-  udp-steamquery:
+  udpsteamquery:
     enabled: true
     ports:
-      udp-steamquery:
+      udpsteamquery:
         enabled: true
         port: 27015
         protocol: UDP

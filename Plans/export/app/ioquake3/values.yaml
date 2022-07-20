@@ -28,10 +28,10 @@ service:
         port: 9029
         protocol: HTTP
         targetPort: 8080
-  udp-gameport:
+  udpgameport:
     enabled: true
     ports:
-      udp-gameport:
+      udpgameport:
         enabled: true
         port: 27960
         protocol: UDP

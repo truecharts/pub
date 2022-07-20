@@ -4,11 +4,11 @@ annotations:
     - Backup
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'Backup PostgresSQL to the local filesystem with periodic rotating backups,
   based on schickling/postgres-backup-s3. Backup multiple databases from the same
@@ -31,4 +31,4 @@ sources:
 - https://github.com/prodrigestivill/docker-postgres-backup-local
 - https://hub.docker.com/r/prodrigestivill/postgres-backup-local
 type: application
-version: 0.0.1
+version: 0.0.10

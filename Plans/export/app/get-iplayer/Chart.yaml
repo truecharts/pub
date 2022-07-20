@@ -4,11 +4,11 @@ annotations:
     - MediaApp-Video
     - MediaServer-Video
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "get_iplayer has PVR-like capabilities (like Sky+ / TiVo / Series-Link);\
   \ You can save lists of programme searches which are automatically recorded when\
@@ -33,4 +33,4 @@ sources:
 - https://registry.hub.docker.com/r/binhex/arch-get-iplayer/
 - https://github.com/binhex/documentation
 type: application
-version: 0.0.1
+version: 0.0.10

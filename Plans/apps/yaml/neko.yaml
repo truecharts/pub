@@ -16,7 +16,7 @@ Config:
       Target: 8080
       Type: Port
       value: 6530
-    port52000-:
+    port52000:
       Default: 52000-52100
       Description: Needed for Webrtc Communication
       Display: advanced

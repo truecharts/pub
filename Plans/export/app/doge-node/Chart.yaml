@@ -4,11 +4,11 @@ annotations:
     - Network-Other
     - Crypto
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Support the Dogecoin network by hosting your own node! This template\
   \ provides a full Dogecoin Core node based on Ubuntu.\r\n"
@@ -28,4 +28,4 @@ sources:
 - https://dogecoin.com/
 - https://hub.docker.com/r/bigmandave/doge-node
 type: application
-version: 0.0.1
+version: 0.0.10

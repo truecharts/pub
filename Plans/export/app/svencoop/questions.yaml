@@ -180,16 +180,16 @@ questions:
                                     type: int
                                     default: 27015
 
-        - variable: tcp-rconport
-          label: 'tcp-rconport service'
+        - variable: tcprconport
+          label: 'tcprconport service'
           description: "Not needed"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-rconport
-                      label: "tcp-rconport Service Port Configuration"
+                    - variable: tcprconport
+                      label: "tcprconport Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

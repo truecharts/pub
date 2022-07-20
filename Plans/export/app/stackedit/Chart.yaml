@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "StackEdit\u2019s Markdown syntax highlighting is unique. The refined\
   \ text formatting of the editor helps you visualize the final rendering of your\
@@ -29,4 +29,4 @@ sources:
 - https://stackedit.io/
 - https://hub.docker.com/r/qmcgaw/stackedit/
 type: application
-version: 0.0.1
+version: 0.0.10

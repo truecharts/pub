@@ -8,11 +8,11 @@ annotations:
     - Network-Other
     - Network-Messenger
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "FREE version of Poste.io, full mail server solution. POP3, SMTP, IMAP,\
   \ Spamassassin, WebMail, WebAdmin. \r\n"
@@ -36,4 +36,4 @@ sources:
 - https://poste.io/
 - https://hub.docker.com/r/analogic/poste.io/
 type: application
-version: 0.0.1
+version: 0.0.10

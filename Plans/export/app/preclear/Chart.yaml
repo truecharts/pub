@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: A utility to "burn-in" a new disk, before adding it to your array has
   been requested several times.  Also requested is a process to "pre-clear" a hard
@@ -31,4 +31,4 @@ sources:
 - https://registry.hub.docker.com/r/binhex/arch-preclear/
 - https://github.com/binhex/documentation
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -7,11 +7,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Backup your files to Google Drive using Grive2 client in a docker container\r\
   \n"
@@ -34,4 +34,4 @@ sources:
 - https://github.com/agusalex/grive2docker
 - https://hub.docker.com/r/agusalex/grive2
 type: application
-version: 0.0.1
+version: 0.0.10

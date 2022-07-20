@@ -5,11 +5,11 @@ annotations:
     - Network-Other
     - Crypto
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'Serve your Electrum clients from your own Bitcoin node! Avoid trusting
   public Electrum nodes, and maintain your own privacy. Expose ElectrumX to the public
@@ -33,4 +33,4 @@ sources:
 - https://github.com/spesmilo/electrumx/
 - https://hub.docker.com/r/ofawx/electrumx/
 type: application
-version: 0.0.1
+version: 0.0.10

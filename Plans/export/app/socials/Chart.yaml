@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: '[b][u][span style=''color: #E80000;'']Description[/span][/u][/b][br]
 
@@ -27,4 +27,4 @@ sources:
 - https://github.com/diamkil/socials
 - https://registry.hub.docker.com/r/diamkil/socials/
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Joomla is a free and open-source content management system (CMS) for\
   \ publishing web content. It is built on a model\u2013view\u2013controller web application\
@@ -31,4 +31,4 @@ sources:
 - https://github.com/joomla/joomla-cms
 - https://hub.docker.com/_/joomla/
 type: application
-version: 0.0.1
+version: 0.0.10

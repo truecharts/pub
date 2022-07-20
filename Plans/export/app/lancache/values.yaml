@@ -17,10 +17,10 @@ securityContext:
   readOnlyRootFilesystem: false
   runAsNonRoot: false
 service:
-  https-port:
+  httpsport:
     enabled: true
     ports:
-      https-port:
+      httpsport:
         enabled: true
         port: 443
         protocol: TCP

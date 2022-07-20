@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Backup
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "LuckyBackup is a very user-friendly GUI backup program. It uses rsync\
   \ as a backend and transfers over only changes made rather than all data.\r\n"
@@ -26,4 +26,4 @@ sources:
 - https://sourceforge.net/projects/luckybackup/
 - https://hub.docker.com/r/ich777/luckybackup/
 type: application
-version: 0.0.1
+version: 0.0.10

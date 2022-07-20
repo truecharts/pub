@@ -5,11 +5,11 @@ annotations:
     - MediaApp-Music
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'Simple soundboard for discord. You can trigger sounds by commands typed
   in the Discord chat, or you can choose the sound from the web UI. You will need
@@ -35,4 +35,4 @@ sources:
 - https://github.com/Darkside138/DiscordSoundboard
 - https://hub.docker.com/r/davefurrer/discordsoundboard
 type: application
-version: 0.0.1
+version: 0.0.10

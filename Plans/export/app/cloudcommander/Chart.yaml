@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: '[b]CloudCommander[/b] is a simple web file browser with a built in text
   editor and archive compress/extract abilities.[br/]
@@ -27,4 +27,4 @@ name: cloudcommander
 sources:
 - https://hub.docker.com/r/coderaiser/cloudcmd/
 type: application
-version: 0.0.1
+version: 0.0.10

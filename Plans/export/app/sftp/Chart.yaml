@@ -4,11 +4,11 @@ annotations:
     - Tools-Utilities
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Easy to use SFTP (SSH File Transfer Protocol) server with OpenSSH and\
   \ Fail2ban installed for extra hardening against brute force attacks. Forked from\
@@ -29,4 +29,4 @@ sources:
 - https://github.com/MarkusMcNugen/docker-sftp
 - https://hub.docker.com/r/markusmcnugen/sftp/
 type: application
-version: 0.0.1
+version: 0.0.10

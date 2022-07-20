@@ -5,11 +5,11 @@ annotations:
     - Network-Proxy
     - Network-VPN
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "A secure SOCKS5 proxy. Shadowsocks is a free and open-source encryption\
   \ protocol project, widely used in China to circumvent Internet censorship. It was\
@@ -33,4 +33,4 @@ sources:
 - https://github.com/shadowsocks/shadowsocks-libev/blob/master/docker/alpine/README.md
 - https://hub.docker.com/r/shadowsocks/shadowsocks-libev
 type: application
-version: 0.0.1
+version: 0.0.10

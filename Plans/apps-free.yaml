@@ -1,3 +1,249 @@
+7daystodie:
+  CategoryList:
+  - GameServers
+  Config:
+    Device: {}
+    Label: {}
+    Path:
+      serverfiles:
+        Default: ''
+        Description: 'Container Path: /serverdata/serverfiles'
+        Display: always
+        Mask: 'false'
+        Mode: rw
+        Name: ServerFiles
+        Required: 'true'
+        Target: /serverdata/serverfiles
+        Type: Path
+        value: /mnt/cache/appdata/7dtd
+      steamcmd:
+        Default: ''
+        Description: 'Container Path: /serverdata/steamcmd'
+        Display: always
+        Mask: 'false'
+        Mode: rw
+        Name: SteamCMD
+        Required: 'true'
+        Target: /serverdata/steamcmd
+        Type: Path
+        value: /mnt/user/appdata/steamcmd
+    Port:
+      raknet:
+        Default: ''
+        Description: 'Container Port: 26902'
+        Display: always
+        Mask: 'false'
+        Mode: udp
+        Name: UDP3 - RakNet
+        Required: 'true'
+        Target: 26902
+        Type: Port
+        value: 26902
+      registeringats:
+        Default: ''
+        Description: Should be in the range 27015 - 27030, don't forget to set also
+          a different Container Port if you change this value.
+        Display: always
+        Mask: 'false'
+        Mode: udp
+        Name: UDP5 - Registering at server list
+        Required: 'true'
+        Target: 27015
+        Type: Port
+        value: 27015
+      steamcommunica:
+        Default: ''
+        Description: 'Container Port: 26901'
+        Display: always
+        Mask: 'false'
+        Mode: udp
+        Name: UDP2 - Steam Communications
+        Required: 'true'
+        Target: 26901
+        Type: Port
+        value: 26901
+      steammasterser:
+        Default: ''
+        Description: 'Container Port: 26900'
+        Display: always
+        Mask: 'false'
+        Mode: udp
+        Name: UDP1 - Steam Master server
+        Required: 'true'
+        Target: 26900
+        Type: Port
+        value: 26900
+      tcp:
+        Default: ''
+        Description: 'Container Port: 26900'
+        Display: always
+        Mask: 'false'
+        Mode: tcp
+        Name: TCP - Game details
+        Required: 'true'
+        Target: 26900
+        Type: Port
+        value: 26900
+      unet:
+        Default: ''
+        Description: 'Container Port: '
+        Display: always
+        Mask: 'false'
+        Mode: udp
+        Name: UDP4 - UNET
+        Required: 'true'
+        Target: 26903
+        Type: Port
+        value: 26903
+      webbasecontrol:
+        Default: ''
+        Description: 'Container Port: 8080'
+        Display: always
+        Mask: 'false'
+        Mode: tcp
+        Name: TCP2 - Web base control
+        Required: 'false'
+        Target: 8080
+        Type: Port
+        value: 8080
+      webpanel:
+        Default: ''
+        Description: 'Container Port: 8082'
+        Display: always
+        Mask: 'false'
+        Mode: tcp
+        Name: TCP3 - Web Panel
+        Required: 'false'
+        Target: 8082
+        Type: Port
+        value: 8082
+    Variable:
+      bepinex:
+        Default: ''
+        Description: If you want to enable BepInEx set this variable to 'true' (without
+          quotes).
+        Display: always
+        Mask: 'false'
+        Mode: ''
+        Name: BepInEx
+        Required: 'false'
+        Target: ENABLE_BEPINEX
+        Type: Variable
+        value: 'false'
+      game_id:
+        Default: ''
+        Description: "The GAME_ID that the container download at startup.\r\n(https://developer.valvesoftware.com/wiki/Dedicated_Servers_List)\r\
+          \nIf you want to use a static version of the game and not always the latest\
+          \ one then enter this: '294420 -beta stable_alpha19.4' or '294420 -beta\
+          \ latest_experimental' (without quotes) if you want to stay for example\
+          \ on alpha19.4."
+        Display: always
+        Mask: 'false'
+        Mode: ''
+        Name: GAME_ID
+        Required: 'true'
+        Target: GAME_ID
+        Type: Variable
+        value: '294420'
+      game_params:
+        Default: ''
+        Description: Enter your start up commands for the server.
+        Display: always
+        Mask: 'false'
+        Mode: ''
+        Name: GAME_PARAMS
+        Required: 'false'
+        Target: GAME_PARAMS
+        Type: Variable
+        value: -logfile 7DaysToDie_Data/output_log.txt $@
+      gid:
+        Default: ''
+        Description: 'Container Variable: GID'
+        Display: advanced-hide
+        Mask: 'false'
+        Mode: ''
+        Name: GID
+        Required: 'true'
+        Target: GID
+        Type: Variable
+        value: '100'
+      serverconfig:
+        Default: ''
+        Description: Please change if your serverconfigfile has another name.
+        Display: always
+        Mask: 'false'
+        Mode: ''
+        Name: Serverconfig
+        Required: 'true'
+        Target: SERVERCONFIG
+        Type: Variable
+        value: serverconfig.xml
+      steam-password:
+        Default: ''
+        Description: 'Your Steam password goes here if you want to install a game
+          that needs a valid account, otherwise leave it blank (ATTENTION: You have
+          to disable Steam Guard).'
+        Display: advanced-hide
+        Mask: 'true'
+        Mode: ''
+        Name: Steam-Password
+        Required: 'false'
+        Target: PASSWRD
+        Type: Variable
+        value: ''
+      steam-username:
+        Default: ''
+        Description: 'Your Steam username goes here if you want to install a game
+          that needs a valid account, otherwise leave it blank (ATTENTION: You have
+          to disable Steam Guard).'
+        Display: advanced-hide
+        Mask: 'false'
+        Mode: ''
+        Name: Steam-Username
+        Required: 'false'
+        Target: USERNAME
+        Type: Variable
+        value: ''
+      uid:
+        Default: ''
+        Description: 'Container Variable: UID'
+        Display: advanced-hide
+        Mask: 'false'
+        Mode: ''
+        Name: UID
+        Required: 'true'
+        Target: UID
+        Type: Variable
+        value: '99'
+      validateinstallation:
+        Default: ''
+        Description: Set the Variable to 'true' if you want to validate the installation
+          otherwise leave it blank.
+        Display: always-hide
+        Mask: 'false'
+        Mode: ''
+        Name: Validate Installation
+        Required: 'false'
+        Target: VALIDATE
+        Type: Variable
+        value: ''
+  ExtraParams: --restart=unless-stopped
+  Icon: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/7dtd.png
+  Keywords:
+  - 7daystodie
+  - GameServers
+  Name: 7daystodie
+  Overview: "This Docker will download and install SteamCMD. It will also install\
+    \ 7 Days to Die and run it.\r\n"
+  Privileged: 'false'
+  Registry: https://hub.docker.com/r/ich777/steamcmd/
+  Repository: ich777/steamcmd
+  Requires: ''
+  Sources:
+  - https://www.steampowered.com/
+  - https://hub.docker.com/r/ich777/steamcmd/
+  Tag: 7dtd
+  caTemplateURL: https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/7DaysToDie.xml
 acestream:
   CategoryList:
   - MediaServer-Video
@@ -407,7 +653,7 @@ alienswarm:
         Type: Path
         value: /mnt/user/appdata/steamcmd
     Port:
-      tcp-rconport:
+      tcprconport:
         Default: ''
         Description: TCP RCON Port (not required)
         Display: always
@@ -418,7 +664,7 @@ alienswarm:
         Target: 27015
         Type: Port
         value: 27015
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: UDP Gameport (if you need another port, please delete this entry
           and create a new UDP Port with the required port number, also don't forget
@@ -583,7 +829,7 @@ alienswarm-reactivedrop:
         Type: Path
         value: /mnt/user/appdata/steamcmd
     Port:
-      tcp-rconport:
+      tcprconport:
         Default: ''
         Description: TCP RCON Port (not required)
         Display: always
@@ -594,7 +840,7 @@ alienswarm-reactivedrop:
         Target: 27015
         Type: Port
         value: 27015
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: UDP Gameport (if you need another port, please delete this entry
           and create a new UDP Port with the required port number, also don't forget
@@ -3083,7 +3329,7 @@ assettocorsa:
         Type: Path
         value: /mnt/user/appdata/steamcmd
     Port:
-      assetto-:
+      assetto:
         Default: ''
         Description: 'Only needed if you installed Assetto-Server-Manager (Webserver
           Address: http://[IPOFYOURSERVER]:8771).'
@@ -7109,7 +7355,7 @@ craftopia:
         Type: Path
         value: /mnt/user/appdata/steamcmd
     Port:
-      tcp-gameport:
+      tcpgameport:
         Default: ''
         Description: TCP Game Port (if you need another port, please delete this entry
           and create a new TCP Port with the required port number, also don't forget
@@ -7122,7 +7368,7 @@ craftopia:
         Target: 8787
         Type: Port
         value: 8787
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: UDP Game Port (if you need another port, please delete this entry
           and create a new UDP Port with the required port number, also don't forget
@@ -12299,7 +12545,7 @@ dvblink:
         Protocol: tcp
         Target: 39876
         value: 39876
-      tcp-port-1:
+      tcpport1:
         ContainerPort: '8100'
         HostPort: '8100'
         Mode: tcp
@@ -12307,7 +12553,7 @@ dvblink:
         Protocol: tcp
         Target: 8100
         value: 8100
-      tcp-port-2:
+      tcpport2:
         ContainerPort: '22'
         HostPort: '2222'
         Mode: tcp
@@ -12447,7 +12693,7 @@ eco:
         Target: 3001
         Type: Port
         value: 3001
-      udp-gameport:
+      udpgameport:
         Default: '3000'
         Description: UDP Game Port
         Display: always
@@ -16275,7 +16521,7 @@ flextv:
         Protocol: tcp
         Target: 80
         value: 5666
-      tcp-port-1:
+      tcpport1:
         ContainerPort: '443'
         HostPort: '5667'
         Mode: tcp
@@ -18848,7 +19094,7 @@ gogs:
         Protocol: tcp
         Target: 3000
         value: 8930
-      tcp-port-0:
+      tcpport0:
         ContainerPort: '22'
         HostPort: '8922'
         Mode: tcp
@@ -19414,7 +19660,7 @@ graph-node:
         Target: 8001
         Type: Port
         value: 8001
-      json-rpc:
+      jsonrpc:
         Default: ''
         Description: JSON-RPC admin server.
         Display: always
@@ -23556,7 +23802,7 @@ ioquake3:
         Target: 8080
         Type: Port
         value: 9029
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: Game Port (If you want to change the game port please click on
           more settings here in the template, change the port, then delete this entry
@@ -23870,7 +24116,7 @@ iw4x-server:
         Type: Path
         value: /mnt/cache/appdata/iw4x
     Port:
-      tcp-gameport:
+      tcpgameport:
         Default: ''
         Description: TCP Game Port same as UDP (if you need another port, please delete
           this entry and create a new TCP Port with the corresponding port number,
@@ -23884,7 +24130,7 @@ iw4x-server:
         Target: 28960
         Type: Port
         value: 28960
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: UDP Game Port same as TCP (if you need another port, please delete
           this entry and create a new UDP Port with the corresponding port number,
@@ -26848,7 +27094,7 @@ kerio-connect:
         Protocol: tcp
         Target: 4040
         value: 4040
-      tcp-port-1:
+      tcpport1:
         ContainerPort: '22'
         HostPort: '222'
         Mode: tcp
@@ -26856,7 +27102,7 @@ kerio-connect:
         Protocol: tcp
         Target: 22
         value: 222
-      tcp-port-10:
+      tcpport10:
         ContainerPort: '563'
         HostPort: '563'
         Mode: tcp
@@ -26864,7 +27110,7 @@ kerio-connect:
         Protocol: tcp
         Target: 563
         value: 563
-      tcp-port-11:
+      tcpport11:
         ContainerPort: '389'
         HostPort: '389'
         Mode: tcp
@@ -26872,7 +27118,7 @@ kerio-connect:
         Protocol: tcp
         Target: 389
         value: 389
-      tcp-port-12:
+      tcpport12:
         ContainerPort: '636'
         HostPort: '636'
         Mode: tcp
@@ -26880,7 +27126,7 @@ kerio-connect:
         Protocol: tcp
         Target: 636
         value: 636
-      tcp-port-13:
+      tcpport13:
         ContainerPort: '80'
         HostPort: '8001'
         Mode: tcp
@@ -26888,7 +27134,7 @@ kerio-connect:
         Protocol: tcp
         Target: 80
         value: 8001
-      tcp-port-14:
+      tcpport14:
         ContainerPort: '443'
         HostPort: '4443'
         Mode: tcp
@@ -26896,7 +27142,7 @@ kerio-connect:
         Protocol: tcp
         Target: 443
         value: 4443
-      tcp-port-15:
+      tcpport15:
         ContainerPort: '5222'
         HostPort: '5222'
         Mode: tcp
@@ -26904,7 +27150,7 @@ kerio-connect:
         Protocol: tcp
         Target: 5222
         value: 5222
-      tcp-port-16:
+      tcpport16:
         ContainerPort: '5223'
         HostPort: '5223'
         Mode: tcp
@@ -26912,7 +27158,7 @@ kerio-connect:
         Protocol: tcp
         Target: 5223
         value: 5223
-      tcp-port-2:
+      tcpport2:
         ContainerPort: '25'
         HostPort: '25'
         Mode: tcp
@@ -26920,7 +27166,7 @@ kerio-connect:
         Protocol: tcp
         Target: 25
         value: 25
-      tcp-port-3:
+      tcpport3:
         ContainerPort: '465'
         HostPort: '465'
         Mode: tcp
@@ -26928,7 +27174,7 @@ kerio-connect:
         Protocol: tcp
         Target: 465
         value: 465
-      tcp-port-4:
+      tcpport4:
         ContainerPort: '587'
         HostPort: '587'
         Mode: tcp
@@ -26936,7 +27182,7 @@ kerio-connect:
         Protocol: tcp
         Target: 587
         value: 587
-      tcp-port-5:
+      tcpport5:
         ContainerPort: '110'
         HostPort: '110'
         Mode: tcp
@@ -26944,7 +27190,7 @@ kerio-connect:
         Protocol: tcp
         Target: 110
         value: 110
-      tcp-port-6:
+      tcpport6:
         ContainerPort: '995'
         HostPort: '995'
         Mode: tcp
@@ -26952,7 +27198,7 @@ kerio-connect:
         Protocol: tcp
         Target: 995
         value: 995
-      tcp-port-7:
+      tcpport7:
         ContainerPort: '143'
         HostPort: '143'
         Mode: tcp
@@ -26960,7 +27206,7 @@ kerio-connect:
         Protocol: tcp
         Target: 143
         value: 143
-      tcp-port-8:
+      tcpport8:
         ContainerPort: '993'
         HostPort: '993'
         Mode: tcp
@@ -26968,7 +27214,7 @@ kerio-connect:
         Protocol: tcp
         Target: 993
         value: 993
-      tcp-port-9:
+      tcpport9:
         ContainerPort: '119'
         HostPort: '119'
         Mode: tcp
@@ -27254,7 +27500,7 @@ killingfloor2:
         Target: 20560
         Type: Port
         value: 20560
-      tcp-webadmin:
+      tcpwebadmin:
         Default: ''
         Description: 'Container Port: 8080'
         Display: always
@@ -27949,7 +28195,7 @@ lancache:
         Type: Path
         value: /mnt/user/appdata/lancache/logs
     Port:
-      http-port:
+      httpport:
         Default: '80'
         Description: 'Container Port: 80'
         Display: always
@@ -27960,7 +28206,7 @@ lancache:
         Target: 80
         Type: Port
         value: 80
-      https-port:
+      httpsport:
         Default: '443'
         Description: 'Container Port: 443'
         Display: always
@@ -32550,7 +32796,7 @@ mindustry:
         Type: Path
         value: /mnt/cache/appdata/mindustry
     Port:
-      tcp-gameport:
+      tcpgameport:
         Default: ''
         Description: 'Container Port: 6567'
         Display: always
@@ -32561,7 +32807,7 @@ mindustry:
         Target: 6567
         Type: Port
         value: 6567
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: 'Container Port: 6567'
         Display: always
@@ -34094,7 +34340,7 @@ necesse:
         Target: 8080
         Type: Port
         value: 9023
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: UDP Game Port (If you need another port delete this Entry and
           create a new UDP port mapping with the corresponding port | also don't forget
@@ -34204,7 +34450,7 @@ neko:
         Target: 8080
         Type: Port
         value: 6530
-      port52000-:
+      port52000:
         Default: 52000-52100
         Description: Needed for Webrtc Communication
         Display: advanced
@@ -35958,7 +36204,7 @@ observium:
         Protocol: tcp
         Target: 8668
         value: 8668
-      udp-port-1:
+      udpport1:
         ContainerPort: '514'
         HostPort: '8514'
         Mode: udp
@@ -36274,7 +36520,7 @@ openmw-tes3mp:
         Type: Path
         value: /mnt/cache/appdata/openmw-tes3mp
     Port:
-      tcp-gameport:
+      tcpgameport:
         Default: ''
         Description: TCP Gameport (if you need another port, please delete this entry
           and create a new TCP Port with the required port number, also don't forget
@@ -36287,7 +36533,7 @@ openmw-tes3mp:
         Target: 25565
         Type: Port
         value: 25565
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: UDP Gameport (if you need another port, please delete this entry
           and create a new UDP Port with the required port number, also don't forget
@@ -36765,7 +37011,7 @@ openttd:
         Target: 8080
         Type: Port
         value: 9015
-      tcp-gameport:
+      tcpgameport:
         Default: ''
         Description: 'Container Port: 3979'
         Display: always
@@ -36776,7 +37022,7 @@ openttd:
         Target: 3979
         Type: Port
         value: 3979
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: 'Container Port: 3979'
         Display: always
@@ -37624,7 +37870,7 @@ pavlovvr:
         Type: Path
         value: /mnt/user/appdata/steamcmd
     Port:
-      tcp-gameport:
+      tcpgameport:
         Default: ''
         Description: If you specify another game port then delete this entry and create
           a new TCP entry with your desired port number (also don't forget to set
@@ -37633,19 +37879,6 @@ pavlovvr:
         Mask: 'false'
         Mode: tcp
         Name: TCP - Game Port
-        Required: 'true'
-        Target: 7777
-        Type: Port
-        value: 7777
-      udp-gameport:
-        Default: ''
-        Description: If you specify another game port then delete this entry and create
-          a new UDP entry with your desired port number (also don't forget to set
-          it in the GAME_PARAMS).
-        Display: always
-        Mask: 'false'
-        Mode: udp
-        Name: UDP - Game Port
         Required: 'true'
         Target: 7777
         Type: Port
@@ -37672,6 +37905,19 @@ pavlovvr:
         Target: 7977
         Type: Port
         value: 7977
+      udpgameport:
+        Default: ''
+        Description: If you specify another game port then delete this entry and create
+          a new UDP entry with your desired port number (also don't forget to set
+          it in the GAME_PARAMS).
+        Display: always
+        Mask: 'false'
+        Mode: udp
+        Name: UDP - Game Port
+        Required: 'true'
+        Target: 7777
+        Type: Port
+        value: 7777
     Variable:
       game_id:
         Default: ''
@@ -37910,7 +38156,7 @@ phantom:
         Target: /config
         value: /mnt/user/appdata/config
     Port:
-      tcp-port-0:
+      tcpport0:
         ContainerPort: '19132'
         HostPort: '19132'
         Mode: tcp
@@ -37918,7 +38164,7 @@ phantom:
         Protocol: tcp
         Target: 19132
         value: 19132
-      tcp-port-2:
+      tcpport2:
         ContainerPort: '19133'
         HostPort: '19133'
         Mode: tcp
@@ -37926,7 +38172,7 @@ phantom:
         Protocol: tcp
         Target: 19133
         value: 19133
-      udp-port-1:
+      udpport1:
         ContainerPort: '19132'
         HostPort: '19132'
         Mode: udp
@@ -37934,7 +38180,7 @@ phantom:
         Protocol: udp
         Target: 19132
         value: 19132
-      udp-port-3:
+      udpport3:
         ContainerPort: '19133'
         HostPort: '19133'
         Mode: udp
@@ -39930,7 +40176,7 @@ planetaryannihilation:
         Type: Path
         value: /mnt/cache/appdata/planetaryannihilation
     Port:
-      tcp-serverport:
+      tcpserverport:
         Default: ''
         Description: TCP Serverport (if you need another port, please delete this
           entry and create a new TCP Port with the required port number, also don't
@@ -39943,7 +40189,7 @@ planetaryannihilation:
         Target: 20545
         Type: Port
         value: 20545
-      udp-lanbeacon:
+      udplanbeacon:
         Default: ''
         Description: 'Container Port: 8192'
         Display: always
@@ -42960,7 +43206,7 @@ projectzomboid:
         Type: Path
         value: /mnt/user/appdata/steamcmd
     Port:
-      tcp-:
+      tcp:
         Default: ''
         Description: 'Every player that connects to your server need''s it''s own
           port (if you don''t need that many ports you can also delete this entry
@@ -42973,7 +43219,7 @@ projectzomboid:
         Target: 16262
         Type: Port
         value: 16262
-      tcp-rconport:
+      tcprconport:
         Default: ''
         Description: Not required
         Display: always
@@ -42984,7 +43230,7 @@ projectzomboid:
         Target: 27015
         Type: Port
         value: 27015
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: UDP Gameport (if you need another port, please delete this entry
           and create a new UDP Port with the required port number, also don't forget
@@ -50881,7 +51127,7 @@ scp-secretlaboratory:
         Type: Path
         value: /mnt/user/appdata/steamcmd
     Port:
-      tcp-gameport:
+      tcpgameport:
         Default: ''
         Description: 'Container Port: 7777'
         Display: always
@@ -50892,7 +51138,7 @@ scp-secretlaboratory:
         Target: 7777
         Type: Port
         value: 7777
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: 'Container Port: 7777'
         Display: always
@@ -53432,7 +53678,7 @@ signum-node:
         Protocol: tcp
         Target: 8125
         value: 8125
-      tcp-port-0:
+      tcpport0:
         ContainerPort: '8123'
         HostPort: '8123'
         Mode: tcp
@@ -55807,7 +56053,7 @@ starbound:
         Type: Path
         value: /mnt/user/appdata/steamcmd
     Port:
-      tcp-gameport:
+      tcpgameport:
         Default: ''
         Description: 'Container Port: 21025'
         Display: always
@@ -55818,7 +56064,7 @@ starbound:
         Target: 21025
         Type: Port
         value: 21025
-      tcp-rconport:
+      tcprconport:
         Default: ''
         Description: Only if needed, else delete this entry
         Display: always
@@ -55829,7 +56075,7 @@ starbound:
         Target: 21026
         Type: Port
         value: 21026
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: 'Container Port: 21025'
         Display: always
@@ -55953,7 +56199,7 @@ starbound-gog-server:
         Name: starbound
         Target: /starbound
     Port:
-      tcp-port-0:
+      tcpport0:
         ContainerPort: '21025'
         HostPort: '21025'
         Mode: tcp
@@ -55961,7 +56207,7 @@ starbound-gog-server:
         Protocol: tcp
         Target: 21025
         value: 21025
-      tcp-port-1:
+      tcpport1:
         ContainerPort: '21026'
         HostPort: '21026'
         Mode: tcp
@@ -58040,7 +58286,7 @@ svencoop:
         Type: Path
         value: /mnt/user/appdata/steamcmd
     Port:
-      tcp-rconport:
+      tcprconport:
         Default: ''
         Description: Not needed
         Display: always
@@ -58051,7 +58297,7 @@ svencoop:
         Target: 27015
         Type: Port
         value: 27015
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: UDP Gameport (if you need another port, please delete this entry
           and create a new UDP Port with the required port number, also don't forget
@@ -61175,7 +61421,7 @@ tinymm-cli:
         Protocol: ''
         Target: 5800
         value: 5800
-      tcp-port-1:
+      tcpport1:
         ContainerPort: '5801'
         HostPort: '5801'
         Mode: tcp
@@ -62207,7 +62453,7 @@ transmission-nzbtomedia:
         Protocol: tcp
         Target: 9091
         value: 9091
-      tcp-port-1:
+      tcpport1:
         ContainerPort: '51413'
         HostPort: '51413'
         Mode: tcp
@@ -63047,7 +63293,7 @@ ubuntu-xrdp:
         Name: unraid
         Target: /home/ubuntu/unraid
     Port:
-      tcp-port-0:
+      tcpport0:
         ContainerPort: '3389'
         HostPort: '3389'
         Mode: tcp
@@ -63055,7 +63301,7 @@ ubuntu-xrdp:
         Protocol: tcp
         Target: 3389
         value: 3389
-      tcp-port-1:
+      tcpport1:
         ContainerPort: '6080'
         HostPort: '6080'
         Mode: tcp
@@ -63063,7 +63309,7 @@ ubuntu-xrdp:
         Protocol: tcp
         Target: 6080
         value: 6080
-      tcp-port-2:
+      tcpport2:
         ContainerPort: '5900'
         HostPort: '5900'
         Mode: tcp
@@ -63922,7 +64168,7 @@ unifi-video:
         Protocol: tcp
         Target: 7080
         value: 7080
-      tcp-port-0:
+      tcpport0:
         ContainerPort: '1935'
         HostPort: '1935'
         Mode: tcp
@@ -63930,7 +64176,7 @@ unifi-video:
         Protocol: tcp
         Target: 1935
         value: 1935
-      tcp-port-1:
+      tcpport1:
         ContainerPort: '6666'
         HostPort: '6666'
         Mode: tcp
@@ -63938,7 +64184,7 @@ unifi-video:
         Protocol: tcp
         Target: 6666
         value: 6666
-      tcp-port-4:
+      tcpport4:
         ContainerPort: '7442'
         HostPort: '7442'
         Mode: tcp
@@ -63946,7 +64192,7 @@ unifi-video:
         Protocol: tcp
         Target: 7442
         value: 7442
-      tcp-port-5:
+      tcpport5:
         ContainerPort: '7443'
         HostPort: '7443'
         Mode: tcp
@@ -63954,7 +64200,7 @@ unifi-video:
         Protocol: tcp
         Target: 7443
         value: 7443
-      tcp-port-6:
+      tcpport6:
         ContainerPort: '7444'
         HostPort: '7444'
         Mode: tcp
@@ -63962,7 +64208,7 @@ unifi-video:
         Protocol: tcp
         Target: 7444
         value: 7444
-      tcp-port-7:
+      tcpport7:
         ContainerPort: '7445'
         HostPort: '7445'
         Mode: tcp
@@ -63970,7 +64216,7 @@ unifi-video:
         Protocol: tcp
         Target: 7445
         value: 7445
-      tcp-port-8:
+      tcpport8:
         ContainerPort: '7446'
         HostPort: '7446'
         Mode: tcp
@@ -63978,7 +64224,7 @@ unifi-video:
         Protocol: tcp
         Target: 7446
         value: 7446
-      tcp-port-9:
+      tcpport9:
         ContainerPort: '7447'
         HostPort: '7447'
         Mode: tcp
@@ -63986,7 +64232,7 @@ unifi-video:
         Protocol: tcp
         Target: 7447
         value: 7447
-      udp-port-2:
+      udpport2:
         ContainerPort: '7004'
         HostPort: '7004'
         Mode: udp
@@ -67765,7 +68011,7 @@ wreckfest:
         Target: 8080
         Type: Port
         value: 9028
-      udp-gameport:
+      udpgameport:
         Default: ''
         Description: UDP Game Port (if you need another port, please delete this entry
           and create a new UDP Port with the required port number, also don't forget
@@ -67778,7 +68024,7 @@ wreckfest:
         Target: 33540
         Type: Port
         value: 33540
-      udp-steamquery:
+      udpsteamquery:
         Default: ''
         Description: UDP Steam/Query Ports (if you need another port, please delete
           this entry and create a new UDP Port with the required port number, also
@@ -68359,7 +68605,7 @@ xeoma:
         Protocol: tcp
         Target: 10090
         value: 10090
-      tcp-port-0:
+      tcpport0:
         ContainerPort: '8090'
         HostPort: '8090'
         Mode: tcp

@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'Enigmatica 6 1.3.0 Modded Minecraft Server[br][br][b]Enigmatica 6 1.3.0[/b][br]Play
   with new mods and old favorites in Minecraft 1.16.5! E6 offers a boatload of custom
@@ -30,4 +30,4 @@ sources:
 - https://www.curseforge.com/minecraft/modpacks/enigmatica6
 - https://hub.docker.com/repository/docker/goobaroo/enigmatica6
 type: application
-version: 0.0.1
+version: 0.0.10

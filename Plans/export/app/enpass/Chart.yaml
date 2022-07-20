@@ -5,11 +5,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Enpass is a cross-platform password management app to securely store\
   \ passwords and other credentials in a virtual vault locked with a master password.\r\
@@ -31,4 +31,4 @@ sources:
 - https://www.enpass.io/
 - https://hub.docker.com/r/ich777/enpass
 type: application
-version: 0.0.1
+version: 0.0.10

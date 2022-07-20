@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: This is a simple email relay server that handles emails from Kavita application.
   By default, Kavita installations will use the Kavita hosted email service. However,
@@ -28,4 +28,4 @@ sources:
 - https://github.com/Kareadita/KavitaEmail
 - https://hub.docker.com/r/kizaing/kavitaemail
 type: application
-version: 0.0.1
+version: 0.0.10

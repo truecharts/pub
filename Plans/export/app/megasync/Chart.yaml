@@ -6,11 +6,11 @@ annotations:
     - Tools-Utilities
     - Backup
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "MEGAsync is an intuitive application that enables you to effortlessly\
   \ synchronize folders on several computers. You simply need to upload data in the\
@@ -34,4 +34,4 @@ sources:
 - https://hub.docker.com/r/ich777/doh-server
 - https://hub.docker.com/r/ich777/megasync
 type: application
-version: 0.0.1
+version: 0.0.10

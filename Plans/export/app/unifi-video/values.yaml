@@ -22,74 +22,74 @@ service:
         port: 7080
         protocol: HTTP
         targetPort: 7080
-  tcp-port-0:
+  tcpport0:
     enabled: true
     ports:
-      tcp-port-0:
+      tcpport0:
         enabled: true
         port: 1935
         protocol: TCP
         targetPort: 1935
-  tcp-port-1:
+  tcpport1:
     enabled: true
     ports:
-      tcp-port-1:
+      tcpport1:
         enabled: true
         port: 6666
         protocol: TCP
         targetPort: 6666
-  tcp-port-4:
+  tcpport4:
     enabled: true
     ports:
-      tcp-port-4:
+      tcpport4:
         enabled: true
         port: 7442
         protocol: TCP
         targetPort: 7442
-  tcp-port-5:
+  tcpport5:
     enabled: true
     ports:
-      tcp-port-5:
+      tcpport5:
         enabled: true
         port: 7443
         protocol: TCP
         targetPort: 7443
-  tcp-port-6:
+  tcpport6:
     enabled: true
     ports:
-      tcp-port-6:
+      tcpport6:
         enabled: true
         port: 7444
         protocol: TCP
         targetPort: 7444
-  tcp-port-7:
+  tcpport7:
     enabled: true
     ports:
-      tcp-port-7:
+      tcpport7:
         enabled: true
         port: 7445
         protocol: TCP
         targetPort: 7445
-  tcp-port-8:
+  tcpport8:
     enabled: true
     ports:
-      tcp-port-8:
+      tcpport8:
         enabled: true
         port: 7446
         protocol: TCP
         targetPort: 7446
-  tcp-port-9:
+  tcpport9:
     enabled: true
     ports:
-      tcp-port-9:
+      tcpport9:
         enabled: true
         port: 7447
         protocol: TCP
         targetPort: 7447
-  udp-port-2:
+  udpport2:
     enabled: true
     ports:
-      udp-port-2:
+      udpport2:
         enabled: true
         port: 7004
         protocol: UDP

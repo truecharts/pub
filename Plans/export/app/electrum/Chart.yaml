@@ -5,11 +5,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Electrum is a Bitcoin wallet focused on speed and simplicity, with low\
   \ resource usage. It uses remote servers that handle the most complicated parts\
@@ -32,4 +32,4 @@ sources:
 - https://electrum.org/
 - https://hub.docker.com/r/ich777/electrum
 type: application
-version: 0.0.1
+version: 0.0.10

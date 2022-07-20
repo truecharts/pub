@@ -416,10 +416,13 @@ for n in afList:
           value["Mode"] = 'HTTP'
 
         name = name.lower()
+        name = name.replace('.', '')
+        name = name.replace('-', '')
         for char in invalid:
           name = name.replace(char, '')
-        name = name.replace('.', '-')
         name = re.sub(tmp+'-', '', name)
+        name = name.replace('.', '')
+        name = name.replace('-', '')
         portstore[name] = value
       n["Config"].pop("Port", "")
       n["Config"]["Port"] = portstore
@@ -700,19 +703,14 @@ for name, app in combinedfree.items():
 
 
   if setcustom:
+    appvaluesyaml.pop("probes", "")
     appvaluesyaml["probes"] = {}
     appvaluesyaml["probes"]["liveness"] = {}
-    appvaluesyaml["probes"]["liveness"]["spec"] = {}
     appvaluesyaml["probes"]["readiness"] = {}
-    appvaluesyaml["probes"]["readiness"]["spec"] = {}
     appvaluesyaml["probes"]["startup"] = {}
-    appvaluesyaml["probes"]["startup"]["spec"] = {}
-    appvaluesyaml["probes"]["liveness"]["custom"] = True
-    appvaluesyaml["probes"]["readiness"]["custom"] = True
-    appvaluesyaml["probes"]["startup"]["custom"] = True
-    appvaluesyaml["probes"]["liveness"]["spec"]["port"] = appvaluesyaml["service"][setcustom]["ports"][setcustom]["port"]
-    appvaluesyaml["probes"]["readiness"]["spec"]["port"] = appvaluesyaml["service"][setcustom]["ports"][setcustom]["port"]
-    appvaluesyaml["probes"]["startup"]["spec"]["port"] = appvaluesyaml["service"][setcustom]["ports"][setcustom]["port"]
+    appvaluesyaml["probes"]["liveness"]["port"] = '{{ .Values.service.'+setcustom+'.ports.'+setcustom+'.targetPort }}'
+    appvaluesyaml["probes"]["readiness"]["port"] = '{{ .Values.service.'+setcustom+'.ports.'+setcustom+'.targetPort }}'
+    appvaluesyaml["probes"]["startup"]["port"] = '{{ .Values.service.'+setcustom+'.ports.'+setcustom+'.targetPort }}'
 
   appvaluesyamlString = yaml.dump(appvaluesyaml)
   appvaluesyamlFile = open("./export/"+"app/"+tmpname+"/values.yaml", "w")

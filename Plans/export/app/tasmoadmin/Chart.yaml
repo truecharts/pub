@@ -4,11 +4,11 @@ annotations:
     - HomeAutomation
     - Network-Management
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "TasmoAdmin is an administrative Website for Home Automation Devices\
   \ flashed with Tasmota (PLEASE Stop this container while not in use and during Tasmota\
@@ -28,4 +28,4 @@ name: tasmoadmin
 sources:
 - https://hub.docker.com/r/raymondmm/tasmoadmin/
 type: application
-version: 0.0.1
+version: 0.0.10

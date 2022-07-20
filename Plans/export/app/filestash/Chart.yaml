@@ -5,11 +5,11 @@ annotations:
     - Productivity
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV,
   CardDAV, Mysql, Backblaze, ...
@@ -30,4 +30,4 @@ sources:
 - https://www.filestash.app/
 - https://hub.docker.com/r/machines/filestash/
 type: application
-version: 0.0.1
+version: 0.0.10

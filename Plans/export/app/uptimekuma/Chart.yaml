@@ -5,11 +5,11 @@ annotations:
     - Tools-Utilities
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Self-hosted monitoring tool like \"Uptime Robot\".  \r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/uptimekuma
@@ -29,4 +29,4 @@ sources:
 - https://github.com/louislam/uptime-kuma
 - https://hub.docker.com/r/louislam/uptime-kuma/
 type: application
-version: 0.0.1
+version: 0.0.10

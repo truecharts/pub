@@ -4,11 +4,11 @@ annotations:
     - Network-Web
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Kerio Connect is Mail/Groupware like Microsoft Exchange, but running
   on Linux. More Informations under www.kerio.com/connect
@@ -28,4 +28,4 @@ sources:
 - http://kerio.com
 - https://hub.docker.com/r/chvb/docker-kerio-connect/
 type: application
-version: 0.0.1
+version: 0.0.10

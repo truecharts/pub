@@ -5,11 +5,11 @@ annotations:
     - Productivity
     - Network-Messenger
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Open, secure and interoperable communication for work and home. Used
   to call Riot-web. before the running the docker run [br]mkdir -p /mnt/user/appdata/element-web/config
@@ -30,4 +30,4 @@ name: element-web
 sources:
 - https://hub.docker.com/r/vectorim/element-web/
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - HomeAutomation
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "# Enet2mqtt\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/enet2mqtt
@@ -25,4 +25,4 @@ sources:
 - https://github.com/mnordseth/enet2mqtt
 - https://hub.docker.com/repository/docker/th0masdb14/enet2mqtt
 type: application
-version: 0.0.1
+version: 0.0.10

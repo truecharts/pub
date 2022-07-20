@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "PhantomBot is a Twitch chat bot powered by Java. PhantomBot has many\
   \ modern features out of the box such as a built-in webpanel, enhanced moderation,\
@@ -29,4 +29,4 @@ sources:
 - https://github.com/phantombot/PhantomBot
 - https://hub.docker.com/r/gmt2001/phantombot-stable
 type: application
-version: 0.0.1
+version: 0.0.10

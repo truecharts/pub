@@ -18,7 +18,7 @@ Config:
       Protocol: tcp
       Target: 8668
       value: 8668
-    udp-port-1:
+    udpport1:
       ContainerPort: '514'
       HostPort: '8514'
       Mode: udp

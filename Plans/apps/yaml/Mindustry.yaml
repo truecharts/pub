@@ -16,7 +16,7 @@ Config:
       Type: Path
       value: /mnt/cache/appdata/mindustry
   Port:
-    tcp-gameport:
+    tcpgameport:
       Default: ''
       Description: 'Container Port: 6567'
       Display: always
@@ -27,7 +27,7 @@ Config:
       Target: 6567
       Type: Port
       value: 6567
-    udp-gameport:
+    udpgameport:
       Default: ''
       Description: 'Container Port: 6567'
       Display: always

@@ -22,10 +22,10 @@ service:
         port: 8125
         protocol: HTTP
         targetPort: 8125
-  tcp-port-0:
+  tcpport0:
     enabled: true
     ports:
-      tcp-port-0:
+      tcpport0:
         enabled: true
         port: 8123
         protocol: TCP

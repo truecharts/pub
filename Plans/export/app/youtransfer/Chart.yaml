@@ -4,11 +4,11 @@ annotations:
     - Cloud
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "YouTransfer is a simple but elegant self-hosted file transfer &amp;\
   \ sharing solution. It is an alternative to paid services like Dropbox and WeTransfer\
@@ -30,4 +30,4 @@ sources:
 - https://github.com/YouTransfer/YouTransfer
 - https://hub.docker.com/r/remie/youtransfer/
 type: application
-version: 0.0.1
+version: 0.0.10

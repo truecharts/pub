@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Downloaders
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Transmission is designed for easy, powerful use. Transmission has the\
   \ features you want from a BitTorrent client: encryption, a web interface, peer\
@@ -29,4 +29,4 @@ sources:
 - http://www.transmissionbt.com/
 - https://hub.docker.com/r/thraxis/transmission-nzbtomedia/
 type: application
-version: 0.0.1
+version: 0.0.10

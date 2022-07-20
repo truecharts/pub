@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "This is an official JetBrains TeamCity build agent image.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/teamcity-buildagent
@@ -27,4 +27,4 @@ sources:
 - https://hub.docker.com/r/jetbrains/teamcity-agent/
 - https://hub.docker.com/r/jetbrains/teamcity-agent/
 type: application
-version: 0.0.1
+version: 0.0.10

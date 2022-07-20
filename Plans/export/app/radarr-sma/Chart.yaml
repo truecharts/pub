@@ -4,11 +4,11 @@ annotations:
     - Downloaders
     - MediaApp-Video
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Radarr - A fork of Sonarr to work with movies \xE0 la Couchpotato. This\
   \ comes bundled with sickbeard_mp4_automator script, that can be found here: https://github.com/mdhiggins/sickbeard_mp4_automator[br][br][b][u][span\
@@ -35,4 +35,4 @@ sources:
 - https://github.com/RandomNinjaAtk/docker-radarr-sma
 - https://hub.docker.com/r/randomninjaatk/radarr-sma
 type: application
-version: 0.0.1
+version: 0.0.10

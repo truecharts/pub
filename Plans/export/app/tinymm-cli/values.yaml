@@ -25,10 +25,10 @@ service:
         port: 5800
         protocol: HTTP
         targetPort: 5800
-  tcp-port-1:
+  tcpport1:
     enabled: true
     ports:
-      tcp-port-1:
+      tcpport1:
         enabled: true
         port: 5801
         protocol: TCP

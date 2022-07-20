@@ -4,11 +4,11 @@ annotations:
     - Network
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'A web-based user interface that provide a way for the user to select
   any relevant iPXE build options, specify any embedded script, etc, and then construct
@@ -31,4 +31,4 @@ sources:
 - https://github.com/xbgmsharp
 - https://hub.docker.com/r/angelics/unraid-docker-ipxe-buildweb
 type: application
-version: 0.0.1
+version: 0.0.10

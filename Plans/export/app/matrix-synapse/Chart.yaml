@@ -5,11 +5,11 @@ annotations:
     - Network-Voip
     - Network-Messenger
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Matrix Chat's reference server. By default it uses a sqlite database;\
   \ for production use you should connect it to a separate PostgreSQL database.\r\n"
@@ -30,4 +30,4 @@ sources:
 - https://matrix.org/docs/projects/server/synapse
 - https://hub.docker.com/r/matrixdotorg/synapse
 type: application
-version: 0.0.1
+version: 0.0.10

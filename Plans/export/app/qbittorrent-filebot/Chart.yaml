@@ -4,11 +4,11 @@ annotations:
     - Downloaders
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "qBittorrent is a cross-platform free and open-source BitTorrent client.\
   \ It is a native application written in C++. It uses Boost, Qt 5 toolkit, and the\
@@ -30,4 +30,4 @@ sources:
 - https://github.com/imTHAI/docker-qbittorrent-filebot
 - https://hub.docker.com/repository/docker/imthai/qbittorrent-filebot
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -27,7 +27,7 @@ Config:
       Type: Path
       value: /mnt/user/appdata/steamcmd
   Port:
-    tcp-gameport:
+    tcpgameport:
       Default: ''
       Description: TCP Game Port (if you need another port, please delete this entry
         and create a new TCP Port with the required port number, also don't forget
@@ -40,7 +40,7 @@ Config:
       Target: 8787
       Type: Port
       value: 8787
-    udp-gameport:
+    udpgameport:
       Default: ''
       Description: UDP Game Port (if you need another port, please delete this entry
         and create a new UDP Port with the required port number, also don't forget

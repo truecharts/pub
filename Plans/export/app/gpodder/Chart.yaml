@@ -4,11 +4,11 @@ annotations:
     - Downloaders
     - MediaApp-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "gPodder is a simple, open source podcast client written in Python using\
   \ GTK+. In development since 2005 with a proven, mature codebase.&amp;#xD;\r\n"
@@ -28,4 +28,4 @@ sources:
 - https://gpodder.github.io/
 - https://hub.docker.com/r/xthursdayx/gpodder-docker/
 type: application
-version: 0.0.1
+version: 0.0.10

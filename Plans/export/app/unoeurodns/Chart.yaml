@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Network-DNS
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Keep your DNS records for your own domains updated with this UnoEuro
   DDNS script.
@@ -25,4 +25,4 @@ name: unoeurodns
 sources:
 - https://hub.docker.com/r/tynor88/unoeuro-dns
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -142,15 +142,15 @@ questions:
                                     type: int
                                     default: 4040
 
-        - variable: tcp-port-1
-          label: 'tcp-port-1 service'
+        - variable: tcpport1
+          label: 'tcpport1 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-1
-                      label: "tcp-port-1 Service Port Configuration"
+                    - variable: tcpport1
+                      label: "tcpport1 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -201,15 +201,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 22
-        - variable: tcp-port-2
-          label: 'tcp-port-2 service'
+        - variable: tcpport2
+          label: 'tcpport2 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-2
-                      label: "tcp-port-2 Service Port Configuration"
+                    - variable: tcpport2
+                      label: "tcpport2 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -260,15 +260,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 25
-        - variable: tcp-port-3
-          label: 'tcp-port-3 service'
+        - variable: tcpport3
+          label: 'tcpport3 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-3
-                      label: "tcp-port-3 Service Port Configuration"
+                    - variable: tcpport3
+                      label: "tcpport3 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -319,15 +319,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 465
-        - variable: tcp-port-4
-          label: 'tcp-port-4 service'
+        - variable: tcpport4
+          label: 'tcpport4 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-4
-                      label: "tcp-port-4 Service Port Configuration"
+                    - variable: tcpport4
+                      label: "tcpport4 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -378,15 +378,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 587
-        - variable: tcp-port-5
-          label: 'tcp-port-5 service'
+        - variable: tcpport5
+          label: 'tcpport5 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-5
-                      label: "tcp-port-5 Service Port Configuration"
+                    - variable: tcpport5
+                      label: "tcpport5 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -437,15 +437,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 110
-        - variable: tcp-port-6
-          label: 'tcp-port-6 service'
+        - variable: tcpport6
+          label: 'tcpport6 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-6
-                      label: "tcp-port-6 Service Port Configuration"
+                    - variable: tcpport6
+                      label: "tcpport6 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -496,15 +496,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 995
-        - variable: tcp-port-7
-          label: 'tcp-port-7 service'
+        - variable: tcpport7
+          label: 'tcpport7 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-7
-                      label: "tcp-port-7 Service Port Configuration"
+                    - variable: tcpport7
+                      label: "tcpport7 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -555,15 +555,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 143
-        - variable: tcp-port-8
-          label: 'tcp-port-8 service'
+        - variable: tcpport8
+          label: 'tcpport8 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-8
-                      label: "tcp-port-8 Service Port Configuration"
+                    - variable: tcpport8
+                      label: "tcpport8 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -614,15 +614,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 993
-        - variable: tcp-port-9
-          label: 'tcp-port-9 service'
+        - variable: tcpport9
+          label: 'tcpport9 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-9
-                      label: "tcp-port-9 Service Port Configuration"
+                    - variable: tcpport9
+                      label: "tcpport9 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -673,15 +673,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 119
-        - variable: tcp-port-10
-          label: 'tcp-port-10 service'
+        - variable: tcpport10
+          label: 'tcpport10 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-10
-                      label: "tcp-port-10 Service Port Configuration"
+                    - variable: tcpport10
+                      label: "tcpport10 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -732,15 +732,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 563
-        - variable: tcp-port-11
-          label: 'tcp-port-11 service'
+        - variable: tcpport11
+          label: 'tcpport11 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-11
-                      label: "tcp-port-11 Service Port Configuration"
+                    - variable: tcpport11
+                      label: "tcpport11 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -791,15 +791,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 389
-        - variable: tcp-port-12
-          label: 'tcp-port-12 service'
+        - variable: tcpport12
+          label: 'tcpport12 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-12
-                      label: "tcp-port-12 Service Port Configuration"
+                    - variable: tcpport12
+                      label: "tcpport12 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -850,15 +850,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 636
-        - variable: tcp-port-13
-          label: 'tcp-port-13 service'
+        - variable: tcpport13
+          label: 'tcpport13 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-13
-                      label: "tcp-port-13 Service Port Configuration"
+                    - variable: tcpport13
+                      label: "tcpport13 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -909,15 +909,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 80
-        - variable: tcp-port-14
-          label: 'tcp-port-14 service'
+        - variable: tcpport14
+          label: 'tcpport14 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-14
-                      label: "tcp-port-14 Service Port Configuration"
+                    - variable: tcpport14
+                      label: "tcpport14 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -968,15 +968,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 443
-        - variable: tcp-port-15
-          label: 'tcp-port-15 service'
+        - variable: tcpport15
+          label: 'tcpport15 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-15
-                      label: "tcp-port-15 Service Port Configuration"
+                    - variable: tcpport15
+                      label: "tcpport15 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -1027,15 +1027,15 @@ questions:
                                   schema:
                                     type: int
                                     default: 5222
-        - variable: tcp-port-16
-          label: 'tcp-port-16 service'
+        - variable: tcpport16
+          label: 'tcpport16 service'
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-port-16
-                      label: "tcp-port-16 Service Port Configuration"
+                    - variable: tcpport16
+                      label: "tcpport16 Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

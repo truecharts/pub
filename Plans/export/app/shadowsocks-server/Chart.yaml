@@ -4,11 +4,11 @@ annotations:
     - Security
     - Network-Proxy
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Shadowsocks is a tunneling proxy developed to be free, open-source,\
   \ and mainly used by Chinese people to bypass the Great Firewall restrictions. While\
@@ -30,4 +30,4 @@ sources:
 - https://github.com/qdm12/ss-server
 - https://hub.docker.com/r/qmcgaw/ss-server
 type: application
-version: 0.0.1
+version: 0.0.10

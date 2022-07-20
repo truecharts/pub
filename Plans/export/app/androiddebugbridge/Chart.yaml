@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - HomeAutomation
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Control AndroidTV/FireTV devices through ADB from the Home Assistant\
   \ Core docker image.\r\n"
@@ -26,4 +26,4 @@ sources:
 - https://hub.docker.com/r/barnybbb/adb-hass-androidtv
 - https://hub.docker.com/r/barnybbb/adb-hass-androidtv/
 type: application
-version: 0.0.1
+version: 0.0.10

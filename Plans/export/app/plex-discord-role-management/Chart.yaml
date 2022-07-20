@@ -6,11 +6,11 @@ annotations:
     - MediaApp-Other
     - Network-Messenger
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "A discord bot that synchronizes with Tautulli and Sonarr to deliver\
   \ tailored notifications.\r\n"
@@ -32,4 +32,4 @@ sources:
 - https://github.com/CyaOnDaNet/plex_discord_role_management
 - https://hub.docker.com/r/cyaondanet/plex_discord_role_management
 type: application
-version: 0.0.1
+version: 0.0.10

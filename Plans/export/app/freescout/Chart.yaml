@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Network-Messenger
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Open Source Helpscout/Zendesk Alternative based on Alpine linux.[br]Creating
   account CLI "cd /www/html" then "php artisan freescout:create-user"
@@ -28,4 +28,4 @@ sources:
 - https://freescout.net/
 - https://hub.docker.com/r/tiredofit/freescout/
 type: application
-version: 0.0.1
+version: 0.0.10

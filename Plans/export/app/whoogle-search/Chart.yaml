@@ -4,11 +4,11 @@ annotations:
     - Cloud
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Get Google search results, but without any ads, javascript, AMP links,\
   \ cookies, or IP address tracking. Also includes a dark mode.\r\n"
@@ -28,4 +28,4 @@ sources:
 - https://github.com/benbusby/whoogle-search
 - https://hub.docker.com/r/benbusby/whoogle-search/
 type: application
-version: 0.0.1
+version: 0.0.10

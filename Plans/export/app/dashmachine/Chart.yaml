@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Network-Web
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'Another web application bookmark dashboard, with fun features.[br][br][b][u][span
   style=''color: #ff9900;'']Default user/password[/span][/u][/b][br]User: [B][u]admin[/B][/u][br]Password:
@@ -29,4 +29,4 @@ sources:
 - https://hub.docker.com/r/rmountjoy/dashmachine/
 - https://hub.docker.com/r/rmountjoy/dashmachine/
 type: application
-version: 0.0.1
+version: 0.0.10

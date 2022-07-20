@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "This Docker will download and install ioquake3 Server (You have to copy\
   \ your pak0.pk3 file from your game directory to your server).\r\n"
@@ -26,4 +26,4 @@ sources:
 - https://ioquake3.org/
 - https://hub.docker.com/r/ich777/ioquake3
 type: application
-version: 0.0.1
+version: 0.0.10

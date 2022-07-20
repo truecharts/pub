@@ -7,11 +7,11 @@ annotations:
     - Network-Web
     - Network-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Full node of the Witnet Oracle. The decentralized oracle that is true\
   \ to the censorship resistant nature of blockchains.\r\n"
@@ -34,4 +34,4 @@ sources:
 - https://witnet.io/
 - https://hub.docker.com/r/witnet/witnet-rust
 type: application
-version: 0.0.1
+version: 0.0.10

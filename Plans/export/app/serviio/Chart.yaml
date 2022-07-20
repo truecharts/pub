@@ -7,11 +7,11 @@ annotations:
     - MediaServer-Photos
     - MediaServer-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Serviio is a freeware media server designed to let users stream music,\
   \ video, or image files to DLNA compliant televisions, Blu-ray players, game consoles,\
@@ -35,4 +35,4 @@ sources:
 - https://serviio.org/
 - https://hub.docker.com/r/riftbit/serviio
 type: application
-version: 0.0.1
+version: 0.0.10

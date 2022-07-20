@@ -30,18 +30,18 @@ service:
         port: 21025
         protocol: TCP
         targetPort: 21025
-  tcp-rconport:
+  tcprconport:
     enabled: true
     ports:
-      tcp-rconport:
+      tcprconport:
         enabled: true
         port: 21026
         protocol: TCP
         targetPort: 21026
-  udp-gameport:
+  udpgameport:
     enabled: true
     ports:
-      udp-gameport:
+      udpgameport:
         enabled: true
         port: 21025
         protocol: UDP

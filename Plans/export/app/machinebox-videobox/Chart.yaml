@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Videobox extracts frames from videos and passes them to other Machine
   Box boxes for processing.
@@ -28,4 +28,4 @@ sources:
 - https://machinebox.io/docs/videobox
 - https://hub.docker.com/r/machinebox/videobox
 type: application
-version: 0.0.1
+version: 0.0.10

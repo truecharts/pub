@@ -4,11 +4,11 @@ annotations:
     - Tools-Utilities
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "bWAPP, or a buggy web application, is a free and open source deliberately\
   \ insecure web application.\r\n"
@@ -28,4 +28,4 @@ sources:
 - https://sourceforge.net/projects/bwapp/
 - https://hub.docker.com/r/raesene/bwapp/
 type: application
-version: 0.0.1
+version: 0.0.10

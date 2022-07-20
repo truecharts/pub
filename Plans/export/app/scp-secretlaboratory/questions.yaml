@@ -180,16 +180,16 @@ questions:
                                     type: int
                                     default: 7777
 
-        - variable: tcp-gameport
-          label: 'tcp-gameport service'
+        - variable: tcpgameport
+          label: 'tcpgameport service'
           description: "Container Port 7777"
           schema:
             additional_attrs: true
             type: dict
             attrs:
 # Include{serviceSelector}
-                    - variable: tcp-gameport
-                      label: "tcp-gameport Service Port Configuration"
+                    - variable: tcpgameport
+                      label: "tcpgameport Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict

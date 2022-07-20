@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - MediaApp-Video
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Neko is an Open-Source self-hosted alternative to rabb.it(deprecated).\r\
   \n"
@@ -25,4 +25,4 @@ name: neko
 sources:
 - https://hub.docker.com/r/m1k1o/neko/
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -4,11 +4,11 @@ annotations:
     - Productivity
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "Krusader is an advanced orthodox file manager for KDE and other desktops\
   \ in the Unix world. It is similar to the console-based GNU Midnight Commander,\
@@ -33,4 +33,4 @@ sources:
 - https://krusader.org/
 - https://hub.docker.com/r/ich777/krusader
 type: application
-version: 0.0.1
+version: 0.0.10

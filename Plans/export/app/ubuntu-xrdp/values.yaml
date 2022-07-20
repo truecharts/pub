@@ -22,18 +22,18 @@ service:
         port: 3389
         protocol: TCP
         targetPort: 3389
-  tcp-port-1:
+  tcpport1:
     enabled: true
     ports:
-      tcp-port-1:
+      tcpport1:
         enabled: true
         port: 6080
         protocol: TCP
         targetPort: 6080
-  tcp-port-2:
+  tcpport2:
     enabled: true
     ports:
-      tcp-port-2:
+      tcpport2:
         enabled: true
         port: 5900
         protocol: TCP

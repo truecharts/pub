@@ -4,11 +4,11 @@ annotations:
     - Cloud
     - Productivity
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "FacturaScripts is an accounting, billing and CRM program with it you\
   \ can manage the day to day of your company: invoices, receipts, expenses, budgets,\
@@ -29,4 +29,4 @@ sources:
 - https://facturascripts.com/
 - https://hub.docker.com/r/unraides/facturascripts
 type: application
-version: 0.0.1
+version: 0.0.10

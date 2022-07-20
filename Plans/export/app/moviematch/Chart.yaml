@@ -4,11 +4,11 @@ annotations:
     - Tools-Utilities
     - MediaApp-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: "This is an app that helps you and your friends pick a movie to watch\
   \ from a Plex server.\r\n"
@@ -28,4 +28,4 @@ sources:
 - https://github.com/LukeChannings/moviematch
 - https://registry.hub.docker.com/r/lukechannings/moviematch
 type: application
-version: 0.0.1
+version: 0.0.10

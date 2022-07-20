@@ -29,7 +29,7 @@ Config:
       Target: 8080
       Type: Port
       value: 9015
-    tcp-gameport:
+    tcpgameport:
       Default: ''
       Description: 'Container Port: 3979'
       Display: always
@@ -40,7 +40,7 @@ Config:
       Target: 3979
       Type: Port
       value: 3979
-    udp-gameport:
+    udpgameport:
       Default: ''
       Description: 'Container Port: 3979'
       Display: always

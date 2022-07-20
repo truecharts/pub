@@ -18,7 +18,7 @@ Config:
       Protocol: tcp
       Target: 39876
       value: 39876
-    tcp-port-1:
+    tcpport1:
       ContainerPort: '8100'
       HostPort: '8100'
       Mode: tcp
@@ -26,7 +26,7 @@ Config:
       Protocol: tcp
       Target: 8100
       value: 8100
-    tcp-port-2:
+    tcpport2:
       ContainerPort: '22'
       HostPort: '2222'
       Mode: tcp

@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'The Ravencoin project is launched based on the hard work and continuous
   effort of over 400 Bitcoin developers who made over 14,000 commits over the life
@@ -29,4 +29,4 @@ sources:
 - https://github.com/RavenProject/Ravencoin
 - https://hub.docker.com/r/angelics/unraid-docker-ravencoin-wallet
 type: application
-version: 0.0.1
+version: 0.0.10

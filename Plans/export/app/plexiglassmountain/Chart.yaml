@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - GameServers
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: 'FTB Plexiglass Mountain Modded Minecraft Server[br][br][b]FTB Plexiglass
   Mountain[/b][br]Plexiglass Mountain is a new freeplay kitchen-sink modpack by the
@@ -31,4 +31,4 @@ sources:
 - https://feed-the-beast.com/modpack/ftb_plexiglass_mountain
 - https://hub.docker.com/repository/docker/goobaroo/plexiglassmountain
 type: application
-version: 0.0.1
+version: 0.0.10

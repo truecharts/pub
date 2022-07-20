@@ -4,11 +4,11 @@ annotations:
     - HomeAutomation
     - Tools-Utilities
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: Simple container that allows MQTT to be used to view data and push settings
   to the Venstar Local API Thermostats.  Local API needs to be enabled on the thermostat.  No
@@ -29,4 +29,4 @@ sources:
 - https://github.com/terafin/mqtt-venstar-bridge
 - https://hub.docker.com/r/terafin/mqtt-venstar-bridge/
 type: application
-version: 0.0.1
+version: 0.0.10

@@ -3,11 +3,11 @@ annotations:
   truecharts.org/catagories: |
     - MediaServer-Other
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: latest
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
-  version: 9.2.6
+  version: 10.4.6
 deprecated: false
 description: PlexWeb is a web app for Plex servers. Connect to your server via your
   URL and token to access features like viewing current activity and adding playlists
@@ -27,4 +27,4 @@ sources:
 - https://github.com/banjoanton/plex-web
 - https://hub.docker.com/r/tronyx/plex-web/
 type: application
-version: 0.0.1
+version: 0.0.10
