@@ -1,12 +1,11 @@
 annotations:
-  truecharts.org/SCALE-support: 'false'
+  truecharts.org/SCALE-support: 'true'
   truecharts.org/catagories: |
     - Productivity
     - Tools-Utilities
     - Other
     - Network-Web
     - Network-Other
-  truecharts.org/grade: U
 apiVersion: v2
 appVersion: 0.0.1
 dependencies:

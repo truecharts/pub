@@ -1,6 +1,6 @@
         - variable: PLACEHOLDERSVCNAME
           label: "PLACEHOLDERSVCLABEL Service"
-          description: "The Primary service on which the healthcheck runs, often the webUI"
+          description: "The PLACEHOLDERSVCNAME service"
           schema:
             additional_attrs: true
             type: dict
