@@ -13,11 +13,17 @@ podSecurityContext:
   runAsUser: 0
 probes:
   liveness:
-    enabled: false
+    custom: true
+    spec:
+      port: 8303
   readiness:
-    enabled: false
+    custom: true
+    spec:
+      port: 8303
   startup:
-    enabled: false
+    custom: true
+    spec:
+      port: 8303
 securityContext:
   readOnlyRootFilesystem: false
   runAsNonRoot: false

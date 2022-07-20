@@ -669,6 +669,7 @@ for name, app in combinedfree.items():
   if  "main" not in  appvaluesyaml["service"].keys() or not appvaluesyaml["service"]["main" ]:
     raise Exception("App does not have a main port set: "+app["Name"] )
 
+  setcustom = ""
   if appvaluesyaml["service"]["main"]["enabled"] is False:
     appvaluesyaml["probes"] = {}
     appvaluesyaml["probes"]["liveness"] = {}
@@ -685,9 +686,33 @@ for name, app in combinedfree.items():
     appvaluesyaml["probes"]["liveness"]["enabled"] = False
     appvaluesyaml["probes"]["readiness"]["enabled"] = False
     appvaluesyaml["probes"]["startup"]["enabled"] = False
+    for name, value in appvaluesyaml["service"].items():
+      if "protocol" in  appvaluesyaml["service"][name]["ports"][name].keys():
+        if not appvaluesyaml["service"][name]["ports"][name]["protocol"] == "UDP":
+          setcustom = name
+          break
+      else:
+        setcustom = name
+        break
+        
   else:
     appvaluesyaml.pop("probes", "")
 
+
+  if setcustom:
+    appvaluesyaml["probes"] = {}
+    appvaluesyaml["probes"]["liveness"] = {}
+    appvaluesyaml["probes"]["liveness"]["spec"] = {}
+    appvaluesyaml["probes"]["readiness"] = {}
+    appvaluesyaml["probes"]["readiness"]["spec"] = {}
+    appvaluesyaml["probes"]["startup"] = {}
+    appvaluesyaml["probes"]["startup"]["spec"] = {}
+    appvaluesyaml["probes"]["liveness"]["custom"] = True
+    appvaluesyaml["probes"]["readiness"]["custom"] = True
+    appvaluesyaml["probes"]["startup"]["custom"] = True
+    appvaluesyaml["probes"]["liveness"]["spec"]["port"] = appvaluesyaml["service"][setcustom]["ports"][setcustom]["port"]
+    appvaluesyaml["probes"]["readiness"]["spec"]["port"] = appvaluesyaml["service"][setcustom]["ports"][setcustom]["port"]
+    appvaluesyaml["probes"]["startup"]["spec"]["port"] = appvaluesyaml["service"][setcustom]["ports"][setcustom]["port"]
 
   appvaluesyamlString = yaml.dump(appvaluesyaml)
   appvaluesyamlFile = open("./export/"+"app/"+tmpname+"/values.yaml", "w")
