@@ -2,7 +2,7 @@ env: {}
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/convos
-  tag: stable
+  tag: vstable
 persistence:
   data:
     enabled: true

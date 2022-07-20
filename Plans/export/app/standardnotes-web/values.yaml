@@ -2,7 +2,7 @@ env: {}
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/standardnotes-web
-  tag: stable
+  tag: vstable
 persistence: {}
 podSecurityContext:
   runAsGroup: 0

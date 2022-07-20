@@ -3,7 +3,7 @@ env:
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/terraria-tshock
-  tag: tshock
+  tag: vtshock
 persistence:
   serverfiles:
     enabled: true

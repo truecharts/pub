@@ -2,7 +2,7 @@ env: {}
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/signum-node
-  tag: latest-h2
+  tag: vlatest-h2
 persistence:
   signum-node:
     enabled: true

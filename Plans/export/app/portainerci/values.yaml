@@ -2,7 +2,7 @@ env: {}
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/portainerci
-  tag: '2.1'
+  tag: v2.1
 persistence:
   data:
     enabled: true

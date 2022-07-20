@@ -2,7 +2,7 @@ env: {}
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/ffmpeg-nvidia
-  tag: 4.2-nvidia
+  tag: v4.2-nvidia
 persistence: {}
 podSecurityContext:
   runAsGroup: 0

@@ -6,7 +6,7 @@ env:
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/rclone
-  tag: dev
+  tag: vdev
 persistence:
   config:
     enabled: true

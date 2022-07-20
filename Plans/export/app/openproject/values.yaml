@@ -3,7 +3,7 @@ env:
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/openproject
-  tag: '12'
+  tag: v12
 persistence:
   hostpath1:
     enabled: true

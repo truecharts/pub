@@ -3,7 +3,7 @@ env:
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/vertex
-  tag: stable
+  tag: vstable
 persistence:
   config:
     enabled: true

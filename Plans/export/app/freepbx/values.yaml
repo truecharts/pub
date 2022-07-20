@@ -12,7 +12,7 @@ env:
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/freepbx
-  tag: 15-latest
+  tag: v15-latest
 persistence:
   certs:
     enabled: true

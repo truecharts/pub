@@ -2,7 +2,7 @@ env: {}
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/dockerregistry
-  tag: '2'
+  tag: v2
 persistence:
   datastoragepath:
     enabled: true

@@ -2,7 +2,7 @@ env: {}
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/frak-gvm
-  tag: 11.0.1-r3
+  tag: v11.0.1-r3
 persistence:
   data:
     enabled: true

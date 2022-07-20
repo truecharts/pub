@@ -2,7 +2,7 @@ env: {}
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/jellyfin-vue-ssr
-  tag: unstable-ssr
+  tag: vunstable-ssr
 persistence: {}
 podSecurityContext:
   runAsGroup: 0

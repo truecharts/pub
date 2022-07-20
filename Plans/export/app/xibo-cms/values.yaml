@@ -30,7 +30,7 @@ env:
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/xibo-cms
-  tag: '1.8'
+  tag: v1.8
 persistence:
   backup:
     enabled: true

@@ -12,7 +12,7 @@ env:
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/rebuild-dndc
-  tag: unraid-m
+  tag: vunraid-m
 persistence:
   config:
     enabled: true

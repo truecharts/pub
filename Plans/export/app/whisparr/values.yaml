@@ -3,7 +3,7 @@ env:
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/whisparr
-  tag: nightly
+  tag: vnightly
 persistence:
   config:
     enabled: true

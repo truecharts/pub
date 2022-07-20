@@ -598,7 +598,10 @@ for name, app in combinedfree.items():
   if genTCCR and len(repoList) == 2 and repoList[1]  == "steamcmd":
     appvaluesyaml["image"]["tag"] = "latest"
   else:
-    appvaluesyaml["image"]["tag"] = app["Tag"]
+    if app["Tag"] == "latest" or app["Tag"].startswith("v"):
+      appvaluesyaml["image"]["tag"] = app["Tag"]
+    else:
+      appvaluesyaml["image"]["tag"] = "v"+app["Tag"]
   
   appvaluesyaml["env"] = {}
   

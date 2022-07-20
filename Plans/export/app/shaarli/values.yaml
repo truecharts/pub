@@ -2,7 +2,7 @@ env: {}
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/shaarli
-  tag: master
+  tag: vmaster
 persistence:
   cache:
     enabled: true

@@ -2,7 +2,7 @@ env: {}
 image:
   pullPolicy: IfNotPresent
   repository: tccr.io/truecharts/factorio
-  tag: stable
+  tag: vstable
 persistence:
   path:
     enabled: true
