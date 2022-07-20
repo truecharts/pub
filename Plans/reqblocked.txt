@@ -172,3 +172,4 @@ allthemods7
 createaboveandbeyond
 create-above-beyond
 cave-factory
+cadquery-jupyter
