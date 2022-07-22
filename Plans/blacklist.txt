@@ -90,3 +90,5 @@ speedtest
 speedtest-tracker
 unifi-controller
 whoogle-search
+transmission-nzbtomedia
+vm-custom-icons
