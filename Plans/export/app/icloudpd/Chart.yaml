@@ -12,9 +12,9 @@ dependencies:
   version: 10.4.6
 deprecated: false
 description: 'iCloudPD, Alpine Linux Docker container wrriten by [a href="https://github.com/boredazfcuk"]boredazfcuk[/a],
-  syncs photos from iDevices to a single directory on Unraid. It uses the system keyring
-  to securely store credentials, has HEIC to JPG conversion capability, and supports
-  Telegram, Prowl, PushBullet and WebHook notifications.
+  syncs photos from iDevices to a single directory on TrueNAS. It uses the system
+  keyring to securely store credentials, has HEIC to JPG conversion capability, and
+  supports Telegram, Prowl, PushBullet and WebHook notifications.
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/icloudpd

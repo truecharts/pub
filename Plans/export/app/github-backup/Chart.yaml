@@ -10,7 +10,7 @@ dependencies:
   version: 10.4.6
 deprecated: false
 description: Like to maintain your own data? Automatically backup your github account
-  to your Unraid server on a schedule.
+  to your TrueNAS server on a schedule.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/github-backup
 icon: https://truecharts.org/img/chart-icons/github-backup.png
 keywords:

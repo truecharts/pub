@@ -206,7 +206,7 @@ questions:
 
         - variable: pathofstorjshareonarray
           label: "pathofstorjshareonarray Storage"
-          description: "Enter location of your storj share folder on unRAID host. "
+          description: "Enter location of your storj share folder on TrueNAS host. "
           schema:
             additional_attrs: true
             type: dict

@@ -92,7 +92,7 @@ questions:
             default: "America/New_York"
         - variable: DB_ENGINE
           label: 'DB_ENGINE'
-          description: "Either SQLite (default for unRAID) or PostgreSQL with django.db.backends.postgresql"
+          description: "Either SQLite (default for TrueNAS) or PostgreSQL with django.db.backends.postgresql"
           schema:
             type: string
             default: "django.db.backends.sqlite3"

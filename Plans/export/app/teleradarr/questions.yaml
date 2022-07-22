@@ -109,7 +109,7 @@ questions:
             default: ""
         - variable: RADARR_CUSTOM_PATH
           label: 'RADARR_CUSTOM_PATH'
-          description: "(Optional) If you has some URL Base set on unraid like ipportradarr -&gt; put radarr on the field above"
+          description: "(Optional) If you has some URL Base set on TrueNAS like ipportradarr -&gt; put radarr on the field above"
           schema:
             type: string
             default: ""

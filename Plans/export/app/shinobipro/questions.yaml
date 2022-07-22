@@ -104,7 +104,7 @@ questions:
             default: ""
         - variable: NVIDIA_VISIBLE_DEVICES
           label: 'NVIDIA_VISIBLE_DEVICES'
-          description: "add gpu id (from nvidia unraid plugin)"
+          description: "add gpu id (from nvidia TrueNAS plugin)"
           schema:
             type: string
             default: ""

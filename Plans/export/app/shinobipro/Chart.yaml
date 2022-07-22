@@ -11,8 +11,8 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "Default tag is spaceinvaderone/shinobi_pro_unraid:latest  but this can\
-  \ be changed to :nvidia\r\n"
+description: "Default tag is spaceinvaderone/shinobi_pro_TrueNAS:latest  but this\
+  \ can be changed to :nvidia\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/shinobipro
 icon: https://truecharts.org/img/chart-icons/shinobipro.png
 keywords:

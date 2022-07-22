@@ -151,7 +151,7 @@ questions:
 
         - variable: custom_mappings
           label: "custom_mappings Storage"
-          description: "Installation instructions here httpsgithub.commizz141PlexAniSync-MappingswikiInstallation-on-unRAID"
+          description: "Installation instructions here httpsgithub.commizz141PlexAniSync-MappingswikiInstallation-on-TrueNAS"
           schema:
             additional_attrs: true
             type: dict

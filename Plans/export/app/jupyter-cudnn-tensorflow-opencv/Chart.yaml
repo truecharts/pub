@@ -9,7 +9,7 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "Unraid compatible Jupyter Notebook (Python kernel) container with GPU-optimized\
+description: "TrueNAS compatible Jupyter Notebook (Python kernel) container with GPU-optimized\
   \ Tensorflow and OpenCV, and installations of Pandas, PyTorch -- based on datamachines/cudnn_tensorflow_opencv\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/jupyter-cudnn-tensorflow-opencv

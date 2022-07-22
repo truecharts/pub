@@ -174,7 +174,7 @@ questions:
 
         - variable: data
           label: "data Storage"
-          description: "Location on Unraid where you want to store your notes."
+          description: "Location on TrueNAS where you want to store your notes."
           schema:
             additional_attrs: true
             type: dict

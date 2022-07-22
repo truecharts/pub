@@ -565,7 +565,9 @@ for name, app in combinedfree.items():
   appchartyaml["annotations"]["truecharts.org/catagories"] = app["CategoryList"]
   appchartyaml["sources"] = app["Sources"]
   appchartyaml["keywords"] = app["Keywords"]
-  appchartyaml["description"] = str(app["Overview"].encode('ascii', errors='ignore').decode("ascii"))
+  descholder = app["Overview"].encode('ascii', errors='ignore').decode("ascii")
+  descholder = re.sub('unraid', 'TrueNAS', descholder, flags=re.IGNORECASE)
+  appchartyaml["description"] = descholder
   appchartyaml["home"] = "https://github.com/truecharts/apps/tree/master/charts/stable/"+tmpname
   appchartyaml["icon"] = "https://truecharts.org/img/chart-icons/"+tmpname+".png"
   
@@ -775,6 +777,7 @@ for name, app in combinedfree.items():
                     desc = desc.replace("'", '')
                     for char in invalidtext:
                       desc = desc.replace(char, '')
+                    desc = re.sub('unraid', 'TrueNAS', desc, flags=re.IGNORECASE)
                     desc = desc.encode('ascii', errors='ignore').decode("ascii")
                     f.write('          description: "'+desc+'"\n')
                   except:
@@ -813,6 +816,7 @@ for name, app in combinedfree.items():
                       for char in invalidtext:
                         desc = desc.replace(char, '')
                       desc = desc.replace("'", '')
+                      desc = re.sub('unraid', 'TrueNAS', desc, flags=re.IGNORECASE)
                       desc = desc.encode('ascii', errors='ignore').decode("ascii")
                       f.write('          description: "'+desc+'"\n')
                     except:
@@ -851,6 +855,7 @@ for name, app in combinedfree.items():
                         for char in invalidtext:
                           desc = desc.replace(char, '')
                         desc = desc.replace("'", '')
+                        desc = re.sub('unraid', 'TrueNAS', desc, flags=re.IGNORECASE)
                         desc = desc.encode('ascii', errors='ignore').decode("ascii")
                         f.write('          description: "'+desc+'"\n')
                       except:

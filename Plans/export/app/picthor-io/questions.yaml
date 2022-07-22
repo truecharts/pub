@@ -86,7 +86,7 @@ questions:
 
         - variable: PICTHOR_WEB_ADDRESS
           label: 'PICTHOR_WEB_ADDRESS'
-          description: "The url of your picthor installation.Usually http&lt;your unraid ip&gt;&lt;picthor web ui port&gt;"
+          description: "The url of your picthor installation.Usually http&lt;your TrueNAS ip&gt;&lt;picthor web ui port&gt;"
           schema:
             type: string
             default: ""

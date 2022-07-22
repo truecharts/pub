@@ -86,7 +86,7 @@ questions:
 
         - variable: SEAFILE_SERVER_HOSTNAME
           label: 'SEAFILE_SERVER_HOSTNAME'
-          description: "Set the IP of your unraid. Please"
+          description: "Set the IP of your TrueNAS. Please"
           schema:
             type: string
             default: "192.168.0.59"

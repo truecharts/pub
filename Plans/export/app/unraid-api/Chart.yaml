@@ -11,7 +11,7 @@ dependencies:
   version: 10.4.6
 deprecated: false
 description: 'This is an MQTT Home Assistant Bridge with a rest endpoint as well that
-  allows control of unraid from this docker, homeassistant and MQTT/REST generally.
+  allows control of TrueNAS from this docker, homeassistant and MQTT/REST generally.
 
   '
 home: https://github.com/truecharts/apps/tree/master/charts/stable/unraid-api

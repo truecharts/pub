@@ -9,8 +9,8 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "Not everyone, especially people new to Linux and Unraid, know what a\
-  \ command that they type i will actually do.\r\n"
+description: "Not everyone, especially people new to Linux and TrueNAS, know what\
+  \ a command that they type i will actually do.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/explainshell
 icon: https://truecharts.org/img/chart-icons/explainshell.png
 keywords:

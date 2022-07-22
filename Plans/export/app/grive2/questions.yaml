@@ -145,7 +145,7 @@ questions:
 
         - variable: unraid_folder
           label: "unraid_folder Storage"
-          description: "Path to the unraid folder in which to sync the files, it also will contain .grive config file"
+          description: "Path to the TrueNAS folder in which to sync the files, it also will contain .grive config file"
           schema:
             additional_attrs: true
             type: dict

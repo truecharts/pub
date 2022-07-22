@@ -10,7 +10,7 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: Manage your Unraid server with PCManFM using XPRA remote display server
+description: Manage your TrueNAS server with PCManFM using XPRA remote display server
 home: https://github.com/truecharts/apps/tree/master/charts/stable/pcmanfm
 icon: https://truecharts.org/img/chart-icons/pcmanfm.png
 keywords:

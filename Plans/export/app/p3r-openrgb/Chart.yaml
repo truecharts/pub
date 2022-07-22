@@ -10,7 +10,7 @@ dependencies:
   version: 10.4.6
 deprecated: false
 description: "A simple container that opens OpenRGB in a browser so that you can control\
-  \ all of your System lighting while still running UnraidOS.\r\n"
+  \ all of your System lighting while still running TrueNASOS.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/p3r-openrgb
 icon: https://truecharts.org/img/chart-icons/p3r-openrgb.png
 keywords:

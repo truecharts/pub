@@ -212,7 +212,7 @@ questions:
             default: "365"
         - variable: INSP_SERVICES_IPADDR
           label: 'INSP_SERVICES_IPADDR'
-          description: "Specify the IP Address from where the Services are connecting (if you run Anope on the same Unraid machine it is usually the IP address of Unraid)"
+          description: "Specify the IP Address from where the Services are connecting (if you run Anope on the same TrueNAS machine it is usually the IP address of TrueNAS)"
           schema:
             type: string
             default: ""
