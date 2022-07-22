@@ -9,8 +9,8 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "Urban Terror\u2122 is a free multiplayer first person shooter developed\
-  \ by FrozenSand, that will run on any Quake III Arena compatible engine. It is available\
+description: "Urban Terror is a free multiplayer first person shooter developed by\
+  \ FrozenSand, that will run on any Quake III Arena compatible engine. It is available\
   \ for Windows, Linux and Macintosh.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/urban-terror
 icon: https://truecharts.org/img/chart-icons/urban-terror.png

@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [cloudflareddns-1.0.4](https://github.com/truecharts/apps/compare/cloudflareddns-1.0.3...cloudflareddns-1.0.4) (2022-07-20)
+
+### Chore
+
+- update docker general non-major ([#3222](https://github.com/truecharts/apps/issues/3222))
+
+
+
+## [cloudflareddns-1.0.3](https://github.com/truecharts/apps/compare/cloudflareddns-1.0.2...cloudflareddns-1.0.3) (2022-07-19)
+
+### Chore
+
+- Update Readme and Description on SCALE
+
+
+
 ## [cloudflareddns-1.0.2](https://github.com/truecharts/apps/compare/cloudflareddns-1.0.1...cloudflareddns-1.0.2) (2022-07-19)
 
 ### Fix

@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [anonaddy-9.0.25](https://github.com/truecharts/apps/compare/anonaddy-9.0.24...anonaddy-9.0.25) (2022-07-20)
+
+### Chore
+
+- update docker general non-major ([#3222](https://github.com/truecharts/apps/issues/3222))
+
+
+
+## [anonaddy-9.0.24](https://github.com/truecharts/apps/compare/anonaddy-9.0.23...anonaddy-9.0.24) (2022-07-19)
+
+### Chore
+
+- Update Readme and Description on SCALE
+
+
+
 ## [anonaddy-9.0.23](https://github.com/truecharts/apps/compare/anonaddy-9.0.22...anonaddy-9.0.23) (2022-07-16)
 
 ### Chore

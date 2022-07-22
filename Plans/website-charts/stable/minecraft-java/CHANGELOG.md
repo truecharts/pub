@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [minecraft-java-1.0.27](https://github.com/truecharts/apps/compare/minecraft-java-1.0.26...minecraft-java-1.0.27) (2022-07-20)
+
+### Chore
+
+- update docker general non-major ([#3222](https://github.com/truecharts/apps/issues/3222))
+
+
+
+## [minecraft-java-1.0.26](https://github.com/truecharts/apps/compare/minecraft-java-1.0.25...minecraft-java-1.0.26) (2022-07-19)
+
+### Chore
+
+- Update Readme and Description on SCALE
+
+
+
 ## [minecraft-java-1.0.25](https://github.com/truecharts/apps/compare/minecraft-java-1.0.24...minecraft-java-1.0.25) (2022-07-17)
 
 ### Chore

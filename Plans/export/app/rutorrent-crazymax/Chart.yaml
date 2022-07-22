@@ -9,8 +9,8 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "Si vous \xEAtes sujets au bug connu de la 6.10.1 concernant les droits\
-  \ utilisateurs :\r\n"
+description: "Si vous tes sujets au bug connu de la 6.10.1 concernant les droits utilisateurs\
+  \ :\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/rutorrent-crazymax
 icon: https://truecharts.org/img/chart-icons/rutorrent-crazymax.png
 keywords:

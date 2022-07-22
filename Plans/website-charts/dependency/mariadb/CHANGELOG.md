@@ -1,6 +1,8 @@
 # Changelog
 
 
+
+
 ## [mariadb-3.0.36](https://github.com/truecharts/apps/compare/mariadb-3.0.35...mariadb-3.0.36) (2022-07-16)
 
 ### Chore

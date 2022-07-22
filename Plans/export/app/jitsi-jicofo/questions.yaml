@@ -127,7 +127,7 @@ questions:
             default: "passw0rd"
         - variable: JICOFO_RESERVATION_REST_BASE_URL
           label: 'JICOFO_RESERVATION_REST_BASE_URL'
-          description: "Base URL of Jicofo’s reservation REST API"
+          description: "Base URL of Jicofos reservation REST API"
           schema:
             type: string
             default: "http://reservation.example.com"

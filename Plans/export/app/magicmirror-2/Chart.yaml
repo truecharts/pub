@@ -10,7 +10,7 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "This Container will download and install MagicMirror\xB2.\r\n"
+description: "This Container will download and install MagicMirror.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/magicmirror-2
 icon: https://truecharts.org/img/chart-icons/magicmirror-2.png
 keywords:

@@ -12,7 +12,7 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "Mes vid\xE9os sur unraid disponibles sur : https://www.youtube.com/superboki\r\
+description: "Mes vidos sur unraid disponibles sur : https://www.youtube.com/superboki\r\
   \n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/plex-auto-languages
 icon: https://truecharts.org/img/chart-icons/plex-auto-languages.png

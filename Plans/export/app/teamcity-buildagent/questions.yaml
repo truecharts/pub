@@ -91,7 +91,7 @@ questions:
             default: "Phil Coulson"
         - variable: DOCKER_IN_DOCKER
           label: 'DOCKER_IN_DOCKER'
-          description: "Run Docker daemon within your container (note that in this case the container should be run with —privileged flag)"
+          description: "Run Docker daemon within your container (note that in this case the container should be run with privileged flag)"
           schema:
             type: string
             default: "start"

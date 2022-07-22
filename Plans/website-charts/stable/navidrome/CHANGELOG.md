@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [navidrome-11.0.19](https://github.com/truecharts/apps/compare/navidrome-11.0.18...navidrome-11.0.19) (2022-07-20)
+
+### Chore
+
+- update docker general non-major ([#3222](https://github.com/truecharts/apps/issues/3222))
+
+
+
+## [navidrome-11.0.18](https://github.com/truecharts/apps/compare/navidrome-11.0.17...navidrome-11.0.18) (2022-07-19)
+
+### Chore
+
+- Update Readme and Description on SCALE
+
+
+
 ## [navidrome-11.0.17](https://github.com/truecharts/apps/compare/navidrome-11.0.16...navidrome-11.0.17) (2022-07-14)
 
 ### Fix

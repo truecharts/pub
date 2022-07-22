@@ -10,9 +10,8 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "StackEdit\u2019s Markdown syntax highlighting is unique. The refined\
-  \ text formatting of the editor helps you visualize the final rendering of your\
-  \ files."
+description: StackEdits Markdown syntax highlighting is unique. The refined text formatting
+  of the editor helps you visualize the final rendering of your files.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/stackedit
 icon: https://truecharts.org/img/chart-icons/stackedit.png
 keywords:

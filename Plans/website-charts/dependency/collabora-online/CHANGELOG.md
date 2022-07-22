@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [collabora-online-12.1.18](https://github.com/truecharts/apps/compare/collabora-online-12.1.17...collabora-online-12.1.18) (2022-07-20)
+
+### Feat
+
+- force the use of TCCR in CI ([#3226](https://github.com/truecharts/apps/issues/3226))
+
+
+
+## [collabora-online-12.1.17](https://github.com/truecharts/apps/compare/collabora-online-12.1.16...collabora-online-12.1.17) (2022-07-19)
+
+### Chore
+
+- Update Readme and Description on SCALE
+
+
+
 ## [collabora-online-12.1.16](https://github.com/truecharts/apps/compare/collabora-online-12.1.15...collabora-online-12.1.16) (2022-07-14)
 
 ### Fix

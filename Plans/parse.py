@@ -548,7 +548,7 @@ for name, app in combinedfree.items():
     
   # readme.md
   
-  open("./export/"+"app/"+tmpname+"/readme.md", mode='a').close()
+  open("./export/"+"app/"+tmpname+"/README.md", mode='a').close()
   
   # Handle helmingore
   
@@ -563,9 +563,9 @@ for name, app in combinedfree.items():
   
   appchartyaml["name"] = tmpname
   appchartyaml["annotations"]["truecharts.org/catagories"] = app["CategoryList"]
-  appchartyaml["description"] = app["Overview"]
   appchartyaml["sources"] = app["Sources"]
   appchartyaml["keywords"] = app["Keywords"]
+  appchartyaml["description"] = str(app["Overview"].encode('ascii', errors='ignore').decode("ascii"))
   appchartyaml["home"] = "https://github.com/truecharts/apps/tree/master/charts/stable/"+tmpname
   appchartyaml["icon"] = "https://truecharts.org/img/chart-icons/"+tmpname+".png"
   
@@ -775,7 +775,7 @@ for name, app in combinedfree.items():
                     desc = desc.replace("'", '')
                     for char in invalidtext:
                       desc = desc.replace(char, '')
-                    desc = desc.encode("utf-8").decode("utf-8")
+                    desc = desc.encode('ascii', errors='ignore').decode("ascii")
                     f.write('          description: "'+desc+'"\n')
                   except:
                     pass
@@ -813,7 +813,7 @@ for name, app in combinedfree.items():
                       for char in invalidtext:
                         desc = desc.replace(char, '')
                       desc = desc.replace("'", '')
-                      desc = desc.encode("utf-8").decode("utf-8")
+                      desc = desc.encode('ascii', errors='ignore').decode("ascii")
                       f.write('          description: "'+desc+'"\n')
                     except:
                       pass
@@ -851,7 +851,7 @@ for name, app in combinedfree.items():
                         for char in invalidtext:
                           desc = desc.replace(char, '')
                         desc = desc.replace("'", '')
-                        desc = desc.encode("utf-8").decode("utf-8")
+                        desc = desc.encode('ascii', errors='ignore').decode("ascii")
                         f.write('          description: "'+desc+'"\n')
                       except:
                         pass

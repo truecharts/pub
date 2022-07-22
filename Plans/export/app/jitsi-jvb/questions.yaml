@@ -212,7 +212,7 @@ questions:
 
         - variable: jvb_tcp_port
           label: 'jvb_tcp_port service'
-          description: "TCP Fallback for Jitsi Videobridge for when UDP isn’t available"
+          description: "TCP Fallback for Jitsi Videobridge for when UDP isnt available"
           schema:
             additional_attrs: true
             type: dict

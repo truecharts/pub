@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [promcord-4.0.21](https://github.com/truecharts/apps/compare/promcord-4.0.20...promcord-4.0.21) (2022-07-20)
+
+### Chore
+
+- update docker general non-major ([#3222](https://github.com/truecharts/apps/issues/3222))
+
+
+
+## [promcord-4.0.20](https://github.com/truecharts/apps/compare/promcord-4.0.19...promcord-4.0.20) (2022-07-19)
+
+### Chore
+
+- Update Readme and Description on SCALE
+
+
+
 ## [promcord-4.0.19](https://github.com/truecharts/apps/compare/promcord-4.0.18...promcord-4.0.19) (2022-07-14)
 
 ### Fix

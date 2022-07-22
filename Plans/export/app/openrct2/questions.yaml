@@ -110,7 +110,7 @@ questions:
             default: ""
         - variable: ADMIN_HASH
           label: 'ADMIN_HASH'
-          description: "The hash of the admin user (you find it on the client computer in the user-datakeys folder from OpenRCT2 - if nothing is in there try to connect to any server and the game will create the hash, it’s the numbers and letters after the username without ‘-’ and without the ending ‘.pubkey’ or just turn on ‘logserveractions’ in the ‘config.ini’ on the server and you’ll find it in the logs)"
+          description: "The hash of the admin user (you find it on the client computer in the user-datakeys folder from OpenRCT2 - if nothing is in there try to connect to any server and the game will create the hash, its the numbers and letters after the username without - and without the ending .pubkey or just turn on logserveractions in the config.ini on the server and youll find it in the logs)"
           schema:
             type: string
             default: ""

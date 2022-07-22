@@ -9,8 +9,8 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "Mocodo est un logiciel d'aide \xE0 l'enseignement et \xE0 la conception\
-  \ des bases de donn\xE9es relationnelles.\r\n"
+description: "Mocodo est un logiciel d'aide  l'enseignement et  la conception des\
+  \ bases de donnes relationnelles.\r\n"
 home: https://github.com/truecharts/apps/tree/master/charts/stable/mocodo-mcd
 icon: https://truecharts.org/img/chart-icons/mocodo-mcd.png
 keywords:

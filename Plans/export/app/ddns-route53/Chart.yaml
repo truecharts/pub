@@ -9,7 +9,7 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "Dynamic DNS for Amazon Route 53\u200E on a time-based schedule"
+description: Dynamic DNS for Amazon Route 53 on a time-based schedule
 home: https://github.com/truecharts/apps/tree/master/charts/stable/ddns-route53
 icon: https://truecharts.org/img/chart-icons/ddns-route53.png
 keywords:

@@ -9,9 +9,8 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "A containerized IDE-like text editor that runs on a web server. This\
-  \ tool is for running NeoVim remotely and continuing the development process at\
-  \ \U0001F680 speed."
+description: A containerized IDE-like text editor that runs on a web server. This
+  tool is for running NeoVim remotely and continuing the development process at  speed.
 home: https://github.com/truecharts/apps/tree/master/charts/stable/nvim-server
 icon: https://truecharts.org/img/chart-icons/nvim-server.png
 keywords:

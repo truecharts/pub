@@ -9,7 +9,7 @@ dependencies:
   repository: https://library-charts.truecharts.org
   version: 10.4.6
 deprecated: false
-description: "\U0001F3B6 a fast and simple multimedia fileserver"
+description: ' a fast and simple multimedia fileserver'
 home: https://github.com/truecharts/apps/tree/master/charts/stable/gossa
 icon: https://truecharts.org/img/chart-icons/gossa.png
 keywords:
